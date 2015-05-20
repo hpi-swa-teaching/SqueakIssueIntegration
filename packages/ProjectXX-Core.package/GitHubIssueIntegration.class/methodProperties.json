@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createIssueWithTitle:AndBody:" : "SK 5/20/2015 20:02",
+		"getIssueWithNumber:" : "SK 5/20/2015 20:01",
+		"getIssues" : "SK 5/20/2015 20:12" } }

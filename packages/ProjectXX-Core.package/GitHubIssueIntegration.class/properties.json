@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SwtProjectXXDemo",
+	"name" : "GitHubIssueIntegration",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "IssueManagement",
 	"type" : "normal" }

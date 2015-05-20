@@ -1,14 +1,15 @@
 {
-	"category" : "ProjectXX-Tests",
+	"category" : "ProjectXX-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"issueManagement" ],
-	"name" : "SwtProjectXXDemoTest",
+		"loginKey",
+		"projectURL" ],
+	"name" : "IssueManagement",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }

@@ -1,4 +1,6 @@
 running
 setUp
 	super setUp.
-	self demo: SwtProjectXXDemo new
+	self issueManagement: GitHubIssueIntegration new.
+	self setLoginKey.
+	self issueManagement projectURL: 'Nef10/IssueTest'
