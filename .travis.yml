@@ -18,5 +18,5 @@ install:
 script: $BUILDER_CI_HOME/testTravisCI.sh
 before_install:
 - openssl aes-256-cbc -K $encrypted_c05dcaa1178f_key -iv $encrypted_c05dcaa1178f_iv
-  -in setLoginKey.st.enc -out packages/ProjectXX-Tests.package/SwtProjectXXDemoTest.class/instance/setLoginKey.st
+  -in setLoginKey.st.enc -out packages/ProjectXX-Tests.package/GitHubIssueIntegrationTest.class/instance/setLoginKey.st
   -d
