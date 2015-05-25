@@ -1,4 +1,4 @@
 accessing
-loginKey: anObject
+loginKey: aString
 
-	loginKey := anObject
+	loginKey := aString

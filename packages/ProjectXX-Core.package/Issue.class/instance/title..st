@@ -1,4 +1,4 @@
 accessing
-title: anObject
+title: aString
 
-	title := anObject
+	title := aString
