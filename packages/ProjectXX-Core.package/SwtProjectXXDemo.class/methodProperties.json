@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"barfoo" : "esec 4/23/2014 04:58",
-		"createIssuesWithTitle:ForSlug:AndAccessToken:" : "SK 5/20/2015 10:43",
-		"foobar" : "xyz 4/23/2014 04:55",
-		"getIssuesForSlug:WithAccessToken:" : "SK 5/20/2015 10:14" } }

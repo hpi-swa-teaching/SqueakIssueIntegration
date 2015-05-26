@@ -1,0 +1,15 @@
+{
+	"category" : "ProjectXX-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"loginKey",
+		"projectURL" ],
+	"name" : "IssueManagement",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

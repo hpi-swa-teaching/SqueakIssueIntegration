@@ -1,0 +1,14 @@
+{
+	"category" : "ProjectXX-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GitHubIssue",
+	"pools" : [
+		 ],
+	"super" : "Issue",
+	"type" : "normal" }
