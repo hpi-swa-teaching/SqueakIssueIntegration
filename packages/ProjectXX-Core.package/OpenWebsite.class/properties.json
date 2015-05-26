@@ -1,0 +1,14 @@
+{
+	"category" : "ProjectXX-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AB 5/22/2015 15:26",
+	"instvars" : [
+		 ],
+	"name" : "OpenWebsite",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
