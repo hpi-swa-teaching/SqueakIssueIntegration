@@ -1,4 +1,4 @@
 initialize-release
 initializeRepositoryDictionary
 
-RepositoryDictionary = IdentityDictionary new.
+RepositoryDictionary := IdentityDictionary new.
