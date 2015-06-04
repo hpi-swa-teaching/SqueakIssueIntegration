@@ -1,12 +1,12 @@
 as yet unclassified
 getIssues
-	| response issuesJson issueArray |
+	| response issuesJson issueSet |
 
 	response := WebClient httpGet:'https://api.github.com/repos/', projectURL , '/issues?access_token=', loginKey.
 
-	issueArray := Set new.
+	issueSet := Set new.
 
 	issuesJson := Json readFrom:(response content readStream).
-	issuesJson do: [:issueJson | issueArray add:(GitHubIssue createIssueFromJSON: issueJson)].
+	issuesJson do: [:issueJson | issueSet add:(GitHubIssue createIssueFromJSON: issueJson)].
 
-	^ issueArray.
+	^ issueSet.

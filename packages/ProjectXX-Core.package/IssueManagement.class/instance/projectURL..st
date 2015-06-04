@@ -1,4 +1,4 @@
 accessing
-projectURL: anObject
+projectURL: aString
 
-	projectURL := anObject
+	projectURL := aString

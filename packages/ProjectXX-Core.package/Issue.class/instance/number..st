@@ -1,4 +1,4 @@
 accessing
-number: anObject
+number: aNumber
 
-	number := anObject
+	number := aNumber
