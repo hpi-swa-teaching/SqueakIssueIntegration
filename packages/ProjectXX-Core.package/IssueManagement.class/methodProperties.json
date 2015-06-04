@@ -6,8 +6,10 @@
 		"initializeRepositoryDictionary" : "mz 6/4/2015 10:29" },
 	"instance" : {
 		"createIssueWithTitle:AndBody:" : "SK 5/20/2015 18:31",
+		"createIssueWithTitle:AndBody:ForMethod:InPackage:" : "Ks 6/4/2015 15:28",
 		"getIssueWithNumber:" : "SK 5/20/2015 19:39",
 		"getIssues" : "SK 5/20/2015 18:31",
+		"getIssuesForMethod:" : "Ks 6/4/2015 15:28",
 		"loginKey" : "SK 5/20/2015 18:36",
 		"loginKey:" : "mz 5/25/2015 11:38",
 		"projectURL" : "SK 5/20/2015 18:38",
