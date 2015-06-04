@@ -1,6 +1,9 @@
 {
 	"class" : {
-		 },
+		"addRepository:to:" : "mz 6/4/2015 10:59",
+		"deleteAssociationWith:" : "mz 6/4/2015 10:59",
+		"getRepositoryFor:" : "mz 6/4/2015 11:06",
+		"initializeRepositoryDictionary" : "mz 6/4/2015 10:29" },
 	"instance" : {
 		"createIssueWithTitle:AndBody:" : "SK 5/20/2015 18:31",
 		"getIssueWithNumber:" : "SK 5/20/2015 19:39",
