@@ -1,12 +1,13 @@
 running
 testIssueForMethod
-	| issues |
-	"
-	issueManagement createIssueWithTitle: 'title1' AndBody: 'body'  ForMethod: 'm1' InPackage: 'package'.
-	issueManagement createIssueWithTitle: 'title3' AndBody: 'body'  ForMethod: 'test' InPackage: 'package'.
-	issueManagement createIssueWithTitle: 'title4' AndBody: 'body'  ForMethod: 'test'  InPackage: 'package'.
-	issueManagement createIssueWithTitle: 'title2' AndBody: 'body'  ForMethod: 'm2' InPackage: 'package'.
-"
-	"Laeuft noch nicht, weil getIssuesForMethod noch nicht geht"
-	issues := issueManagement getIssuesForMethod: 'test'.
-	" do: [ :issue | Transcript show: issue title ]."
+	"Do not test for issue title to be 'MethodIssue [class/method]' because this (how the method ist stored) is an implementation sepectific detail (same for body)"
+
+	| createdIssue issues |
+
+	createdIssue := issueManagement createIssueWithTitle: 'New Method Issue' AndBody: 'test body method' ForMethod:'class/method'.
+	
+	self assert: (createdIssue title includesSubString: 'New Method Issue').
+	self assert: (createdIssue body includesSubString: 'test body method').
+
+	issues := issueManagement getIssuesForMethod: 'class/method'.
+	self assert: (issues anySatisfy: [ :issue | (issue title includesSubString: 'New Method Issue') and: [issue body includesSubString: 'test body method'] ]).
