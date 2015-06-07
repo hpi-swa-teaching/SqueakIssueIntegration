@@ -2,7 +2,7 @@
 	"class" : {
 		"addRepository:to:" : "SK 6/7/2015 19:00",
 		"createIssueWithTitle:AndBody:ForMethod:InPackage:" : "SK 6/7/2015 19:36",
-		"deleteRepositoryFor:" : "SK 6/7/2015 19:01",
+		"deleteRepositoryFor:" : "SK 6/7/2015 22:35",
 		"getIssueManagementFor:" : "SK 6/7/2015 19:35",
 		"getIssuesForMethod:InPackage:" : "SK 6/7/2015 19:38",
 		"getRepositoryFor:" : "SK 6/7/2015 18:59",

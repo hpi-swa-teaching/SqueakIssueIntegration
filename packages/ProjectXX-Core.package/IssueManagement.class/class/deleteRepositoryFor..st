@@ -1,4 +1,4 @@
 as yet unclassified
 deleteRepositoryFor: aPackageString
 
-RepositoryDictionary removeKey: aPackageString ifAbsent:[''].
+	self repositoryDictionary removeKey: aPackageString ifAbsent:[''].
