@@ -9,4 +9,4 @@ getIssues
 	issuesJson := Json readFrom:(response content readStream).
 	issuesJson do: [:issueJson | issueSet add:(GitHubIssue createIssueFromJSON: issueJson)].
 
-	^ issueSet.
+	^ issueSet

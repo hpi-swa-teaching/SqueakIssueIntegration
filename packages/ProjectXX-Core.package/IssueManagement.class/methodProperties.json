@@ -1,15 +1,18 @@
 {
 	"class" : {
 		"addRepository:to:" : "SK 6/7/2015 19:00",
+		"createIssueWithTitle:AndBody:ForMethod:InPackage:" : "SK 6/7/2015 19:36",
 		"deleteRepositoryFor:" : "SK 6/7/2015 19:01",
+		"getIssueManagementFor:" : "SK 6/7/2015 19:35",
+		"getIssuesForMethod:InPackage:" : "SK 6/7/2015 19:38",
 		"getRepositoryFor:" : "SK 6/7/2015 18:59",
 		"repositoryDictionary" : "SK 6/7/2015 18:59" },
 	"instance" : {
-		"createIssueWithTitle:AndBody:" : "SK 5/20/2015 18:31",
-		"createIssueWithTitle:AndBody:ForMethod:InPackage:" : "Ks 6/4/2015 15:28",
-		"getIssueWithNumber:" : "SK 5/20/2015 19:39",
-		"getIssues" : "SK 5/20/2015 18:31",
-		"getIssuesForMethod:" : "Ks 6/4/2015 15:28",
+		"createIssueWithTitle:AndBody:" : "SK 6/7/2015 19:24",
+		"createIssueWithTitle:AndBody:ForMethod:" : "SK 6/7/2015 19:24",
+		"getIssueWithNumber:" : "SK 6/7/2015 19:24",
+		"getIssues" : "SK 6/7/2015 19:24",
+		"getIssuesForMethod:" : "SK 6/7/2015 19:24",
 		"loginKey" : "SK 5/20/2015 18:36",
 		"loginKey:" : "mz 5/25/2015 11:38",
 		"projectURL" : "SK 5/20/2015 18:38",
