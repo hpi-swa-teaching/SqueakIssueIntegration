@@ -1,4 +1,4 @@
 as yet unclassified
-getIssueManagementFor: aPackageName
+getIssueManagementFor: aPackageString
 
-	^ self nullObject
+	^ self repositoryDictionary at: aPackageString ifAbsent: ''

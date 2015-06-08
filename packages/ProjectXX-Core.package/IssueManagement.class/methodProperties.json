@@ -1,11 +1,10 @@
 {
 	"class" : {
-		"addRepository:to:" : "SK 6/7/2015 19:00",
+		"addIssueManagement:to:" : "SK 6/8/2015 11:03",
 		"createIssueWithTitle:AndBody:ForMethod:InPackage:" : "SK 6/7/2015 19:36",
-		"deleteRepositoryFor:" : "SK 6/7/2015 22:35",
-		"getIssueManagementFor:" : "SK 6/7/2015 19:35",
+		"deleteIssueManagementFor:" : "SK 6/8/2015 11:04",
+		"getIssueManagementFor:" : "SK 6/8/2015 11:05",
 		"getIssuesForMethod:InPackage:" : "SK 6/7/2015 19:38",
-		"getRepositoryFor:" : "SK 6/7/2015 18:59",
 		"repositoryDictionary" : "SK 6/7/2015 18:59" },
 	"instance" : {
 		"createIssueWithTitle:AndBody:" : "SK 6/7/2015 19:24",
