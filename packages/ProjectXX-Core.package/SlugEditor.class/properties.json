@@ -1,0 +1,15 @@
+{
+	"category" : "ProjectXX-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui",
+		"selectedPackage" ],
+	"name" : "SlugEditor",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
