@@ -10,7 +10,6 @@
 	"instance" : {
 		"createIssueWithTitle:AndBody:" : "SK 6/7/2015 19:24",
 		"createIssueWithTitle:AndBody:ForMethod:" : "SK 6/7/2015 19:24",
-		"createIssueWithTitle:AndBody:ForMethod:InPackage:" : "Ks 6/4/2015 15:28",
 		"getIssueWithNumber:" : "SK 6/7/2015 19:24",
 		"getIssues" : "SK 6/7/2015 19:24",
 		"getIssuesForMethod:" : "SK 6/7/2015 19:24",
