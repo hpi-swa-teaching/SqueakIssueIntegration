@@ -6,6 +6,4 @@ testMyIssues
 
 	createdIssue := issueManagement createIssueWithTitle: 'New Method Issue' AndBody: 'test body method' AndAssignee: 'nef10'.
 	
-Transcript show: '------------'.
-Transcript show: createdIssue assignee.
-	self assert: (createdIssue assignee = 'Nef10').
+	self assert: (createdIssue assignee = 'Nef10')

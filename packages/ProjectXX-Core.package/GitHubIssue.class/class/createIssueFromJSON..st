@@ -7,8 +7,7 @@ createIssueFromJSON: aJSON
 	issue title: (aJSON at: 'title').
 	issue body: (aJSON at: 'body').
 	(aJSON at: 'assignee') ifNotNil: [
-	issue assignee: ((aJSON at:'assignee')at: 'login').
+		issue assignee: ((aJSON at: 'assignee') at: 'login').
 	].
-	
 
 	^ issue
