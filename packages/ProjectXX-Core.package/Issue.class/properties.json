@@ -8,7 +8,8 @@
 	"instvars" : [
 		"title",
 		"body",
-		"number" ],
+		"number",
+		"assignee" ],
 	"name" : "Issue",
 	"pools" : [
 		 ],
