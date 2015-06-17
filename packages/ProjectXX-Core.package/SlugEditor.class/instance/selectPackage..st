@@ -8,8 +8,10 @@ selectPackage: aPackageString
 	[
 	self ui projectURLLine theText: ''.
 	self ui loginKeyLine theText: ''.
+	self ui usernameLine theText: ''.
 	]	
 	ifFalse: [
 		self ui projectURLLine theText:(issuemanagement projectURL).
-		self ui loginKeyLine theText:(issuemanagement loginKey)
+		self ui loginKeyLine theText:(issuemanagement loginKey).
+		self ui usernameLine theText:(issuemanagement username).
 	]

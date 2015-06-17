@@ -7,7 +7,10 @@
 		"deleteIssueManagementFor:" : "SK 6/8/2015 11:04",
 		"getIssueManagementFor:" : "SK 6/8/2015 11:05",
 		"getIssuesForMethod:InPackage:" : "SK 6/7/2015 19:38",
+		"getMyIssuesForMethod:InPackage:" : "DH 6/17/2015 16:05",
+		"getRepositories" : "AB 6/7/2015 19:17",
 		"getRepositoryFor:" : "SK 6/17/2015 15:33",
+		"initializeRepositoryDictionary" : "AB 6/7/2015 19:40",
 		"repositoryDictionary" : "SK 6/7/2015 18:59" },
 	"instance" : {
 		"createIssueWithTitle:AndBody:" : "SK 6/7/2015 19:24",
@@ -16,7 +19,10 @@
 		"getIssueWithNumber:" : "SK 6/7/2015 19:24",
 		"getIssues" : "SK 6/7/2015 19:24",
 		"getIssuesForMethod:" : "SK 6/7/2015 19:24",
+		"getMyIssuesForMethod:" : "DH 6/17/2015 16:11",
 		"loginKey" : "SK 5/20/2015 18:36",
 		"loginKey:" : "mz 5/25/2015 11:38",
 		"projectURL" : "SK 5/20/2015 18:38",
-		"projectURL:" : "mz 5/25/2015 11:39" } }
+		"projectURL:" : "mz 5/25/2015 11:39",
+		"username" : "DH 6/17/2015 14:15",
+		"username:" : "DH 6/17/2015 14:15" } }
