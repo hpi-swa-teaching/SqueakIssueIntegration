@@ -1,4 +1,4 @@
 as yet unclassified
 deleteAssociationWith: aPackageString
 
-RepositoryDictionary removeKey: aPackageString.
+	RepositoryDictionary removeKey: aPackageString.

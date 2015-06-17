@@ -1,13 +1,18 @@
 as yet unclassified
 testRepositoryDictionary
+	| issueManagement |
 
-IssueManagement initializeRepositoryDictionary.
-IssueManagement addRepository: 'https://github.com/HPI-SWA-Teaching/SWT15-Project-03.git' to: 'ProjectXX-Core'.
+	"We do not know if there is an old key, so we delete it if it exists"
+	IssueManagement deleteIssueManagementFor: 'ProjectXX-Core'. 
 
-self assert: (IssueManagement getRepositoryFor: 'ProjectXX-Core') equals: 'https://github.com/HPI-SWA-Teaching/SWT15-Project-03.git'.
+	issueManagement := GitHubIssueIntegration new.
+	issueManagement projectURL: 'HPI-SWA-Teaching/SWT15-Project-03'.
+	
+	IssueManagement addIssueManagement: issueManagement to: 'ProjectXX-Core'.
+	self assert: (IssueManagement getIssueManagementFor: 'ProjectXX-Core') projectURL equals: 'HPI-SWA-Teaching/SWT15-Project-03'.
 
-IssueManagement deleteAssociationWith: 'ProjectXX-Core'.
+	IssueManagement deleteIssueManagementFor: 'ProjectXX-Core'.
+	self assert: (IssueManagement getIssueManagementFor: 'ProjectXX-Core') equals: ''.
 
-self assert: (IssueManagement getRepositoryFor: 'ProjectXX-Core') equals: ''.
-
-IssueManagement addRepository: 'https://github.com/HPI-SWA-Teaching/SWT15-Project-03.git' to: 'ProjectXX-Core'.
+	"At the end the the repository should be set"
+	IssueManagement addIssueManagement: issueManagement to: 'ProjectXX-Core'
