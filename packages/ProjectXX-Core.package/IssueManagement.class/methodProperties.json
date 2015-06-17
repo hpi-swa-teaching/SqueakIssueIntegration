@@ -8,6 +8,10 @@
 		"getMyIssuesForMethod:InPackage:" : "DH 6/17/2015 16:05",
 		"repositoryDictionary" : "SK 6/7/2015 18:59" },
 	"instance" : {
+		"cacheDatetime" : "SK 6/17/2015 18:29",
+		"cacheDatetime:" : "SK 6/17/2015 18:29",
+		"cachedIssues" : "SK 6/17/2015 18:29",
+		"cachedIssues:" : "SK 6/17/2015 18:29",
 		"createIssueWithTitle:AndBody:" : "SK 6/7/2015 19:24",
 		"createIssueWithTitle:AndBody:ForMethod:" : "SK 6/7/2015 19:24",
 		"getIssueWithNumber:" : "SK 6/7/2015 19:24",

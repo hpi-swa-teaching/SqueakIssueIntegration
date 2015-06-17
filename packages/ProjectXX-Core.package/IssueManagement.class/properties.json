@@ -8,7 +8,9 @@
 	"instvars" : [
 		"loginKey",
 		"projectURL",
-		"username" ],
+		"username",
+		"cachedIssues",
+		"cacheDatetime" ],
 	"name" : "IssueManagement",
 	"pools" : [
 		 ],
