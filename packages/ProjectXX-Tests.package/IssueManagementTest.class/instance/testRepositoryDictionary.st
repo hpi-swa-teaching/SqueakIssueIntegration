@@ -1,8 +1,9 @@
 as yet unclassified
 testRepositoryDictionary
-	| issueManagement |
+	| oldIssueManagement issueManagement |
 
-	"We do not know if there is an old key, so we delete it if it exists"
+	"We do not know if there is an old key, so make a backup and then delete it if it exists"
+	oldIssueManagement := IssueManagement getIssueManagementFor: 'ProjectXX-Core'.
 	IssueManagement deleteIssueManagementFor: 'ProjectXX-Core'. 
 
 	issueManagement := GitHubIssueIntegration new.
@@ -14,5 +15,5 @@ testRepositoryDictionary
 	IssueManagement deleteIssueManagementFor: 'ProjectXX-Core'.
 	self assert: (IssueManagement getIssueManagementFor: 'ProjectXX-Core') equals: ''.
 
-	"At the end the the repository should be set"
-	IssueManagement addIssueManagement: issueManagement to: 'ProjectXX-Core'
+	"At the end add the backed-up issue management"
+	IssueManagement addIssueManagement: oldIssueManagement to: 'ProjectXX-Core'
