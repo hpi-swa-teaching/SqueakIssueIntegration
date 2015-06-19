@@ -1,5 +1,5 @@
 as yet unclassified
 repositoryDictionary
 
-	RepositoryDictionary  ifNil:[RepositoryDictionary := IdentityDictionary new.].
-	^RepositoryDictionary
+	RepositoryDictionary  ifNil:[RepositoryDictionary := Dictionary new.].
+	^ RepositoryDictionary
