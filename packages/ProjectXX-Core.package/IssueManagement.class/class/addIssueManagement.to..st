@@ -1,4 +1,4 @@
 as yet unclassified
-addIssueManagement: anUrlString to: aPackageString
+addIssueManagement: anIssueManagement to: aPackageString
 
-	self repositoryDictionary at: aPackageString put: anUrlString.
+	self repositoryDictionary at: aPackageString put: anIssueManagement.

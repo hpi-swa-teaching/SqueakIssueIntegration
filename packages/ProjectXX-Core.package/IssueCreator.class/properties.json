@@ -1,0 +1,18 @@
+{
+	"category" : "ProjectXX-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui",
+		"methodName",
+		"packageName",
+		"issueClassName",
+		"window" ],
+	"name" : "IssueCreator",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

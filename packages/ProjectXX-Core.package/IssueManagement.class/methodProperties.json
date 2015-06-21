@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"addIssueManagement:to:" : "SK 6/8/2015 11:03",
+		"addIssueManagement:to:" : "DH 6/17/2015 18:39",
+		"createIssueWithTitle:AndBody:ForMethod:AndAssignee:InPackage:" : "DH 6/21/2015 21:10",
 		"createIssueWithTitle:AndBody:ForMethod:InPackage:" : "SK 6/7/2015 19:36",
 		"deleteIssueManagementFor:" : "SK 6/8/2015 11:04",
 		"getIssueManagementFor:" : "SK 6/8/2015 11:05",
@@ -12,8 +13,10 @@
 		"cacheDatetime:" : "SK 6/17/2015 18:29",
 		"cachedIssues" : "SK 6/17/2015 18:29",
 		"cachedIssues:" : "SK 6/17/2015 18:29",
-		"createIssueWithTitle:AndBody:" : "SK 6/7/2015 19:24",
+		"createIssueWithTitle:AndBody:" : "DH 6/21/2015 21:07",
+		"createIssueWithTitle:AndBody:AndAssignee:" : "DH 6/21/2015 21:07",
 		"createIssueWithTitle:AndBody:ForMethod:" : "SK 6/7/2015 19:24",
+		"createIssueWithTitle:AndBody:ForMethod:AndAssignee:" : "DH 6/21/2015 21:11",
 		"getIssueWithNumber:" : "SK 6/7/2015 19:24",
 		"getIssues" : "SK 6/7/2015 19:24",
 		"getIssuesForMethod:" : "SK 6/7/2015 19:24",
