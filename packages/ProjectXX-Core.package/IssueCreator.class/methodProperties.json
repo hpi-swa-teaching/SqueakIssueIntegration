@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"create" : "DH 6/21/2015 21:33",
+		"create" : "DH 6/24/2015 14:26",
 		"initialize" : "DH 6/17/2015 17:14",
+		"issueClassIsMeta" : "DH 6/24/2015 14:22",
+		"issueClassIsMeta:" : "DH 6/24/2015 14:23",
 		"issueClassName" : "DH 6/21/2015 21:18",
 		"issueClassName:" : "DH 6/21/2015 21:18",
 		"methodName" : "DH 6/17/2015 17:38",

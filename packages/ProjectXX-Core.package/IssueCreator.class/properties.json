@@ -10,6 +10,7 @@
 		"methodName",
 		"packageName",
 		"issueClassName",
+		"issueClassIsMeta",
 		"window" ],
 	"name" : "IssueCreator",
 	"pools" : [

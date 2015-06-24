@@ -1,8 +1,8 @@
 {
 	"class" : {
 		"addIssueManagement:to:" : "DH 6/17/2015 18:39",
-		"createIssueWithTitle:AndBody:ForMethod:AndAssignee:InPackage:" : "DH 6/21/2015 21:10",
-		"createIssueWithTitle:AndBody:ForMethod:InPackage:" : "SK 6/7/2015 19:36",
+		"createIssueWithTitle:AndBody:ForMethod:InClass:WithAssignee:InPackage:" : "DH 6/24/2015 14:03",
+		"createIssueWithTitle:AndBody:ForMethod:InMetaClass:WithAssignee:InPackage:" : "DH 6/24/2015 14:12",
 		"deleteIssueManagementFor:" : "SK 6/8/2015 11:04",
 		"getIssueManagementFor:" : "SK 6/8/2015 11:05",
 		"getIssuesForMethod:InPackage:" : "SK 6/7/2015 19:38",
@@ -15,8 +15,8 @@
 		"cachedIssues:" : "SK 6/17/2015 18:29",
 		"createIssueWithTitle:AndBody:" : "DH 6/21/2015 21:07",
 		"createIssueWithTitle:AndBody:AndAssignee:" : "DH 6/21/2015 21:07",
-		"createIssueWithTitle:AndBody:ForMethod:" : "SK 6/7/2015 19:24",
-		"createIssueWithTitle:AndBody:ForMethod:AndAssignee:" : "DH 6/21/2015 21:11",
+		"createIssueWithTitle:AndBody:ForMethod:InClass:WithAssignee:" : "DH 6/24/2015 14:01",
+		"createIssueWithTitle:AndBody:ForMethod:InMetaClass:WithAssignee:" : "DH 6/24/2015 14:12",
 		"getIssueWithNumber:" : "SK 6/7/2015 19:24",
 		"getIssues" : "SK 6/7/2015 19:24",
 		"getIssuesForMethod:" : "SK 6/7/2015 19:24",
