@@ -10,5 +10,4 @@ save
 	issueManagement projectURL: projectURL.
 	issueManagement loginKey: loginKey.
 	issueManagement username: username.
-
 	IssueManagement addIssueManagement: issueManagement  to: selectedPackage
