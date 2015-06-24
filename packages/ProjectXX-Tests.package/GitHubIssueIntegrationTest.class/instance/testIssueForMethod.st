@@ -4,7 +4,7 @@ testIssueForMethod
 
 	| createdIssue issues |
 
-	createdIssue := issueManagement createIssueWithTitle: 'New Method Issue' AndBody: 'test body method' ForMethod:'class/method'.
+	createdIssue := issueManagement createIssueWithTitle: 'New Method Issue' AndBody: 'test body method' ForMethod:'method' InClass:'class' WithAssignee:''.
 	
 	self assert: (createdIssue title includesSubString: 'New Method Issue').
 	self assert: (createdIssue body includesSubString: 'test body method').
