@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 repositoryDictionary
 
 	RepositoryDictionary  ifNil:[RepositoryDictionary := Dictionary new.].

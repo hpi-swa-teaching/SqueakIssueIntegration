@@ -1,4 +1,4 @@
-as yet unclassified
+issue creation
 createIssueWithTitle: title AndBody: body AndAssignee: assignee
 
 	^ self subclassResponsibility

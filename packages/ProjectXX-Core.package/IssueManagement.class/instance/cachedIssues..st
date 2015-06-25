@@ -1,3 +1,4 @@
 accessing
-cachedIssues: anObject
-	cachedIssues := anObject
+cachedIssues: anIssueSet
+
+	cachedIssues := anIssueSet

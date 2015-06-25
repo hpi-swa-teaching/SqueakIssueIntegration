@@ -1,4 +1,4 @@
-as yet unclassified
+user interface signals
 save
 	| projectURL loginKey username issueManagement | 
 
@@ -10,4 +10,4 @@ save
 	issueManagement projectURL: projectURL.
 	issueManagement loginKey: loginKey.
 	issueManagement username: username.
-	IssueManagement addIssueManagement: issueManagement  to: selectedPackage
+	IssueManagement addIssueManagement: issueManagement to: selectedPackage

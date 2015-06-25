@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 window: aWindow
 
-	window := aWindow.
+	window := aWindow

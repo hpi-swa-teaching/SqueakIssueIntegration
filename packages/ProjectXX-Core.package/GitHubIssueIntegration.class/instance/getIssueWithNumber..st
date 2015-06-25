@@ -1,4 +1,4 @@
-as yet unclassified
+issue accessing
 getIssueWithNumber: aNumber
 	| response json |	
 

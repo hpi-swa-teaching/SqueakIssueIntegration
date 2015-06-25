@@ -1,3 +1,4 @@
-as yet unclassified
+accessing
 ui
-	^ ui ifNil: [ui := IssueCreatorUi new]
+
+	^ ui ifNil: [ ui := IssueCreatorUi new ]
