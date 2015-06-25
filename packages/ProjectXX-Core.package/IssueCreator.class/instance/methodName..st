@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 methodName: aName
 
-	methodName := aName.
+	methodName := aName

@@ -1,4 +1,4 @@
-as yet unclassified
+issue accessing
 getIssuesForMethod: methodName InClass: aClass
 	
 	| issues issuesForMethod |
@@ -6,7 +6,7 @@ getIssuesForMethod: methodName InClass: aClass
 	issuesForMethod := Set new.
 
 	issues := self getIssues.	
-	issues do: [ :issue | (issue title includesSubString:'[', aClass, '>>', methodName, ']')
+	issues do: [ :issue | (issue title includesSubString:'[', aClass, self class classAndMethodSeparator, methodName, ']')
 		ifTrue: [ issuesForMethod add: issue] ].
 
 	^ issuesForMethod

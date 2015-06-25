@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 issueClassName: aName
 
-	issueClassName := aName.
+	issueClassName := aName

@@ -26,7 +26,7 @@ toolIconSelector: aSymbol
         ((IssueManagement getIssueManagementFor: self packageInfo name) = '') ifFalse: [
             (IssueManagement getIssuesForMethod: aSymbol InClass: self name InPackage: ((self packageInfo)  name ) )
                 isEmpty ifFalse: [
-                    ^ #notOverridden   
+                    ^ #bugIcon   
                 ]
         ]
     ] ifTrue: [
@@ -34,7 +34,7 @@ toolIconSelector: aSymbol
         ((IssueManagement getIssueManagementFor: self theNonMetaClass packageInfo name) = '') ifFalse: [
             (IssueManagement getIssuesForMethod: aSymbol InMetaClass: self theNonMetaClass name InPackage: ((self theNonMetaClass packageInfo)  name ) )
                 isEmpty ifFalse: [
-                    ^ #notOverridden   
+                    ^ #bugIcon   
                 ]
         ]
       ].    

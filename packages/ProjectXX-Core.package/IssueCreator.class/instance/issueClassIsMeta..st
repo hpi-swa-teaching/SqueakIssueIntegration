@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 issueClassIsMeta: aBool
 
-	issueClassIsMeta := aBool.
+	issueClassIsMeta := aBool

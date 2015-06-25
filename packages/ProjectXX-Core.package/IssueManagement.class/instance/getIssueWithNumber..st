@@ -1,4 +1,4 @@
-as yet unclassified
+issue accessing
 getIssueWithNumber: aNumber
 
 	^ self subclassResponsibility
