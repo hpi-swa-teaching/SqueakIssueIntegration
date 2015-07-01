@@ -5,12 +5,15 @@ baseline: spec
         for: #common
         do: [ 
 		spec package: 'JSON' with: [ spec repository: 'http://www.squeaksource.com/JSON'].
+		spec configuration: 'FFI' with: [ spec repository: 'http://www.squeaksource.com/MetacelloRepository'].
+		spec package: 'Applescript-Core' with: [ spec repository: 'http://www.squeaksource.com/Applescript'].
+		spec configuration: 'ExternalWebBrowser' with: [ spec repository: 'http://www.squeaksource.com/MetacelloRepository'].
 		spec baseline: 'Signals' with: [
 				spec repository: 'github://marceltaeumel/signals:master/repository'].
 		spec baseline: 'Widgets' with: [
 				spec repository: 'github://hpi-swa/widgets:master/repository'].
             spec
-                package: 'ProjectXX-Core' with:[ spec requires: #('JSON' 'Widgets' 'Signals')];
+                package: 'ProjectXX-Core' with:[ spec requires: #('JSON' 'Widgets' 'Signals' 'FFI' 'Applescript-Core' 'ExternalWebBrowser')];
                 package: 'ProjectXX-Tests' with: [ spec requires: #('ProjectXX-Core') ].
             spec
                 group: 'default' with: #('ProjectXX-Core');
