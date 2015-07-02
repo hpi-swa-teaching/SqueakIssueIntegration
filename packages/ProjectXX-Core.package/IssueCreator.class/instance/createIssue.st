@@ -7,9 +7,7 @@ createIssue
 	body := self ui descriptionField theText.
 	assignee := self ui assigneeLine theText.
 
-	issueClassIsMeta
-		ifTrue: [ IssueManagement createIssueWithTitle: title AndBody: body ForMethod: methodName InMetaClass: issueClassName WithAssignee: assignee InPackage: packageName ]
-		ifFalse: [ IssueManagement createIssueWithTitle: title AndBody: body ForMethod: methodName InClass: issueClassName WithAssignee: assignee InPackage: packageName ].
+	IssueManagement createIssueWithTitle: title AndBody: body ForMethod: methodName InClass: issueClassName WhichIsMeta: issueClassIsMeta WithAssignee: assignee InPackage: packageName.
 
 	self window delete.
 	self delete

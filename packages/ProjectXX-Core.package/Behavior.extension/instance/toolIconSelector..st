@@ -19,26 +19,13 @@ toolIconSelector: aSymbol
 			literal == #shouldNotImplement
 				ifTrue: [^ #no]].
 		method hasReportableSlip ifTrue: [^ #breakpoint].
-  
 
-
- self isMeta ifFalse: [
-        ((IssueManagement getIssueManagementFor: self packageInfo name) = '') ifFalse: [
-            (IssueManagement getIssuesForMethod: aSymbol InClass: self name InPackage: ((self packageInfo)  name ) )
-                isEmpty ifFalse: [
-                    ^ #bugIcon   
-                ]
-        ]
-    ] ifTrue: [
-        Transcript show: self theNonMetaClass packageInfo name.
         ((IssueManagement getIssueManagementFor: self theNonMetaClass packageInfo name) = '') ifFalse: [
-            (IssueManagement getIssuesForMethod: aSymbol InMetaClass: self theNonMetaClass name InPackage: ((self theNonMetaClass packageInfo)  name ) )
+            (IssueManagement getIssuesForMethod: aSymbol InClass: self theNonMetaClass name WhichIsMeta: self isMeta InPackage: ((self theNonMetaClass packageInfo)  name ) )
                 isEmpty ifFalse: [
                     ^ #bugIcon   
                 ]
-        ]
-      ].    
-
+        ] 
 ].
 
 		
