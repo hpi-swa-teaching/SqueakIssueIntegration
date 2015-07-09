@@ -1,5 +1,5 @@
 issue creation
-createIssueWithTitle: title AndBody: body AndAssignee: assignee
+createIssueWithTitle: title body: body assignee: assignee
 	| json response |
 	
 	json := JsonObject new. 
