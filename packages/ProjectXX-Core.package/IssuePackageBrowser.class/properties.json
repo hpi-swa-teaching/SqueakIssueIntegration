@@ -6,13 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"usernameLine",
-		"loginKeyLine",
-		"saveButton",
-		"projectURLLine",
-		"packagesList" ],
-	"name" : "SlugEditorUi",
+		"ui",
+		"selectedPackage" ],
+	"name" : "IssuePackageBrowser",
 	"pools" : [
 		 ],
-	"super" : "UserInterface",
+	"super" : "Morph",
 	"type" : "normal" }
