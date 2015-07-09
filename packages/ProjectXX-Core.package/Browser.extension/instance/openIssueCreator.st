@@ -1,4 +1,4 @@
-*ProjectXX-Core-override
+*ProjectXX-Core-message list menu
 openIssueCreator
 
 	| ui |
