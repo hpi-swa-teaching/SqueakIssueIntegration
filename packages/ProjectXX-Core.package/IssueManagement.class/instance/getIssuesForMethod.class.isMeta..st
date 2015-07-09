@@ -1,5 +1,5 @@
 issue accessing
-getIssuesForMethod: methodName InClass: aClass WhichIsMeta: aBoolean
+getIssuesForMethod: methodName class: aClass isMeta: aBoolean
 	
 	| issues issuesForMethod separator |
 

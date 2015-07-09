@@ -1,4 +1,4 @@
 constants
 metaClassAndMethodSeparator
 
-	^ '>'
+	^ ' class>>#'

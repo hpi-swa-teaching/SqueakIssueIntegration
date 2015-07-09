@@ -1,4 +1,4 @@
-*ProjectXX-Core-override
+*ProjectXX-Core-toolIcon
 toolIconSelector: aSymbol
 	"Tools can annotate the method identified by aSymbol with an icon identified by the symbol this method returns.
 	We customize this for, eg, overriden methods or methods with breaks.
@@ -21,7 +21,7 @@ toolIconSelector: aSymbol
 		method hasReportableSlip ifTrue: [^ #breakpoint].
 
         ((IssueManagement getIssueManagementFor: self theNonMetaClass packageInfo name) = '') ifFalse: [
-            (IssueManagement getIssuesForMethod: aSymbol InClass: self theNonMetaClass name WhichIsMeta: self isMeta InPackage: ((self theNonMetaClass packageInfo)  name ) )
+            (IssueManagement getIssuesForMethod: aSymbol class: self theNonMetaClass name isMeta: self isMeta package: ((self theNonMetaClass packageInfo)  name ) )
                 isEmpty ifFalse: [
                     ^ #bugIcon   
                 ]
