@@ -1,4 +1,4 @@
-*ProjectXX-Core-override
+*ProjectXX-Core-toolIcon
 toolIconSelector: aSymbol
 	"Tools can annotate the method identified by aSymbol with an icon identified by the symbol this method returns.
 	We customize this for, eg, overriden methods or methods with breaks.
