@@ -1,5 +1,5 @@
 issue creation
-editIssue: anIssue WithTitle: title body: body assignee: assignee state: state
+editIssue: anIssue title: title body: body assignee: assignee state: state
 	| json response |
 	
 	json := JsonObject new. 

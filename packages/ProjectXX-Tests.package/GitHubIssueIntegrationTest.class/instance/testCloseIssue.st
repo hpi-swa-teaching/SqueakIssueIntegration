@@ -1,15 +1,9 @@
-as yet unclassified
+running
 testCloseIssue
 
-|issueManagement issue issueSet|
+|issue issueSet|
 
-issueManagement:= IssueManagement getIssueManagementFor: 'Tools'.
 issue:= issueManagement createIssueWithTitle: 'testCloseIssue' body: 'test body' assignee: 'Nef10'.
 issueManagement closeIssue: issue.
 issueSet:= issueManagement getIssues.
 self assert: ((issueSet includes: (issue number)) not)
-
-
-
-
-
