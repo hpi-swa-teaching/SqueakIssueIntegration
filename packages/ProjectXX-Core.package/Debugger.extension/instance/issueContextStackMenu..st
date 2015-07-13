@@ -1,7 +1,13 @@
 *ProjectXX-Core-context stack menu
 issueContextStackMenu: aMenu
 	<contextStackMenu>
-	^ aMenu addList: #(
+
+	| issueManagement |
+
+	issueManagement := (IssueManagement getIssueManagementFor: self selectedClass category).
+	(issueManagement isNil or: [ issueManagement = '' ]) ifFalse: [
+		^ aMenu addList: #(
 			('create Issue' createIssue)
 			-);
-		yourself.
+		yourself
+	] ifTrue: [ ^ aMenu ]
