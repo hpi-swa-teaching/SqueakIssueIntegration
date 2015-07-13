@@ -6,7 +6,7 @@ initializePanel
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (800@500).
+	panel extent: (705@204).
 	panel position: (0@0).
 	panel hResizing: (#rigid).
 	panel vResizing: (#rigid).
@@ -27,13 +27,13 @@ initializePanel
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: ('').
 	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
-	panel color: (Color gray).
+	panel color: (Color veryVeryLightGray).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
 	unnamedMorph1 := UiContainer new.
-	unnamedMorph1 extent: (792@492).
+	unnamedMorph1 extent: (697@196).
 	unnamedMorph1 position: (4@4).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#spaceFill).
@@ -58,47 +58,42 @@ initializePanel
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
 	unnamedMorph1 borderColor: (Color black).
-	usernameLine := UiLineEdit new.
-	usernameLine extent: (345@26).
-	usernameLine position: (420@90).
-	usernameLine hResizing: (#spaceFill).
-	usernameLine vResizing: (#rigid).
-	usernameLine minWidth: (2).
-	usernameLine minHeight: (2).
-	usernameLine cellInset: (0).
-	usernameLine cellPositioning: (#center).
-	usernameLine cellSpacing: (#none).
-	usernameLine layoutInset: (0).
-	usernameLine listCentering: (#topLeft).
-	usernameLine listDirection: (#topToBottom).
-	usernameLine listSpacing: (#none).
-	usernameLine maxCellSize: (1073741823).
-	usernameLine minCellSize: (0).
-	usernameLine wrapCentering: (#topLeft).
-	usernameLine wrapDirection: (#none).
-	usernameLine frameFractions: (0@0 corner: 1@1).
-	usernameLine frameOffsets: (0@0 corner: 0@0).
-	usernameLine balloonText: ('').
-	usernameLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
-	usernameLine widgetResizable: (false).
-	usernameLine horizontalScrollBarPolicy: (#alwaysOff).
-	usernameLine verticalScrollBarPolicy: (#alwaysOff).
-	usernameLine outerBorderWidth: (1).
-	usernameLine scrollBarThickness: (9).
-	usernameLine theText: ('').
-	usernameLine readOnly: (false).
-	usernameLine autoConvert: (false).
-	usernameLine autoAccept: (false).
-	usernameLine acceptOnFocusLost: (true).
-	usernameLine scrollingMode: (#none).
-	usernameLine scrollingLimit: (10).
-	usernameLine helpText: ('').
-	usernameLine hideCursor: (true).
-	usernameLine setProperty: #objectName toValue: 'usernameLine'.
-	unnamedMorph1 addChild: usernameLine.
+	saveButton := UiPushButton new.
+	saveButton changeTableLayout.
+	saveButton extent: (56@20).
+	saveButton position: (636@171).
+	saveButton hResizing: (#shrinkWrap).
+	saveButton vResizing: (#shrinkWrap).
+	saveButton minWidth: (2).
+	saveButton minHeight: (2).
+	saveButton cellInset: (4).
+	saveButton cellPositioning: (#center).
+	saveButton cellSpacing: (#none).
+	saveButton layoutInset: (2@0 corner: 2@0).
+	saveButton listCentering: (#topLeft).
+	saveButton listDirection: (#leftToRight).
+	saveButton listSpacing: (#none).
+	saveButton maxCellSize: (1073741823).
+	saveButton minCellSize: (0).
+	saveButton wrapCentering: (#topLeft).
+	saveButton wrapDirection: (#none).
+	saveButton frameFractions: (0@0 corner: 1@1).
+	saveButton frameOffsets: (0@0 corner: 0@0).
+	saveButton balloonText: (nil).
+	saveButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
+	saveButton enabled: (true).
+	saveButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0245Normal'.
+	saveButton icon: (UiDiagonaIcons icon0245Normal).
+	saveButton text: ('Save').
+	saveButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	saveButton checkable: (false).
+	saveButton checked: (false).
+	saveButton autoExclusive: (false).
+	saveButton setProperty: #objectName toValue: 'saveButton'.
+	unnamedMorph1 addChild: saveButton.
 	loginKeyLine := UiLineEdit new.
-	loginKeyLine extent: (347@26).
-	loginKeyLine position: (421@124).
+	loginKeyLine extent: (300@26).
+	loginKeyLine position: (395@85).
 	loginKeyLine hResizing: (#spaceFill).
 	loginKeyLine vResizing: (#rigid).
 	loginKeyLine minWidth: (2).
@@ -136,8 +131,8 @@ initializePanel
 	unnamedMorph1 addChild: loginKeyLine.
 	unnamedMorph2 := UiLabel new.
 	unnamedMorph2 changeTableLayout.
-	unnamedMorph2 extent: (64@18).
-	unnamedMorph2 position: (339@95).
+	unnamedMorph2 extent: (62@18).
+	unnamedMorph2 position: (315@90).
 	unnamedMorph2 hResizing: (#shrinkWrap).
 	unnamedMorph2 vResizing: (#shrinkWrap).
 	unnamedMorph2 minWidth: (2).
@@ -156,48 +151,53 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: ('').
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
-	unnamedMorph2 text: ('Username:').
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	unnamedMorph2 text: ('Login Key:').
 	unnamedMorph2 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph2 form: (nil).
 	unnamedMorph1 addChild: unnamedMorph2.
-	saveButton := UiPushButton new.
-	saveButton changeTableLayout.
-	saveButton extent: (56@20).
-	saveButton position: (576@201).
-	saveButton hResizing: (#shrinkWrap).
-	saveButton vResizing: (#shrinkWrap).
-	saveButton minWidth: (2).
-	saveButton minHeight: (2).
-	saveButton cellInset: (4).
-	saveButton cellPositioning: (#center).
-	saveButton cellSpacing: (#none).
-	saveButton layoutInset: (2@0 corner: 2@0).
-	saveButton listCentering: (#topLeft).
-	saveButton listDirection: (#leftToRight).
-	saveButton listSpacing: (#none).
-	saveButton maxCellSize: (1073741823).
-	saveButton minCellSize: (0).
-	saveButton wrapCentering: (#topLeft).
-	saveButton wrapDirection: (#none).
-	saveButton frameFractions: (0@0 corner: 1@1).
-	saveButton frameOffsets: (0@0 corner: 0@0).
-	saveButton balloonText: (nil).
-	saveButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
-	saveButton enabled: (true).
-	saveButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0245Normal'.
-	saveButton icon: (UiDiagonaIcons icon0245Normal).
-	saveButton text: ('Save').
-	saveButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
-	saveButton checkable: (false).
-	saveButton checked: (false).
-	saveButton autoExclusive: (false).
-	saveButton setProperty: #objectName toValue: 'saveButton'.
-	unnamedMorph1 addChild: saveButton.
+	usernameLine := UiLineEdit new.
+	usernameLine extent: (300@26).
+	usernameLine position: (395@50).
+	usernameLine hResizing: (#spaceFill).
+	usernameLine vResizing: (#rigid).
+	usernameLine minWidth: (2).
+	usernameLine minHeight: (2).
+	usernameLine cellInset: (0).
+	usernameLine cellPositioning: (#center).
+	usernameLine cellSpacing: (#none).
+	usernameLine layoutInset: (0).
+	usernameLine listCentering: (#topLeft).
+	usernameLine listDirection: (#topToBottom).
+	usernameLine listSpacing: (#none).
+	usernameLine maxCellSize: (1073741823).
+	usernameLine minCellSize: (0).
+	usernameLine wrapCentering: (#topLeft).
+	usernameLine wrapDirection: (#none).
+	usernameLine frameFractions: (0@0 corner: 1@1).
+	usernameLine frameOffsets: (0@0 corner: 0@0).
+	usernameLine balloonText: ('').
+	usernameLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	usernameLine widgetResizable: (false).
+	usernameLine horizontalScrollBarPolicy: (#alwaysOff).
+	usernameLine verticalScrollBarPolicy: (#alwaysOff).
+	usernameLine outerBorderWidth: (1).
+	usernameLine scrollBarThickness: (9).
+	usernameLine theText: ('').
+	usernameLine readOnly: (false).
+	usernameLine autoConvert: (false).
+	usernameLine autoAccept: (false).
+	usernameLine acceptOnFocusLost: (true).
+	usernameLine scrollingMode: (#none).
+	usernameLine scrollingLimit: (10).
+	usernameLine helpText: ('').
+	usernameLine hideCursor: (true).
+	usernameLine setProperty: #objectName toValue: 'usernameLine'.
+	unnamedMorph1 addChild: usernameLine.
 	unnamedMorph3 := UiLabel new.
 	unnamedMorph3 changeTableLayout.
-	unnamedMorph3 extent: (62@18).
-	unnamedMorph3 position: (344@132).
+	unnamedMorph3 extent: (64@18).
+	unnamedMorph3 position: (315@55).
 	unnamedMorph3 hResizing: (#shrinkWrap).
 	unnamedMorph3 vResizing: (#shrinkWrap).
 	unnamedMorph3 minWidth: (2).
@@ -216,15 +216,15 @@ initializePanel
 	unnamedMorph3 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph3 balloonText: ('').
-	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
-	unnamedMorph3 text: ('Login Key:').
+	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
+	unnamedMorph3 text: ('Username:').
 	unnamedMorph3 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph3 form: (nil).
 	unnamedMorph1 addChild: unnamedMorph3.
 	unnamedMorph4 := UiLabel new.
 	unnamedMorph4 changeTableLayout.
 	unnamedMorph4 extent: (73@18).
-	unnamedMorph4 position: (338@59).
+	unnamedMorph4 position: (315@20).
 	unnamedMorph4 hResizing: (#shrinkWrap).
 	unnamedMorph4 vResizing: (#shrinkWrap).
 	unnamedMorph4 minWidth: (2).
@@ -249,8 +249,8 @@ initializePanel
 	unnamedMorph4 form: (nil).
 	unnamedMorph1 addChild: unnamedMorph4.
 	projectURLLine := UiLineEdit new.
-	projectURLLine extent: (345@26).
-	projectURLLine position: (419@54).
+	projectURLLine extent: (300@26).
+	projectURLLine position: (395@15).
 	projectURLLine hResizing: (#spaceFill).
 	projectURLLine vResizing: (#rigid).
 	projectURLLine minWidth: (2).
@@ -287,8 +287,8 @@ initializePanel
 	projectURLLine setProperty: #objectName toValue: 'projectURLLine'.
 	unnamedMorph1 addChild: projectURLLine.
 	packagesList := UiListWidget new.
-	packagesList extent: (304@495).
-	packagesList position: (2@2).
+	packagesList extent: (304@190).
+	packagesList position: (4@2).
 	packagesList hResizing: (#rigid).
 	packagesList vResizing: (#rigid).
 	packagesList minWidth: (2).

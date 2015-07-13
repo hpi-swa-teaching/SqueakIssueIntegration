@@ -9,8 +9,8 @@
 		"createButton",
 		"descriptionField",
 		"assigneeLine",
-		"assigneeLabel",
-		"titleLine" ],
+		"titleLine",
+		"assigneeLabel" ],
 	"name" : "IssueCreatorUi",
 	"pools" : [
 		 ],

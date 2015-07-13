@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"usernameLine",
-		"loginKeyLine",
 		"saveButton",
+		"loginKeyLine",
+		"usernameLine",
 		"projectURLLine",
 		"packagesList" ],
 	"name" : "IssuePackageBrowserUi",
