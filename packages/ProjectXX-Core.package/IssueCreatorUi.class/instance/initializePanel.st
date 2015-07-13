@@ -5,7 +5,7 @@ initializePanel
 	| unnamedMorph1 unnamedMorph2 |
 	
 	panel := UiContainer new.
-	panel extent: (450@235).
+	panel extent: (450@240).
 	panel position: (0@0).
 	panel hResizing: (#rigid).
 	panel vResizing: (#rigid).
@@ -53,7 +53,7 @@ initializePanel
 	createButton frameFractions: (0@0 corner: 1@1).
 	createButton frameOffsets: (0@0 corner: 0@0).
 	createButton balloonText: ('').
-	createButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	createButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	createButton enabled: (true).
 	createButton setProperty: #iconByDesigner toValue: 'nil'.
 	createButton icon: (nil).
@@ -86,7 +86,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: ('').
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	unnamedMorph1 text: ('Description:').
 	unnamedMorph1 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph1 form: (nil).
@@ -112,7 +112,7 @@ initializePanel
 	descriptionField frameFractions: (0@0 corner: 1@1).
 	descriptionField frameOffsets: (0@0 corner: 0@0).
 	descriptionField balloonText: (nil).
-	descriptionField balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	descriptionField balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	descriptionField widgetResizable: (true).
 	descriptionField horizontalScrollBarPolicy: (#alwaysOff).
 	descriptionField verticalScrollBarPolicy: (#asNeeded).
@@ -148,7 +148,7 @@ initializePanel
 	assigneeLine frameFractions: (0@0 corner: 1@1).
 	assigneeLine frameOffsets: (0@0 corner: 0@0).
 	assigneeLine balloonText: (nil).
-	assigneeLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	assigneeLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	assigneeLine widgetResizable: (false).
 	assigneeLine horizontalScrollBarPolicy: (#alwaysOff).
 	assigneeLine verticalScrollBarPolicy: (#alwaysOff).
@@ -186,7 +186,7 @@ initializePanel
 	titleLine frameFractions: (0@0 corner: 1@1).
 	titleLine frameOffsets: (0@0 corner: 0@0).
 	titleLine balloonText: (nil).
-	titleLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	titleLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	titleLine widgetResizable: (false).
 	titleLine horizontalScrollBarPolicy: (#alwaysOff).
 	titleLine verticalScrollBarPolicy: (#alwaysOff).
@@ -253,7 +253,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: ('').
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	unnamedMorph2 text: ('Title:').
 	unnamedMorph2 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph2 form: (nil).
