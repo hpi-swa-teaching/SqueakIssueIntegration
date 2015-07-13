@@ -53,7 +53,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: ('').
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.937)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -79,7 +79,7 @@ initializePanel
 	usernameLine frameFractions: (0@0 corner: 1@1).
 	usernameLine frameOffsets: (0@0 corner: 0@0).
 	usernameLine balloonText: ('').
-	usernameLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	usernameLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	usernameLine widgetResizable: (false).
 	usernameLine horizontalScrollBarPolicy: (#alwaysOff).
 	usernameLine verticalScrollBarPolicy: (#alwaysOff).
@@ -117,7 +117,7 @@ initializePanel
 	loginKeyLine frameFractions: (0@0 corner: 1@1).
 	loginKeyLine frameOffsets: (0@0 corner: 0@0).
 	loginKeyLine balloonText: ('').
-	loginKeyLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	loginKeyLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	loginKeyLine widgetResizable: (false).
 	loginKeyLine horizontalScrollBarPolicy: (#alwaysOff).
 	loginKeyLine verticalScrollBarPolicy: (#alwaysOff).
@@ -156,7 +156,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: ('').
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	unnamedMorph2 text: ('Username:').
 	unnamedMorph2 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph2 form: (nil).
@@ -183,7 +183,7 @@ initializePanel
 	saveButton frameFractions: (0@0 corner: 1@1).
 	saveButton frameOffsets: (0@0 corner: 0@0).
 	saveButton balloonText: (nil).
-	saveButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.933)).
+	saveButton balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.929)).
 	saveButton enabled: (true).
 	saveButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0245Normal'.
 	saveButton icon: (UiDiagonaIcons icon0245Normal).
@@ -216,7 +216,7 @@ initializePanel
 	unnamedMorph3 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph3 balloonText: ('').
-	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	unnamedMorph3 text: ('Login Key:').
 	unnamedMorph3 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph3 form: (nil).
@@ -243,7 +243,7 @@ initializePanel
 	unnamedMorph4 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph4 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph4 balloonText: ('').
-	unnamedMorph4 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	unnamedMorph4 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	unnamedMorph4 text: ('Project URL:').
 	unnamedMorph4 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph4 form: (nil).
@@ -269,7 +269,7 @@ initializePanel
 	projectURLLine frameFractions: (0@0 corner: 1@1).
 	projectURLLine frameOffsets: (0@0 corner: 0@0).
 	projectURLLine balloonText: (nil).
-	projectURLLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	projectURLLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	projectURLLine widgetResizable: (false).
 	projectURLLine horizontalScrollBarPolicy: (#alwaysOff).
 	projectURLLine verticalScrollBarPolicy: (#alwaysOff).
@@ -307,7 +307,7 @@ initializePanel
 	packagesList frameFractions: (0@0 corner: 1@1).
 	packagesList frameOffsets: (0@0 corner: 0@0).
 	packagesList balloonText: (nil).
-	packagesList balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	packagesList balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	packagesList widgetResizable: (true).
 	packagesList horizontalScrollBarPolicy: (#alwaysOff).
 	packagesList verticalScrollBarPolicy: (#asNeeded).
@@ -324,4 +324,4 @@ initializePanel
 	packagesList setProperty: #objectName toValue: 'packagesList'.
 	unnamedMorph1 addChild: packagesList.
 	panel addChild: unnamedMorph1.
-	panel setProperty: #uiClassName toValue: 'SlugEditor'.
+	panel setProperty: #uiClassName toValue: 'IssuePackageBrowser'.
