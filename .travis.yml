@@ -1,21 +1,31 @@
-sudo: true
 language: erlang
+sudo: false
+
 env:
-- ST=Squeak-4.5
-- ST=Squeak-Trunk
-matrix:
-  allow_failures:
-  - env: ST=Squeak-Trunk
+  global:
+    - BASELINE=ProjectXX
+  matrix:
+    - SMALLTALK="SqueakTrunk"
+    - SMALLTALK="Squeak4.5"
+
+addons:
+  apt:
+    packages:
+    # 32-bit VM
+    - libc6:i386
+    # UUIDPlugin
+    - libuuid1:i386
+
 install:
-- export PROJECT_HOME="$(pwd)"
-- cd $HOME
-- wget -q -O builderCI.zip https://github.com/dalehenrich/builderCI/archive/master.zip
-- unzip -q builderCI.zip
-- cd builderCI-*
-- source build_env_vars
-- ln -s $PROJECT_HOME $GIT_PATH
-- ./build_image.sh
-script: $BUILDER_CI_HOME/testTravisCI.sh
+   - export PROJECT_HOME="$(pwd)"
+   - cd $HOME
+   - wget -q -O filetreeCI.zip https://github.com/fniephaus/filetreeCI/archive/master.zip
+   - unzip -q filetreeCI.zip
+   - cd filetreeCI-*
+   - export FILETREE_CI_HOME="$(pwd)"
+
+script: $FILETREE_CI_HOME/run.sh
+
 before_install:
 - openssl aes-256-cbc -K $encrypted_c05dcaa1178f_key -iv $encrypted_c05dcaa1178f_iv
   -in setLoginKey.st.enc -out packages/ProjectXX-Tests.package/GitHubIssueIntegrationTest.class/instance/setLoginKey.st
