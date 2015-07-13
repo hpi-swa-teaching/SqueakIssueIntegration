@@ -1,3 +1,3 @@
 initialization
 open
-	self openInWindowLabeled: 'Slug Editor'.
+	self openInWindowLabeled: 'Issue Package Browser'.
