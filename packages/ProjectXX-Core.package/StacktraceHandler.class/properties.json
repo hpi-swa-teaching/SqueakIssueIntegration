@@ -1,0 +1,14 @@
+{
+	"category" : "ProjectXX-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "StacktraceHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
