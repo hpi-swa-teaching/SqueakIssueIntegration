@@ -6,12 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"createButton",
-		"descriptionField",
-		"assigneeLine",
-		"titleLine",
-		"assigneeLabel" ],
-	"name" : "IssueCreatorUi",
+		"saveButton",
+		"loginKeyLine",
+		"usernameLine",
+		"projectURLLine",
+		"packagesList" ],
+	"name" : "IssuePackageBrowserUi",
 	"pools" : [
 		 ],
 	"super" : "UserInterface",

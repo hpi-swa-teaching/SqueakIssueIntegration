@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui",
-		"selectedPackage" ],
-	"name" : "SlugEditor",
+		 ],
+	"name" : "OpenWebsite",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }
