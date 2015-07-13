@@ -5,7 +5,7 @@ initializePanel
 	| unnamedMorph1 unnamedMorph2 |
 	
 	panel := UiContainer new.
-	panel extent: (500@300).
+	panel extent: (450@235).
 	panel position: (0@0).
 	panel hResizing: (#rigid).
 	panel vResizing: (#rigid).
@@ -25,8 +25,8 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: ('').
-	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
-	panel color: (Color gray).
+	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	panel color: (Color veryVeryLightGray).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
@@ -34,7 +34,7 @@ initializePanel
 	createButton := UiPushButton new.
 	createButton changeTableLayout.
 	createButton extent: (46@20).
-	createButton position: (426@272).
+	createButton position: (390@205).
 	createButton hResizing: (#shrinkWrap).
 	createButton vResizing: (#shrinkWrap).
 	createButton minWidth: (2).
@@ -53,7 +53,7 @@ initializePanel
 	createButton frameFractions: (0@0 corner: 1@1).
 	createButton frameOffsets: (0@0 corner: 0@0).
 	createButton balloonText: ('').
-	createButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	createButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	createButton enabled: (true).
 	createButton setProperty: #iconByDesigner toValue: 'nil'.
 	createButton icon: (nil).
@@ -64,46 +64,10 @@ initializePanel
 	createButton autoExclusive: (false).
 	createButton setProperty: #objectName toValue: 'createButton'.
 	panel addChild: createButton.
-	descriptionField := UiTextEdit new.
-	descriptionField extent: (386@130).
-	descriptionField position: (86@124).
-	descriptionField hResizing: (#rigid).
-	descriptionField vResizing: (#rigid).
-	descriptionField minWidth: (2).
-	descriptionField minHeight: (2).
-	descriptionField cellInset: (0).
-	descriptionField cellPositioning: (#center).
-	descriptionField cellSpacing: (#none).
-	descriptionField layoutInset: (0).
-	descriptionField listCentering: (#topLeft).
-	descriptionField listDirection: (#topToBottom).
-	descriptionField listSpacing: (#none).
-	descriptionField maxCellSize: (1073741823).
-	descriptionField minCellSize: (0).
-	descriptionField wrapCentering: (#topLeft).
-	descriptionField wrapDirection: (#none).
-	descriptionField frameFractions: (0@0 corner: 1@1).
-	descriptionField frameOffsets: (0@0 corner: 0@0).
-	descriptionField balloonText: (nil).
-	descriptionField balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
-	descriptionField widgetResizable: (true).
-	descriptionField horizontalScrollBarPolicy: (#alwaysOff).
-	descriptionField verticalScrollBarPolicy: (#asNeeded).
-	descriptionField outerBorderWidth: (1).
-	descriptionField scrollBarThickness: (9).
-	descriptionField theText: ('').
-	descriptionField readOnly: (false).
-	descriptionField autoConvert: (false).
-	descriptionField autoAccept: (false).
-	descriptionField acceptOnFocusLost: (false).
-	descriptionField scrollingMode: (#none).
-	descriptionField scrollingLimit: (10).
-	descriptionField setProperty: #objectName toValue: 'descriptionField'.
-	panel addChild: descriptionField.
 	unnamedMorph1 := UiLabel new.
 	unnamedMorph1 changeTableLayout.
 	unnamedMorph1 extent: (72@18).
-	unnamedMorph1 position: (7@126).
+	unnamedMorph1 position: (10@68).
 	unnamedMorph1 hResizing: (#shrinkWrap).
 	unnamedMorph1 vResizing: (#shrinkWrap).
 	unnamedMorph1 minWidth: (2).
@@ -122,14 +86,50 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: ('').
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	unnamedMorph1 text: ('Description:').
 	unnamedMorph1 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph1 form: (nil).
 	panel addChild: unnamedMorph1.
+	descriptionField := UiTextEdit new.
+	descriptionField extent: (350@130).
+	descriptionField position: (88@65).
+	descriptionField hResizing: (#rigid).
+	descriptionField vResizing: (#rigid).
+	descriptionField minWidth: (2).
+	descriptionField minHeight: (2).
+	descriptionField cellInset: (0).
+	descriptionField cellPositioning: (#center).
+	descriptionField cellSpacing: (#none).
+	descriptionField layoutInset: (0).
+	descriptionField listCentering: (#topLeft).
+	descriptionField listDirection: (#topToBottom).
+	descriptionField listSpacing: (#none).
+	descriptionField maxCellSize: (1073741823).
+	descriptionField minCellSize: (0).
+	descriptionField wrapCentering: (#topLeft).
+	descriptionField wrapDirection: (#none).
+	descriptionField frameFractions: (0@0 corner: 1@1).
+	descriptionField frameOffsets: (0@0 corner: 0@0).
+	descriptionField balloonText: (nil).
+	descriptionField balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	descriptionField widgetResizable: (true).
+	descriptionField horizontalScrollBarPolicy: (#alwaysOff).
+	descriptionField verticalScrollBarPolicy: (#asNeeded).
+	descriptionField outerBorderWidth: (1).
+	descriptionField scrollBarThickness: (9).
+	descriptionField theText: ('').
+	descriptionField readOnly: (false).
+	descriptionField autoConvert: (false).
+	descriptionField autoAccept: (false).
+	descriptionField acceptOnFocusLost: (false).
+	descriptionField scrollingMode: (#none).
+	descriptionField scrollingLimit: (10).
+	descriptionField setProperty: #objectName toValue: 'descriptionField'.
+	panel addChild: descriptionField.
 	assigneeLine := UiLineEdit new.
-	assigneeLine extent: (211@26).
-	assigneeLine position: (86@81).
+	assigneeLine extent: (150@25).
+	assigneeLine position: (88@35).
 	assigneeLine hResizing: (#spaceFill).
 	assigneeLine vResizing: (#rigid).
 	assigneeLine minWidth: (2).
@@ -148,7 +148,7 @@ initializePanel
 	assigneeLine frameFractions: (0@0 corner: 1@1).
 	assigneeLine frameOffsets: (0@0 corner: 0@0).
 	assigneeLine balloonText: (nil).
-	assigneeLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	assigneeLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	assigneeLine widgetResizable: (false).
 	assigneeLine horizontalScrollBarPolicy: (#alwaysOff).
 	assigneeLine verticalScrollBarPolicy: (#alwaysOff).
@@ -165,37 +165,9 @@ initializePanel
 	assigneeLine hideCursor: (true).
 	assigneeLine setProperty: #objectName toValue: 'assigneeLine'.
 	panel addChild: assigneeLine.
-	assigneeLabel := UiLabel new.
-	assigneeLabel changeTableLayout.
-	assigneeLabel extent: (58@18).
-	assigneeLabel position: (19@82).
-	assigneeLabel hResizing: (#shrinkWrap).
-	assigneeLabel vResizing: (#shrinkWrap).
-	assigneeLabel minWidth: (2).
-	assigneeLabel minHeight: (2).
-	assigneeLabel cellInset: (0).
-	assigneeLabel cellPositioning: (#center).
-	assigneeLabel cellSpacing: (#none).
-	assigneeLabel layoutInset: (0).
-	assigneeLabel listCentering: (#topLeft).
-	assigneeLabel listDirection: (#leftToRight).
-	assigneeLabel listSpacing: (#none).
-	assigneeLabel maxCellSize: (1073741823).
-	assigneeLabel minCellSize: (0).
-	assigneeLabel wrapCentering: (#topLeft).
-	assigneeLabel wrapDirection: (#none).
-	assigneeLabel frameFractions: (0@0 corner: 1@1).
-	assigneeLabel frameOffsets: (0@0 corner: 0@0).
-	assigneeLabel balloonText: ('').
-	assigneeLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
-	assigneeLabel text: ('Assignee:').
-	assigneeLabel setProperty: #formByDesigner toValue: 'nil'.
-	assigneeLabel form: (nil).
-	assigneeLabel setProperty: #objectName toValue: 'assigneeLabel'.
-	panel addChild: assigneeLabel.
 	titleLine := UiLineEdit new.
-	titleLine extent: (310@34).
-	titleLine position: (86@31).
+	titleLine extent: (350@25).
+	titleLine position: (88@5).
 	titleLine hResizing: (#spaceFill).
 	titleLine vResizing: (#rigid).
 	titleLine minWidth: (2).
@@ -214,7 +186,7 @@ initializePanel
 	titleLine frameFractions: (0@0 corner: 1@1).
 	titleLine frameOffsets: (0@0 corner: 0@0).
 	titleLine balloonText: (nil).
-	titleLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	titleLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	titleLine widgetResizable: (false).
 	titleLine horizontalScrollBarPolicy: (#alwaysOff).
 	titleLine verticalScrollBarPolicy: (#alwaysOff).
@@ -231,10 +203,38 @@ initializePanel
 	titleLine hideCursor: (true).
 	titleLine setProperty: #objectName toValue: 'titleLine'.
 	panel addChild: titleLine.
+	assigneeLabel := UiLabel new.
+	assigneeLabel changeTableLayout.
+	assigneeLabel extent: (58@18).
+	assigneeLabel position: (10@38).
+	assigneeLabel hResizing: (#shrinkWrap).
+	assigneeLabel vResizing: (#shrinkWrap).
+	assigneeLabel minWidth: (2).
+	assigneeLabel minHeight: (2).
+	assigneeLabel cellInset: (0).
+	assigneeLabel cellPositioning: (#center).
+	assigneeLabel cellSpacing: (#none).
+	assigneeLabel layoutInset: (0).
+	assigneeLabel listCentering: (#topLeft).
+	assigneeLabel listDirection: (#leftToRight).
+	assigneeLabel listSpacing: (#none).
+	assigneeLabel maxCellSize: (1073741823).
+	assigneeLabel minCellSize: (0).
+	assigneeLabel wrapCentering: (#topLeft).
+	assigneeLabel wrapDirection: (#none).
+	assigneeLabel frameFractions: (0@0 corner: 1@1).
+	assigneeLabel frameOffsets: (0@0 corner: 0@0).
+	assigneeLabel balloonText: ('').
+	assigneeLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	assigneeLabel text: ('Assignee:').
+	assigneeLabel setProperty: #formByDesigner toValue: 'nil'.
+	assigneeLabel form: (nil).
+	assigneeLabel setProperty: #objectName toValue: 'assigneeLabel'.
+	panel addChild: assigneeLabel.
 	unnamedMorph2 := UiLabel new.
 	unnamedMorph2 changeTableLayout.
 	unnamedMorph2 extent: (29@18).
-	unnamedMorph2 position: (32@43).
+	unnamedMorph2 position: (10@8).
 	unnamedMorph2 hResizing: (#shrinkWrap).
 	unnamedMorph2 vResizing: (#shrinkWrap).
 	unnamedMorph2 minWidth: (2).
@@ -253,7 +253,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: ('').
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	unnamedMorph2 text: ('Title:').
 	unnamedMorph2 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph2 form: (nil).
