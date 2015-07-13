@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"issuesMainMessageListMenu:" : "SK 7/6/2015 09:38",
+		"closeIssue:" : "DH 7/13/2015 19:32",
+		"issuesMainMessageListMenu:" : "DH 7/13/2015 20:00",
+		"openInWebbrowser:" : "DH 7/13/2015 20:17",
 		"openIssueCreator" : "DH 6/24/2015 14:21" } }
