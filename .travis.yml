@@ -6,7 +6,7 @@ env:
     - BASELINE=ProjectXX
   matrix:
     - SMALLTALK="SqueakTrunk"
-    - SMALLTALK="Squeak4.5"
+    # - SMALLTALK="Squeak4.5"
 
 addons:
   apt:
