@@ -1,0 +1,3 @@
+issue accessing
+hasValidRemote
+	^ false
