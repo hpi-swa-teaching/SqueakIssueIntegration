@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"addIssueManagement:to:" : "DH 6/17/2015 18:39",
+		"cacheTimeInSeconds" : "MZ 7/31/2015 18:25",
 		"classAndMethodSeparator" : "SK 7/9/2015 10:31",
 		"createIssueWithTitle:body:method:class:isMeta:assignee:package:" : "SK 7/9/2015 10:29",
 		"deleteIssueManagementFor:" : "MZ 7/9/2015 18:08",
@@ -24,7 +25,7 @@
 		"getIssuesForMethod:class:isMeta:" : "SK 7/9/2015 10:23",
 		"getMyIssuesForMethod:class:isMeta:" : "SK 7/9/2015 16:06",
 		"invalidateCache" : "SK 7/31/2015 16:49:04.85",
-		"isCacheVaild" : "SK 7/31/2015 16:55:34.299",
+		"isCacheVaild" : "MZ 7/31/2015 18:25",
 		"loadIssues" : "SK 7/31/2015 16:38:31.643",
 		"loginKey" : "SK 5/20/2015 18:36",
 		"loginKey:" : "mz 5/25/2015 11:38",
