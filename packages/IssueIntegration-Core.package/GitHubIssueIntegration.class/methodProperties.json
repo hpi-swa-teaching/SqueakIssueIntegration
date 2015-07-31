@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createIssueWithTitle:body:assignee:" : "SK 7/31/2015 17:05:11.754",
-		"editIssue:title:body:assignee:state:" : "SK 7/13/2015 19:39",
+		"createIssueWithTitle:body:assignee:" : "MZ 7/31/2015 18:12",
+		"editIssue:title:body:assignee:state:" : "MZ 7/31/2015 18:12",
 		"getIssueWithNumber:" : "SK 6/7/2015 19:24",
 		"loadIssues" : "SK 7/31/2015 16:45:02.045",
 		"openIssueInBrowser:" : "SK 7/31/2015 16:12:27.596" } }
