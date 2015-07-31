@@ -3,9 +3,24 @@ Squeak Issue Integration [![Build Status](https://travis-ci.org/HPI-SWA-Teaching
 
 This is a Issue Integration for the programming enviroment [Squeak](http://squeak.org/). It allows groups of developers to create, manage and close issues directly inside of the image. All issues are held and managed by an Issue Management System like [GitHub](https://github.com).
 
-
-
 ##How to use it
+
+##Installation
+Run the following code in the Workspace:
+```smalltalk
+{
+Metacello new
+    baseline: 'IssueIntegration';
+    githubUser: 'HPI-SWA-Teaching'
+    project: 'SqueakIssuesIntegration'
+    commitish: 'v0.1'
+    path: 'packages'
+}
+do: [ :baseline | baseline get ];
+do: [ :baseline | baseline
+    onConflict: [ :ex | ex allow ];
+    load: 'default' ].
+```
 ###Set Up
 Open the Issue Package Browser (Apps -> Issue Package Browser) and select the package you are working on. Enter the following information:
 - **Project**: The name of your github project e.g. ```HPI-SWA-Teaching/SqueakIssueIntegration```
