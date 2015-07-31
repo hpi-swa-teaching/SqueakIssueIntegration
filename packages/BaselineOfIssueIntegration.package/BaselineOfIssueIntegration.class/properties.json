@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfIssueIntegration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfIssueIntegration",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
