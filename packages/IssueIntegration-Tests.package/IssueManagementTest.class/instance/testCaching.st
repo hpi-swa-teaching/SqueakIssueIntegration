@@ -1,11 +1,11 @@
 caching
 testCaching
+	
+	| issues |
 
-	| issueManagement |
-	
-	issueManagement := IssueManagement new.
-	issueManagement cacheIssues: Set new.
-	self assert: issueManagement isCacheVaild.
-	
-	issueManagement invalidateCache.
-	self assert: issueManagement isCacheVaild not.
+	issues := Set new.
+	issues add: Issue new.
+	issues add: Issue new.
+
+	self issueManagement cacheIssues: issues.
+	self assert: self issueManagement cachedIssues equals: issues

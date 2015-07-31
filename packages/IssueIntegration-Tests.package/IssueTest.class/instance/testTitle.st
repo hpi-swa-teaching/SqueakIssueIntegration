@@ -1,4 +1,4 @@
-test instance variables
+instance variables
 testTitle
 	| issue |
 
