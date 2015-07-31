@@ -9,5 +9,4 @@ createIssue
 
 	IssueManagement createIssueWithTitle: title body: body method: methodName class: issueClassName isMeta: issueClassIsMeta assignee: assignee package: packageName.
 
-	self window delete.
-	self delete
+	self close

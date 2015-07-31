@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"body:" : "SK 7/13/2015 18:55",
-		"createIssue" : "SK 7/9/2015 10:30",
+		"body:" : "MZ 7/31/2015 17:04",
+		"close" : "MZ 7/31/2015 16:52",
+		"createIssue" : "MZ 7/31/2015 16:53",
 		"initialize" : "SK 6/25/2015 14:14",
 		"issueClassIsMeta" : "SK 6/25/2015 14:12",
 		"issueClassIsMeta:" : "SK 6/25/2015 14:12",

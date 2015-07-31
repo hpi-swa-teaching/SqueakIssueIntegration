@@ -16,6 +16,4 @@ save
 		IssueManagement addIssueManagement: issueManagement to: selectedPackage
 	].
 
-	self window delete.
-	self delete
-	
+	self close
