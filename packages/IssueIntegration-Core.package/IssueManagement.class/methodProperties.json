@@ -4,9 +4,9 @@
 		"classAndMethodSeparator" : "SK 7/9/2015 10:31",
 		"createIssueWithTitle:body:method:class:isMeta:assignee:package:" : "SK 7/9/2015 10:29",
 		"deleteIssueManagementFor:" : "MZ 7/9/2015 18:08",
-		"getIssueManagementFor:" : "SK 6/8/2015 11:05",
-		"getIssuesForMethod:class:isMeta:package:" : "SK 7/9/2015 10:30",
-		"getMyIssuesForMethod:class:isMeta:package:" : "SK 7/9/2015 10:31",
+		"getIssueManagementFor:" : "AB 7/31/2015 17:34",
+		"getIssuesForMethod:class:isMeta:package:" : "AB 7/31/2015 17:35",
+		"getMyIssuesForMethod:class:isMeta:package:" : "AB 7/31/2015 17:35",
 		"metaClassAndMethodSeparator" : "SK 7/9/2015 10:40",
 		"repositoryDictionary" : "MZ 7/13/2015 11:59" },
 	"instance" : {

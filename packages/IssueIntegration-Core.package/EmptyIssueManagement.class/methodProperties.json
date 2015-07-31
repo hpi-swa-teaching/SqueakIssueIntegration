@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"getInstance" : "AB 7/31/2015 17:33" },
+	"instance" : {
+		"closeIssue:" : "AB 7/31/2015 17:21",
+		"createIssueWithTitle:body:assignee:" : "AB 7/31/2015 17:17",
+		"createIssueWithTitle:body:method:class:isMeta:assignee:" : "AB 7/31/2015 17:18",
+		"editIssue:title:body:assignee:state:" : "AB 7/31/2015 17:18",
+		"getIssueWithNumber:" : "AB 7/31/2015 17:18",
+		"getIssues" : "AB 7/31/2015 17:19",
+		"getIssuesForMethod:class:isMeta:" : "AB 7/31/2015 17:19",
+		"getMyIssuesForMethod:class:isMeta:" : "AB 7/31/2015 17:20",
+		"openIssueInBrowser:" : "AB 7/31/2015 17:20" } }
