@@ -8,7 +8,7 @@ This is a Issue Integration for the programming enviroment [Squeak](http://squea
 ##How to use it
 ###Set Up
 Open the Issue Package Browser (Apps -> Issue Package Browser) and select the package you are working on. Enter the following information:
-- **Project**: The name of your github project e.g. "HPI-SWA-Teaching/SqueakIssueIntegration"
+- **Project**: The name of your github project e.g. ```HPI-SWA-Teaching/SqueakIssueIntegration```
 - **Login Key**: To authenticate you at the Issue Management System you need a OAuth-Token. You can generate one for your GitHub profile [here](https://github.com/settings/tokens) (needed scopes: "public_repo" and (if using private repositories) "repo")
 - **Username**: Add your github user name
 Press save
