@@ -15,4 +15,7 @@ save
 		issueManagement username: username.
 		IssueManagement addIssueManagement: issueManagement to: selectedPackage
 	].
+
+	self window delete.
+	self delete
 	
