@@ -13,7 +13,7 @@ testRepositoryDictionary
 	self assert: (IssueManagement getIssueManagementFor: 'ProjectXX-Core') projectURL equals: 'HPI-SWA-Teaching/SWT15-Project-03'.
 
 	IssueManagement deleteIssueManagementFor: 'ProjectXX-Core'.
-	self assert: (IssueManagement getIssueManagementFor: 'ProjectXX-Core') equals: ''.
+	self assert: (IssueManagement getIssueManagementFor: 'ProjectXX-Core') equals: (EmptyIssueManagement getInstance).
 
 	"At the end add the backed-up issue management"
 	IssueManagement addIssueManagement: oldIssueManagement to: 'ProjectXX-Core'

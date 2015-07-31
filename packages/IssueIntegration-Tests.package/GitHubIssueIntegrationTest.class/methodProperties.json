@@ -4,7 +4,6 @@
 	"instance" : {
 		"issueManagement" : "SK 5/20/2015 18:56",
 		"issueManagement:" : "SK 5/20/2015 18:56",
-		"setLoginKey" : "DH 6/17/2015 14:53",
 		"setUp" : "SK 5/21/2015 11:17",
 		"testCloseIssue" : "SK 7/13/2015 19:41",
 		"testGetIssueWithNumber" : "SK 5/20/2015 19:51",
