@@ -25,5 +25,5 @@ If you want to run the tests locally you have to create a method ```GitHubIssueI
 ```smalltalk
 setLoginKey
 
-	^self issueManagement loginKey: 'put your login key here'.
+	^self issueManagement loginKey: 'put your login key here'
 ```
