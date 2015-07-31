@@ -1,0 +1,1 @@
+A GitHubIssueIntegration is the IssueManagement for GitHub issues.

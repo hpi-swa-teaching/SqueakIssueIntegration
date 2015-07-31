@@ -1,0 +1,1 @@
+An Issue is a representation for a task, enhancement or bug in squeak.
