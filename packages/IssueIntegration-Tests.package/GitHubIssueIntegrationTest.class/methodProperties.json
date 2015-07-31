@@ -4,10 +4,12 @@
 	"instance" : {
 		"issueManagement" : "SK 5/20/2015 18:56",
 		"issueManagement:" : "SK 5/20/2015 18:56",
+		"setLoginKey" : "AB 7/31/2015 18:04:40.370229",
 		"setUp" : "SK 5/21/2015 11:17",
 		"testCloseIssue" : "SK 7/13/2015 19:41",
 		"testGetIssueWithNumber" : "SK 5/20/2015 19:51",
 		"testGetIssues" : "SK 5/20/2015 20:08",
 		"testIssueCreation" : "SK 7/9/2015 10:23",
 		"testIssueForMethod" : "SK 7/9/2015 10:24",
+		"testLoadingSpeed" : "SK 7/31/2015 22:06:13.253",
 		"testMyIssues" : "SK 7/9/2015 10:23" } }
