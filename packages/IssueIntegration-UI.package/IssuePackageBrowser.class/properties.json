@@ -1,0 +1,15 @@
+{
+	"category" : "IssueIntegration-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui",
+		"selectedPackage" ],
+	"name" : "IssuePackageBrowser",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

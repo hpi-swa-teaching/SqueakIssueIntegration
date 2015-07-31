@@ -1,0 +1,18 @@
+{
+	"category" : "IssueIntegration-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"saveButton",
+		"loginKeyLine",
+		"usernameLine",
+		"projectURLLine",
+		"packagesList" ],
+	"name" : "IssuePackageBrowserUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

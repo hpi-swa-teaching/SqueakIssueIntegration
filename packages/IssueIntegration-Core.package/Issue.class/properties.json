@@ -1,0 +1,17 @@
+{
+	"category" : "IssueIntegration-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"body",
+		"number",
+		"assignee" ],
+	"name" : "Issue",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

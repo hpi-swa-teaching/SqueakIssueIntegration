@@ -1,0 +1,19 @@
+{
+	"category" : "IssueIntegration-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui",
+		"methodName",
+		"packageName",
+		"issueClassName",
+		"issueClassIsMeta",
+		"window" ],
+	"name" : "IssueCreator",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

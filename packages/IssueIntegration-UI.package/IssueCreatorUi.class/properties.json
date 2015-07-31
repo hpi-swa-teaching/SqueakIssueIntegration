@@ -1,0 +1,18 @@
+{
+	"category" : "IssueIntegration-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"createButton",
+		"descriptionField",
+		"assigneeLine",
+		"titleLine",
+		"assigneeLabel" ],
+	"name" : "IssueCreatorUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }
