@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"createWithProjectURL:loginKey:username:" : "AB 7/31/2015 19:18" },
+		"createWithProjectURL:loginKey:username:" : "SK 7/31/2015 23:22:17.992" },
 	"instance" : {
 		"createIssueWithTitle:body:assignee:" : "MZ 7/31/2015 18:12",
 		"editIssue:title:body:assignee:state:" : "MZ 7/31/2015 18:12",
