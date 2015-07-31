@@ -12,7 +12,7 @@ Run the following code in the Workspace:
 Metacello new
     baseline: 'IssueIntegration';
     githubUser: 'HPI-SWA-Teaching'
-    project: 'SqueakIssuesIntegration'
+    project: 'SqueakIssueIntegration'
     commitish: 'v0.1'
     path: 'packages'
 }
