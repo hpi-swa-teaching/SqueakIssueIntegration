@@ -3,8 +3,8 @@ issuesMainMessageListMenu: aMenu
 	<messageListMenuShifted: false>
 	| issueMenu issueEditMenu openIssuesList issueManagement|
 
-    issueManagement := (IssueManagement getIssueManagementFor: selectedSystemCategory).
-    (issueManagement isNil or: [ issueManagement = '' ]) ifFalse: [
+ 	issueManagement := (IssueManagement getIssueManagementFor: selectedSystemCategory).
+    
 	aMenu addList: #(-
 					('create Issue'				openIssueCreator)
 					).
@@ -21,5 +21,3 @@ issuesMainMessageListMenu: aMenu
 	
 	^ aMenu addList: #(	-);
 		yourself
-]. 
-^aMenu
