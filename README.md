@@ -5,7 +5,7 @@ This is a Issue Integration for the programming enviroment [Squeak](http://squea
 
 ##How to use it
 
-##Installation
+###Installation
 Run the following code in the Workspace:
 ```smalltalk
 {
