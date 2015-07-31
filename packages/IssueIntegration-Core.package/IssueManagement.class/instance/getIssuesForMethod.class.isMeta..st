@@ -7,7 +7,6 @@ getIssuesForMethod: methodName class: aClass isMeta: aBoolean
 	aBoolean ifTrue: [ separator := self class metaClassAndMethodSeparator ].
 
 	issuesForMethod := Set new.
-
 	issues := self getIssues.	
 	issues do: [ :issue | (issue title includesSubString:'[', aClass, separator, methodName, ']')
 		ifTrue: [ issuesForMethod add: issue] ].
