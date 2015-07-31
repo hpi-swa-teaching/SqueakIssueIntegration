@@ -11,7 +11,7 @@ createIssueWithTitle: title body: body assignee: assignee
 
 	self invalidateCache.
 
-	 (response status = 'HTTP/1.1 201 Created') ifTrue: [
+	 (response code = 201) ifTrue: [
 
 		json := Json readFrom:(response content readStream).
 		^ GitHubIssue createIssueFromJSON: json.
