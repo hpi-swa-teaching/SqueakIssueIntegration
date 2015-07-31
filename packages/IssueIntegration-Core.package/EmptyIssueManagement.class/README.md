@@ -1,0 +1,1 @@
+An EmptyIssueManagement is the Nil-Object of IssueManagement.
