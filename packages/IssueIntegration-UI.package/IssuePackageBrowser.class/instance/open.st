@@ -1,3 +1,4 @@
 initialization
 open
-	self openInWindowLabeled: 'Issue Package Browser'.
+	
+	window:= self openInWindowLabeled: 'Issue Package Browser'.

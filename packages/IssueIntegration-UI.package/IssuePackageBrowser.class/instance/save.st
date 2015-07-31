@@ -15,4 +15,5 @@ save
 		issueManagement username: username.
 		IssueManagement addIssueManagement: issueManagement to: selectedPackage
 	].
-	
+
+	self close
