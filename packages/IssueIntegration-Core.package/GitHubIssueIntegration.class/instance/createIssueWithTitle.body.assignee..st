@@ -9,7 +9,7 @@ createIssueWithTitle: title body: body assignee: assignee
 
 	response := WebClient httpPost:'https://api.github.com/repos/', projectURL , '/issues?access_token=', loginKey content:json asJsonString type:'text/html'.
 
-	self cacheDatetime: nil. "Invalidate cache"
+	self invalidateCache.
 
 	 (response status = 'HTTP/1.1 201 Created') ifTrue: [
 

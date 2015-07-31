@@ -1,4 +1,8 @@
 issue accessing
 getIssues
 
-	^ self subclassResponsibility
+	(self isCacheVaild) ifFalse: [
+		self cacheIssues: self loadIssues.
+	].
+	
+	^ self cachedIssues
