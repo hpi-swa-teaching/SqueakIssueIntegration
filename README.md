@@ -42,3 +42,4 @@ setLoginKey
 
 	^self issueManagement loginKey: 'put your login key here'
 ```
+and add your test repository to ```GitHubIssueIntegrationTest>>#setUp```.
