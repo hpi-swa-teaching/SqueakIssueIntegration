@@ -1,4 +1,4 @@
-Squeak Issue Integration [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT15-Project-03.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SWT15-Project-03)
+Squeak Issue Integration [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SqueakIssueIntegration.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SqueakIssueIntegration)
 ===================
 
 This is a Issue Integration for the programming enviroment [Squeak](http://squeak.org/). It allows groups of developers to create, manage and close issues directly inside of the image. All issues are held and managed by an Issue Management System like [GitHub](https://github.com).
