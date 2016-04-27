@@ -2,7 +2,7 @@
 	"class" : {
 		"createWithProjectURL:loginKey:username:" : "SK 7/31/2015 23:22:17.992" },
 	"instance" : {
-		"createIssueWithTitle:body:assignee:" : "MZ 7/31/2015 18:12",
+		"createIssueWithTitle:body:assignee:" : "Axl 4/27/2016 14:22",
 		"editIssue:title:body:assignee:state:" : "MZ 7/31/2015 18:12",
 		"getIssueWithNumber:" : "SK 6/7/2015 19:24",
 		"loadIssues" : "SK 7/31/2015 16:45:02.045",

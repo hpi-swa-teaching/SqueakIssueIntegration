@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"closeIssue:" : "DH 7/13/2015 19:32",
-		"issuesMainMessageListMenu:" : "AB 7/31/2015 17:51",
+		"issuesMainClassListMenu:" : "Axl 4/27/2016 17:58",
+		"issuesMainMessageListMenu:" : "Axl 4/27/2016 17:57",
+		"openClassIssueCreator" : "Axl 4/27/2016 17:57",
 		"openInWebbrowser:" : "DH 7/13/2015 20:17",
-		"openIssueCreator" : "DH 6/24/2015 14:21" } }
+		"openMessageIssueCreator" : "Axl 4/27/2016 17:57" } }

@@ -1,12 +1,12 @@
 *IssueIntegration-UI-message list menu
-issuesMainMessageListMenu: aMenu
-	<messageListMenuShifted: false>
+issuesMainClassListMenu: aMenu
+	<classListMenuShifted: false>
 	| issueMenu issueEditMenu openIssuesList issueManagement|
 
  	issueManagement := (IssueManagement getIssueManagementFor: selectedSystemCategory).
     	(issueManagement hasValidRemote) ifTrue:[
 		aMenu addList: #(-
-					('create Issue'				openMessageIssueCreator)
+					('create Issue'				openClassIssueCreator)
 					).
 	
 		issueMenu := MenuMorph new.

@@ -1,5 +1,5 @@
 *IssueIntegration-UI-message list menu
-openIssueCreator
+openMessageIssueCreator
 
 	| ui |
 
