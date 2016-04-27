@@ -18,6 +18,5 @@ baseline: spec
             spec
                 group: 'default' with: #('IssueIntegration-UI');
 		    group: 'Core' with: #('IssueIntegration-Core');
-                group: 'Tests' with: #('IssueIntegration-Tests');
-                group: 'TravisCI' with: #('Tests')
+                group: 'Tests' with: #('IssueIntegration-Tests')
 	  ]
