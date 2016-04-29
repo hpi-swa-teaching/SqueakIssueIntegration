@@ -2,7 +2,7 @@ issue editing
 editIssue: anIssue title: title body: body assignee: assignee state: state
 	| json response |
 	
-	"create a json, fill it with new information given in the method arguments and Post ist to GitHub"
+	"create a json, fill it with new information given in the method arguments and post it to GitHub"
 
 	json := JsonObject new. 
 	json at: 'title' put: title;

@@ -4,7 +4,7 @@ createIssueWithTitle: title body: body method: method class: aClass isMeta: aBoo
 	| separator |
 	separator := ''.
 
-	aBoolean ifTrue: [ separator := separator, self class metaClassAndMethodSeparator ].
+	aBoolean ifTrue: [ separator := separator, self class metaClassIndicator ].
 	method isEmpty ifTrue: [ ^ self createIssueWithTitle: title, ' [', aClass, separator, ']' body: body assignee: anAssignee ].
 	
 	separator := separator, self class classAndMethodSeparator.

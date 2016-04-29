@@ -1,0 +1,15 @@
+{
+	"category" : "IssueIntegration-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui",
+		"window" ],
+	"name" : "IssueBrowser",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

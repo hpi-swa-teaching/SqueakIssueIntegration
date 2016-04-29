@@ -1,0 +1,19 @@
+{
+	"category" : "IssueIntegration-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"issueContainer",
+		"issueTitle",
+		"issueAssignee",
+		"issueLabels",
+		"issueBody",
+		"issueList" ],
+	"name" : "IssueBrowserUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+constants
+metaClassIndicator
+
+	^ ' class'

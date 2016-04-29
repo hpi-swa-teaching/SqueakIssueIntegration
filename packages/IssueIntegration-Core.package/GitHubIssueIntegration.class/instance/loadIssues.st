@@ -2,7 +2,6 @@ issue accessing
 loadIssues
 
 	| response issuesJson issueSet loginString |
-
 	loginString := ''.
 	issueSet := Set new.
 	
