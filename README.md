@@ -40,7 +40,7 @@ To create an Issue you can right-click on a method in the System-Browser or the
 Debugger and select `create Issue` in the context menu *(note: the option only
 appears in packages with a set up project)*. If you want to assign the issue
 directly to one of your team members you can enter his/her username in the
-Issue Creator. Please not that you need push access to the repository to be
+Issue Creator. Please note that you need push access to the repository to be
 able to assign someone.
 
 ###See existing issues in the System-Browser
