@@ -7,8 +7,11 @@ createIssueFromJSON: aJSON
 	 title: (aJSON at: 'title');
 	 body: (aJSON at: 'body').
 
-	(aJSON at: 'assignee') ifNotNil: [:assignee |
-		issue assignee: (assignee at: 'login').
-	].
+	(aJSON at: 'assignee') ifNotNil: [:assigneeJson |
+		issue assignee: (assigneeJson at: 'login'). ].
+
+	(aJSON at: 'labels') ifNotNil: [ :labelsJsonCollection |
+		labelsJsonCollection do: [ :labelsJson |
+			issue labels add: (labelsJson at: 'name'). ].].
 
 	^ issue

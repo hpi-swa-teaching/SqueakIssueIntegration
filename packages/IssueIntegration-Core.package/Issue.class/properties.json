@@ -9,7 +9,8 @@
 		"title",
 		"body",
 		"number",
-		"assignee" ],
+		"assignee",
+		"labels" ],
 	"name" : "Issue",
 	"pools" : [
 		 ],
