@@ -1,6 +1,8 @@
 {
 	"class" : {
 		"bugErrorIcon" : "SK 7/9/2015 16:19",
-		"bugIcon" : "SK 7/9/2015 16:19" },
+		"bugIcon" : "SK 7/9/2015 16:19",
+		"iconForClass:" : "CF 5/4/2016 14:36",
+		"issueIconForClass:ifNotEnabled:" : "CF 5/4/2016 14:37" },
 	"instance" : {
 		 } }

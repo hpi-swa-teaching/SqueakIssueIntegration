@@ -1,0 +1,3 @@
+issue accessing
+getMyIssuesForClass: aClass
+	^ { '' }.
