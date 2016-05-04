@@ -1,14 +1,14 @@
 issue accessing
 getIssuesForMethod: methodName class: aClass isMeta: aBoolean
-	
-	| issues issuesForMethod separator |
 
-	separator := self class classAndMethodSeparator.
-	aBoolean ifTrue: [ separator := self class metaClassAndMethodSeparator ].
+	| issues issuesForMethod separator |
+	separator := ''.
+	aBoolean ifTrue: [ separator := self class metaClassIndicator ].
+	separator := separator, self class classAndMethodSeparator.
 
 	issuesForMethod := Set new.
 	issues := self getIssues.
 	issues do: [ :issue | (issue title includesSubString:'[', aClass, separator, methodName, ']')
-		ifTrue: [ issuesForMethod add: issue] ].
+		ifTrue: [ issuesForMethod add: issue ]].
 
 	^ issuesForMethod

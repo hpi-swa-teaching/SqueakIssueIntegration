@@ -1,8 +1,8 @@
 issue accessing
 getIssueWithNumber: aNumber
-	| response json |	
 
+	| response json |
 	response := WebClient httpGet:'https://api.github.com/repos/', projectURL , '/issues/', aNumber, '?access_token=', loginKey.
-	json := Json readFrom:(response content readStream).
+	json := Json readFrom: (response content readStream).
 	
 	^ GitHubIssue createIssueFromJSON: json

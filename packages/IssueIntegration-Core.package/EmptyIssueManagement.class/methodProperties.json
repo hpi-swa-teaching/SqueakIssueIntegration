@@ -8,7 +8,9 @@
 		"editIssue:title:body:assignee:state:" : "AB 7/31/2015 17:18",
 		"getIssueWithNumber:" : "AB 7/31/2015 17:18",
 		"getIssues" : "AB 7/31/2015 17:19",
+		"getIssuesForClass:" : "Axl 5/4/2016 16:17",
 		"getIssuesForMethod:class:isMeta:" : "AB 7/31/2015 17:19",
+		"getMyIssuesForClass:" : "Axl 5/4/2016 16:17",
 		"getMyIssuesForMethod:class:isMeta:" : "AB 7/31/2015 17:20",
-		"hasValidRemote" : "AB 7/31/2015 17:48",
+		"hasValidRemote" : "Axl 5/4/2016 14:11",
 		"openIssueInBrowser:" : "AB 7/31/2015 17:20" } }

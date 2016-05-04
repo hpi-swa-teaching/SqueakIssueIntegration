@@ -1,4 +1,4 @@
 instance creation
 createIssueFromJSON: aJSON
 
-self subclassResponsibility
+	self subclassResponsibility

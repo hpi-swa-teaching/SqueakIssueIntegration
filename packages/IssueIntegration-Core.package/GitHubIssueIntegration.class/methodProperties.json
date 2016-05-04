@@ -2,8 +2,8 @@
 	"class" : {
 		"createWithProjectURL:loginKey:username:" : "SK 7/31/2015 23:22:17.992" },
 	"instance" : {
-		"createIssueWithTitle:body:assignee:" : "Axl 4/27/2016 14:22",
-		"editIssue:title:body:assignee:state:" : "Axl 4/27/2016 21:55",
-		"getIssueWithNumber:" : "SK 6/7/2015 19:24",
-		"loadIssues" : "Axl 4/27/2016 21:58",
+		"createIssueWithTitle:body:assignee:" : "Axl 5/4/2016 14:34",
+		"editIssue:title:body:assignee:state:" : "Axl 5/4/2016 14:37",
+		"getIssueWithNumber:" : "Axl 5/4/2016 15:28",
+		"loadIssues" : "Axl 5/4/2016 14:28",
 		"openIssueInBrowser:" : "SK 7/31/2015 16:12:27.596" } }
