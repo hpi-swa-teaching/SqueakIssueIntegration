@@ -44,10 +44,10 @@ Issue Creator. Please note that you need push access to the repository to be
 able to assign someone.
 
 ###See existing issues in the System-Browser
-All existing issues for a method are indicated with a little bug icon next to
-the method name (note: If an issue is assigned to you the bug-icon indicates
+All existing issues for a method or class are indicated with a little bug icon
+next to the name (note: If an issue is assigned to you the bug-icon indicates
 this with a little sign). To close and edit them you can access all issues of
-this method in the context-menu of the method.
+this method or class in it's context-menu.
 
 ##Development
 Pull Requests are welcome.
