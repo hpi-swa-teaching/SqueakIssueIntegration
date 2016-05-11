@@ -1,25 +1,24 @@
 *IssueIntegration-UI-message list menu
 issuesMainClassListMenu: aMenu
 	<classListMenuShifted: false>
-	| issueMenu issueEditMenu openIssuesList issueManagement|
+	| issueMenu issueEditMenu openIssuesList issueManagement |
 
- 	issueManagement := (IssueManagement getIssueManagementFor: selectedSystemCategory).
-    	(issueManagement hasValidRemote) ifTrue:[
+ 	issueManagement := IssueManagement getIssueManagementFor: self selectedSystemCategory.
+    	issueManagement hasValidRemote ifTrue: [
 		aMenu addList: #(-
-					('create Issue'				openClassIssueCreator)
+					('create Issue'	openClassIssueCreator)
 					).
 	
 		issueMenu := MenuMorph new.
-		openIssuesList := IssueManagement getIssuesForMethod: selectedMessageName class: selectedClassName isMeta: metaClassIndicated package: selectedSystemCategory.
+		openIssuesList := IssueManagement getIssuesForClass: self selectedClassName package: self selectedSystemCategory.
 		openIssuesList do: [ :issue |
 					issueEditMenu := MenuMorph new.
 					issueEditMenu add: ('close ') target: self selector: #closeIssue: argument: issue.
 					issueEditMenu add: ('edit ') target: self selector: #openInWebbrowser: argument: issue.
-					issueMenu add: (issue title) subMenu: issueEditMenu.
-					].
-		openIssuesList ifNotEmpty: [aMenu add: 'active Issues' subMenu: issueMenu].
+					issueMenu add: issue title subMenu: issueEditMenu ].
+		openIssuesList ifNotEmpty: [aMenu add: 'active Issues' subMenu: issueMenu ].
 	
 		^ aMenu addList: #(	-);
 			yourself
 	].
-	^ aMenu.
+	^ aMenu
