@@ -7,12 +7,11 @@ createIssueWithTitle: title body: body assignee: assignee
 	json
 		at: 'title' put: title;
 		at: 'body' put: body.
-	assignee ifNotEmpty: [json at: 'assignee' put: assignee].
-	response := WebClient httpPost: 'https://api.github.com/repos/', projectURL, '/issues?access_token=', loginKey content: json asJsonString type: 'text/html'.
+	assignee ifNotEmpty: [ json at: 'assignee' put: assignee ].
+	response := WebClient httpPost: 'https://api.github.com/repos/', self projectURL, '/issues?access_token=', self loginKey content: json asJsonString type: 'text/html'.
+	self checkResponse: response shouldBe: 201.
 
 	self invalidateCache.
-	
-	 (response code = 201) ifFalse: [ self error "TODO" ].
 
 	json := Json readFrom: response content readStream.
 	^ GitHubIssue createIssueFromJSON: json.

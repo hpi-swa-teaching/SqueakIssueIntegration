@@ -3,11 +3,10 @@ issueContextStackMenu: aMenu
 	<contextStackMenu>
 
 	| issueManagement |
-
-	issueManagement := (IssueManagement getIssueManagementFor: self selectedClass category).
-	(issueManagement isNil or: [ issueManagement = '' ]) ifFalse: [
+	issueManagement := IssueManagement getIssueManagementFor: self selectedClass category.
+	issueManagement hasValidRemote ifTrue: [
 		^ aMenu addList: #(
 			('create Issue' createIssue)
 			-);
 		yourself
-	] ifTrue: [ ^ aMenu ]
+	] ifFalse: [ ^ aMenu ]

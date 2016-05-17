@@ -9,11 +9,10 @@ editIssue: anIssue title: title body: body assignee: assignee state: state
 		at: 'body' put: body;
 		at: 'assignee' put: assignee;
 		at: 'state' put: state.
-	response := WebClient httpPost: 'https://api.github.com/repos/', projectURL , '/issues/', anIssue number, '?access_token=', loginKey content: json asJsonString type: 'text/html'.
+	response := WebClient httpPost: 'https://api.github.com/repos/', self projectURL , '/issues/', anIssue number, '?access_token=', self loginKey content: json asJsonString type: 'text/html'.
+	self checkResponse: response shouldBe: 200.
 
 	self invalidateCache.
-
-	 (response code = 200) ifFalse: [ self error "TODO" ].
-
-	json := Json readFrom: (response content readStream).
+	
+	json := Json readFrom: response content readStream.
 	^ GitHubIssue createIssueFromJSON: json.

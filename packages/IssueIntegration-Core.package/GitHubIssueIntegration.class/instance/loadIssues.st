@@ -1,15 +1,13 @@
 issue accessing
 loadIssues
 
-	| response issuesJson issueSet loginString |
+	| issueSet loginString response issuesJson |
 	issueSet := Set new.
-	loginString := ''.
-	(loginKey = '' asText) ifFalse: [ loginString := '?access_token=', loginKey ].
-	response := WebClient httpGet: 'https://api.github.com/repos/', projectURL , '/issues', loginString.
-	
-	(response code = 200) ifFalse: [ self error "TODO" ].
-	
+	loginString := '?access_token=', self loginKey.
+	response := WebClient httpGet: 'https://api.github.com/repos/', self projectURL , '/issues', loginString.
+	self checkResponse: response shouldBe: 200.
+
 	issuesJson := Json readFrom: response content readStream. 
 	issuesJson do: [ :issueJson | issueSet add: (GitHubIssue createIssueFromJSON: issueJson) ].
 
-	^ issueSet 
+	^ issueSet

@@ -2,10 +2,10 @@
 openClassIssueCreator
 
 	| ui |
-
 	ui := IssueCreator new.
-	ui methodName: ''.
-	ui packageName: self selectedSystemCategory. 
-	ui issueClassName: self selectedClassName.
-	ui issueClassIsMeta: self metaClassIndicated.
-	ui openInWindow
+	ui 
+		methodName: '';
+		packageName: self selectedSystemCategory; 
+		issueClassName: self selectedClassName;
+		issueClassIsMeta: self metaClassIndicated;
+		openInWindow

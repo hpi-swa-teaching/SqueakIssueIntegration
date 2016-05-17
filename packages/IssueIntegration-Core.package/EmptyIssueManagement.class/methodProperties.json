@@ -2,6 +2,7 @@
 	"class" : {
 		"getInstance" : "AB 7/31/2015 17:33" },
 	"instance" : {
+		"checkResponse:shouldBe:" : "Axl 5/17/2016 12:45",
 		"closeIssue:" : "AB 7/31/2015 17:21",
 		"createIssueWithTitle:body:assignee:" : "AB 7/31/2015 17:17",
 		"createIssueWithTitle:body:method:class:isMeta:assignee:" : "AB 7/31/2015 17:18",
@@ -9,7 +10,6 @@
 		"getIssueWithNumber:" : "AB 7/31/2015 17:18",
 		"getIssues" : "AB 7/31/2015 17:19",
 		"getIssuesForClass:" : "Axl 5/4/2016 16:17",
-		"getIssuesForClass:isMeta:" : "FR 4/28/2016 15:59",
 		"getIssuesForMethod:class:isMeta:" : "AB 7/31/2015 17:19",
 		"getMyIssuesForClass:" : "Axl 5/4/2016 16:17",
 		"getMyIssuesForMethod:class:isMeta:" : "AB 7/31/2015 17:20",

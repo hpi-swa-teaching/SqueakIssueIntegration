@@ -16,7 +16,7 @@ issuesMainClassListMenu: aMenu
 					issueEditMenu add: ('close ') target: self selector: #closeIssue: argument: issue.
 					issueEditMenu add: ('edit ') target: self selector: #openInWebbrowser: argument: issue.
 					issueMenu add: issue title subMenu: issueEditMenu ].
-		openIssuesList ifNotEmpty: [aMenu add: 'active Issues' subMenu: issueMenu ].
+		openIssuesList ifNotEmpty: [ aMenu add: 'active Issues' subMenu: issueMenu ].
 	
 		^ aMenu addList: #(	-);
 			yourself
