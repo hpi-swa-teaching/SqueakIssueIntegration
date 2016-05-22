@@ -6,4 +6,4 @@ checkResponse: aResponse shouldBe: aNumber
 	
 	code = aNumber ifTrue: [ ^self ].
 	^ self error: code asString, ' - ', (WebResponse statusCodeAt: code) asString,
-		' | for project: ', self projectURL, ' in ', thisContext sender.
+		' | for project: ', self projectID, ' in ', thisContext sender.

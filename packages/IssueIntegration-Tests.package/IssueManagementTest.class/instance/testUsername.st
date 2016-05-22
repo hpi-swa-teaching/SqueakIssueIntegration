@@ -4,6 +4,6 @@ testUsername
 	| username |
 
 	username := 'RANDOM_STRING_GF342fFDAS'.
-	self issueManagement projectURL: username.
-	self assert: self issueManagement projectURL equals: username
+	self issueManagement projectID: username.
+	self assert: self issueManagement projectID equals: username
 	

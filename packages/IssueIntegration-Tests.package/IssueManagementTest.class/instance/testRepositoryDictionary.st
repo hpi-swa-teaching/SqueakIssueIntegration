@@ -8,10 +8,10 @@ testRepositoryDictionary
 	IssueManagement deleteIssueManagementFor: 'IssueIntegration-Core'. 
 
 	issueManagement := GitHubIssueIntegration new.
-	issueManagement projectURL: 'HPI-SWA-Teaching/SWT15-Project-03'.
+	issueManagement projectID: 'HPI-SWA-Teaching/SWT15-Project-03'.
 	
 	IssueManagement addIssueManagement: issueManagement to: 'IssueIntegration-Core'.
-	self assert: (IssueManagement getIssueManagementFor: 'IssueIntegration-Core') projectURL equals: 'HPI-SWA-Teaching/SWT15-Project-03'.
+	self assert: (IssueManagement getIssueManagementFor: 'IssueIntegration-Core') projectID equals: 'HPI-SWA-Teaching/SWT15-Project-03'.
 
 	IssueManagement deleteIssueManagementFor: 'IssueIntegration-Core'.
 	self assert: (IssueManagement getIssueManagementFor: 'IssueIntegration-Core') equals: (EmptyIssueManagement getInstance).

@@ -7,7 +7,7 @@
 	"commentStamp" : "SK 7/31/2015 21:43:40.692",
 	"instvars" : [
 		"loginKey",
-		"projectURL",
+		"projectID",
 		"username",
 		"cachedIssues",
 		"cacheDatetime" ],

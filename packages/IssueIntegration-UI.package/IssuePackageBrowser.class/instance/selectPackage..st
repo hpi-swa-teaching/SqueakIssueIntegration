@@ -4,4 +4,4 @@ selectPackage: aPackageString
 
 	selectedPackage := aPackageString.
 	issuemanagement := IssueManagement getIssueManagementFor: aPackageString.
-	self setFormInIssuePackageBrowserWithProjectURL: (issuemanagement projectURL) loginKey: (issuemanagement loginKey) username: (issuemanagement username)
+	self setFormInIssuePackageBrowserWithProjectURL: (issuemanagement projectID) loginKey: (issuemanagement loginKey) username: (issuemanagement username)

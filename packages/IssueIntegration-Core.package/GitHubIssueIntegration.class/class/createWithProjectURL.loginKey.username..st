@@ -1,10 +1,10 @@
 issue creation
-createWithProjectURL: aProjectURL loginKey: aLoginKey username: aUsername
+createWithProjectURL: aProjectID loginKey: aLoginKey username: aUsername
 
 	| issueManagement |
 
 	issueManagement := GitHubIssueIntegration new.
-	issueManagement projectURL: aProjectURL;
+	issueManagement projectID: aProjectID;
 		 loginKey: aLoginKey;
 		 username: aUsername.
 

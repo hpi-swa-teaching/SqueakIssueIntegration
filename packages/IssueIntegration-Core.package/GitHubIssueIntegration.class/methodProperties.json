@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"createWithProjectURL:loginKey:username:" : "SK 7/31/2015 23:22:17.992" },
+		"createWithProjectURL:loginKey:username:" : "HR 5/22/2016 12:06" },
 	"instance" : {
-		"checkResponse:shouldBe:" : "Axl 5/17/2016 20:09",
-		"createIssueWithTitle:body:assignee:" : "Axl 5/17/2016 18:28",
-		"editIssue:title:body:assignee:state:" : "Axl 5/17/2016 18:25",
-		"getIssueWithNumber:" : "Axl 5/17/2016 18:26",
-		"loadIssues" : "Axl 5/17/2016 18:24",
-		"openIssueInBrowser:" : "SK 7/31/2015 16:12:27.596" } }
+		"checkResponse:shouldBe:" : "HR 5/22/2016 12:04",
+		"createIssueWithTitle:body:assignee:" : "HR 5/22/2016 12:04",
+		"editIssue:title:body:assignee:state:" : "HR 5/22/2016 12:04",
+		"getIssueWithNumber:" : "HR 5/22/2016 12:05",
+		"loadIssues" : "HR 5/22/2016 12:05",
+		"openIssueInBrowser:" : "HR 5/22/2016 12:05" } }
