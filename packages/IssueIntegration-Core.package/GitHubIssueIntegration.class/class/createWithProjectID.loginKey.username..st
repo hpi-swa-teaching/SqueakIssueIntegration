@@ -1,5 +1,5 @@
 issue creation
-createWithProjectURL: aProjectID loginKey: aLoginKey username: aUsername
+createWithProjectID: aProjectID loginKey: aLoginKey username: aUsername
 
 	| issueManagement |
 
