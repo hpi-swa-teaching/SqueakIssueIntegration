@@ -6,11 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"issueContainer",
-		"issueTitle",
-		"issueAssignee",
-		"issueLabels",
-		"issueBody",
+		"activePackageList",
 		"issueList" ],
 	"name" : "IssueBrowserUi",
 	"pools" : [

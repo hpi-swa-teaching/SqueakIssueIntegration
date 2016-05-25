@@ -3,8 +3,10 @@
 		 },
 	"instance" : {
 		"close" : "Axl 4/28/2016 17:03",
-		"initialize" : "Axl 4/29/2016 16:56",
+		"initialize" : "Axl 5/25/2016 13:22",
 		"open" : "Axl 4/28/2016 16:33",
 		"selectIssue:" : "Axl 4/30/2016 21:02",
+		"selectPackage:" : "Axl 5/25/2016 20:01",
 		"setUpLists" : "Axl 5/4/2016 15:31",
+		"setUpPackageList" : "Axl 5/25/2016 20:00",
 		"ui" : "Axl 4/28/2016 00:15" } }

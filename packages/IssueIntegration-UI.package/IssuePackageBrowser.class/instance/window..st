@@ -1,4 +1,4 @@
 accessing
 window: aWindow
 
-window := aWindow
+	window := aWindow

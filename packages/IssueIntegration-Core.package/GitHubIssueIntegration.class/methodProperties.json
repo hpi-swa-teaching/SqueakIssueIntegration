@@ -1,10 +1,11 @@
 {
 	"class" : {
-		"createWithProjectID:loginKey:username:" : "HR 5/25/2016 09:47" },
+		"createWithProjectID:loginKey:username:" : "HR 5/25/2016 09:47",
+		"createWithProjectURL:loginKey:username:" : "HR 5/22/2016 12:06" },
 	"instance" : {
-		"checkResponse:shouldBe:" : "HR 5/22/2016 12:04",
+		"checkResponse:shouldBe:" : "Axl 5/25/2016 11:18",
 		"createIssueWithTitle:body:assignee:" : "HR 5/22/2016 12:04",
 		"editIssue:title:body:assignee:state:" : "HR 5/22/2016 12:04",
 		"getIssueWithNumber:" : "HR 5/22/2016 12:05",
-		"loadIssues" : "HR 5/22/2016 12:05",
+		"loadIssues" : "Axl 5/25/2016 11:42",
 		"openIssueInBrowser:" : "HR 5/22/2016 12:05" } }

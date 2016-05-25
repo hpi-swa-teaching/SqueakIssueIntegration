@@ -1,3 +1,4 @@
 accessing
 ui
-	^ ui ifNil: [ui := IssuePackageBrowserUi  new]
+
+	^ ui ifNil: [ui := IssuePackageBrowserUi new]

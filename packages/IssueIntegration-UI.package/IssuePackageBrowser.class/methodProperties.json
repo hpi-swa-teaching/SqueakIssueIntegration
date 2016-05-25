@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"initialize" : "SK 7/13/2015 14:35",
+		"initialize" : "Axl 5/25/2016 11:00",
 		"open" : "SK 7/13/2015 14:34" },
 	"instance" : {
-		"close" : "MZ 7/31/2015 17:02",
-		"initialize" : "MZ 7/31/2015 17:14",
+		"close" : "Axl 5/25/2016 10:10",
+		"initialize" : "Axl 5/25/2016 10:18",
 		"open" : "HR 5/19/2016 13:14",
-		"save" : "HR 5/25/2016 09:48",
+		"save" : "FR 5/4/2016 15:12",
 		"selectPackage:" : "HR 5/22/2016 12:05",
 		"setFormInIssuePackageBrowserWithProjectID:loginKey:username:" : "HR 5/25/2016 09:45",
-		"setFormInIssuePackageBrowserWithProjectURL:loginKey:username:" : "AB 7/31/2015 19:12",
-		"setUpPackages" : "MZ 7/31/2015 17:14",
-		"ui" : "MZ 7/9/2015 17:05",
-		"window" : "MZ 7/31/2015 16:38",
-		"window:" : "MZ 7/31/2015 16:44" } }
+		"setFormInIssuePackageBrowserWithProjectURL:loginKey:username:" : "Axl 5/25/2016 10:12",
+		"setUpPackages" : "Axl 5/25/2016 10:12",
+		"ui" : "Axl 5/25/2016 10:12",
+		"window" : "Axl 5/25/2016 10:12",
+		"window:" : "Axl 5/25/2016 10:12" } }

@@ -4,7 +4,10 @@ initialize
 	super initialize.
 
 	self ui setupUi: self.	
-	self setUpLists.
+	self setUpPackageList.
 	
-	self ui issueList connect: ( self ui issueList) signal: #currentTextChanged: to: self selector: #selectIssue: .
+	self selectPackage: 'IssueIntegration-Core'.
+	
+	"self ui issueList connect: self ui issueList signal: #currentTextChanged: to: self selector: #selectIssue: ."
+	self ui activePackageList connect: self ui activePackageList signal: #currentTextChanged: to: self selector: #selectPackage: .
 	
