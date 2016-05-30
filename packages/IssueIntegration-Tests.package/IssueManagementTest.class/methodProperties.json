@@ -4,12 +4,14 @@
 	"instance" : {
 		"issueManagement" : "SK 7/31/2015 22:23:22.328",
 		"issueManagement:" : "SK 7/31/2015 22:23:15.438",
-		"setUp" : "SK 7/31/2015 22:22:20.759",
+		"issuePackageBrowser" : "LG 5/28/2016 17:12",
+		"issuePackageBrowser:" : "LG 5/28/2016 17:12",
+		"setUp" : "LG 5/28/2016 17:13",
 		"testCacheDatetime" : "SK 7/31/2015 22:25:53.887",
 		"testCacheValidating" : "SK 7/31/2015 22:31:31.227",
 		"testCachedIssues" : "SK 7/31/2015 22:26:59.821",
 		"testCaching" : "SK 7/31/2015 22:32:56.434",
 		"testLoginKey" : "SK 7/31/2015 22:29:27.684",
-		"testProjectURL" : "HR 5/22/2016 12:05",
+		"testProjectID" : "LG 5/28/2016 18:03",
 		"testRepositoryDictionary" : "HR 5/22/2016 12:05",
 		"testUsername" : "HR 5/22/2016 12:05" } }

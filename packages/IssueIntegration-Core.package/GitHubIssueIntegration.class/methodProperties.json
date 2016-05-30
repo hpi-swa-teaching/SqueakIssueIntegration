@@ -1,7 +1,6 @@
 {
 	"class" : {
-		"createWithProjectID:loginKey:username:" : "HR 5/25/2016 09:47",
-		"createWithProjectURL:loginKey:username:" : "HR 5/22/2016 12:06" },
+		"createWithProjectID:loginKey:username:" : "HR 5/25/2016 09:47" },
 	"instance" : {
 		"checkResponse:shouldBe:" : "Axl 5/25/2016 11:18",
 		"createIssueWithTitle:body:assignee:" : "HR 5/22/2016 12:04",

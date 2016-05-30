@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initializePanel" : "MZ 7/31/2015 17:23",
+		"initializePanel" : "LG 5/28/2016 16:24",
 		"loginKeyLine" : "DH 7/13/2015 16:50",
 		"packagesList" : "DH 7/13/2015 16:50",
-		"projectURLLine" : "DH 7/13/2015 16:50",
+		"projectIDLine" : "LG 5/28/2016 16:16",
 		"saveButton" : "DH 7/13/2015 16:50",
 		"usernameLine" : "DH 7/13/2015 16:50" } }

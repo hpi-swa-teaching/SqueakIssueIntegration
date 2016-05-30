@@ -1,12 +1,11 @@
 user interface signals
 save
-	| projectURL | 
+	| projectID | 
 
-	projectURL := self ui projectURLLine theText.
-	projectURL isEmpty 
+	projectID := self ui projectIDLine theText.
+	projectID isEmpty 
 		ifTrue: [	IssueManagement deleteIssueManagementFor:selectedPackage.] 
-		ifFalse: [( 'https://github.com/*' match: projectURL asString)
-			ifTrue: [projectURL := projectURL copyFrom: 'https://github.com/*' size to: projectURL size.].
-	IssueManagement addIssueManagement: (GitHubIssueIntegration createWithProjectURL: projectURL loginKey: (self ui loginKeyLine theText) username: (self ui usernameLine theText)) to: selectedPackage
-	].
+		ifFalse: [projectID := self extractProjectIDFrom: projectID.
+			IssueManagement addIssueManagement: (GitHubIssueIntegration createWithProjectID: projectID loginKey: (self ui loginKeyLine theText) username: (self ui usernameLine theText)) to: selectedPackage.
+		].
 	self close
