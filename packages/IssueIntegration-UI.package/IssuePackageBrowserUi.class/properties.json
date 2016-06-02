@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"loginKeyButton",
 		"saveButton",
 		"loginKeyLine",
 		"usernameLine",
-		"projectIDLine",
+		"projectURLLine",
 		"packagesList" ],
 	"name" : "IssuePackageBrowserUi",
 	"pools" : [

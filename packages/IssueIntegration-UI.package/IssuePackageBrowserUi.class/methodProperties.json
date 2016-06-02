@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initializePanel" : "LG 5/28/2016 16:24",
-		"loginKeyLine" : "DH 7/13/2015 16:50",
-		"packagesList" : "DH 7/13/2015 16:50",
-		"projectIDLine" : "LG 5/28/2016 16:16",
-		"saveButton" : "DH 7/13/2015 16:50",
-		"usernameLine" : "DH 7/13/2015 16:50" } }
+		"initializePanel" : "FR 6/2/2016 16:56",
+		"loginKeyButton" : "FR 6/2/2016 16:56",
+		"loginKeyLine" : "FR 6/2/2016 16:56",
+		"packagesList" : "FR 6/2/2016 16:56",
+		"projectURLLine" : "FR 6/2/2016 16:56",
+		"saveButton" : "FR 6/2/2016 16:56",
+		"usernameLine" : "FR 6/2/2016 16:56" } }
