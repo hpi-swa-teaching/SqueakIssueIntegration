@@ -281,44 +281,44 @@ initializePanel
 	unnamedMorph4 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph4 form: (nil).
 	unnamedMorph1 addChild: unnamedMorph4.
-	projectURLLine := UiLineEdit new.
-	projectURLLine extent: (300@26).
-	projectURLLine position: (395@15).
-	projectURLLine hResizing: (#spaceFill).
-	projectURLLine vResizing: (#rigid).
-	projectURLLine minWidth: (2).
-	projectURLLine minHeight: (2).
-	projectURLLine cellInset: (0).
-	projectURLLine cellPositioning: (#center).
-	projectURLLine cellSpacing: (#none).
-	projectURLLine layoutInset: (0).
-	projectURLLine listCentering: (#topLeft).
-	projectURLLine listDirection: (#topToBottom).
-	projectURLLine listSpacing: (#none).
-	projectURLLine maxCellSize: (1073741823).
-	projectURLLine minCellSize: (0).
-	projectURLLine wrapCentering: (#topLeft).
-	projectURLLine wrapDirection: (#none).
-	projectURLLine frameFractions: (0@0 corner: 1@1).
-	projectURLLine frameOffsets: (0@0 corner: 0@0).
-	projectURLLine balloonText: (nil).
-	projectURLLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
-	projectURLLine widgetResizable: (false).
-	projectURLLine horizontalScrollBarPolicy: (#alwaysOff).
-	projectURLLine verticalScrollBarPolicy: (#alwaysOff).
-	projectURLLine outerBorderWidth: (1).
-	projectURLLine scrollBarThickness: (9).
-	projectURLLine theText: ('').
-	projectURLLine readOnly: (false).
-	projectURLLine autoConvert: (false).
-	projectURLLine autoAccept: (false).
-	projectURLLine acceptOnFocusLost: (true).
-	projectURLLine scrollingMode: (#none).
-	projectURLLine scrollingLimit: (10).
-	projectURLLine helpText: ('').
-	projectURLLine hideCursor: (true).
-	projectURLLine setProperty: #objectName toValue: 'projectURLLine'.
-	unnamedMorph1 addChild: projectURLLine.
+	projectIDLine := UiLineEdit new.
+	projectIDLine extent: (300@26).
+	projectIDLine position: (395@15).
+	projectIDLine hResizing: (#spaceFill).
+	projectIDLine vResizing: (#rigid).
+	projectIDLine minWidth: (2).
+	projectIDLine minHeight: (2).
+	projectIDLine cellInset: (0).
+	projectIDLine cellPositioning: (#center).
+	projectIDLine cellSpacing: (#none).
+	projectIDLine layoutInset: (0).
+	projectIDLine listCentering: (#topLeft).
+	projectIDLine listDirection: (#topToBottom).
+	projectIDLine listSpacing: (#none).
+	projectIDLine maxCellSize: (1073741823).
+	projectIDLine minCellSize: (0).
+	projectIDLine wrapCentering: (#topLeft).
+	projectIDLine wrapDirection: (#none).
+	projectIDLine frameFractions: (0@0 corner: 1@1).
+	projectIDLine frameOffsets: (0@0 corner: 0@0).
+	projectIDLine balloonText: (nil).
+	projectIDLine balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	projectIDLine widgetResizable: (false).
+	projectIDLine horizontalScrollBarPolicy: (#alwaysOff).
+	projectIDLine verticalScrollBarPolicy: (#alwaysOff).
+	projectIDLine outerBorderWidth: (1).
+	projectIDLine scrollBarThickness: (9).
+	projectIDLine theText: ('').
+	projectIDLine readOnly: (false).
+	projectIDLine autoConvert: (false).
+	projectIDLine autoAccept: (false).
+	projectIDLine acceptOnFocusLost: (true).
+	projectIDLine scrollingMode: (#none).
+	projectIDLine scrollingLimit: (10).
+	projectIDLine helpText: ('').
+	projectIDLine hideCursor: (true).
+	projectIDLine setProperty: #objectName toValue: 'projectIDLine'.
+	unnamedMorph1 addChild: projectIDLine.
 	packagesList := UiListWidget new.
 	packagesList extent: (304@190).
 	packagesList position: (4@2).

@@ -10,7 +10,7 @@
 		"saveButton",
 		"loginKeyLine",
 		"usernameLine",
-		"projectURLLine",
+		"projectIDLine",
 		"packagesList" ],
 	"name" : "IssuePackageBrowserUi",
 	"pools" : [
