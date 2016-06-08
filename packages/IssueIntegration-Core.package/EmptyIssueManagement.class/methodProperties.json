@@ -10,6 +10,7 @@
 		"getIssueWithNumber:" : "AB 7/31/2015 17:18",
 		"getIssues" : "AB 7/31/2015 17:19",
 		"getIssuesForClass:" : "Axl 5/4/2016 16:17",
+		"getIssuesForClass:isMeta:" : "FR 4/28/2016 15:59",
 		"getIssuesForMethod:class:isMeta:" : "AB 7/31/2015 17:19",
 		"getMyIssuesForClass:" : "Axl 5/4/2016 16:17",
 		"getMyIssuesForMethod:class:isMeta:" : "AB 7/31/2015 17:20",
