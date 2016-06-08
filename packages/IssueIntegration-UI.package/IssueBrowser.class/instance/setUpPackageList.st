@@ -1,9 +1,11 @@
 as yet unclassified
 setUpPackageList
 
-	| activePackages |
-	activePackages := (PackageInfo allPackages select: [ :package |
-		(IssueManagement getIssueManagementFor: package name) hasValidRemote ]) collect: [ :package | 
-			package name, ' (', (IssueManagement getIssueManagementFor: package name) projectID, ')' ].
+	self activePackages: Dictionary new.
+	PackageInfo allPackages select: ([ :package |
+		(IssueManagement getIssueManagementFor: package name) hasValidRemote ]) thenDo: [ :package | 
+			self activePackages 
+				at: (IssueManagement getIssueManagementFor: package name) projectID asString 
+				ifAbsentPut: package name].
 
-	ui activePackageList addTextList: activePackages
+	ui activePackageList addTextList: (self activePackages keys).

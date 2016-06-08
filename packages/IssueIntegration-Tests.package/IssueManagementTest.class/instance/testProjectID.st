@@ -8,6 +8,8 @@ testProjectID
 	self issueManagement projectID: projectURL.
 	self assert: self issueManagement projectID equals: projectURL.
 	
+	projectURL := 'frederike-ramin/TestIssues'.	
+	self assert: (self issuePackageBrowser extractProjectIDFrom: projectURL) equals: fredö.
 	projectURL := 'https://github.com/frederike-ramin/TestIssues'.
 	self assert: (self issuePackageBrowser extractProjectIDFrom: projectURL) equals: fredö.
 	projectURL := 'http://github.com/frederike-ramin/TestIssues'.

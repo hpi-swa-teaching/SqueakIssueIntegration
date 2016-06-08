@@ -11,4 +11,4 @@ extractProjectIDFrom: aProjectURL
 			ifTrue: [projectID := aProjectURL copyFrom: 'git@github.com:*' size to: aProjectURL size.].
 	( '*.git' match: projectID asString)
 			ifTrue: [projectID := projectID copyFrom: 1 to: (projectID size - '.git' size)].
-	^ projectID 
+	^ projectID ifNil: [aProjectURL] ifNotNil: [projectID].

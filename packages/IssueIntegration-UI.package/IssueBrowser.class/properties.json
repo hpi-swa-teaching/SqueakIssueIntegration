@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"ui",
-		"window" ],
+		"window",
+		"activePackages" ],
 	"name" : "IssueBrowser",
 	"pools" : [
 		 ],

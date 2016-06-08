@@ -1,8 +1,10 @@
 as yet unclassified
-selectPackage: aPackageName
+selectPackage: aRepositoryName
 
-	| issueManagement |
-	issueManagement := IssueManagement getIssueManagementFor: (aPackageName asString subStrings: ' ') first.
+	| issueManagement packageName |
+	
+	packageName := self activePackages at: aRepositoryName.
+	issueManagement := IssueManagement getIssueManagementFor: packageName.
 	
 	ui issueList clear.
 	ui issueList addTextList: issueManagement getIssues sorted.
