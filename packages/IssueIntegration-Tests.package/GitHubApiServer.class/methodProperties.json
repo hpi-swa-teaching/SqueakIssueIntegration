@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"example" : "CF 6/10/2016 08:38",
+		"repoName" : "CF 6/10/2016 08:15",
+		"repoOwner" : "CF 6/10/2016 08:15",
+		"repoSlug" : "CF 6/10/2016 08:15" },
+	"instance" : {
+		"initialize" : "CF 6/10/2016 08:14",
+		"initializeWebServer" : "CF 6/10/2016 08:24",
+		"start" : "CF 6/10/2016 08:17",
+		"stop" : "CF 6/10/2016 08:19",
+		"webServer" : "CF 6/10/2016 08:13",
+		"webServer:" : "CF 6/10/2016 08:13" } }
