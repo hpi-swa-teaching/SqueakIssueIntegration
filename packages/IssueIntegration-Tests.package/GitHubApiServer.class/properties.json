@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"webServer" ],
+		"webServer",
+		"issues",
+		"issueNumber" ],
 	"name" : "GitHubApiServer",
 	"pools" : [
 		 ],
