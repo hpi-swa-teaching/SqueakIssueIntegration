@@ -5,6 +5,8 @@ initializeWebServer
 			ifTrue: [ req url endsWithDigit 
 				ifTrue: [self handleIssueDisplay: req] 
 				ifFalse: [self handleIssueList: req.]]
-			ifFalse: [self handleIssueCreation: req.]
-		] methods: #('GET', 'POST').	
+			ifFalse: [req isPostRequest
+				ifTrue: [self handleIssueCreation: req.]
+				ifFalse: [self handleCloseIssue: req]]
+		] methods: #('GET', 'POST','PATCH').	
 	self webServer errorHandler: [:error :socket | error pass]
