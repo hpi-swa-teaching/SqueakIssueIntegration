@@ -1,11 +1,16 @@
 user interface signals
 save
-	| projectID | 
+	| projectID loginKey | 
 
 	projectID := self ui projectIDLine theText.
+	loginKey := self ui loginKeyLine theText.
 	projectID isEmpty 
 		ifTrue: [	IssueManagement deleteIssueManagementFor:selectedPackage.] 
 		ifFalse: [projectID := self extractProjectIDFrom: projectID.
-			IssueManagement addIssueManagement: (GitHubIssueIntegration createWithProjectID: projectID loginKey: (self ui loginKeyLine theText) username: (self ui usernameLine theText)) to: selectedPackage.
+			self checkLoginKey: loginKey.
+			IssueManagement addIssueManagement: (GitHubIssueIntegration createWithProjectID: projectID 
+				loginKey: loginKey 
+				username: (self ui usernameLine theText)) 
+				to: selectedPackage.
 		].
 	self close
