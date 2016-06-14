@@ -5,5 +5,4 @@ testMyIssues
 	| createdIssue |
 
 	createdIssue := issueManagement createIssueWithTitle: 'New Method Issue' body: 'test body method' assignee: 'frederike-ramin'.
-	
 	self assert: (createdIssue assignee = 'frederike-ramin')
