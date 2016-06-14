@@ -6,5 +6,4 @@ setUp
 	server start.
 	self issueManagement: GitHubIssueIntegration new.
 	self issueManagement webServer: GitHubWebClient new.
-	self setLoginKey.
-	self issueManagement projectID: 'frederike-ramin/TestIssues'
+	self issueManagement projectID: GitHubApiServer repoSlug.
