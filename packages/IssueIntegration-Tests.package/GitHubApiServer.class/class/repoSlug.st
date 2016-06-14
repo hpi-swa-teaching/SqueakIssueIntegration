@@ -1,3 +1,3 @@
 as yet unclassified
 repoSlug
-	^ self repoOwner , '/' , self repoName
+	^ self repoOwner, '/', self repoName

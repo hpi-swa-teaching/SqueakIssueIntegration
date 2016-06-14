@@ -8,5 +8,5 @@ initializeWebServer
 			ifFalse: [req isPostRequest
 				ifTrue: [self handleIssueCreation: req.]
 				ifFalse: [self handleCloseIssue: req]]
-		] methods: #('GET', 'POST','PATCH').	
+		] methods: #('GET', 'POST','PATCH').
 	self webServer errorHandler: [:error :socket | error pass]
