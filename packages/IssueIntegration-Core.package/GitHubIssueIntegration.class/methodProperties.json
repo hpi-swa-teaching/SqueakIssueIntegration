@@ -8,7 +8,7 @@
 		"createIssueWithTitle:body:assignee:" : "HR 6/14/2016 19:47",
 		"editIssue:title:body:assignee:state:" : "HR 6/14/2016 19:52",
 		"emptyJsonResponse" : "Axl 6/12/2016 18:35",
-		"getIssueWithNumber:" : "HR 5/22/2016 12:05",
+		"getIssueWithNumber:" : "CF 6/14/2016 23:31",
 		"httpGetWithAcceptHeader:" : "HR 6/14/2016 19:34",
 		"httpPatchWithAcceptHeader:content:type:" : "HR 6/14/2016 19:53",
 		"httpPostWithAcceptHeader:content:type:" : "HR 6/14/2016 19:46",
