@@ -5,8 +5,10 @@
 	"instance" : {
 		"checkResponse:shouldBe:" : "Axl 5/25/2016 11:18",
 		"closeIssue:" : "FR 6/8/2016 10:46",
-		"createIssueWithTitle:body:assignee:" : "HR 5/22/2016 12:04",
+		"createIssueWithTitle:body:assignee:" : "HR 6/14/2016 14:26",
 		"editIssue:title:body:assignee:state:" : "FR 6/8/2016 10:47",
-		"getIssueWithNumber:" : "HR 5/22/2016 12:05",
-		"loadIssues" : "Axl 5/25/2016 11:42",
+		"getIssueWithNumber:" : "HR 6/13/2016 22:32",
+		"httpGetWithAcceptHeader:" : "HR 6/13/2016 22:32",
+		"httpPostWithAcceptHeader:content:type:" : "HR 6/14/2016 14:25",
+		"loadIssues" : "HR 6/13/2016 22:29",
 		"openIssueInBrowser:" : "HR 5/22/2016 12:05" } }

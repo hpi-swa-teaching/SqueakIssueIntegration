@@ -4,7 +4,7 @@ loadIssues
 	| issueSet loginString response issuesJson |
 	issueSet := Set new.
 	loginString := '?access_token=', self loginKey.
-	response := WebClient httpGet: 'https://api.github.com/repos/', self projectID , '/issues', loginString.
+	[ response := (self httpGetWithAcceptHeader: 'https://api.github.com/repos/', self projectID , '/issues', loginString) ] on: Error do: [^issueSet].
 	"[ "self checkResponse: response shouldBe: 200." ] on: Error do: [ ^ issueSet. ]."
 
 	issuesJson := Json readFrom: response content readStream. 

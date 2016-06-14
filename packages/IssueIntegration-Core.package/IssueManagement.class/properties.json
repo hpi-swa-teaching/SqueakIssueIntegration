@@ -10,7 +10,8 @@
 		"projectID",
 		"username",
 		"cachedIssues",
-		"cacheDatetime" ],
+		"cacheDatetime",
+		"webServer" ],
 	"name" : "IssueManagement",
 	"pools" : [
 		 ],
