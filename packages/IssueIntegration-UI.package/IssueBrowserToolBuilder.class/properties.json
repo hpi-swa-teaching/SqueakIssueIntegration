@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"issueTitle",
-		"issueBody",
-		"activePackageList",
-		"issueList",
-		"issueAssignee" ],
-	"name" : "IssueBrowserUi",
+		 ],
+	"name" : "IssueBrowserToolBuilder",
 	"pools" : [
 		 ],
-	"super" : "UserInterface",
+	"super" : "Model",
 	"type" : "normal" }

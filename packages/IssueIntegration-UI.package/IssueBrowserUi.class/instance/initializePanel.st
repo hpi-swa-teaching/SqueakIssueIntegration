@@ -5,7 +5,7 @@ initializePanel
 	|  |
 	
 	panel := UiContainer new.
-	panel extent: (280@320).
+	panel extent: (560@320).
 	panel position: (0@0).
 	panel hResizing: (#rigid).
 	panel vResizing: (#rigid).
@@ -31,6 +31,70 @@ initializePanel
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
+	issueTitle := UiLabel new.
+	issueTitle changeTableLayout.
+	issueTitle extent: (96@18).
+	issueTitle position: (280@5).
+	issueTitle hResizing: (#shrinkWrap).
+	issueTitle vResizing: (#shrinkWrap).
+	issueTitle minWidth: (1).
+	issueTitle minHeight: (1).
+	issueTitle cellInset: (0).
+	issueTitle cellPositioning: (#center).
+	issueTitle cellSpacing: (#none).
+	issueTitle layoutInset: (0).
+	issueTitle listCentering: (#topLeft).
+	issueTitle listDirection: (#leftToRight).
+	issueTitle listSpacing: (#none).
+	issueTitle maxCellSize: (1073741823).
+	issueTitle minCellSize: (0).
+	issueTitle wrapCentering: (#topLeft).
+	issueTitle wrapDirection: (#none).
+	issueTitle frameFractions: (0@0 corner: 1@1).
+	issueTitle frameOffsets: (0@0 corner: 0@0).
+	issueTitle balloonText: (nil).
+	issueTitle balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	issueTitle text: ('Select an Issue.').
+	issueTitle setProperty: #formByDesigner toValue: 'nil'.
+	issueTitle form: (nil).
+	issueTitle setProperty: #objectName toValue: 'issueTitle'.
+	panel addChild: issueTitle.
+	issueBody := UiTextEdit new.
+	issueBody extent: (270@60).
+	issueBody position: (280@60).
+	issueBody hResizing: (#rigid).
+	issueBody vResizing: (#rigid).
+	issueBody minWidth: (1).
+	issueBody minHeight: (1).
+	issueBody cellInset: (0).
+	issueBody cellPositioning: (#center).
+	issueBody cellSpacing: (#none).
+	issueBody layoutInset: (0).
+	issueBody listCentering: (#topLeft).
+	issueBody listDirection: (#topToBottom).
+	issueBody listSpacing: (#none).
+	issueBody maxCellSize: (1073741823).
+	issueBody minCellSize: (0).
+	issueBody wrapCentering: (#topLeft).
+	issueBody wrapDirection: (#none).
+	issueBody frameFractions: (0@0 corner: 1@1).
+	issueBody frameOffsets: (0@0 corner: 0@0).
+	issueBody balloonText: (nil).
+	issueBody balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	issueBody widgetResizable: (true).
+	issueBody horizontalScrollBarPolicy: (#alwaysOff).
+	issueBody verticalScrollBarPolicy: (#asNeeded).
+	issueBody outerBorderWidth: (1).
+	issueBody scrollBarThickness: (9).
+	issueBody theText: ('').
+	issueBody readOnly: (true).
+	issueBody autoConvert: (false).
+	issueBody autoAccept: (false).
+	issueBody acceptOnFocusLost: (false).
+	issueBody scrollingMode: (#none).
+	issueBody scrollingLimit: (10).
+	issueBody setProperty: #objectName toValue: 'issueBody'.
+	panel addChild: issueBody.
 	activePackageList := UiComboBox new.
 	activePackageList extent: (272@20).
 	activePackageList position: (0@0).
@@ -52,7 +116,7 @@ initializePanel
 	activePackageList frameFractions: (0@0 corner: 1@1).
 	activePackageList frameOffsets: (0@0 corner: 0@0).
 	activePackageList balloonText: (nil).
-	activePackageList balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	activePackageList balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	activePackageList readOnly: (true).
 	activePackageList setProperty: #objectName toValue: 'activePackageList'.
 	panel addChild: activePackageList.
@@ -93,4 +157,32 @@ initializePanel
 	issueList vAlignment: (#top).
 	issueList setProperty: #objectName toValue: 'issueList'.
 	panel addChild: issueList.
+	issueAssignee := UiLabel new.
+	issueAssignee changeTableLayout.
+	issueAssignee extent: (9@18).
+	issueAssignee position: (280@25).
+	issueAssignee hResizing: (#shrinkWrap).
+	issueAssignee vResizing: (#shrinkWrap).
+	issueAssignee minWidth: (1).
+	issueAssignee minHeight: (1).
+	issueAssignee cellInset: (0).
+	issueAssignee cellPositioning: (#center).
+	issueAssignee cellSpacing: (#none).
+	issueAssignee layoutInset: (0).
+	issueAssignee listCentering: (#topLeft).
+	issueAssignee listDirection: (#leftToRight).
+	issueAssignee listSpacing: (#none).
+	issueAssignee maxCellSize: (1073741823).
+	issueAssignee minCellSize: (0).
+	issueAssignee wrapCentering: (#topLeft).
+	issueAssignee wrapDirection: (#none).
+	issueAssignee frameFractions: (0@0 corner: 1@1).
+	issueAssignee frameOffsets: (0@0 corner: 0@0).
+	issueAssignee balloonText: (nil).
+	issueAssignee balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	issueAssignee text: (' ').
+	issueAssignee setProperty: #formByDesigner toValue: 'nil'.
+	issueAssignee form: (nil).
+	issueAssignee setProperty: #objectName toValue: 'issueAssignee'.
+	panel addChild: issueAssignee.
 	panel setProperty: #uiClassName toValue: 'IssueBrowser'.
