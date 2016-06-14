@@ -5,7 +5,9 @@ closeIssue: anIssue
 	| json response |
 	json := JsonObject new. 
 	json at: 'state' put: 'closed'.
-	response := WebClient httpPatch: 'https://api.github.com/repos/', self projectID , '/issues/', anIssue number, '?access_token=', self loginKey content: json asJsonString type: 'text/html'.
+	self webClient close.
+	[response := self webClient httpPatch: 'https://api.github.com/repos/', self projectID , '/issues/', anIssue number, '?access_token=', self loginKey content: json asJsonString type: 'text/html'] on: Error do: [Transcript show: 'closeIssue broke'.
+		^self].
 	self checkResponse: response shouldBe: 200.
 
 	self invalidateCache.

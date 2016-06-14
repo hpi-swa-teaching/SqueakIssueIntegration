@@ -2,4 +2,4 @@ initialize-release
 initialize 
 
 	super initialize.
-	self initializeWebServer.
+	self initializeWebClient.

@@ -4,11 +4,11 @@
 		"createWithProjectURL:loginKey:username:" : "HR 5/22/2016 12:06" },
 	"instance" : {
 		"checkResponse:shouldBe:" : "Axl 5/25/2016 11:18",
-		"closeIssue:" : "FR 6/8/2016 10:46",
-		"createIssueWithTitle:body:assignee:" : "HR 6/14/2016 14:26",
-		"editIssue:title:body:assignee:state:" : "FR 6/8/2016 10:47",
-		"getIssueWithNumber:" : "HR 6/13/2016 22:32",
-		"httpGetWithAcceptHeader:" : "HR 6/13/2016 22:32",
-		"httpPostWithAcceptHeader:content:type:" : "HR 6/14/2016 14:25",
-		"loadIssues" : "HR 6/13/2016 22:29",
+		"closeIssue:" : "HR 6/14/2016 19:55",
+		"createIssueWithTitle:body:assignee:" : "HR 6/14/2016 19:47",
+		"editIssue:title:body:assignee:state:" : "HR 6/14/2016 19:52",
+		"httpGetWithAcceptHeader:" : "HR 6/14/2016 19:34",
+		"httpPatchWithAcceptHeader:content:type:" : "HR 6/14/2016 19:53",
+		"httpPostWithAcceptHeader:content:type:" : "HR 6/14/2016 19:46",
+		"loadIssues" : "HR 6/14/2016 19:37",
 		"openIssueInBrowser:" : "HR 5/22/2016 12:05" } }

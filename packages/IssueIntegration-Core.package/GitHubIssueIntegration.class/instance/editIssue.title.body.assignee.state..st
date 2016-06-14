@@ -10,7 +10,8 @@ editIssue: anIssue title: title body: body assignee: assignee state: state
 		at: 'body' put: body;
 		at: 'assignee' put: assignee;
 		at: 'state' put: state.
-	response := WebClient httpPatch: 'https://api.github.com/repos/', self projectID , '/issues/', anIssue number, '?access_token=', self loginKey content: json asJsonString type: 'text/html'.
+	self webClient close.
+	response := self webClient httpPatchWithAcceptHeader: 'https://api.github.com/repos/', self projectID , '/issues/', anIssue number, '?access_token=', self loginKey content: json asJsonString type: 'text/html'.
 	self checkResponse: response shouldBe: 200.
 
 	self invalidateCache.
