@@ -8,9 +8,8 @@ createIssueWithTitle: title body: body assignee: assignee
 		at: 'title' put: title;
 		at: 'body' put: body.
 	assignee ifNotEmpty: [ json at: 'assignee' put: assignee ].
-	self webClient close.
-	[response := self webClient httpPost: 'https://api.github.com/repos/', self projectID, '/issues?access_token=', self loginKey content: json asJsonString type: 'text/html'.] on: Error do: [Transcript show: 'createIssue broke'.
-		^self ].
+	response := self httpPostWithAcceptHeader: 'https://api.github.com/repos/', self projectID, '/issues?access_token=', self loginKey content: json asJsonString type: 'text/html'."] on: Error do: [Transcript show: 'createIssue broke'.
+		^self ]".
 	self checkResponse: response shouldBe: 201.
 
 	self invalidateCache.

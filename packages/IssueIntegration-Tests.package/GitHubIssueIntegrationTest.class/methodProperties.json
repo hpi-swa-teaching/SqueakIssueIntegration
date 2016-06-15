@@ -4,10 +4,8 @@
 	"instance" : {
 		"issueManagement" : "SK 5/20/2015 18:56",
 		"issueManagement:" : "SK 5/20/2015 18:56",
-		"setLoginKey" : "CF 6/14/2016 20:09:40.1899",
 		"setUp" : "FR 6/14/2016 22:49",
 		"testCloseIssue" : "FR 6/10/2016 10:13",
-		"testGetIssueWithNumber" : "SK 5/20/2015 19:51",
 		"testGetIssues" : "SK 5/20/2015 20:08",
 		"testIssueCreation" : "FR 4/28/2016 14:06",
 		"testIssueForMethod" : "FR 6/14/2016 22:57",
