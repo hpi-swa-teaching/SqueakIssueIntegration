@@ -7,5 +7,6 @@ setUpPackageList
 			self activePackages 
 				at: (IssueManagement getIssueManagementFor: package name) projectID asString 
 				ifAbsentPut: package name].
-
-	ui activePackageList addTextList: (self activePackages keys).
+	
+	self activePackages 
+		ifNotEmpty: [ ui activePackageList addTextList: (self activePackages keys).] 
