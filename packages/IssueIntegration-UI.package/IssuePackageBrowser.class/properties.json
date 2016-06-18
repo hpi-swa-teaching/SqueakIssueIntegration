@@ -10,7 +10,7 @@
 		"projectID",
 		"username",
 		"loginKey" ],
-	"name" : "IssuePackageBrowserToolBuilder",
+	"name" : "IssuePackageBrowser",
 	"pools" : [
 		 ],
 	"super" : "Model",
