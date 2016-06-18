@@ -1,3 +1,4 @@
 accessing
 loginKey: aText
-	loginKey := aText
+	loginKey := aText.
+	self changed: #loginKey

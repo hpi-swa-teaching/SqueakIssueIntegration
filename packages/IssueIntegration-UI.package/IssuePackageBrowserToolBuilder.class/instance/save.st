@@ -8,5 +8,4 @@ save
 				loginKey: self loginKey 
 				username: (self username)) 
 				to: selectedPackage.
-		].
-	self close
+		]

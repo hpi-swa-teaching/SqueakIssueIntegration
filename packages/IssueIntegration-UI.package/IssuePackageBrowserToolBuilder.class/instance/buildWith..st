@@ -1,6 +1,6 @@
 user interface signals
 buildWith: builder
-	| windowSpec listSpec projectIdInputSpec loginKeyInputSpec usernameInputSpec |
+	| windowSpec listSpec projectIdInputSpec loginKeyInputSpec usernameInputSpec saveButtonSpec createTokenButtonSpec |
 	
 	windowSpec := builder pluggableWindowSpec new
 		model: self;
@@ -20,6 +20,7 @@ buildWith: builder
 		model: self;
 		getText: #projectID;
 		setText: #projectID:;
+		help: 'Your repo: user-name/repo-name';
 		frame: (0.4@0 corner: 1@0.1).
 	windowSpec children add: projectIdInputSpec.
 	
@@ -27,6 +28,7 @@ buildWith: builder
 		model: self;
 		getText: #username;
 		setText: #username:;
+		help: 'Your username';
 		frame: (0.4@0.1 corner: 1@0.2).
 	windowSpec children add: usernameInputSpec.
 	
@@ -34,7 +36,22 @@ buildWith: builder
 		model: self;
 		getText: #loginKey;
 		setText: #loginKey:;
+		help: 'Your OAuth-Token';
 		frame: (0.4@0.2 corner: 1@0.3).
 	windowSpec children add: loginKeyInputSpec.
+	
+	createTokenButtonSpec := builder pluggableActionButtonSpec new
+		model: self;
+		label: 'Create new OAuth-Token';
+		action: #generateToken;
+		frame: (0.4@0.3 corner: 1@0.45).
+	windowSpec children add: createTokenButtonSpec.
+	
+	saveButtonSpec := builder pluggableActionButtonSpec new
+		model: self;
+		label: 'Save';
+		action: #save;
+		frame: (0.8@0.85 corner: 1@1).
+	windowSpec children add: saveButtonSpec.
 	
 	^ builder build: windowSpec

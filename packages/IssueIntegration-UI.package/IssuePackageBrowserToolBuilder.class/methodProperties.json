@@ -2,19 +2,18 @@
 	"class" : {
 		"open" : "FR 6/18/2016 13:30" },
 	"instance" : {
-		"buildWith:" : "FR 6/18/2016 13:39",
+		"buildWith:" : "FR 6/18/2016 13:56",
 		"checkLoginKey:" : "FR 6/17/2016 09:59",
-		"close" : "FR 6/18/2016 13:31",
 		"extractProjectIDFrom:" : "FR 6/17/2016 09:59",
 		"generateToken" : "FR 6/17/2016 09:59",
 		"loginKey" : "FR 6/17/2016 10:32",
-		"loginKey:" : "FR 6/17/2016 10:33",
+		"loginKey:" : "FR 6/18/2016 13:51",
 		"projectID" : "FR 6/17/2016 10:33",
-		"projectID:" : "FR 6/17/2016 10:33",
-		"save" : "FR 6/18/2016 13:32",
+		"projectID:" : "FR 6/18/2016 13:51",
+		"save" : "FR 6/18/2016 13:59",
 		"selectPackage:" : "FR 6/18/2016 13:34",
 		"selectedPackage" : "FR 6/17/2016 10:29",
-		"selectedPackage:" : "FR 6/17/2016 10:28",
-		"setUpPackages" : "FR 6/18/2016 13:34",
+		"selectedPackage:" : "FR 6/18/2016 13:54",
+		"setUpPackages" : "FR 6/18/2016 13:54",
 		"username" : "FR 6/17/2016 10:35",
-		"username:" : "FR 6/17/2016 10:33" } }
+		"username:" : "FR 6/18/2016 13:51" } }
