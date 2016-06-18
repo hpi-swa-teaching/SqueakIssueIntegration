@@ -1,4 +1,4 @@
-accessing
-body: aString
-
-	self ui descriptionField theText: aString
+initialization
+body: aText
+	body := aText.
+	self changed: #body

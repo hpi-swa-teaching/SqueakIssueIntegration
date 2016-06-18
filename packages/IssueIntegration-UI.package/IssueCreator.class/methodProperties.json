@@ -1,20 +1,21 @@
 {
 	"class" : {
-		 },
+		"newWithMethodName:packageName:issueClassName:issueClassIsMeta:" : "FR 6/18/2016 15:02" },
 	"instance" : {
-		"body:" : "MZ 7/31/2015 17:04",
-		"close" : "MZ 7/31/2015 16:52",
-		"createIssue" : "MZ 7/31/2015 16:53",
-		"initialize" : "SK 6/25/2015 14:14",
+		"assignee" : "FR 6/18/2016 14:16",
+		"assignee:" : "FR 6/18/2016 14:17",
+		"body" : "FR 6/18/2016 14:16",
+		"body:" : "FR 6/18/2016 14:17",
+		"buildWith:" : "FR 6/18/2016 15:18",
+		"close" : "FR 6/18/2016 15:15",
+		"createIssue" : "FR 6/18/2016 14:22",
 		"issueClassIsMeta" : "SK 6/25/2015 14:12",
 		"issueClassIsMeta:" : "SK 6/25/2015 14:12",
 		"issueClassName" : "SK 6/25/2015 14:13",
 		"issueClassName:" : "SK 6/25/2015 14:13",
 		"methodName" : "SK 6/25/2015 14:13",
 		"methodName:" : "SK 6/25/2015 14:13",
-		"openInWindow" : "DH 6/21/2015 21:32",
 		"packageName" : "SK 6/25/2015 14:13",
 		"packageName:" : "SK 6/25/2015 14:13",
-		"ui" : "SK 6/25/2015 14:13",
-		"window" : "SK 6/25/2015 14:13",
-		"window:" : "SK 6/25/2015 14:13" } }
+		"title" : "FR 6/18/2016 14:16",
+		"title:" : "FR 6/18/2016 14:17" } }

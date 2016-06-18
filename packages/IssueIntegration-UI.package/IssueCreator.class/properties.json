@@ -6,14 +6,15 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui",
+		"title",
+		"assignee",
+		"body",
 		"methodName",
 		"packageName",
 		"issueClassName",
-		"issueClassIsMeta",
-		"window" ],
+		"issueClassIsMeta" ],
 	"name" : "IssueCreator",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Model",
 	"type" : "normal" }
