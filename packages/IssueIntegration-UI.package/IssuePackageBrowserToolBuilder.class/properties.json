@@ -1,0 +1,17 @@
+{
+	"category" : "IssueIntegration-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedPackage",
+		"projectID",
+		"username",
+		"loginKey" ],
+	"name" : "IssuePackageBrowserToolBuilder",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
