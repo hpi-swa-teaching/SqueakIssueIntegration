@@ -6,7 +6,7 @@ buildWith: builder
 		model: self;
 		children: OrderedCollection new;
 		label: 'IssueCreator';
-		extent: 500@300.
+		extent: 300@300.
 	
 	titleInputSpec := builder pluggableInputFieldSpec new
 		model: self;
@@ -29,14 +29,14 @@ buildWith: builder
 		getText: #body;
 		setText: #body:;
 		help: 'Description';
-		frame: (0@0.2 corner: 1@1).
+		frame: (0@0.2 corner: 1@0.85).
 	windowSpec children add: bodyInputSpec.
 	
 	submitButton := builder pluggableActionButtonSpec new
 		model: self;
 		label: 'Submit Issue';
 		action: #createIssue;
-		frame: (0.8@0.85 corner: 1@1).
+		frame: (0.65@0.85 corner: 1@1).
 	windowSpec children add: submitButton.		
 	
 	^ builder build: windowSpec
