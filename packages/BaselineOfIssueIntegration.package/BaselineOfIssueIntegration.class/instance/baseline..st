@@ -13,7 +13,7 @@ baseline: spec
 		spec baseline: 'Widgets' with: [	spec repository: 'github://hpi-swa/widgets:master/repository' ].
             spec
                 package: 'IssueIntegration-Core' with: [ spec requires: #('JSON' 'FFI' 'Applescript-Core' 'ExternalWebBrowser') ];
-                package: 'IssueIntegration-Tests' with: [ spec requires: #('IssueIntegration-Core', 'IssueIntegration-UI') ];
+                package: 'IssueIntegration-Tests' with: [ spec requires: #('IssueIntegration-Core' 'IssueIntegration-UI') ];
 	 	    package: 'IssueIntegration-UI' with: [ spec requires: #('IssueIntegration-Core' 'Icons' 'Signals' 'Widgets') ].
             spec
                 group: 'default' with: #('IssueIntegration-UI');
