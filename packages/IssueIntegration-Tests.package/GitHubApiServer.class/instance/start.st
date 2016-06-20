@@ -1,3 +1,3 @@
 as yet unclassified
 start
-	self webServer listenOn: 80
+	self webServer listenOn: self class portNumber.

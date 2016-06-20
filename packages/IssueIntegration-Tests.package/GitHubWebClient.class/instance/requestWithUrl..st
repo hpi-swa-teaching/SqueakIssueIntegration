@@ -1,4 +1,3 @@
-as yet unclassified
+initialize
 requestWithUrl: urlString
-	^ super requestWithUrl: 
-		(urlString copyReplaceAll: 'https://api.github.com' with: 'http://localhost').
+	^ super requestWithUrl: (self gitHubUrlToLocalhost: urlString)

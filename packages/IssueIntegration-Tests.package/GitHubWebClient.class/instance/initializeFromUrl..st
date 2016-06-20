@@ -1,4 +1,3 @@
-as yet unclassified
+initialize
 initializeFromUrl: urlString
-	^ super initializeFromUrl: 
-		(urlString copyReplaceAll: 'https://api.github.com' with: 'http://localhost').
+	^ super initializeFromUrl: (self gitHubUrlToLocalhost: urlString)
