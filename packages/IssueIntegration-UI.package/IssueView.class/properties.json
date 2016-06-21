@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"issueWidgets",
-		"selectedIssue",
-		"selectedRepo" ],
-	"name" : "IssueBrowserToolBuilder",
+		 ],
+	"name" : "IssueView",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "IssueBrowserToolBuilder",
 	"type" : "normal" }

@@ -1,5 +1,15 @@
 {
 	"class" : {
-		 },
+		"open" : "Axl 6/14/2016 23:13" },
 	"instance" : {
-		 } }
+		"buildWith:" : "Axl 6/16/2016 10:59",
+		"currentRemoteVatId" : "Axl 6/16/2016 10:39",
+		"getIssues" : "Axl 6/14/2016 23:16",
+		"issueWidgets" : "Axl 6/16/2016 01:09",
+		"issueWidgets:" : "Axl 6/16/2016 01:09",
+		"openIssueView" : "Axl 6/16/2016 03:03",
+		"repoList" : "Axl 6/16/2016 10:45",
+		"selectedIssue" : "Axl 6/16/2016 03:13",
+		"selectedIssue:" : "Axl 6/16/2016 01:09",
+		"selectedRepo" : "Axl 6/16/2016 09:26",
+		"selectedRepo:" : "Axl 6/16/2016 09:29" } }
