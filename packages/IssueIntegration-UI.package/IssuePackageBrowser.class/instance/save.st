@@ -7,5 +7,4 @@ save
 			IssueManagement addIssueManagement: (GitHubIssueIntegration createWithProjectID: self projectID 
 				loginKey: self loginKey 
 				username: (self username)) 
-				to: selectedPackage.
-		]
+				to: selectedPackage.]
