@@ -1,4 +1,5 @@
 issue accessing
 openIssueInBrowser: anIssue
-
-	WebBrowser default openOnUrl: 'https://github.com/', self projectID, '/issues/', anIssue number
+	| webBrowser |
+	webBrowser := WebBrowser default.
+	webBrowser ifNotNil: [webBrowser openOnUrl: 'https://github.com/', self projectID, '/issues/', anIssue number].
