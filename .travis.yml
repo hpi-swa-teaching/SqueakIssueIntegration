@@ -3,5 +3,3 @@ smalltalk:
   - Squeak-trunk
   - Squeak-5.0
   - Squeak-4.6
-before_install:
-- "echo \"running\rsetLoginKey\r\r    ^self issueManagement loginKey: '$GH_TOKEN'\" > packages/IssueIntegration-Tests.package/GitHubIssueIntegrationTest.class/instance/setLoginKey.st"
