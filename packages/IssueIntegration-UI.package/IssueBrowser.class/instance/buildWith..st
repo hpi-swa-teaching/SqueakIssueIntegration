@@ -12,7 +12,7 @@ buildWith: builder
 	repoListSpec := builder pluggableListSpec new.
 	repoListSpec
 		model: self;
-		list: #repoList;
+		list: #setUpRepoList;
 		frame: (0.0@0.0 corner: 0.5@0.2);
 		getSelected: #selectedRepo;
 		setSelected: #selectedRepo:.

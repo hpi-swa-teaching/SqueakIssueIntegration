@@ -1,6 +1,6 @@
 as yet unclassified
 selectedRepo: aSymbol
 	
-	selectedPackage := aSymbol.
+	selectedRepo := aSymbol.
 	self changed: #selectedRepo.
 	self changed: #getIssues
