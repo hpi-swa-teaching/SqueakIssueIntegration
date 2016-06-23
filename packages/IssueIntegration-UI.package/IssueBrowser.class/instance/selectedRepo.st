@@ -1,4 +1,4 @@
 as yet unclassified
 selectedRepo
 	
-	^ selectedRepo
+	^ selectedPackage

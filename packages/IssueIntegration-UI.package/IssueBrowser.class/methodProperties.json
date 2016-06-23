@@ -1,14 +1,14 @@
 {
 	"class" : {
-		 },
+		"open" : "Axl 6/14/2016 23:13" },
 	"instance" : {
-		"activePackages" : "HR 6/4/2016 13:09",
-		"activePackages:" : "HR 6/4/2016 13:09",
-		"close" : "Axl 4/28/2016 17:03",
-		"initialize" : "HR 6/15/2016 22:59",
-		"open" : "Axl 4/28/2016 16:33",
-		"selectIssue:" : "Axl 6/14/2016 22:46",
-		"selectPackage:" : "HR 6/8/2016 09:36",
-		"setUpLists" : "Axl 5/4/2016 15:31",
-		"setUpPackageList" : "HR 6/15/2016 23:02",
-		"ui" : "Axl 4/28/2016 00:15" } }
+		"buildWith:" : "FR 6/23/2016 15:45",
+		"getIssues" : "FR 6/23/2016 17:09",
+		"issueWidgets" : "Axl 6/16/2016 01:09",
+		"issueWidgets:" : "Axl 6/16/2016 01:09",
+		"openIssueView" : "Axl 6/16/2016 03:03",
+		"repoList" : "FR 6/23/2016 17:07",
+		"selectedIssue" : "Axl 6/16/2016 03:13",
+		"selectedIssue:" : "Axl 6/16/2016 01:09",
+		"selectedRepo" : "FR 6/23/2016 17:09",
+		"selectedRepo:" : "FR 6/23/2016 17:09" } }

@@ -10,5 +10,5 @@
 	"name" : "IssueView",
 	"pools" : [
 		 ],
-	"super" : "IssueBrowserToolBuilder",
+	"super" : "IssueBrowser",
 	"type" : "normal" }

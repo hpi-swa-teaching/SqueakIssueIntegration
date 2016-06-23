@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui",
-		"window",
-		"activePackages" ],
+		"issueWidgets",
+		"selectedIssue",
+		"selectedPackage" ],
 	"name" : "IssueBrowser",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Model",
 	"type" : "normal" }
