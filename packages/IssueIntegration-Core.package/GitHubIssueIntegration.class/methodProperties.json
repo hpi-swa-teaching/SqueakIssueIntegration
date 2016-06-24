@@ -11,4 +11,4 @@
 		"httpRequestTo:withMethod:andBody:onError:" : "CF 6/23/2016 20:02",
 		"httpRequestTo:withMethod:onError:" : "CF 6/23/2016 19:40",
 		"loadIssues" : "CF 6/23/2016 19:42",
-		"openIssueInBrowser:" : "CF 6/23/2016 20:01" } }
+		"openIssueInWebBrowser:" : "CF 6/24/2016 15:28" } }

@@ -10,7 +10,7 @@
 		"getIssuesForClass:package:" : "Axl 5/11/2016 12:34",
 		"getIssuesForMethod:class:isMeta:package:" : "AB 7/31/2015 17:44",
 		"getMyIssuesForMethod:class:isMeta:package:" : "AB 7/31/2015 17:44",
-		"metaClassAndMethodSeparator" : "Axl 4/28/2016 17:10",
+		"metaClassAndMethodSeparator" : "CF 6/24/2016 15:44",
 		"metaClassIndicator" : "Axl 4/28/2016 17:10",
 		"repositoryDictionary" : "MZ 7/13/2015 11:59" },
 	"instance" : {
@@ -39,7 +39,8 @@
 		"loadIssues" : "SK 7/31/2015 16:38:31.643",
 		"loginKey" : "SK 5/20/2015 18:36",
 		"loginKey:" : "mz 5/25/2015 11:38",
-		"openIssueInBrowser:" : "SK 7/13/2015 19:54",
+		"openIssueInBrowser:" : "CF 6/24/2016 15:58",
+		"openIssueInWebBrowser:" : "CF 6/24/2016 15:28",
 		"projectID" : "HR 5/25/2016 09:33",
 		"projectID:" : "HR 5/22/2016 12:04",
 		"username" : "DH 6/17/2015 14:15",

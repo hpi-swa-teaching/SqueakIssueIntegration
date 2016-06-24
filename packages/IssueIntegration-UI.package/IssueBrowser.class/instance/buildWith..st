@@ -1,7 +1,7 @@
 as yet unclassified
 buildWith: builder
 
-	| window windowSpec repoListSpec singleIssueViewButtonSpec issueListSpec issueTitleSpec issueBodySpec issueAssigneeSpec |
+	| window windowSpec repoListSpec singleIssueViewButtonSpec issueListSpec issueTitleSpec issueBodySpec issueAssigneeSpec fixMeButtonSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -23,6 +23,7 @@ buildWith: builder
 		model: self;
 		name: #issueList;
 		list: #getIssues;
+		menu: #issueListMenu:;
 		getSelected: #selectedIssue;
 		setSelected: #selectedIssue: ;
 		frame: (0.0@0.2 corner: 0.5@1).
@@ -59,6 +60,14 @@ buildWith: builder
 		getText: #body;
 		frame: (0.5@0.3 corner: 1.0@0.9).
 	windowSpec children add: issueBodySpec.
+	
+	fixMeButtonSpec := builder pluggableButtonSpec new.
+	fixMeButtonSpec
+		model: self;
+		label: 'Fix me';
+		action: #openBrowser;
+		frame: (0.75@0.9 corner: 1.0@1.0).
+	windowSpec children add: fixMeButtonSpec.	
 	
 	window := builder build: windowSpec.
 	self issueWidgets: (Dictionary newFrom: {

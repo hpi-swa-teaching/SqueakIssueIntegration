@@ -1,4 +1,4 @@
 constants
 metaClassAndMethodSeparator
 
-	^ ' class>>#'
+	^ self metaClassIndicator , self classAndMethodSeparator.

@@ -2,10 +2,14 @@
 	"class" : {
 		"open" : "Axl 6/14/2016 23:13" },
 	"instance" : {
-		"buildWith:" : "FR 6/23/2016 23:12",
-		"getIssues" : "FR 6/23/2016 23:44",
+		"buildWith:" : "CF 6/24/2016 15:22",
+		"closeIssue" : "CF 6/24/2016 15:15",
+		"getIssueManagement" : "CF 6/24/2016 15:06",
+		"getIssues" : "CF 6/24/2016 15:06",
+		"issueListMenu:" : "CF 6/24/2016 15:01",
 		"issueWidgets" : "Axl 6/16/2016 01:09",
 		"issueWidgets:" : "Axl 6/16/2016 01:09",
+		"openBrowser" : "CF 6/24/2016 15:47",
 		"openIssueView" : "Axl 6/16/2016 03:03",
 		"repoPackageDictionary" : "FR 6/23/2016 23:44",
 		"repoPackageDictionary:" : "FR 6/23/2016 23:44",
