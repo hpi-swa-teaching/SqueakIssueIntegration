@@ -1,5 +1,5 @@
 user interface signals
-save
+apply
 	self projectID isEmpty 
 		ifTrue: [	IssueManagement deleteIssueManagementFor:selectedPackage.] 
 		ifFalse: [self projectID: (self extractProjectIDFrom: self projectID).

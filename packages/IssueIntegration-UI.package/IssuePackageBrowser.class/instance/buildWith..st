@@ -1,6 +1,6 @@
 user interface signals
 buildWith: builder
-	| windowSpec listSpec projectIdInputSpec loginKeyInputSpec usernameInputSpec saveButtonSpec createTokenButtonSpec |
+	| windowSpec listSpec projectIdInputSpec loginKeyInputSpec usernameInputSpec applyButtonSpec applyAndQuitButtonSpec createTokenButtonSpec |
 	
 	windowSpec := builder pluggableWindowSpec new
 		model: self;
@@ -47,11 +47,18 @@ buildWith: builder
 		frame: (0.4@0.3 corner: 1@0.45).
 	windowSpec children add: createTokenButtonSpec.
 	
-	saveButtonSpec := builder pluggableActionButtonSpec new
+	applyButtonSpec := builder pluggableActionButtonSpec new
 		model: self;
-		label: 'Save';
-		action: #save;
-		frame: (0.8@0.85 corner: 1@1).
-	windowSpec children add: saveButtonSpec.
+		label: 'Apply';
+		action: #apply;
+		frame: (0.6@0.9 corner: 0.8@1).
+	windowSpec children add: applyButtonSpec.
+	
+	applyAndQuitButtonSpec := builder pluggableActionButtonSpec new
+		model: self;
+		label: 'Apply and Quit';
+		action: #applyAndQuit;
+		frame: (0.8@0.9 corner: 1@1).
+	windowSpec children add: applyAndQuitButtonSpec.
 	
 	^ builder build: windowSpec
