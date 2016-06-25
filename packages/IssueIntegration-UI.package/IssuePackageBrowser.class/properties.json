@@ -9,7 +9,8 @@
 		"selectedPackage",
 		"projectID",
 		"username",
-		"loginKey" ],
+		"loginKey",
+		"windowWidget" ],
 	"name" : "IssuePackageBrowser",
 	"pools" : [
 		 ],

@@ -1,3 +1,5 @@
 initialization
 body
-	^ body
+	^ body 
+			ifNil: ['']
+			ifNotNil: [body]

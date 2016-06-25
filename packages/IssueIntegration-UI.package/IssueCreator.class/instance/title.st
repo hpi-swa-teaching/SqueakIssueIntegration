@@ -1,3 +1,5 @@
 initialization
 title
-	^ title
+	^ title 
+		ifNil: ['']
+		ifNotNil: [title]

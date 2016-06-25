@@ -1,6 +1,6 @@
 accessing
 buildWith: builder
-	| windowSpec titleInputSpec assigneeInputSpec bodyInputSpec submitButton |
+	| windowSpec titleInputSpec assigneeInputSpec bodyInputSpec submitButton window |
 	
 	windowSpec := builder pluggableWindowSpec new
 		model: self;
@@ -39,4 +39,6 @@ buildWith: builder
 		frame: (0.65@0.85 corner: 1@1).
 	windowSpec children add: submitButton.		
 	
-	^ builder build: windowSpec
+	window := builder build: windowSpec.
+	self windowWidget: window.
+	^ window

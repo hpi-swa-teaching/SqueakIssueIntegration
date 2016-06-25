@@ -12,7 +12,8 @@
 		"methodName",
 		"packageName",
 		"issueClassName",
-		"issueClassIsMeta" ],
+		"issueClassIsMeta",
+		"windowWidget" ],
 	"name" : "IssueCreator",
 	"pools" : [
 		 ],

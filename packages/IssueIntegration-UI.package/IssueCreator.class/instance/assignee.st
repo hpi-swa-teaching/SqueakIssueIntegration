@@ -1,3 +1,5 @@
 initialization
 assignee
-	^ assignee
+	^ assignee 
+		ifNil: ['']
+		ifNotNil: [assignee]
