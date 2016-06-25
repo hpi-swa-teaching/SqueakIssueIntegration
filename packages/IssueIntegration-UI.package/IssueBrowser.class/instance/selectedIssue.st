@@ -1,4 +1,3 @@
-as yet unclassified
-selectedIssue
-	
+accessing
+selectedIssue	
 	^ selectedIssue ifNil: [ selectedIssue := EmptyIssue new ]

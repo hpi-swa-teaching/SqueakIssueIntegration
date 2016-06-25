@@ -1,4 +1,3 @@
-as yet unclassified
-repoPackageDictionary
-	
+accessing
+repoPackageDictionary	
 	^ repoPackageDictionary

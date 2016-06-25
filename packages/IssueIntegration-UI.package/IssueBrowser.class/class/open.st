@@ -1,4 +1,3 @@
-as yet unclassified
+opening
 open
-
-	^ ToolBuilder default open: self new.
+	^ ToolBuilder default open: self new

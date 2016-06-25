@@ -1,4 +1,4 @@
-as yet unclassified
+class initialization
 newWithMethodName: aMethodName packageName: aPackageName issueClassName: aClassName  issueClassIsMeta: aBoolean
 	| instance |
 	

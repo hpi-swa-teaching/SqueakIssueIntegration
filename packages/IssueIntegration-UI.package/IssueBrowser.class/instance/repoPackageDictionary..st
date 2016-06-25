@@ -1,4 +1,3 @@
-as yet unclassified
-repoPackageDictionary: aCollection
-	
+accessing
+repoPackageDictionary: aCollection	
 	repoPackageDictionary := aCollection

@@ -1,7 +1,6 @@
-as yet unclassified
+user interface signals
 buildWith: builder
-
-	| window windowSpec repoListSpec singleIssueViewButtonSpec issueListSpec issueTitleSpec issueBodySpec issueAssigneeSpec fixMeButtonSpec |
+	| window windowSpec repoListSpec singleIssueViewButtonSpec issueListSpec issueTitleSpec issueBodySpec issueAssigneeSpec fixMeButtonSpec packageBrowserButtonSpec|
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -67,7 +66,15 @@ buildWith: builder
 		label: 'Fix me';
 		action: #openBrowser;
 		frame: (0.75@0.9 corner: 1.0@1.0).
-	windowSpec children add: fixMeButtonSpec.	
+	windowSpec children add: fixMeButtonSpec.
+	
+	packageBrowserButtonSpec := builder pluggableButtonSpec new.
+	packageBrowserButtonSpec
+		model: self;
+		label: 'Package Browser';
+		action: #openPackageBrowser;
+		frame: (0.5@0.9corner: 0.75@1.0).
+	windowSpec children add: packageBrowserButtonSpec.	
 	
 	window := builder build: windowSpec.
 	self issueWidgets: (Dictionary newFrom: {

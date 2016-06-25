@@ -1,6 +1,5 @@
-as yet unclassified
+accessing
 selectedIssue: anIssue
-
 	selectedIssue := anIssue.
 	
 	self issueWidgets valuesDo: [ :widget | widget model: self selectedIssue ].

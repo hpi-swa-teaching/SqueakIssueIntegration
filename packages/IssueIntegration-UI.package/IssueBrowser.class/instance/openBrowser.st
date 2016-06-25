@@ -1,3 +1,3 @@
-as yet unclassified
+user interface signals
 openBrowser
-	self getIssueManagement openIssueInBrowser: self selectedIssue.
+	self getIssueManagement openIssueInBrowser: self selectedIssue

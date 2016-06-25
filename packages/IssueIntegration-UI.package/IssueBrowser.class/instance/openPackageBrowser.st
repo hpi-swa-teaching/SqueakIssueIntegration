@@ -1,0 +1,3 @@
+user interface signals
+openPackageBrowser
+	IssuePackageBrowser open

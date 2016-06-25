@@ -1,8 +1,7 @@
-as yet unclassified
+opening
 openWith: anIssue
-
 	| issueView |
 	issueView := self basicNew.
 	issueView selectedIssue: anIssue.
 		
-	^ ToolBuilder default open: issueView.
+	^ ToolBuilder default open: issueView

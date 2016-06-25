@@ -1,3 +1,3 @@
 as yet unclassified
 getIssues
-	^ self getIssueManagement getIssues sorted.
+	^ self getIssueManagement getIssues sorted
