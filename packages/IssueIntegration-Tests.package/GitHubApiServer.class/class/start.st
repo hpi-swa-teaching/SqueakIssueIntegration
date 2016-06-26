@@ -1,4 +1,4 @@
 as yet unclassified
 start
 	GitHubApiServer stop.
-	GitHubApiServer new start
+	^ GitHubApiServer new start

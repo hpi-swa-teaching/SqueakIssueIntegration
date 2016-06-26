@@ -1,7 +1,8 @@
 as yet unclassified
 createIssueJsonWithTitle: title body: body andAssignee: assignee
+	| newIssue |
 	self issueNumber: self issueNumber + 1.
-	^ Json readFrom: (ReadStream on: '{
+	newIssue := Json readFrom: (ReadStream on: '{
   "id": 1,
   "url": "https://api.github.com/repos/', self class repoSlug, '/issues/', self issueNumber, '",
   "repository_url": "https://api.github.com/repos/', self class repoSlug, '",
@@ -123,4 +124,6 @@ createIssueJsonWithTitle: title body: body andAssignee: assignee
     "type": "User",
     "site_admin": false
   }
-}')
+}').
+	self issues add: newIssue.
+	^ newIssue

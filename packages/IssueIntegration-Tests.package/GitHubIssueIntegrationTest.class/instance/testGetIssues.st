@@ -1,4 +1,16 @@
 running
 testGetIssues
-
-	Transcript show: (issueManagement getIssues).
+	| issues serverIssues issuesIDs serverIssuesIDs |
+	
+	issues := self issueManagement getIssues.
+	serverIssues := self gitHubApiServer issues.
+	issuesIDs := issues collect: [ :issue | issue number].
+	serverIssuesIDs := (serverIssues collect: [ :json | json at: 'number'] )asSet.
+	self assert: issuesIDs = serverIssuesIDs.
+	
+	self issueManagement createIssueWithTitle: 'New Issue' body: 'Test new issue'  assignee: ''. 
+	issues := self issueManagement getIssues.
+	serverIssues := self gitHubApiServer issues.
+	issuesIDs := issues collect: [ :issue | issue number].
+	serverIssuesIDs := (serverIssues collect: [ :json | json at: 'number'] )asSet.
+	self assert: issuesIDs = serverIssuesIDs.

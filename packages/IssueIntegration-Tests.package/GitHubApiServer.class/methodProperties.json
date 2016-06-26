@@ -4,10 +4,10 @@
 		"repoName" : "CF 6/10/2016 08:15",
 		"repoOwner" : "CF 6/10/2016 08:15",
 		"repoSlug" : "FR 6/14/2016 19:19",
-		"start" : "FR 6/10/2016 10:17",
+		"start" : "FR 6/26/2016 10:13",
 		"stop" : "FR 6/10/2016 10:17" },
 	"instance" : {
-		"createIssueJsonWithTitle:body:andAssignee:" : "FR 6/14/2016 23:06",
+		"createIssueJsonWithTitle:body:andAssignee:" : "FR 6/26/2016 10:45",
 		"handleCloseIssue:" : "FR 6/14/2016 19:23",
 		"handleIssueCreation:" : "FR 6/14/2016 22:52",
 		"handleIssueDisplay:" : "FR 6/10/2016 11:49",
