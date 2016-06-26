@@ -1,5 +1,6 @@
 accessing
 repositoryDictionary
-
-	RepositoryDictionary  ifNil: [RepositoryDictionary := Dictionary new. ].
-	^ RepositoryDictionary
+	TestMode 
+		ifTrue: [^ TestRepositoryDictionary] 
+		ifFalse: [RepositoryDictionary  ifNil: [RepositoryDictionary := Dictionary new].
+			^ RepositoryDictionary]

@@ -2,5 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "FR 6/26/2016 11:50",
-		"testSmoke" : "FR 6/26/2016 13:18" } }
+		"setUp" : "CF 6/26/2016 14:08",
+		"tearDown" : "CF 6/27/2016 00:02",
+		"testIssueList" : "CF 6/27/2016 00:25",
+		"testIssueWidgets" : "CF 6/27/2016 00:23",
+		"testRepoList" : "CF 6/27/2016 00:15",
+		"testSmoke" : "CF 6/26/2016 13:39" } }

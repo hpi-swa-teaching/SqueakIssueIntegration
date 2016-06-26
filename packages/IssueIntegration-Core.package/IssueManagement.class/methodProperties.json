@@ -1,9 +1,11 @@
 {
 	"class" : {
+		"activateTestMode" : "CF 6/26/2016 13:36",
 		"addIssueManagement:to:" : "DH 6/17/2015 18:39",
 		"cacheTimeInSeconds" : "Axl 5/17/2016 20:20",
 		"classAndMethodSeparator" : "SK 7/9/2015 10:31",
 		"createIssueWithTitle:body:method:class:isMeta:assignee:package:" : "SK 7/9/2015 10:29",
+		"deactivateTestMode" : "CF 6/26/2016 13:35",
 		"deleteIssueManagementFor:" : "AB 7/31/2015 18:24",
 		"getIssueManagementFor:" : "AB 7/31/2015 17:34",
 		"getIssuesForClass:isMeta:package:" : "FR 4/28/2016 16:09",
@@ -12,7 +14,7 @@
 		"getMyIssuesForMethod:class:isMeta:package:" : "AB 7/31/2015 17:44",
 		"metaClassAndMethodSeparator" : "CF 6/24/2016 15:44",
 		"metaClassIndicator" : "Axl 4/28/2016 17:10",
-		"repositoryDictionary" : "MZ 7/13/2015 11:59" },
+		"repositoryDictionary" : "CF 6/26/2016 13:58" },
 	"instance" : {
 		"cacheDatetime" : "SK 6/25/2015 14:16",
 		"cacheDatetime:" : "MZ 7/31/2015 18:48",

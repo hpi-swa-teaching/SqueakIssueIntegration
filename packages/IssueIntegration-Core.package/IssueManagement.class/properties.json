@@ -3,7 +3,9 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"RepositoryDictionary" ],
+		"RepositoryDictionary",
+		"TestMode",
+		"TestRepositoryDictionary" ],
 	"commentStamp" : "SK 7/31/2015 21:43:40.692",
 	"instvars" : [
 		"loginKey",

@@ -12,6 +12,7 @@ buildWith: builder
 	repoListSpec
 		model: self;
 		list: #setUpRepoList;
+		name: 'repoList';
 		frame: (0.0@0.0 corner: 0.5@0.2);
 		getSelected: #selectedRepo;
 		setSelected: #selectedRepo:.

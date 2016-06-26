@@ -1,3 +1,4 @@
 as yet unclassified
 testSmoke
+	"Test whether a windows is successfully opened, i.e. whether or not we see some smoke." 
 	self assert: ((self subject findByLabel: 'Issue Browser') notNil)
