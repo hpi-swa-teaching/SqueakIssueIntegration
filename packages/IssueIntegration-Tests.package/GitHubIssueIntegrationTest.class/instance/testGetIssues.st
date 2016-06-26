@@ -6,11 +6,11 @@ testGetIssues
 	serverIssues := self gitHubApiServer issues.
 	issuesIDs := issues collect: [ :issue | issue number].
 	serverIssuesIDs := (serverIssues collect: [ :json | json at: 'number'] )asSet.
-	self assert: issuesIDs = serverIssuesIDs.
+	self assert: serverIssuesIDs equals: issuesIDs.
 	
 	self issueManagement createIssueWithTitle: 'New Issue' body: 'Test new issue'  assignee: ''. 
 	issues := self issueManagement getIssues.
 	serverIssues := self gitHubApiServer issues.
 	issuesIDs := issues collect: [ :issue | issue number].
 	serverIssuesIDs := (serverIssues collect: [ :json | json at: 'number'] )asSet.
-	self assert: issuesIDs = serverIssuesIDs.
+	self assert: serverIssuesIDs equals: issuesIDs

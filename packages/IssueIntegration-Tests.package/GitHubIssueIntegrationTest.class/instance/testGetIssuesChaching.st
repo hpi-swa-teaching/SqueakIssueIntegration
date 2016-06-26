@@ -7,7 +7,7 @@ testGetIssuesChaching
 	issueIDs := issues collect: [ :issue | issue number].
 	serverIssueIDs := (serverIssues collect: [ :json | json at: 'number'] )asSet.
 	issueIDs add: (newIssue at: 'number').
-	self assert: issueIDs equals: serverIssueIDs.
+	self assert: serverIssueIDs equals: issueIDs.
 	
 	self issueManagement invalidateCache.
 	
@@ -15,4 +15,4 @@ testGetIssuesChaching
 	serverIssues := self gitHubApiServer issues.
 	issueIDs := issues collect: [ :issue | issue number].
 	serverIssueIDs := (serverIssues collect: [ :json | json at: 'number'] )asSet.
-	self assert: issueIDs equals: serverIssueIDs
+	self assert: serverIssueIDs equals: issueIDs

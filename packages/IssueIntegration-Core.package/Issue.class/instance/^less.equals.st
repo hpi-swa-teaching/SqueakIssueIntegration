@@ -1,4 +1,4 @@
 accessing
 <= anotherIssue
 	
-	^ anotherIssue number <= self number
+	^ self number <= anotherIssue number
