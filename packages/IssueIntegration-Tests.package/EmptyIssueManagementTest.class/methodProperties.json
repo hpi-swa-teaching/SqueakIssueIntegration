@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"issueManagement" : "CF 6/26/2016 11:20",
+		"issueManagement:" : "CF 6/26/2016 11:20",
+		"setUp" : "CF 6/26/2016 11:17",
+		"testHasValidRemote" : "CF 6/26/2016 11:21",
+		"testIsSingleton" : "CF 6/26/2016 11:19" } }

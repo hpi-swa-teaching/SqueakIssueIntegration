@@ -1,9 +1,7 @@
 instance variables
 testUsername
-
 	| username |
-
-	username := 'RANDOM_STRING_GF342fFDAS'.
+	username := 'BernhardRabe'.
 	self issueManagement projectID: username.
 	self assert: self issueManagement projectID equals: username
 	
