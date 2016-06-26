@@ -1,4 +1,4 @@
-instance creation
+instance variables
 testIssueComparison
 	| issue1 issue2 |
 	issue1 := GitHubIssue new.

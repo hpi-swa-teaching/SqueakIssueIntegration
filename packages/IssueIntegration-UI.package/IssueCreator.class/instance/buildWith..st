@@ -4,6 +4,7 @@ buildWith: builder
 	
 	windowSpec := builder pluggableWindowSpec new
 		model: self;
+		name: 'IssueCreator';
 		children: OrderedCollection new;
 		label: 'IssueCreator';
 		extent: 300@300.

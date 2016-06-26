@@ -4,12 +4,14 @@ buildWith: builder
 	
 	windowSpec := builder pluggableWindowSpec new
 		model: self;
+		name: 'IssuePackageBrowser';
 		children: OrderedCollection new;
 		label: 'Issue Package Browser';
 		extent: 500@300.
 	
 	listSpec := builder pluggableListSpec new
 		model: self;
+		name: 'packageList';
 		list: #setUpPackages;
 		setSelected: #selectedPackage:;
 		getSelected: #selectedPackage;
@@ -18,6 +20,7 @@ buildWith: builder
 	
 	projectIdInputSpec := builder pluggableInputFieldSpec new
 		model: self;
+		name: 'projectIdInput';
 		getText: #projectID;
 		setText: #projectID:;
 		help: 'Your repo: user-name/repo-name';
@@ -26,6 +29,7 @@ buildWith: builder
 	
 	usernameInputSpec := builder pluggableInputFieldSpec new
 		model: self;
+		name: 'usernameInput';
 		getText: #username;
 		setText: #username:;
 		help: 'Your username';
@@ -34,6 +38,7 @@ buildWith: builder
 	
 	loginKeyInputSpec := builder pluggableInputFieldSpec new
 		model: self;
+		name: 'loginKeyInput';
 		getText: #loginKey;
 		setText: #loginKey:;
 		help: 'Your OAuth-Token';
@@ -42,6 +47,7 @@ buildWith: builder
 	
 	createTokenButtonSpec := builder pluggableActionButtonSpec new
 		model: self;
+		name: 'createTokenButton';
 		label: 'Create new OAuth-Token';
 		action: #generateToken;
 		frame: (0.4@0.3 corner: 1@0.45).
@@ -49,6 +55,7 @@ buildWith: builder
 	
 	applyButtonSpec := builder pluggableActionButtonSpec new
 		model: self;
+		name: 'applyButton';
 		label: 'Apply';
 		action: #apply;
 		frame: (0.6@0.9 corner: 0.8@1).
@@ -56,6 +63,7 @@ buildWith: builder
 	
 	applyAndQuitButtonSpec := builder pluggableActionButtonSpec new
 		model: self;
+		name: 'applyAndQuitButton';
 		label: 'Apply and Quit';
 		action: #applyAndQuit;
 		frame: (0.8@0.9 corner: 1@1).
