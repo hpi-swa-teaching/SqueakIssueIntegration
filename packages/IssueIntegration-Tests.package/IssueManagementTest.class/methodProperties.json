@@ -11,6 +11,7 @@
 		"testCacheValidating" : "SK 7/31/2015 22:31:31.227",
 		"testCachedIssues" : "SK 7/31/2015 22:26:59.821",
 		"testCaching" : "SK 7/31/2015 22:32:56.434",
+		"testExtractClassAndSelectorFromIssueTitle" : "CF 6/26/2016 10:39",
 		"testLoginKey" : "SK 7/31/2015 22:29:27.684",
 		"testProjectID" : "HR 6/8/2016 12:01",
 		"testRepositoryDictionary" : "HR 5/22/2016 12:05",
