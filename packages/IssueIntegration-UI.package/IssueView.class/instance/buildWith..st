@@ -1,38 +1,34 @@
 as yet unclassified
 buildWith: builder
 
-	| windowSpec titleInputSpec assigneeInputSpec bodyInputSpec |
+	| windowSpec issueTitle issueBody issueAssignee |
 	
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
-		name: 'issueView';
 		label: 'Issue View';
 		extent: 250@300;
 		children: OrderedCollection new.
 		
-	titleInputSpec := builder pluggableTextSpec new.
-	titleInputSpec 
+	issueTitle := builder pluggableTextSpec new.
+	issueTitle 
 		model: self selectedIssue;
-		name: 'titleInput';
 		getText: #title;
 		frame: (0.0@0.05 corner: 1.0@0.2).
-	windowSpec children add: titleInputSpec.
+	windowSpec children add: issueTitle.
 
-	bodyInputSpec := builder pluggableTextSpec new.
-	bodyInputSpec 
+	issueBody := builder pluggableTextSpec new.
+	issueBody 
 		model: self selectedIssue;
-		name: 'bodyInput';
 		getText: #body;
 		frame: (0.0@0.3 corner: 1.0@0.5).
-	windowSpec children add: bodyInputSpec.
+	windowSpec children add: issueBody.
 	
-	assigneeInputSpec := builder pluggableTextSpec new.
-	assigneeInputSpec
+	issueAssignee := builder pluggableTextSpec new.
+	issueAssignee
 		model: self selectedIssue;
-		name: 'assigneeInput';
 		getText: #assignee;
 		frame: (0.0@0.5 corner: 1.0@0.6).
-	windowSpec children add: assigneeInputSpec.
+	windowSpec children add: issueAssignee.
 		
 	^ builder build: windowSpec
