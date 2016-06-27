@@ -8,4 +8,4 @@ testRepoList
 	self assert: issueList getList isEmpty.
 	repoList changeModelSelection: 1.
 	self assert: 1 equals: repoList getCurrentSelectionIndex. 
-	self assert: 5 equals: issueList getList size.
+	self assert: 3 equals: issueList getList size.

@@ -2,9 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "CF 6/26/2016 14:08",
-		"tearDown" : "CF 6/27/2016 00:02",
+		"setUp" : "CF 6/27/2016 08:18",
+		"should:createMorphWithModel:" : "CF 6/27/2016 08:47",
+		"tearDown" : "CF 6/27/2016 08:14",
+		"testFixMeButton" : "CF 6/27/2016 08:47",
 		"testIssueList" : "CF 6/27/2016 00:25",
-		"testIssueWidgets" : "CF 6/27/2016 00:23",
-		"testRepoList" : "CF 6/27/2016 00:15",
+		"testIssueWidgets" : "CF 6/27/2016 08:14",
+		"testRepoList" : "CF 6/27/2016 08:14",
 		"testSmoke" : "CF 6/26/2016 13:39" } }

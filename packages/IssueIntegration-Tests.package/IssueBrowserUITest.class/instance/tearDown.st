@@ -1,4 +1,5 @@
 as yet unclassified
 tearDown
 	super tearDown.
-	IssueManagement deactivateTestMode
+	IssueManagement deactivateTestMode.
+	GitHubApiServer stop.

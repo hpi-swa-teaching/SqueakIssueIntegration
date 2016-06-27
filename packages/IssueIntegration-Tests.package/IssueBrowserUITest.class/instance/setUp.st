@@ -2,6 +2,7 @@ as yet unclassified
 setUp
 	| issueManagement |
 	IssueManagement activateTestMode.
+	GitHubApiServer start.
 	
 	issueManagement := GitHubIssueIntegration createWithProjectID: GitHubApiServer repoSlug loginKey: 'i-am-not-a-key' username: GitHubApiServer repoOwner.
 	issueManagement webClient: GitHubWebClient new.

@@ -65,6 +65,7 @@ buildWith: builder
 	fixMeButtonSpec
 		model: self;
 		label: 'Fix me';
+		name: 'fixMeButton';
 		action: #openBrowser;
 		frame: (0.75@0.9 corner: 1.0@1.0).
 	windowSpec children add: fixMeButtonSpec.

@@ -6,7 +6,7 @@ testIssueWidgets
 	issueTitle := self subject findByName: 'issueTitle'.
 	self assert: issueTitle text isEmpty.
 	repoList changeModelSelection: 1.
-	self assert: 5 equals: issueList getList size.
+	self assert: 3 equals: issueList getList size.
 
 	issueList changeModelSelection: 1.
 	self assert: 'New Method Issue' equals: issueTitle text string.

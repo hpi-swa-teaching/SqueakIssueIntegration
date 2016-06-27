@@ -9,7 +9,7 @@ testIssue2
     "html_url": "https://github.com/test-user/test-repo/issues/2",
     "id": 159578317,
     "number": 2,
-    "title": "New Method Issue [class>>#method]",
+    "title": "New Method Issue [Collection>>#size]",
     "user": {
       "login": "test-user",
       "id": 1111222,

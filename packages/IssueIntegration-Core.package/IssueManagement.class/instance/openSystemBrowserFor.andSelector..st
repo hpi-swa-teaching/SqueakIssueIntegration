@@ -1,3 +1,3 @@
 private
-openBrowserFor: aClass andSelector: aSelector
+openSystemBrowserFor: aClass andSelector: aSelector
 	Browser fullOnClass: aClass selector: aSelector.
