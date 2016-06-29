@@ -11,9 +11,10 @@ baseline: spec
 		spec package: 'Icons' with: [ spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities' ].
 		spec baseline: 'Signals' with: [ spec repository: 'github://hpi-swa/signals:master/repository' ].
 		spec baseline: 'Widgets' with: [	spec repository: 'github://hpi-swa/widgets:master/repository' ].
+		spec baseline: 'Project12' with: [ spec repository: 'github://HPI-SWA-Teaching/Morphic-Testing-Framework:master/packages' ].
             spec
                 package: 'IssueIntegration-Core' with: [ spec requires: #('JSON' 'FFI' 'Applescript-Core' 'ExternalWebBrowser') ];
-                package: 'IssueIntegration-Tests' with: [ spec requires: #('IssueIntegration-Core' 'IssueIntegration-UI') ];
+                package: 'IssueIntegration-Tests' with: [ spec requires: #('IssueIntegration-Core' 'IssueIntegration-UI' 'Project12') ];
 	 	    package: 'IssueIntegration-UI' with: [ spec requires: #('IssueIntegration-Core' 'Icons' 'Signals' 'Widgets') ].
             spec
                 group: 'default' with: #('IssueIntegration-UI');
