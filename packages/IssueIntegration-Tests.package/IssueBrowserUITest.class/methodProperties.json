@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "CF 6/27/2016 08:18",
-		"should:createMorphWithModel:" : "CF 6/27/2016 08:47",
+		"should:createMorphWithModel:" : "CF 6/27/2016 19:00",
 		"tearDown" : "CF 6/27/2016 08:14",
 		"testFixMeButton" : "CF 6/27/2016 08:47",
 		"testIssueList" : "CF 6/27/2016 00:25",
