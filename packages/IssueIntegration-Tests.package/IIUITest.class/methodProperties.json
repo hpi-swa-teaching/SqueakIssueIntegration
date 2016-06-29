@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createdMorphs" : "CF 6/29/2016 20:21",
+		"createdMorphs:" : "CF 6/29/2016 20:21",
+		"setUp" : "CF 6/29/2016 20:26",
+		"should:createMorphWithModel:" : "CF 6/29/2016 20:21",
+		"tearDown" : "CF 6/29/2016 20:26" } }

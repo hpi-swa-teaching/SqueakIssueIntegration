@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "IssueBrowserUITest",
+		"oldRepositoryDictionary" ],
+	"name" : "IITest",
 	"pools" : [
 		 ],
-	"super" : "IIUITest",
+	"super" : "MTFTestCase",
 	"type" : "normal" }

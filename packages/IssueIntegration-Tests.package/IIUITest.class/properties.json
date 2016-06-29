@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "IssueBrowserUITest",
+		"createdMorphs" ],
+	"name" : "IIUITest",
 	"pools" : [
 		 ],
-	"super" : "IIUITest",
+	"super" : "IITest",
 	"type" : "normal" }

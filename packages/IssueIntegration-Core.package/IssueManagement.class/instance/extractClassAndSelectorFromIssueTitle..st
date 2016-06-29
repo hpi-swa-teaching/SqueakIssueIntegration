@@ -3,7 +3,7 @@ extractClassAndSelectorFromIssueTitle: aString
 	| class isMeta selector title classAndSelector |
 	title := (aString copyAfter: $[) copyUpTo: $].
 	
-	isMeta := (title includesSubstring: self class metaClassIndicator) or: [title includesSubstring: self class metaClassAndMethodSeparator].
+	isMeta := (title includesSubString: self class metaClassIndicator) or: [title includesSubstring: self class metaClassAndMethodSeparator].
 	
 	classAndSelector := title subStrings: self class classAndMethodSeparator.
 	selector := classAndSelector at: 2 ifAbsent: ['']. 

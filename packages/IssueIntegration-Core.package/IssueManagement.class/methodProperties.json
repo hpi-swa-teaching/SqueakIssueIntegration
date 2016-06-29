@@ -24,7 +24,7 @@
 		"createIssueWithTitle:body:assignee:" : "SK 7/9/2015 10:21",
 		"createIssueWithTitle:body:method:class:isMeta:assignee:" : "Axl 5/4/2016 16:02",
 		"editIssue:title:body:assignee:state:" : "MZ 7/13/2015 12:31",
-		"extractClassAndSelectorFromIssueTitle:" : "CF 6/26/2016 10:42",
+		"extractClassAndSelectorFromIssueTitle:" : "CF 6/29/2016 22:04",
 		"getIssueWithNumber:" : "SK 6/7/2015 19:24",
 		"getIssues" : "Axl 5/4/2016 13:52",
 		"getIssuesForClass:" : "Axl 5/4/2016 18:33",
