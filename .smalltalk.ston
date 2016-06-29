@@ -7,9 +7,9 @@ SmalltalkCISpec {
       #platforms : [ #squeak ]
     }
   ],
-  #testing: [
+  #testing: {
      #exclude : {
       #classes : [ #JSONTests ]
     }
-  ]
+  }
 }
