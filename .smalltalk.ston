@@ -6,5 +6,10 @@ SmalltalkCISpec {
       #load : [ 'Tests' ],
       #platforms : [ #squeak ]
     }
+  ],
+  #testing: [
+     #exclude : {
+      #classes : [ #JSONTests ]
+    }
   ]
 }
