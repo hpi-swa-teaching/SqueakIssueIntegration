@@ -1,5 +1,5 @@
 as yet unclassified
 tearDown
 	super tearDown.
-	IssueManagement deactivateTestMode.
+	IssueManagement repositoryDictionary addAll: oldRepositoryDictionary.
 	GitHubApiServer stop.

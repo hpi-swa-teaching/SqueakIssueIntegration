@@ -1,7 +1,8 @@
 as yet unclassified
 setUp
 	| issueManagement |
-	IssueManagement activateTestMode.
+	oldRepositoryDictionary := IssueManagement repositoryDictionary.
+	IssueManagement repositoryDictionary removeAll.
 	GitHubApiServer start.
 	
 	issueManagement := GitHubIssueIntegration createWithProjectID: GitHubApiServer repoSlug loginKey: 'i-am-not-a-key' username: GitHubApiServer repoOwner.
