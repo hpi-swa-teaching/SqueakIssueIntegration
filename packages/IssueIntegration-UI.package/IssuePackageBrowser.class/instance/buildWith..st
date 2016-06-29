@@ -55,17 +55,17 @@ buildWith: builder
 	
 	applyButtonSpec := builder pluggableActionButtonSpec new
 		model: self;
-		name: 'applyButton';
-		label: 'Apply';
-		action: #apply;
+		name: 'saveButton';
+		label: 'Save';
+		action: #save;
 		frame: (0.6@0.9 corner: 0.8@1).
 	windowSpec children add: applyButtonSpec.
 	
 	applyAndQuitButtonSpec := builder pluggableActionButtonSpec new
 		model: self;
-		name: 'applyAndQuitButton';
-		label: 'Apply and Quit';
-		action: #applyAndQuit;
+		name: 'saveAndQuitButton';
+		label: 'Save and Quit';
+		action: #saveAndQuit;
 		frame: (0.8@0.9 corner: 1@1).
 	windowSpec children add: applyAndQuitButtonSpec.
 	

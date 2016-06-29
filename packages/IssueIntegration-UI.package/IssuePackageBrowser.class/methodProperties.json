@@ -2,9 +2,7 @@
 	"class" : {
 		"open" : "FR 6/23/2016 15:46" },
 	"instance" : {
-		"apply" : "FR 6/25/2016 15:40",
-		"applyAndQuit" : "FR 6/25/2016 14:40",
-		"buildWith:" : "FR 6/26/2016 13:36",
+		"buildWith:" : "CF 6/29/2016 11:17",
 		"checkLoginKey:" : "FR 6/17/2016 09:59",
 		"close" : "FR 6/25/2016 15:01",
 		"extractProjectIDFrom:" : "FR 6/17/2016 09:59",
@@ -13,6 +11,8 @@
 		"loginKey:" : "FR 6/18/2016 13:51",
 		"projectID" : "FR 6/25/2016 15:47",
 		"projectID:" : "FR 6/18/2016 13:51",
+		"save" : "CF 6/29/2016 11:15",
+		"saveAndQuit" : "CF 6/29/2016 11:16",
 		"selectPackage:" : "FR 6/18/2016 13:34",
 		"selectedPackage" : "FR 6/17/2016 10:29",
 		"selectedPackage:" : "FR 6/23/2016 16:42",

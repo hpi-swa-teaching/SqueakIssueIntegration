@@ -1,5 +1,5 @@
 user interface signals
-apply
+save
 	self projectID isEmpty 
 		ifTrue: [	IssueManagement deleteIssueManagementFor:selectedPackage.] 
 		ifFalse: [ self username isEmpty ifTrue: [self error: 'Please insert your username'].

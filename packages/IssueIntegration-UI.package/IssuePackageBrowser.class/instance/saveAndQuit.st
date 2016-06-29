@@ -1,4 +1,4 @@
 user interface signals
-applyAndQuit
-	self apply.
+saveAndQuit
+	self save.
 	self close
