@@ -11,6 +11,7 @@ buildWith: builder
 	
 	titleInputSpec := builder pluggableInputFieldSpec new
 		model: self;
+		name: 'titleInput';
 		getText: #title;
 		setText: #title:;
 		help: 'Title';
@@ -19,6 +20,7 @@ buildWith: builder
 	
 	assigneeInputSpec := builder pluggableInputFieldSpec new
 		model: self;
+		name: 'assingeeInput';
 		getText: #assignee;
 		setText: #assignee:;
 		help: 'Assignee';
@@ -27,17 +29,19 @@ buildWith: builder
 	
 	bodyInputSpec := builder pluggableInputFieldSpec new
 		model: self;
+		name: 'bodyInput';
 		getText: #body;
 		setText: #body:;
 		help: 'Description';
-		frame: (0@0.2 corner: 1@0.85).
+		frame: (0@0.2 corner: 1@0.9).
 	windowSpec children add: bodyInputSpec.
 	
 	submitButton := builder pluggableActionButtonSpec new
 		model: self;
+		name: 'submitButton';
 		label: 'Submit Issue';
 		action: #createIssue;
-		frame: (0.65@0.85 corner: 1@1).
+		frame: (0.65@0.9 corner: 1@1).
 	windowSpec children add: submitButton.		
 	
 	window := builder build: windowSpec.
