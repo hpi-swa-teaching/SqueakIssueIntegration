@@ -1,0 +1,18 @@
+{
+	"category" : "IssueIntegration-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LG 6/24/2016 22:10",
+	"instvars" : [
+		"selectedPackage",
+		"projectID",
+		"username",
+		"loginKey",
+		"windowWidget" ],
+	"name" : "IISettings",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
