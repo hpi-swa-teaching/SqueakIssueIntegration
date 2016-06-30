@@ -9,7 +9,7 @@ SmalltalkCISpec {
   ],
   #testing: {
      #exclude : {
-      #classes : [ #JSONTests ]
+      #classes : [ #JsonTests ]
     }
   }
 }
