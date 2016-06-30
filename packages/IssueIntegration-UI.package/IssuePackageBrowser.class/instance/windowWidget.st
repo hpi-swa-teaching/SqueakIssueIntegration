@@ -1,3 +1,0 @@
-accessing
-windowWidget
-	^ windowWidget

@@ -1,6 +1,6 @@
 user interface signals
 buildWith: builder
-	| window windowSpec repoListSpec singleIssueViewButtonSpec issueListSpec issueTitleSpec issueBodySpec issueAssigneeSpec fixMeButtonSpec packageBrowserButtonSpec|
+	| window windowSpec repoListSpec singleIssueViewButtonSpec issueListSpec issueTitleSpec issueBodySpec issueAssigneeSpec fixMeButtonSpec settingsButtonSpec|
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -73,14 +73,14 @@ buildWith: builder
 		frame: (0.75@0.9 corner: 1.0@1.0).
 	windowSpec children add: fixMeButtonSpec.
 	
-	packageBrowserButtonSpec := builder pluggableButtonSpec new.
-	packageBrowserButtonSpec
+	settingsButtonSpec := builder pluggableButtonSpec new.
+	settingsButtonSpec
 		model: self;
-		name: 'packageBrowserButton';
-		label: 'Package Browser';
-		action: #openPackageBrowser;
+		name: 'settingsButton';
+		label: 'Settings';
+		action: #openSettings;
 		frame: (0.5@0.9corner: 0.75@1.0).
-	windowSpec children add: packageBrowserButtonSpec.	
+	windowSpec children add: settingsButtonSpec.	
 	
 	window := builder build: windowSpec.
 	self issueWidgets: (Dictionary newFrom: {

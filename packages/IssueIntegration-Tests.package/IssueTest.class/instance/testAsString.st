@@ -1,7 +1,10 @@
 instance variables
 testAsString
-	| issue title |
+	| issue title number |
 	issue := Issue new.
 	title := 'This is a title'.
-	issue title: title.
-	self assert: issue asString equals: title
+	number := 5.
+	issue 
+		title: title;
+		number: number.
+	self assert: issue asString equals: '#' , number , ' ' , title

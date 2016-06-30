@@ -1,4 +1,4 @@
 accessing
 asString
 
-	^ self title.
+	^ '#' , self number , ' ' , self title.
