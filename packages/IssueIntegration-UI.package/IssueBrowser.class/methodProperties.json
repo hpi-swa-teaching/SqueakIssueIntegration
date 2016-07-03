@@ -3,7 +3,11 @@
 		"initialize" : "FR 6/25/2016 13:56",
 		"open" : "LG 6/24/2016 21:42" },
 	"instance" : {
-		"buildWith:" : "CF 6/30/2016 08:10",
+		"assignee" : "FR 7/3/2016 20:04",
+		"assignee:" : "FR 7/3/2016 20:03",
+		"body" : "FR 7/3/2016 19:58",
+		"body:" : "FR 7/3/2016 19:57",
+		"buildWith:" : "FR 7/3/2016 20:16",
 		"closeIssue" : "LG 6/24/2016 21:39",
 		"getIssueManagement" : "CF 6/24/2016 15:06",
 		"getIssues" : "CF 6/30/2016 08:39",
@@ -16,7 +20,9 @@
 		"repoPackageDictionary" : "LG 6/24/2016 21:38",
 		"repoPackageDictionary:" : "LG 6/24/2016 21:38",
 		"selectedIssue" : "LG 6/24/2016 21:38",
-		"selectedIssue:" : "LG 6/24/2016 21:38",
+		"selectedIssue:" : "FR 7/3/2016 19:27",
 		"selectedRepo" : "LG 6/24/2016 21:38",
 		"selectedRepo:" : "LG 6/24/2016 21:39",
-		"setUpRepoList" : "LG 6/24/2016 21:39" } }
+		"setUpRepoList" : "LG 6/24/2016 21:39",
+		"title" : "FR 7/3/2016 20:16",
+		"title:" : "FR 7/3/2016 19:55" } }

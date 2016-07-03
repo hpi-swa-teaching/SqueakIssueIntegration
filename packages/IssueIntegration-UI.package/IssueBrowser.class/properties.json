@@ -9,7 +9,10 @@
 		"issueWidgets",
 		"selectedIssue",
 		"selectedRepo",
-		"repoPackageDictionary" ],
+		"repoPackageDictionary",
+		"title",
+		"assignee",
+		"body" ],
 	"name" : "IssueBrowser",
 	"pools" : [
 		 ],

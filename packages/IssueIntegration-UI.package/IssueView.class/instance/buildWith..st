@@ -1,7 +1,7 @@
 as yet unclassified
 buildWith: builder
 
-	| windowSpec titleInputSpec assigneeInputSpec bodyInputSpec |
+	| windowSpec issueTitleSpec issueAssigneeSpec issueBodySpec settingsButtonSpec editButtonSpec fixMeButtonSpec |
 	
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
@@ -11,28 +11,58 @@ buildWith: builder
 		extent: 250@300;
 		children: OrderedCollection new.
 		
-	titleInputSpec := builder pluggableTextSpec new.
-	titleInputSpec 
-		model: self selectedIssue;
-		name: 'titleInput';
+	issueTitleSpec := builder pluggableTextSpec new.
+	issueTitleSpec
+		model: self;
+		name: 'issueTitle';
 		getText: #title;
-		frame: (0.0@0.05 corner: 1.0@0.2).
-	windowSpec children add: titleInputSpec.
+		setText: #title:;
+		frame: (0@0.0 corner: 1.0@0.2).
+	windowSpec children add: issueTitleSpec.
 
-	bodyInputSpec := builder pluggableTextSpec new.
-	bodyInputSpec 
-		model: self selectedIssue;
-		name: 'bodyInput';
-		getText: #body;
-		frame: (0.0@0.3 corner: 1.0@0.5).
-	windowSpec children add: bodyInputSpec.
-	
-	assigneeInputSpec := builder pluggableTextSpec new.
-	assigneeInputSpec
-		model: self selectedIssue;
-		name: 'assigneeInput';
+	issueAssigneeSpec := builder pluggableTextSpec new.
+	issueAssigneeSpec
+		model: self;
+		name: 'issueAssignee';
 		getText: #assignee;
-		frame: (0.0@0.5 corner: 1.0@0.6).
-	windowSpec children add: assigneeInputSpec.
+		setText: #assignee:;
+		frame: (0@0.2 corner: 1.0@0.3).
+	windowSpec children add: issueAssigneeSpec.
+	
+	issueBodySpec := builder pluggableTextSpec new.
+	issueBodySpec 
+		model: self;
+		name: 'issueBody';
+		getText: #body;
+		setText: #body:;
+		frame: (0@0.3 corner: 1.0@0.9).
+	windowSpec children add: issueBodySpec.
+	
+	settingsButtonSpec := builder pluggableButtonSpec new.
+	settingsButtonSpec
+		model: self;
+		name: 'settingsButton';
+		label: 'Settings';
+		action: #openSettings;
+		frame: (0@0.9corner: 0.33@1.0).
+	windowSpec children add: settingsButtonSpec.	
+	
+	editButtonSpec := builder pluggableButtonSpec new.
+	editButtonSpec
+		model: self;
+		name: 'editButton';
+		label: 'Edit';
+		action: #openBrowser;
+		frame: (0.33@0.9 corner: 0.66@1.0).
+	windowSpec children add: editButtonSpec.
+	
+	fixMeButtonSpec := builder pluggableButtonSpec new.
+	fixMeButtonSpec
+		model: self;
+		name: 'fixMeButton';
+		label: 'Fix me';
+		action: #openBrowser;
+		frame: (0.66@0.9 corner: 1.0@1.0).
+	windowSpec children add: fixMeButtonSpec.
 		
 	^ builder build: windowSpec
