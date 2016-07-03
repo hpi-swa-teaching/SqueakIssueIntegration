@@ -1,0 +1,14 @@
+{
+	"category" : "IssueIntegration-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"packageList" ],
+	"name" : "IISettingsUITest",
+	"pools" : [
+		 ],
+	"super" : "IIUITest",
+	"type" : "normal" }
