@@ -6,5 +6,7 @@
 		"packageList:" : "FR 7/3/2016 21:25",
 		"setUp" : "FR 7/3/2016 21:29",
 		"testInputValidation" : "FR 7/3/2016 21:23",
-		"testPackageList" : "FR 7/3/2016 21:33",
+		"testIssueManagementDeletion" : "FR 7/4/2016 14:12",
+		"testPackageList" : "FR 7/4/2016 13:49",
+		"testPackageSelection" : "FR 7/4/2016 13:49",
 		"testSmoke" : "FR 7/3/2016 21:33" } }
