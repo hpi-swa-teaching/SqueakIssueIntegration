@@ -11,5 +11,5 @@
 	"name" : "IssueBrowserUITest",
 	"pools" : [
 		 ],
-	"super" : "IIUITest",
+	"super" : "IIUITestCase",
 	"type" : "normal" }

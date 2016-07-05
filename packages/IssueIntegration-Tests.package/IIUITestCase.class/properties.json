@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"oldRepositoryDictionary" ],
-	"name" : "IITest",
+		"createdMorphs" ],
+	"name" : "IIUITestCase",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "IITestCase",
 	"type" : "normal" }

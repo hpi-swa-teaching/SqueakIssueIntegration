@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"createdMorphs" ],
-	"name" : "IIUITest",
+		"oldRepositoryDictionary",
+		"gitHubApiMock" ],
+	"name" : "IITestCase",
 	"pools" : [
 		 ],
-	"super" : "IITest",
+	"super" : "MTFTestCase",
 	"type" : "normal" }

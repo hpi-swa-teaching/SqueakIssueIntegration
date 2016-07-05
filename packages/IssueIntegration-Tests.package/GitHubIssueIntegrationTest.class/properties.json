@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"issueManagement",
-		"gitHubApiServer" ],
+		 ],
 	"name" : "GitHubIssueIntegrationTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "IITestCase",
 	"type" : "normal" }
