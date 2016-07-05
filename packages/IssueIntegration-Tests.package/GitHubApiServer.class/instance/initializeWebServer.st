@@ -7,6 +7,6 @@ initializeWebServer
 				ifFalse: [self handleIssueList: req.]]
 			ifFalse: [req isPostRequest
 				ifTrue: [self handleIssueCreation: req.]
-				ifFalse: [self handleCloseIssue: req]]
+				ifFalse: [self handleEditIssue: req]]
 		] methods: #('GET', 'POST','PATCH').
 	self webServer errorHandler: [:error :socket | error pass]
