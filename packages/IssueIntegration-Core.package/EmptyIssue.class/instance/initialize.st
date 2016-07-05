@@ -6,4 +6,4 @@ initialize
 		title: '';
 		body: '';
 		assignee: '';
-		labels: Set new.
+		labels: OrderedCollection new.
