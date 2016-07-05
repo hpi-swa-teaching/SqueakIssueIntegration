@@ -14,7 +14,8 @@ baseline: spec
 		spec baseline: 'Project12' with: [ spec repository: 'github://HPI-SWA-Teaching/Morphic-Testing-Framework:master/packages' ].
             spec
                 package: 'IssueIntegration-Core' with: [ spec requires: #('JSON' 'FFI' 'Applescript-Core' 'ExternalWebBrowser') ];
-                package: 'IssueIntegration-Tests' with: [ spec requires: #('IssueIntegration-Core' 'IssueIntegration-UI' 'Project12') ];
+                package: 'IssueIntegration-Tests' with: [ spec requires: #('IssueIntegration-Core' 'IssueIntegration-UI' 'IssueIntegration-Testserver' 'Project12') ];
+                package: 'IssueIntegration-Testserver' with: [ spec requires: #('') ];
 	 	    package: 'IssueIntegration-UI' with: [ spec requires: #('IssueIntegration-Core' 'Icons' 'Signals' 'Widgets') ].
             spec
                 group: 'default' with: #('IssueIntegration-UI');

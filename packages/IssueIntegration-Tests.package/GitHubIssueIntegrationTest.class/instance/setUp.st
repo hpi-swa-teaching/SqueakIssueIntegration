@@ -1,7 +1,7 @@
 running
 setUp
 	super setUp.
-	self gitHubApiServer: GitHubApiServer start.
+	self gitHubApiServer: IIGitHubApiMock start.
 	self issueManagement: GitHubIssueIntegration new.
-	self issueManagement webClient: GitHubWebClient new.
-	self issueManagement projectID: GitHubApiServer repoSlug.
+	self issueManagement webClient: IIMockWebClient new.
+	self issueManagement projectID: IIGitHubApiMock repoSlug.

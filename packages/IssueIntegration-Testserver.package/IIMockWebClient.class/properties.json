@@ -1,13 +1,13 @@
 {
-	"category" : "IssueIntegration-Tests",
+	"category" : "IssueIntegration-Testserver",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "CF 7/5/2016 21:55",
 	"instvars" : [
 		 ],
-	"name" : "GitHubWebClient",
+	"name" : "IIMockWebClient",
 	"pools" : [
 		 ],
 	"super" : "WebClient",

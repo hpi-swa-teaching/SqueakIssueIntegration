@@ -1,5 +1,5 @@
 {
-	"category" : "IssueIntegration-Tests",
+	"category" : "IssueIntegration-Testserver",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -9,7 +9,7 @@
 		"webServer",
 		"issues",
 		"issueNumber" ],
-	"name" : "GitHubApiServer",
+	"name" : "IIGitHubApiMock",
 	"pools" : [
 		 ],
 	"super" : "Object",
