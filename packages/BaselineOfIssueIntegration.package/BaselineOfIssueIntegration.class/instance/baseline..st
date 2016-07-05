@@ -15,11 +15,12 @@ baseline: spec
             spec
                 package: 'IssueIntegration-Core' with: [ spec requires: #('JSON' 'FFI' 'Applescript-Core' 'ExternalWebBrowser') ];
                 package: 'IssueIntegration-Tests' with: [ spec requires: #('IssueIntegration-Core' 'IssueIntegration-UI' 'IssueIntegration-Testserver' 'Project12') ];
-                package: 'IssueIntegration-Testserver' with: [ spec requires: #('') ];
+                package: 'IssueIntegration-Testserver';
 	 	    package: 'IssueIntegration-UI' with: [ spec requires: #('IssueIntegration-Core' 'Icons' 'Signals' 'Widgets') ].
             spec
                 group: 'default' with: #('IssueIntegration-UI');
 		    group: 'Core' with: #('IssueIntegration-Core');
                 group: 'Tests' with: #('IssueIntegration-Tests');
+		    group: 'Testserver' with: #('IssueIntegration-Testserver');	
                 group: 'TravisCI' with: #('Tests')
 	  ]
