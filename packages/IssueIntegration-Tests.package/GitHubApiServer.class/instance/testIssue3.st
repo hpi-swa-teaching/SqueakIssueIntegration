@@ -1,4 +1,4 @@
-as yet unclassified
+fixtures
 testIssue3
 	^	'{
     "url": "https://api.github.com/repos/test-user/test-repo/issues/3",

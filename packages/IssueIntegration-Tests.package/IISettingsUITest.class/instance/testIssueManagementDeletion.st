@@ -1,6 +1,6 @@
 as yet unclassified
 testIssueManagementDeletion
-	"| projectIdInput packageIndex saveButton |
+	| projectIdInput packageIndex saveButton |
 	packageIndex := self packageList getList 
 		indexOf: (self packageList getList 
 			detect: [ :package | package = 'IssueIntegration-Tests']).
@@ -8,8 +8,8 @@ testIssueManagementDeletion
 	projectIdInput := self subject findByName: 'projectIdInput'.
 	saveButton := self subject findByName: 'saveButton'.
 	projectIdInput changeText: ''.
+	projectIdInput acceptTextInModel.
 	saveButton click.
 	self assert: projectIdInput text equals: ''.
 	self packageList changeModelSelection: 1.
-	self packageList changeModelSelection: packageIndex."
-	
+	self packageList changeModelSelection: packageIndex

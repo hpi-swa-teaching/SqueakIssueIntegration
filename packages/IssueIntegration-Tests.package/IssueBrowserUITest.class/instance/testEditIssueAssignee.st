@@ -6,6 +6,7 @@ testEditIssueAssignee
 	self issueList changeModelSelection: 3.
 	assigneeInput := self subject findByName: 'issueAssignee'.
 	assigneeInput setText: newAssignee.
+	assigneeInput acceptTextInModel.
 	self assert: newAssignee equals: assigneeInput text string.
 	self issueList changeModelSelection: 2.
 	self issueList changeModelSelection: 1.
