@@ -1,10 +1,8 @@
 *IssueIntegration-UI-context stack menu
 createIssue
-
 	| ui body |
-	ui := IssueCreator new.
+	ui := IIIssueCreator new.
 	body := '```Smalltalk', String crlf.
-
 	ui
 		methodName: self selectedMessageName;
 		packageName: self selectedClass category; 

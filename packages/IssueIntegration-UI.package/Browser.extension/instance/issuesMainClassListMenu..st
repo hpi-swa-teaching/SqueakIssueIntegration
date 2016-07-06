@@ -2,7 +2,6 @@
 issuesMainClassListMenu: aMenu
 	<classListMenuShifted: false>
 	| issueMenu issueEditMenu openIssuesList issueManagement |
-
  	issueManagement := IIIssueManagement getIssueManagementFor: self selectedSystemCategory.
     	issueManagement hasValidRemote ifTrue: [
 		aMenu addList: #(-

@@ -5,4 +5,4 @@ iconForClass: aClassNameSymbol
         	ifPresent: [ :global | 
             	(global respondsTo: #toolIcon) ifTrue: [ ^ global toolIcon ]]
         	ifAbsent: [ ^ #blank ].
-    		^ #blank ]. 
+    		^ #blank ]

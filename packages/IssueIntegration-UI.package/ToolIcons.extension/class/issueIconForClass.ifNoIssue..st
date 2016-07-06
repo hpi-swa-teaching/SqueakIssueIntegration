@@ -1,6 +1,5 @@
 *IssueIntegration-UI-icons
 issueIconForClass: aClassNameSymbol ifNoIssue: aBlock
-
 	| issueManagement packageName |	
 	packageName := (Smalltalk classNamed: aClassNameSymbol) packageInfo name.
 	issueManagement := IIIssueManagement getIssueManagementFor: packageName.

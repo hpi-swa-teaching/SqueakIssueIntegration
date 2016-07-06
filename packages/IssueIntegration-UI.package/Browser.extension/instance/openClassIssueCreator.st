@@ -1,6 +1,6 @@
 *IssueIntegration-UI-message list menu
 openClassIssueCreator
-	^ IssueCreator newWithMethodName: ''
+	^ IIIssueCreator newWithMethodName: ''
 		packageName: self selectedSystemCategory
 		issueClassName: self selectedClassName
 		issueClassIsMeta: self metaClassIndicated

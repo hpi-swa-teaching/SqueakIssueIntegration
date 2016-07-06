@@ -7,4 +7,4 @@ issueIconForClass: aClassNameSymbol ifNotEnabled: aBlock
 	(issueManagement getMyIssuesForClass: aClassNameSymbol) ifNotEmpty: [ ^  #bugErrorIcon ].
       (issueManagement getMyIssuesForClass: aClassNameSymbol) ifNotEmpty: [ ^ #bugIcon ].
 
-	^ aBlock value.
+	^ aBlock value
