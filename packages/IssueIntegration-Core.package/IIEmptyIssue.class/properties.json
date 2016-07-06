@@ -1,0 +1,14 @@
+{
+	"category" : "IssueIntegration-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LG 6/26/2016 13:46",
+	"instvars" : [
+		 ],
+	"name" : "IIEmptyIssue",
+	"pools" : [
+		 ],
+	"super" : "IIIssue",
+	"type" : "normal" }

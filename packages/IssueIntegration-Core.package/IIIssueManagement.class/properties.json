@@ -1,0 +1,19 @@
+{
+	"category" : "IssueIntegration-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"RepositoryDictionary" ],
+	"commentStamp" : "SK 7/31/2015 21:43:40.692",
+	"instvars" : [
+		"loginKey",
+		"projectID",
+		"username",
+		"cachedIssues",
+		"cacheDatetime",
+		"webClient" ],
+	"name" : "IIIssueManagement",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

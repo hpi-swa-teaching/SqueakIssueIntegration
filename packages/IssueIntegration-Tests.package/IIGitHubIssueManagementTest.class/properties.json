@@ -1,0 +1,14 @@
+{
+	"category" : "IssueIntegration-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IIGitHubIssueManagementTest",
+	"pools" : [
+		 ],
+	"super" : "IITestCase",
+	"type" : "normal" }

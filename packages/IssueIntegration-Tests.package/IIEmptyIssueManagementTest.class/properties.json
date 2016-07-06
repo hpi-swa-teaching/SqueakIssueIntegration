@@ -1,0 +1,14 @@
+{
+	"category" : "IssueIntegration-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"issueManagement" ],
+	"name" : "IIEmptyIssueManagementTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

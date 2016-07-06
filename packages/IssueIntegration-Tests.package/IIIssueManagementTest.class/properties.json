@@ -1,0 +1,15 @@
+{
+	"category" : "IssueIntegration-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"issueManagement",
+		"issuePackageBrowser" ],
+	"name" : "IIIssueManagementTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"category" : "IssueIntegration-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MZ 7/31/2015 18:41",
+	"instvars" : [
+		"title",
+		"body",
+		"number",
+		"assignee",
+		"labels" ],
+	"name" : "IIIssue",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

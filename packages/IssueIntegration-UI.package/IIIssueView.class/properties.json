@@ -1,0 +1,14 @@
+{
+	"category" : "IssueIntegration-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LG 6/26/2016 13:50",
+	"instvars" : [
+		 ],
+	"name" : "IIIssueView",
+	"pools" : [
+		 ],
+	"super" : "IIIssueBrowser",
+	"type" : "normal" }

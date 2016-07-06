@@ -1,0 +1,14 @@
+{
+	"category" : "IssueIntegration-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MZ 7/31/2015 18:51",
+	"instvars" : [
+		 ],
+	"name" : "IIGitHubIssueManagement",
+	"pools" : [
+		 ],
+	"super" : "IIIssueManagement",
+	"type" : "normal" }

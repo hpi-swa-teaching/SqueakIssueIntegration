@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"createWithProjectID:loginKey:username:" : "FR 7/6/2016 09:39",
+		"createWithProjectURL:loginKey:username:" : "FR 7/6/2016 09:39" },
+	"instance" : {
+		"checkResponse:shouldBe:" : "Axl 5/25/2016 11:18",
+		"closeIssue:" : "FR 7/6/2016 09:39",
+		"createIssueWithTitle:body:assignee:" : "FR 7/6/2016 09:39",
+		"editIssue:assignee:" : "FR 7/6/2016 09:39",
+		"editIssue:body:" : "FR 7/6/2016 09:39",
+		"editIssue:title:" : "FR 7/6/2016 09:39",
+		"editIssue:title:body:assignee:state:" : "FR 7/6/2016 09:39",
+		"emptyJsonResponse" : "Axl 6/12/2016 18:35",
+		"httpRequestTo:withMethod:andBody:onError:" : "CF 6/23/2016 20:02",
+		"httpRequestTo:withMethod:onError:" : "CF 6/23/2016 19:40",
+		"loadIssues" : "FR 7/6/2016 09:39",
+		"openIssueInWebBrowser:" : "CF 6/24/2016 15:28" } }

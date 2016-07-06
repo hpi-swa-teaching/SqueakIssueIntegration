@@ -1,0 +1,20 @@
+{
+	"category" : "IssueIntegration-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LG 6/24/2016 22:06",
+	"instvars" : [
+		"issueWidgets",
+		"selectedIssue",
+		"selectedRepo",
+		"repoPackageDictionary",
+		"title",
+		"assignee",
+		"body" ],
+	"name" : "IIIssueBrowser",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

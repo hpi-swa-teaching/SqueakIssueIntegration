@@ -1,0 +1,21 @@
+{
+	"category" : "IssueIntegration-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "LG 6/24/2016 22:00",
+	"instvars" : [
+		"title",
+		"assignee",
+		"body",
+		"methodName",
+		"packageName",
+		"issueClassName",
+		"issueClassIsMeta",
+		"windowWidget" ],
+	"name" : "IIIssueCreator",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

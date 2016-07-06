@@ -1,0 +1,15 @@
+{
+	"category" : "IssueIntegration-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"repoList",
+		"issueList" ],
+	"name" : "IIIssueBrowserUITest",
+	"pools" : [
+		 ],
+	"super" : "IIUITestCase",
+	"type" : "normal" }
