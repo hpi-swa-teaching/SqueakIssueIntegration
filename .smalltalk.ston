@@ -8,11 +8,9 @@ SmalltalkCISpec {
     }
   ],
   #testing: {
-    #coverage : {
-      #categories : [ 'IssueIntegration-*' ]
-    },
-    #exclude : {
-      #classes : [ #JsonTests ]
-    }
+  #coverage : {
+    #categories : [ 'IssueIntegration-Core', 'IssueIntegration-UI' ]
+  },
+  #exclude : {
+    #classes : [ #JsonTests ]
   }
-}
