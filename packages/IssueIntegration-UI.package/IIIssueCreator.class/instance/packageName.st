@@ -1,4 +1,3 @@
 accessing
 packageName
-
 	^ packageName

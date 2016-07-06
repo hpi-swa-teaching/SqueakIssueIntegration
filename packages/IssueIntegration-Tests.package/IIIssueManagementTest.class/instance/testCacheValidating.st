@@ -1,6 +1,5 @@
 caching
 testCacheValidating
-	
 	self issueManagement cacheIssues: Set new.
 	self assert: self issueManagement isCacheVaild.
 	

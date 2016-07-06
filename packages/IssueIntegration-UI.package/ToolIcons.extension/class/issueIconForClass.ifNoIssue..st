@@ -3,7 +3,7 @@ issueIconForClass: aClassNameSymbol ifNoIssue: aBlock
 
 	| issueManagement packageName |	
 	packageName := (Smalltalk classNamed: aClassNameSymbol) packageInfo name.
-	issueManagement := IssueManagement getIssueManagementFor: packageName.
+	issueManagement := IIIssueManagement getIssueManagementFor: packageName.
 
 	issueManagement hasValidRemote ifFalse: [ ^ aBlock value ].
 	(issueManagement getMyIssuesForClass: aClassNameSymbol) ifNotEmpty: [ ^ #bugErrorIcon ].

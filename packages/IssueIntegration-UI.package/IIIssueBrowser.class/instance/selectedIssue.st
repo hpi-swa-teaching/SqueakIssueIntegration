@@ -1,3 +1,3 @@
 accessing
 selectedIssue	
-	^ selectedIssue ifNil: [ selectedIssue := EmptyIssue new ]
+	^ selectedIssue ifNil: [ selectedIssue := IIEmptyIssue new ]

@@ -3,14 +3,14 @@ issuesMainClassListMenu: aMenu
 	<classListMenuShifted: false>
 	| issueMenu issueEditMenu openIssuesList issueManagement |
 
- 	issueManagement := IssueManagement getIssueManagementFor: self selectedSystemCategory.
+ 	issueManagement := IIIssueManagement getIssueManagementFor: self selectedSystemCategory.
     	issueManagement hasValidRemote ifTrue: [
 		aMenu addList: #(-
 					('create Issue'	openClassIssueCreator)
 					).
 	
 		issueMenu := MenuMorph new.
-		openIssuesList := IssueManagement getIssuesForClass: self selectedClassName package: self selectedSystemCategory.
+		openIssuesList := IIIssueManagement getIssuesForClass: self selectedClassName package: self selectedSystemCategory.
 		openIssuesList do: [ :issue |
 					issueEditMenu := MenuMorph new.
 					issueEditMenu add: ('close ') target: self selector: #closeIssue: argument: issue.

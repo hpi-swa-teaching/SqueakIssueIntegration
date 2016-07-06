@@ -1,6 +1,6 @@
 accessing
 username
 	username 
-		ifNil: [^ (IssueManagement getIssueManagementFor: self selectedPackage) username 			ifNil: ['']
-			ifNotNil: [(IssueManagement getIssueManagementFor: self selectedPackage) username]]
+		ifNil: [^ (IIIssueManagement getIssueManagementFor: self selectedPackage) username 			ifNil: ['']
+			ifNotNil: [(IIIssueManagement getIssueManagementFor: self selectedPackage) username]]
 		ifNotNil: [^ username]

@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"issueManagement" : "SK 5/20/2015 18:56",
-		"issueManagement:" : "SK 5/20/2015 18:56",
+		"issueManagement" : "Axl 7/6/2016 12:53",
+		"issueManagement:" : "Axl 7/6/2016 12:53",
 		"setUp" : "CF 7/6/2016 00:02",
-		"testCloseIssue" : "FR 6/10/2016 10:13",
-		"testGetIssues" : "CF 7/5/2016 23:51",
-		"testGetIssuesChaching" : "CF 7/5/2016 23:51",
+		"testCloseIssue" : "Axl 7/6/2016 12:54",
+		"testGetIssues" : "Axl 7/6/2016 12:55",
+		"testGetIssuesChaching" : "Axl 7/6/2016 12:55",
 		"testIssueCreation" : "FR 4/28/2016 14:06",
-		"testIssueForMethod" : "FR 6/14/2016 22:57",
-		"testLoadingSpeed" : "SK 7/31/2015 22:06:13.253",
-		"testMyIssues" : "FR 6/14/2016 22:59" } }
+		"testIssueForMethod" : "Axl 7/6/2016 12:58",
+		"testLoadingSpeed" : "Axl 7/6/2016 12:57",
+		"testMyIssues" : "Axl 7/6/2016 12:58" } }

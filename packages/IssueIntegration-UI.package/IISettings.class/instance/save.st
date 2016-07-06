@@ -1,11 +1,11 @@
 user interface signals
 save
 	self projectID isEmpty 
-		ifTrue: [	IssueManagement deleteIssueManagementFor:selectedPackage.] 
-		ifFalse: [ self username isEmpty ifTrue: [self error: 'Please insert your username'].
+		ifTrue: [	IIIssueManagement deleteIssueManagementFor:selectedPackage ] 
+		ifFalse: [ self username isEmpty ifTrue: [ self error: 'Please insert your username' ].
 			self projectID: (self extractProjectIDFrom: self projectID).
 			self checkLoginKey: self loginKey.
-			IssueManagement addIssueManagement: (GitHubIssueIntegration createWithProjectID: self projectID 
+			IIIssueManagement addIssueManagement: (IIGitHubIssueManagement createWithProjectID: self projectID 
 				loginKey: self loginKey 
-				username: (self username)) 
-				to: selectedPackage.]
+				username: self username) 
+				to: selectedPackage ]

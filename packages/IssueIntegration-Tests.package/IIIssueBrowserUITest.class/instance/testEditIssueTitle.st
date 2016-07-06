@@ -10,4 +10,4 @@ testEditIssueTitle
 	self assert: newTitle equals: titleInput text string.
 	self issueList changeModelSelection: 2.
 	self issueList changeModelSelection: 1.
-	self assert: newTitle equals: titleInput text string.
+	self assert: newTitle equals: titleInput text string

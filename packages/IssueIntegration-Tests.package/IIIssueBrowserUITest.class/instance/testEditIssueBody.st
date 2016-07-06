@@ -10,4 +10,4 @@ testEditIssueBody
 	self assert: newBody equals: bodyInput text string.
 	self issueList changeModelSelection: 2.
 	self issueList changeModelSelection: 1.
-	self assert: newBody equals: bodyInput text string.
+	self assert: newBody equals: bodyInput text string

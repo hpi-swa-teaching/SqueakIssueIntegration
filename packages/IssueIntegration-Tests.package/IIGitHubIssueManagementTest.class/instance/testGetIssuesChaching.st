@@ -4,8 +4,8 @@ testGetIssuesChaching
 	newIssue := self gitHubApiMock createIssueJsonWithTitle: 'New Issue' body: 'Found new Issue' andAssignee: ''.
 	issues := self issueManagement getIssues.
 	serverIssues := self gitHubApiMock issues.
-	issueIDs := issues collect: [ :issue | issue number].
-	serverIssueIDs := (serverIssues collect: [ :json | json at: 'number'] )asSet.
+	issueIDs := issues collect: [ :issue | issue number ].
+	serverIssueIDs := (serverIssues collect: [ :json | json at: 'number' ]) asSet.
 	issueIDs add: (newIssue at: 'number').
 	self assert: serverIssueIDs equals: issueIDs.
 	
@@ -13,6 +13,6 @@ testGetIssuesChaching
 	
 	issues := self issueManagement getIssues.
 	serverIssues := self gitHubApiMock issues.
-	issueIDs := issues collect: [ :issue | issue number].
-	serverIssueIDs := (serverIssues collect: [ :json | json at: 'number'] )asSet.
+	issueIDs := issues collect: [ :issue | issue number ].
+	serverIssueIDs := (serverIssues collect: [ :json | json at: 'number' ]) asSet.
 	self assert: serverIssueIDs equals: issueIDs

@@ -1,6 +1,5 @@
 issue accessing
 getIssuesForClass: aClass
-	
 	| issues issuesForClass |
 	issuesForClass := Set new.
 	issues := self getIssues.

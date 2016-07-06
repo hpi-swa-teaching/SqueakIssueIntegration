@@ -1,6 +1,5 @@
 initialize-release
 setUp
-
 	super setUp.
-	self issueManagement: IssueManagement new.
+	self issueManagement: IIIssueManagement new.
 	self issuePackageBrowser: IISettings new.
