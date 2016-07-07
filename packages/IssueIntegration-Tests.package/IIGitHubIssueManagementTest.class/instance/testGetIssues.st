@@ -1,16 +1,13 @@
 running
 testGetIssues
-	| issuesBefore issuesAfter serverIssues issuesIDs serverIssuesIDs |
-	issuesBefore := self issueManagement getIssues.
-	serverIssues := self gitHubApiMock issues.
-	issuesIDs := issuesBefore collect: [ :issue | issue number ].
-	serverIssuesIDs := (serverIssues collect: [ :json | json at: 'number' ]) asSet.
-	self assert: serverIssuesIDs equals: issuesIDs.
+	| issueIDs serverIssueIDs newIssue |
+	issueIDs := self issueManagement getIssues collect: [ :issue | issue number ].
+	serverIssueIDs := self gitHubApiMock issues collect: [ :json | json at: 'number' ].
+	self assert: serverIssueIDs equals: issueIDs.
 	
-	self issueManagement createIssueWithTitle: 'New Issue' body: 'Test new issue' assignee: ''. 
-	issuesAfter := self issueManagement getIssues.
-	serverIssues := self gitHubApiMock issues.
-	issuesIDs := issuesAfter collect: [ :issue | issue number ].
-	serverIssuesIDs := (serverIssues collect: [ :json | json at: 'number' ]) asSet.
-	self assert: serverIssuesIDs equals: issuesIDs.
-	"self assert: (issuesBefore size + 1) equals: issuesAfter size"
+	newIssue := self issueManagement createIssueWithTitle: 'New Issue' body: 'Test new issue' assignee: ''.
+
+	issueIDs := self issueManagement getIssues collect: [ :issue | issue number ].
+	serverIssueIDs := self gitHubApiMock issues collect: [ :json | json at: 'number' ].
+	self assert: serverIssueIDs equals: issueIDs.
+	self assert: (issueIDs contains: [:id | id = newIssue number]).
