@@ -3,7 +3,7 @@
 		"createWithProjectID:loginKey:username:" : "FR 7/6/2016 09:39",
 		"createWithProjectURL:loginKey:username:" : "Axl 7/6/2016 13:28" },
 	"instance" : {
-		"checkResponse:shouldBe:" : "Axl 5/25/2016 11:18",
+		"checkResponse:shouldBe:" : "CF 7/7/2016 14:46",
 		"closeIssue:" : "FR 7/6/2016 09:39",
 		"createIssueWithTitle:body:assignee:" : "FR 7/6/2016 09:39",
 		"editIssue:assignee:" : "Axl 7/6/2016 13:27",
@@ -11,6 +11,7 @@
 		"editIssue:title:" : "FR 7/6/2016 09:39",
 		"editIssue:title:body:assignee:state:" : "FR 7/6/2016 09:39",
 		"emptyJsonResponse" : "Axl 7/6/2016 13:26",
+		"errorForResponse:" : "CF 7/7/2016 14:49",
 		"httpRequestTo:withMethod:andBody:onError:" : "CF 6/23/2016 20:02",
 		"httpRequestTo:withMethod:onError:" : "CF 6/23/2016 19:40",
 		"loadIssues" : "FR 7/6/2016 09:39",
