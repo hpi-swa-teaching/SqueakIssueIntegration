@@ -6,5 +6,4 @@ labelsAsString
 		(element = self labels last)
 			ifTrue: [ string := string, element]
 			ifFalse: [ string := string, element, ', ' ]]].
-	Transcript show: labels.
 	^ string

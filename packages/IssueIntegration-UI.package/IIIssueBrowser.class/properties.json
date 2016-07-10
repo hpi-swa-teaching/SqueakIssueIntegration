@@ -12,7 +12,8 @@
 		"repoPackageDictionary",
 		"title",
 		"assignee",
-		"body" ],
+		"body",
+		"labels" ],
 	"name" : "IIIssueBrowser",
 	"pools" : [
 		 ],

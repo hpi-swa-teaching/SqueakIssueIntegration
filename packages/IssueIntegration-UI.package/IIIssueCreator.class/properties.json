@@ -13,7 +13,9 @@
 		"packageName",
 		"issueClassName",
 		"issueClassIsMeta",
-		"windowWidget" ],
+		"windowWidget",
+		"labels",
+		"labelsSelected" ],
 	"name" : "IIIssueCreator",
 	"pools" : [
 		 ],

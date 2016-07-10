@@ -1,6 +1,6 @@
 user interface signals
 buildWith: builder
-	| window windowSpec repoListSpec singleIssueViewButtonSpec issueListSpec issueTitleSpec issueBodySpec issueAssigneeSpec fixMeButtonSpec settingsButtonSpec "issueLabelSpec"|
+	| window windowSpec repoListSpec singleIssueViewButtonSpec issueListSpec issueTitleSpec issueBodySpec issueAssigneeSpec fixMeButtonSpec settingsButtonSpec issueLabelSpec|
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -64,17 +64,18 @@ buildWith: builder
 		name: 'issueBody';
 		getText: #body;
 		setText: #body: ;
-		frame: (0.5@0.3 corner: 1.0@0.9).
-		"frame: (0.5@0.3 corner: 1.0@0.8). For the Label integration"
+		"frame: (0.5@0.3 corner: 1.0@0.9)."
+		frame: (0.5@0.3 corner: 1.0@0.8). "For the Label integration"
 	windowSpec children add: issueBodySpec.
 	
-	"issueLabelSpec := builder pluggableTextSpec new.
+	issueLabelSpec := builder pluggableInputFieldSpec new.
 	issueLabelSpec 
-		model: EmptyIssue new;
+		model: self;
 		name: 'issueLabels';
-		getText: #labelsAsString;
+		getText: #labels;
+		"setText: #labels:;"
 		frame: (0.5@0.8 corner: 1.0@0.9).
-	windowSpec children add: issueLabelSpec."
+	windowSpec children add: issueLabelSpec.
 	
 	fixMeButtonSpec := builder pluggableButtonSpec new.
 	fixMeButtonSpec
@@ -108,7 +109,7 @@ buildWith: builder
 		#issueTitle -> (builder widgetAt: #issueTitle) .
 		#issueBody -> (builder widgetAt: #issueBody) .
 		#issueAssignee -> (builder widgetAt: #issueAssignee).
-		"#issueLabels -> (builder widgetAt: #issueLabels)"
+		#issueLabels -> (builder widgetAt: #issueLabels)
 	}).
 	
 	^ window

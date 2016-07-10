@@ -12,6 +12,7 @@
 		"editIssue:title:body:assignee:state:" : "FR 7/6/2016 09:39",
 		"emptyJsonResponse" : "Axl 7/6/2016 13:26",
 		"errorForResponse:" : "CF 7/7/2016 14:49",
+		"getAllLabels" : "LG 7/10/2016 18:58",
 		"httpRequestTo:withMethod:andBody:onError:" : "CF 6/23/2016 20:02",
 		"httpRequestTo:withMethod:onError:" : "CF 6/23/2016 19:40",
 		"loadIssues" : "FR 7/6/2016 09:39",

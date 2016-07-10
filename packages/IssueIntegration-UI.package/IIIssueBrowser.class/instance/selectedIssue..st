@@ -6,4 +6,4 @@ selectedIssue: anIssue
 		changed: #title;
 		changed: #body;
 		changed: #assignee;
-		changed: #labelsAsString
+		changed: #labels
