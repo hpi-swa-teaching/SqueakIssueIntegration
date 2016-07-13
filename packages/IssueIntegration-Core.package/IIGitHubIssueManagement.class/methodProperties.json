@@ -5,9 +5,10 @@
 	"instance" : {
 		"checkResponse:shouldBe:" : "CF 7/7/2016 14:46",
 		"closeIssue:" : "FR 7/6/2016 09:39",
-		"createIssueWithTitle:body:assignee:labels:" : "HR 7/12/2016 18:53",
+		"createIssueWithTitle:body:assignee:labels:" : "HR 7/13/2016 15:58",
 		"editIssue:assignee:" : "Axl 7/6/2016 13:27",
 		"editIssue:body:" : "FR 7/6/2016 09:39",
+		"editIssue:labels:" : "HR 7/13/2016 15:43",
 		"editIssue:title:" : "FR 7/6/2016 09:39",
 		"editIssue:title:body:assignee:state:" : "FR 7/6/2016 09:39",
 		"emptyJsonResponse" : "Axl 7/6/2016 13:26",

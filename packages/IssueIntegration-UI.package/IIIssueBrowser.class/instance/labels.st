@@ -1,7 +1,5 @@
 user interface signals
 labels
-	selectedIssue labelsAsString  
-		ifNil: [ ^ labels
-			ifNil: ['']
-			ifNotNil: [labels]]
-		ifNotNil: [ ^ selectedIssue labelsAsString ]
+	 ^ labels
+		ifNil: [ self getLabelsOfRepo ]
+		ifNotNil: [ labels ]
