@@ -1,4 +1,5 @@
 as yet unclassified
 labelsSelected
-	^ 0
+	labelsSelected ifNil: [ labelsSelected := OrderedCollection new ].
+	^ labelsSelected 
 	

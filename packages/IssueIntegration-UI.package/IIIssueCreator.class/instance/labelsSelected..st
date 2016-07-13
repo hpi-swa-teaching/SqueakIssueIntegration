@@ -1,4 +1,5 @@
 as yet unclassified
-labelsSelected: anInteger
+labelsSelected: anOrderedCollection
+	labelsSelected := anOrderedCollection.
 	self changed: #labelsSelected 
 	

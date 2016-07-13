@@ -6,10 +6,10 @@
 		"issueManagement:" : "Axl 7/6/2016 12:53",
 		"setUp" : "CF 7/6/2016 00:02",
 		"testCheckResponse" : "CF 7/7/2016 14:45",
-		"testCloseIssue" : "Axl 7/6/2016 12:54",
-		"testGetIssues" : "CF 7/6/2016 23:03",
+		"testCloseIssue" : "HR 7/12/2016 18:55",
+		"testGetIssues" : "HR 7/12/2016 18:55",
 		"testGetIssuesChaching" : "Axl 7/6/2016 12:55",
-		"testIssueCreation" : "FR 4/28/2016 14:06",
-		"testIssueForMethod" : "Axl 7/6/2016 12:58",
+		"testIssueCreation" : "HR 7/12/2016 18:55",
+		"testIssueForMethod" : "HR 7/12/2016 18:54",
 		"testLoadingSpeed" : "Axl 7/6/2016 12:57",
-		"testMyIssues" : "Axl 7/6/2016 12:58" } }
+		"testMyIssues" : "HR 7/12/2016 18:55" } }

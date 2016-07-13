@@ -1,7 +1,6 @@
 as yet unclassified
 labelsAt: anInteger put: aBoolean
-	labelsSelected := labelsSelected
+	self labelsSelected: (labelsSelected
 		perform: (aBoolean ifTrue: [ #copyWith: ] ifFalse: [ #copyWithout: ])
-		with: (labels at: anInteger ifAbsent: [ ^ self ]).
-	self changed: #labelsSelected; updateClasses.
-	
+		with: (labels at: anInteger ifAbsent: [ ^ self ]))
+

@@ -1,7 +1,7 @@
 running
 testCloseIssue
 	| issue issueSet |
-	issue := issueManagement createIssueWithTitle: 'testCloseIssue' body: 'test body' assignee: ''.
+	issue := issueManagement createIssueWithTitle: 'testCloseIssue' body: 'test body' assignee: '' labels: OrderedCollection new.
 	issueManagement closeIssue: issue.
 	issueSet := issueManagement getIssues.
 	

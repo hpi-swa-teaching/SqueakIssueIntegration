@@ -1,4 +1,4 @@
 as yet unclassified
 labelsAt: anIndex
-	^ labelsSelected includes: (labels at: anIndex ifAbsent: [^ false])
+	^ self labelsSelected includes: (self labels at: anIndex ifAbsent: [^ false])
 	

@@ -2,7 +2,7 @@ running
 testIssueForMethod
 	"Do not test for issue title to be 'MethodIssue [class/method]' because this (how the method ist stored) is an implementation sepectific detail (same for body)"
 	| createdIssue issues |
-	createdIssue := issueManagement createIssueWithTitle: 'New Method Issue' body: 'test body method' method: 'method' class: 'class' isMeta: false assignee: ''.
+	createdIssue := issueManagement createIssueWithTitle: 'New Method Issue' body: 'test body method' method: 'method' class: 'class' isMeta: false assignee: '' labels: OrderedCollection new.
 	Transcript show: createdIssue.
 	self assert: (createdIssue title includesSubString: 'New Method Issue').
 	self assert: (createdIssue body includesSubString: 'test body method').

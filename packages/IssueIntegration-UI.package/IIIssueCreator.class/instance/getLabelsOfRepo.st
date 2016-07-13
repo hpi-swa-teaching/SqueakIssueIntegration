@@ -1,3 +1,4 @@
 as yet unclassified
 getLabelsOfRepo
-	^ IIIssueManagement getLabelsForPackage: packageName
+	self labels ifNil: [ self labels: (IIIssueManagement getLabelsForPackage: packageName) ].
+	^ self labels
