@@ -1,4 +1,4 @@
-Squeak Issue Integration [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-05.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-05)
+Squeak Issue Integration [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-05.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-05) [![Coverage Status](https://coveralls.io/repos/github/HPI-SWA-Teaching/SWT16-Project-05/badge.svg?branch=master)](https://coveralls.io/github/HPI-SWA-Teaching/SWT16-Project-05?branch=master)
 ===================
 
 This is a Issue Integration for the programming environment
