@@ -1,3 +1,3 @@
 user interface signals
 openIssueView
-	(IIIssueView openWith: self selectedIssue) openInHand
+	(IIIssueView openOnIssue: self selectedIssue inRepo: self selectedRepo withRepoPackageDict: repoPackageDictionary) openInHand
