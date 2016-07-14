@@ -1,7 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'IssueIntegration',
+      #baseline : 'IssueIntegration-*',
       #directory : 'packages',
       #load : [ 'Tests' ],
       #platforms : [ #squeak ]
