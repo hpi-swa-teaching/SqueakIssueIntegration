@@ -8,7 +8,8 @@
 	"instvars" : [
 		"webServer",
 		"issues",
-		"issueNumber" ],
+		"issueNumber",
+		"labels" ],
 	"name" : "IIGitHubApiMock",
 	"pools" : [
 		 ],

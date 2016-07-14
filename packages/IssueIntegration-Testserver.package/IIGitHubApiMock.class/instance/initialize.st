@@ -4,4 +4,5 @@ initialize
 	self webServer: WebServer new.
 	self initializeWebServer.
 	self initializeIssues.
-	self issueNumber: self issues size
+	self issueNumber: self issues size.
+	self initializeLabels 
