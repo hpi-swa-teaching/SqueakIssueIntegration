@@ -1,7 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'IssueIntegration-*',
+      #baseline : 'IssueIntegration',
       #directory : 'packages',
       #load : [ 'Tests' ],
       #platforms : [ #squeak ]
@@ -9,7 +9,7 @@ SmalltalkCISpec {
   ],
   #testing: {
     #coverage : {
-      #categories : [ 'IssueIntegration' ]
+      #categories : [ 'IssueIntegration-*' ]
     },
     #exclude : {
       #classes : [ #JsonTests ]
