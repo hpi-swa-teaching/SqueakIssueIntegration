@@ -1,10 +1,12 @@
 {
 	"class" : {
-		"getInstance" : "FR 7/6/2016 09:39" },
+		"getInstance" : "Axl 7/14/2016 14:04" },
 	"instance" : {
 		"checkResponse:shouldBe:" : "Axl 5/17/2016 12:45",
 		"closeIssue:" : "AB 7/31/2015 17:21",
+		"createIssueWithTitle:body:assignee:" : "Axl 7/6/2016 13:28",
 		"createIssueWithTitle:body:assignee:labels:" : "HR 7/12/2016 17:46",
+		"createIssueWithTitle:body:method:class:isMeta:assignee:" : "Axl 7/6/2016 13:28",
 		"createIssueWithTitle:body:method:class:isMeta:assignee:labels:" : "HR 7/12/2016 17:43",
 		"editIssue:assignee:" : "FR 7/3/2016 19:51",
 		"editIssue:body:" : "FR 7/3/2016 19:51",

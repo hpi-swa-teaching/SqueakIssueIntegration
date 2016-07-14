@@ -1,5 +1,4 @@
 initialize-release
 initializeWebClient 
-
 	self webClient: WebClient new.
-	self webClient allowRedirect: true.
+	self webClient allowRedirect: true

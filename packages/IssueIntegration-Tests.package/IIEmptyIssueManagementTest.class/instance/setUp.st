@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
 	super setUp.
-	self issueManagement: IIEmptyIssueManagement getInstance.
+	self issueManagement: IIEmptyIssueManagement getInstance

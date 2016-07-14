@@ -1,6 +1,6 @@
 user interface signals
 buildWith: builder
-	| window windowSpec repoListSpec singleIssueViewButtonSpec issueListSpec issueTitleSpec issueBodySpec issueAssigneeSpec fixMeButtonSpec settingsButtonSpec issueLabelSpec|
+	| windowSpec repoListSpec issueListSpec issueTitleSpec issueBodySpec issueAssigneeSpec issueLabelSpec fixMeButtonSpec settingsButtonSpec singleIssueViewButtonSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -28,25 +28,17 @@ buildWith: builder
 		menu: #issueListMenu:;
 		getSelected: #selectedIssue;
 		setSelected: #selectedIssue: ;
-		frame: (0.0@0.2 corner: 0.35@1).
+		frame: (0.0@0.2 corner: 0.35@1.0).
 	windowSpec children add: issueListSpec.
-	
-	"singleIssueViewButtonSpec := builder pluggableButtonSpec new.
-	singleIssueViewButtonSpec
-		model: self;
-		name: 'singleIssueViewButton';
-		label: '|';
-		action: #openIssueView;
-		frame: (0.8@0.95 corner: 1@1).
-	windowSpec children add: singleIssueViewButton.Spec"
-		
+			
 	issueTitleSpec := builder pluggableInputFieldSpec new.
 	issueTitleSpec
 		model: self;
 		name: 'issueTitle';
 		getText: #title;
-		setText: #title: ;
-		frame: (0.35@0.0 corner: 0.7@0.2).
+		setText: #title:;
+		softLineWrap: true;
+		frame: (0.35@0.0 corner: 0.675@0.2).
 	windowSpec children add: issueTitleSpec.
 
 	issueAssigneeSpec := builder pluggableInputFieldSpec new.
@@ -54,8 +46,9 @@ buildWith: builder
 		model: self;
 		name: 'issueAssignee';
 		getText: #assignee;
-		setText: #assignee: ;
-		frame: (0.35@0.2 corner: 0.7@0.3).
+		setText: #assignee:;
+		softLineWrap: true;
+		frame: (0.35@0.2 corner: 0.675@0.3).
 	windowSpec children add: issueAssigneeSpec.
 	
 	issueBodySpec := builder pluggableInputFieldSpec new.
@@ -63,7 +56,8 @@ buildWith: builder
 		model: self;
 		name: 'issueBody';
 		getText: #body;
-		setText: #body: ;
+		setText: #body:;
+		softLineWrap: true;
 		frame: (0.35@0.3 corner: 1@0.9). 
 	windowSpec children add: issueBodySpec.
 	
@@ -74,18 +68,9 @@ buildWith: builder
 		list: #labels;
 		getSelectionList: #labelsAt:;
 		setSelectionList: #labelsAt:put:;
-		frame: (0.7@0 corner: 1@0.3).
+		frame: (0.675@0.0 corner: 1.0@0.3).
 	windowSpec children add: issueLabelSpec.
-	
-"	issueLabelSpec := builder pluggableInputFieldSpec new.
-	issueLabelSpec 
-		model: self;
-		name: 'issueLabels';
-		getText: #labels;
-'		setText: #labels:;'
-		frame: (0.5@0.8 corner: 1.0@0.9).
-	windowSpec children add: issueLabelSpec."
-	
+		
 	settingsButtonSpec := builder pluggableButtonSpec new.
 	settingsButtonSpec
 		model: self;
@@ -108,17 +93,9 @@ buildWith: builder
 	singleIssueViewButtonSpec 
 		model: self;
 		name: 'singleIssueViewButton';
-		label: 'Undock';
+		label: 'Open';
 		action: #openIssueView;
-		frame: (0.55 @ 0.66 corner: 1 @ 1).
-	"windowSpec children add: singleIssueViewButtonSpec."
+		frame: (0.9@0.9 corner: 1.0@1.0).
+	windowSpec children add: singleIssueViewButtonSpec.
 	
-	window := builder build: windowSpec.
-	self issueWidgets: (Dictionary newFrom: {
-		#issueTitle -> (builder widgetAt: #issueTitle) .
-		#issueBody -> (builder widgetAt: #issueBody) .
-		#issueAssignee -> (builder widgetAt: #issueAssignee).
-		#issueLabels -> (builder widgetAt: #issueLabels)
-	}).
-	
-	^ window
+	^ builder build: windowSpec

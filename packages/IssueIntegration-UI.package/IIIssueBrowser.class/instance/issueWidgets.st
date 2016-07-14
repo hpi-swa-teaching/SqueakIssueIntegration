@@ -1,3 +1,0 @@
-accessing
-issueWidgets
-	^ issueWidgets

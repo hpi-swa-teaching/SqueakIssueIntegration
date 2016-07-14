@@ -1,6 +1,4 @@
 issue accessing
 getIssues
-
-	self isCacheVaild ifFalse: [ self cacheIssues: self loadIssues ].
-	
+	self isCacheVaild ifFalse: [ self cacheIssues: self loadIssues ].	
 	^ self cachedIssues

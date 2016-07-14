@@ -5,6 +5,7 @@
 	"instance" : {
 		"checkResponse:shouldBe:" : "CF 7/7/2016 14:46",
 		"closeIssue:" : "FR 7/6/2016 09:39",
+		"createIssueWithTitle:body:assignee:" : "Axl 7/10/2016 22:10",
 		"createIssueWithTitle:body:assignee:labels:" : "HR 7/13/2016 15:58",
 		"editIssue:assignee:" : "Axl 7/6/2016 13:27",
 		"editIssue:body:" : "FR 7/6/2016 09:39",

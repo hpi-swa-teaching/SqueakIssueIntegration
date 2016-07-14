@@ -1,4 +1,3 @@
 issue accessing
 hasValidRemote
-
 	^ true

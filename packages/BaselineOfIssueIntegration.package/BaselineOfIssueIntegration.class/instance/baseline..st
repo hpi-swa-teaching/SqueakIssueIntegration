@@ -22,5 +22,4 @@ baseline: spec
 		    group: 'Core' with: #('IssueIntegration-Core');
                 group: 'Tests' with: #('IssueIntegration-Tests');
 		    group: 'Testserver' with: #('IssueIntegration-Testserver');	
-                group: 'TravisCI' with: #('Tests')
-	  ]
+                group: 'TravisCI' with: #('Tests') ]

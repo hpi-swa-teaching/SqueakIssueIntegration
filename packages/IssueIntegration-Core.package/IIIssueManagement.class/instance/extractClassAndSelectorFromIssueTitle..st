@@ -13,4 +13,4 @@ extractClassAndSelectorFromIssueTitle: aString
 	class := Smalltalk at: class asSymbol.
 	isMeta ifTrue: [class := class class].
 	
-	^ Dictionary with: #class -> class with: #selector -> selector.
+	^ Dictionary with: #class -> class with: #selector -> selector

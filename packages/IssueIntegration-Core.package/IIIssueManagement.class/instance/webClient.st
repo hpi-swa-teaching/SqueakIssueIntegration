@@ -1,5 +1,3 @@
 accessing
 webClient
-	
-	webClient ifNil: [self initializeWebClient].
-	^ webClient
+	^ webClient ifNil: [ self initializeWebClient ]
