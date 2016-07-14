@@ -10,4 +10,4 @@ testIssueComparison
 	issue1 number: 1.
 	self assert: issue1 <= issue2.
 	issue2 number: 3.
-	self assert: (issue1 <= issue2) not.
+	self assert: (issue1 <= issue2) not

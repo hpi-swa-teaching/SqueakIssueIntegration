@@ -2,11 +2,11 @@ external
 testExtractClassAndSelectorFromIssueTitle
 	| title result |
 	title := 'Testissue'.
-	self should: [self issueManagement extractClassAndSelectorFromIssueTitle: title] raise: Error.
+	self should: [ self issueManagement extractClassAndSelectorFromIssueTitle: title ] raise: Error.
 	title := 'Testissue []'.
-	self should: [self issueManagement extractClassAndSelectorFromIssueTitle: title] raise: Error.
+	self should: [ self issueManagement extractClassAndSelectorFromIssueTitle: title ] raise: Error.
 	title := ''.
-	self should: [self issueManagement extractClassAndSelectorFromIssueTitle: title] raise: Error.
+	self should: [ self issueManagement extractClassAndSelectorFromIssueTitle: title ] raise: Error.
 
 	title := 'Collection Test [Collection]'.
 	result := self issueManagement extractClassAndSelectorFromIssueTitle: title.
@@ -26,5 +26,4 @@ testExtractClassAndSelectorFromIssueTitle
 	title := 'Collection Test [Collection class>>#size]'.
 	result := self issueManagement extractClassAndSelectorFromIssueTitle: title.
 	self assert: (result at: #class) equals: Collection class.
-	self assert: (result at: #selector) equals: 'size'.
-	
+	self assert: (result at: #selector) equals: 'size'

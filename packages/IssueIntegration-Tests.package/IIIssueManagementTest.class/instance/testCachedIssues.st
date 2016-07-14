@@ -1,7 +1,7 @@
 instance variables
 testCachedIssues
 	| issues |
-	issues := Set new.
+	issues := SortedCollection new.
 	issues add: IIIssue new.
 	
 	self issueManagement cachedIssues: issues.

@@ -1,6 +1,6 @@
 as yet unclassified
 handleIssueList: aWebRequest
 	^ aWebRequest 
-		send200Response: (Json render: (self issues select: [:each | (each at: 'state') = 'open'])) 
+		send200Response: (Json render: (self issues select: [ :each | (each at: 'state') = 'open' ])) 
 		contentType: 'application/json' 
 		do: self decorateResponseBlock

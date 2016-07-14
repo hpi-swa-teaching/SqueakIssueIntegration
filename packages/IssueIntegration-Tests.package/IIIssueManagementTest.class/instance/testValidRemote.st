@@ -1,3 +1,3 @@
 constants
 testValidRemote
-	self assert: self issueManagement hasValidRemote.
+	self assert: self issueManagement hasValidRemote

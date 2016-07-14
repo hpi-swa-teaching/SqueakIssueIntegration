@@ -1,4 +1,3 @@
 issue accessing
 getIssues
-
-	^ Set new
+	^ SortedCollection new

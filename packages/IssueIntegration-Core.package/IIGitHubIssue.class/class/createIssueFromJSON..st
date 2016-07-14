@@ -1,7 +1,6 @@
 instance creation
 createIssueFromJSON: aJSON
 	| issue |
-
 	issue := self new.
 	issue
 		number: (aJSON at: 'number');
@@ -15,5 +14,4 @@ createIssueFromJSON: aJSON
 	(aJSON at: 'labels') ifNotNil: [ :labelsJsonCollection |
 		labelsJsonCollection do: [ :labelsJson |
 			issue labels add: (labelsJson at: 'name') ]].
-
 	^ issue

@@ -11,7 +11,7 @@ testRepositoryDictionary
 	IIIssueManagement addIssueManagement: issueManagement to: 'IssueIntegration-Core'.
 	self assert: (IIIssueManagement getIssueManagementFor: 'IssueIntegration-Core') projectID equals: 'HPI-SWA-Teaching/SWT15-Project-03'.
 	IIIssueManagement deleteIssueManagementFor: 'IssueIntegration-Core'.
-	self assert: (IIIssueManagement getIssueManagementFor: 'IssueIntegration-Core') equals: (IIEmptyIssueManagement getInstance).
+	self assert: (IIIssueManagement getIssueManagementFor: 'IssueIntegration-Core') equals: IIEmptyIssueManagement getInstance.
 
 	"At the end add the backed-up issue management"
 	IIIssueManagement addIssueManagement: oldIssueManagement to: 'IssueIntegration-Core'

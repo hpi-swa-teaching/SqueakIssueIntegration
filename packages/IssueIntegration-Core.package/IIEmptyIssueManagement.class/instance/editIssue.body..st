@@ -1,2 +1,2 @@
 issue accessing
-editIssue: anIssue body: body 
+editIssue: anIssue body: body

@@ -1,11 +1,10 @@
 issue accessing
 loadIssues
-	| issueSet response issuesJson |
-	issueSet := Set new.
-	response := self httpRequestTo: '/repos/', self projectID , '/issues' withMethod: #GET onError: [^issueSet].
+	| issueSortedCollection response issuesJson |
+	issueSortedCollection := SortedCollection new.
+	response := self httpRequestTo: '/repos/', self projectID , '/issues' withMethod: #GET onError: [ ^ issueSortedCollection ].
 	self checkResponse: response shouldBe: 200.
 
 	issuesJson := Json readFrom: response content readStream. 
-	issuesJson do: [ :issueJson | issueSet add: (IIGitHubIssue createIssueFromJSON: issueJson) ].
-	
-	^ issueSet
+	issuesJson do: [ :issueJson | issueSortedCollection add: (IIGitHubIssue createIssueFromJSON: issueJson) ].
+	^ issueSortedCollection

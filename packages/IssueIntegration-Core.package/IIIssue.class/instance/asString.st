@@ -1,4 +1,3 @@
 accessing
 asString
-
-	^ '#' , self number , ' ' , self title.
+	^ '#' , self number , ' ' , self title

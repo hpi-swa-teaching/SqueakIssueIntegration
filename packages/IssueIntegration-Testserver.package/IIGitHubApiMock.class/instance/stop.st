@@ -1,3 +1,3 @@
 as yet unclassified
 stop
-	self webServer ifNotNil: [self webServer destroy]
+	self webServer ifNotNil: [ self webServer destroy ]

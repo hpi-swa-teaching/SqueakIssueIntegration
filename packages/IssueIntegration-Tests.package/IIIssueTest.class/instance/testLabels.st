@@ -5,5 +5,4 @@ testLabels
 	labels := OrderedCollection new.
 	labels add: 'important'.
 	issue labels: labels.
-
-	self assert: issue labels equals: labels.
+	self assert: issue labels equals: labels

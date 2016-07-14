@@ -1,4 +1,3 @@
 accessing
 repositoryDictionary
-	RepositoryDictionary ifNil: [RepositoryDictionary := Dictionary new].
-	^ RepositoryDictionary
+	^ RepositoryDictionary ifNil: [ RepositoryDictionary := Dictionary new ]

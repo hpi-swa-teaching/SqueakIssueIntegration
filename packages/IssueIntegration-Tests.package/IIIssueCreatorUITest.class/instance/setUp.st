@@ -1,3 +1,3 @@
 as yet unclassified
 setUp
-	self wantsToTest: IIIssueCreator new.
+	self wantsToTest: IIIssueCreator new

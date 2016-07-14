@@ -1,4 +1,3 @@
 issue management
 addIssueManagement: anIssueManagement to: aPackageString
-
-	self repositoryDictionary at: aPackageString put: anIssueManagement.
+	self repositoryDictionary at: aPackageString put: anIssueManagement

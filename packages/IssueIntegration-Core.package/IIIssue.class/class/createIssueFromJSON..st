@@ -1,4 +1,3 @@
 instance creation
 createIssueFromJSON: aJSON
-
 	self subclassResponsibility

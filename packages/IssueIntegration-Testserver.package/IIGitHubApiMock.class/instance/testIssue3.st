@@ -1,6 +1,6 @@
 fixtures
 testIssue3
-	^	'{
+	^ '{
     "url": "https://api.github.com/repos/test-user/test-repo/issues/3",
     "repository_url": "https://api.github.com/repos/test-user/test-repo",
     "labels_url": "https://api.github.com/repos/test-user/test-repo/issues/3/labels{/name}",

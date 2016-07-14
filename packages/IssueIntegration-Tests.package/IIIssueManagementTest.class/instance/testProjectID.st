@@ -18,4 +18,4 @@ testProjectID
 	projectURL := 'http://github.com/frederike-ramin/TestIssues.git'.
 	self assert: (self issuePackageBrowser extractProjectIDFrom: projectURL) equals: correctSlug.
 	projectURL := 'git@github.com:frederike-ramin/TestIssues.git'.
-	self assert: (self issuePackageBrowser extractProjectIDFrom: projectURL) equals: correctSlug.
+	self assert: (self issuePackageBrowser extractProjectIDFrom: projectURL) equals: correctSlug

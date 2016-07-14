@@ -1,3 +1,3 @@
 issue accessing
 getMyIssuesForClass: className
-	^ Set new
+	^ SortedCollection new

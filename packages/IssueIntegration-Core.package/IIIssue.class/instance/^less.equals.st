@@ -4,4 +4,4 @@ accessing
 	'lower or equal' to an issue with a bigger number. However, this allows us to sort 
 	issue collections using >>sorted by 'newest issue first', which is the usual display
 	style of issues."
-	^ anotherIssue number <= self number.
+	^ anotherIssue number <= self number

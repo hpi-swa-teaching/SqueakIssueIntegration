@@ -4,4 +4,4 @@ testIssueTitleConstants
 	 compatibility is maintained and the constants aren't changed."
 	self assert: '>>#' equals: self issueManagement class classAndMethodSeparator.
 	self assert: ' class' equals: self issueManagement class metaClassIndicator.
-	self assert: ' class>>#' equals: self issueManagement class metaClassAndMethodSeparator.
+	self assert: ' class>>#' equals: self issueManagement class metaClassAndMethodSeparator

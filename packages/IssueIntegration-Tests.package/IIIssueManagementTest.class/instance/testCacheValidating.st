@@ -1,6 +1,6 @@
 caching
 testCacheValidating
-	self issueManagement cacheIssues: Set new.
+	self issueManagement cacheIssues: SortedCollection new.
 	self assert: self issueManagement isCacheVaild.
 	
 	self issueManagement invalidateCache.

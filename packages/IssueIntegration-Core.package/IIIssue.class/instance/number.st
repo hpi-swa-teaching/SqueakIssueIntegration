@@ -1,4 +1,3 @@
 accessing
 number
-
 	^ number
