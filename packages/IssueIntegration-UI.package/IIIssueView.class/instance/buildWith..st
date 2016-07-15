@@ -7,6 +7,7 @@ buildWith: builder
 		name: 'issueBrowser';
 		label: 'Issue Browser';
 		extent: 455@300;
+		minimumExtent: 300@250;
 		children: OrderedCollection new.
 			
 	issueTitleSpec := builder pluggableInputFieldSpec new.

@@ -7,7 +7,8 @@ buildWith: builder
 		name: 'Settings';
 		children: OrderedCollection new;
 		label: 'Settings';
-		extent: 500@300.
+		extent: 500@300;
+		minimumExtent: 450@300.
 	
 	listSpec := builder pluggableListSpec new
 		model: self;

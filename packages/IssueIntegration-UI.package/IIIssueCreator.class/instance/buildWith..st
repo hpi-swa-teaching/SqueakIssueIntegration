@@ -7,7 +7,8 @@ buildWith: builder
 		name: 'IssueCreator';
 		children: OrderedCollection new;
 		label: 'IssueCreator';
-		extent: 500@300. 
+		extent: 500@300;
+		minimumExtent: 300@250.
 	
 	titleInputSpec := builder pluggableInputFieldSpec new
 		model: self;

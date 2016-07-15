@@ -7,6 +7,7 @@ buildWith: builder
 		name: 'issueBrowser';
 		label: 'Issue Browser';
 		extent: 700@300;
+		minimumExtent: 400@250;
 		children: OrderedCollection new.
 	
 	repoListSpec := builder pluggableListSpec new.
@@ -77,7 +78,7 @@ buildWith: builder
 		name: 'settingsButton';
 		label: 'Settings';
 		action: #openSettings;
-		frame: (0.35@0.9 corner: 0.45@1.0).
+		frame: (0.35@0.9 corner: 0.5@1.0).
 	windowSpec children add: settingsButtonSpec.	
 		
 	fixMeButtonSpec := builder pluggableButtonSpec new.
@@ -86,7 +87,7 @@ buildWith: builder
 		name: 'fixMeButton';
 		label: 'Fix me';
 		action: #openBrowser;
-		frame: (0.45@0.9 corner: 0.55@1.0).
+		frame: (0.5@0.9 corner: 0.65@1.0).
 	windowSpec children add: fixMeButtonSpec.
 		
 	singleIssueViewButtonSpec := builder pluggableButtonSpec new.
@@ -95,7 +96,7 @@ buildWith: builder
 		name: 'singleIssueViewButton';
 		label: 'Open';
 		action: #openIssueView;
-		frame: (0.9@0.9 corner: 1.0@1.0).
+		frame: (0.85@0.9 corner: 1.0@1.0).
 	windowSpec children add: singleIssueViewButtonSpec.
 	
 	^ builder build: windowSpec
