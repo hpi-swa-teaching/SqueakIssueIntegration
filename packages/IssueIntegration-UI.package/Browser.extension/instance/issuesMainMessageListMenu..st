@@ -1,7 +1,7 @@
 *IssueIntegration-UI-message list menu
 issuesMainMessageListMenu: aMenu
 	<messageListMenuShifted: false>
-	| issueMenu issueEditMenu openIssuesList issueManagement |
+	| issueMenu issueEditMenu openIssuesList issueManagement argumentList |
  	issueManagement := IIIssueManagement getIssueManagementFor: self selectedSystemCategory.
     	issueManagement hasValidRemote ifTrue: [
 		aMenu addList: #(-
@@ -13,7 +13,8 @@ issuesMainMessageListMenu: aMenu
 		openIssuesList do: [ :issue |
 					issueEditMenu := MenuMorph new.
 					issueEditMenu add: ('close ') target: self selector: #closeIssue: argument: issue.
-					issueEditMenu add: ('edit ') target: self selector: #openInWebbrowser: argument: issue.
+					argumentList := Array with: issue with: self selectedSystemCategory.
+					issueEditMenu add: ('edit ') target: self selector: #openInIssueBrowserWithIssue:andPackage: argumentList: argumentList.
 					issueMenu add: issue title subMenu: issueEditMenu ].
 		openIssuesList ifNotEmpty: [ aMenu add: 'active Issues' subMenu: issueMenu ].
 	
