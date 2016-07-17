@@ -1,6 +1,6 @@
 as yet unclassified
 handleEditIssue: aWebRequest
-	| number issue parsedJSON |
+	| number issue parsedJSON labelObjects |
 	number := (aWebRequest url copyAfterLast: $/) asInteger.
 	issue := self issues detect: [ :each | (each at: 'number') = number ].
 	parsedJSON := Json readFrom: (ReadStream on: aWebRequest content).
@@ -12,4 +12,9 @@ handleEditIssue: aWebRequest
 		issue at: 'body' put: (parsedJSON at: 'body')].
 	(parsedJSON at: 'assignee') ifNotNil: [
 		(issue at: 'assignee') at: 'login' put: (parsedJSON at: 'assignee') ].
+	(parsedJSON at: 'labels') ifNotNil: [
+		labelObjects := (parsedJSON at: 'labels') collect: [ :labelName | 
+			self labels detect: [ :labelObject | 
+				(labelObject at: 'name') = labelName ] ].
+		issue at: 'labels' put: labelObjects ].
 	^ aWebRequest send200Response: (Json render: issue) contentType: 'application/json'

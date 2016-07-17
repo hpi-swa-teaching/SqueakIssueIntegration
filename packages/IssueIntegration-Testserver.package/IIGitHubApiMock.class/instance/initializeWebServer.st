@@ -11,5 +11,5 @@ initializeWebServer
 					ifFalse: [ self handleEditIssue: req ]]
 			] methods: #('GET', 'POST','PATCH');
 		addService: '/rate_limit' action: [ :req | self handleRateLimit: req ]; 
-		addService: '/repos/', self class repoSlug, '/labels' action: [ :req | self handleLabelList ];
+		addService: '/repos/', self class repoSlug, '/labels' action: [ :req | self handleLabelList: req ];
 		errorHandler: [ :error :socket | error pass ]
