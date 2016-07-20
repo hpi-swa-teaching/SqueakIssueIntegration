@@ -17,7 +17,7 @@ are ignored by the system.
   system browser by exclamation icons (the icon is red for issues assigned to 
   you, orange otherwise)
 - Edit and close Issues
-- `Fix me` button to open a system browser where with the class or method 
+- `Fix me` button to open a system browser with the class or method 
   the Issue is related to in focus  
 
 ## How to use
@@ -51,7 +51,7 @@ Open the Issue Integration (`Apps` -> `Issue Integration`) and click on `Setting
 The Settings window opens.
 Then find the package you are working on. Enter the following information:
 - The name of your github project e.g. `HPI-SWA-Teaching/SqueakIssueIntegration` 
-  (or a direct link: `https://github.com/repo/user`)
+  (or a direct link: `https://github.com/user/repo`)
 - Your GitHub username. This is necessary to highlight issues assigned to you.
 - An OAuth-Token. To authenticate you at the Issue Management System you need an
 OAuth-Token. You can click the `Create new OAuth-Token` button to directly open
@@ -76,7 +76,7 @@ All existing Issues for a method or class are indicated with a little
 exclamation icon next to the name *(if an issue is assigned to you the 
 exclamation  icon indicates this by changing it's color to red)*. 
 To show, edit or close them you can access all Issues of this method 
-or class in it's context-menu.
+or class in its context-menu.
 
 ### See and edit Issues by repository inside the Issue Browser
 Open the Issue Integration (`Apps` -> `Issue Integration`). Select the
