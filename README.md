@@ -1,15 +1,37 @@
-Squeak Issue Integration [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-05.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-05) [![Coverage Status](https://coveralls.io/repos/github/HPI-SWA-Teaching/SWT16-Project-05/badge.svg?branch=master)](https://coveralls.io/github/HPI-SWA-Teaching/SWT16-Project-05?branch=master)
-===================
+# Squeak Issue Integration [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-05.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-05) [![Coverage Status](https://coveralls.io/repos/github/HPI-SWA-Teaching/SWT16-Project-05/badge.svg?branch=master)](https://coveralls.io/github/HPI-SWA-Teaching/SWT16-Project-05?branch=master)
 
-This is a Issue Integration for the programming environment
+This is an Issue Integration for the programming environment
 [Squeak](http://squeak.org/). It allows groups of developers to create, manage
-and close issues directly inside of the image. All issues are held and managed
+and edit issues directly inside of the image. All issues are held and managed
 by an Issue Management System like [GitHub](https://github.com).
 
-##How to use it
+## Features
 
-###Installation
-Run the following code in the Workspace:
+Currently only GitHub is supported as an Issue Management System. 
+GitHub Issues support title, body, assignee, labels. Closed Issues
+are ignored by the system.
+
+- Create Issues for methods and classes
+- View all Issues by repository
+- Indication of Issues related to a certain class or method directly inside the 
+  system browser by exclamation icons (the icon is red for issues assigned to 
+  you, orange otherwise)
+- Edit and close Issues
+- `Fix me` button to open a system browser where with the class or method 
+  the Issue is related to in focus  
+
+## How to use
+
+### Migration
+In case you use an older version of the Issue Integration, namely `v0.1`, we 
+recommend to execute the following code to remove deprecated links from the
+menu bar:
+```smalltalk
+TheWorldMenu registry copy do: [ :each | (each first = 'Issue Package Browser ') ifTrue: [TheWorldMenu registry remove: each.]].
+```
+
+### Installation
+Run the following code in a Workspace:
 ```smalltalk
 {
 Metacello new
@@ -24,38 +46,46 @@ do: [ :baseline | baseline
     onConflict: [ :ex | ex allow ];
     load: 'default' ].
 ```
-###Set Up
-Open the Issue Package Browser (`Apps` -> `Issue Package Browser`) and select
-the package you are working on. Enter the following information:
-- **Project**: The name of your github project e.g. `HPI-SWA-Teaching/SqueakIssueIntegration`
-- **Login Key**: To authenticate you at the Issue Management System you need an
-OAuth-Token. You can generate one for your GitHub profile
-[here](https://github.com/settings/tokens)
-(needed scopes: `public_repo` (if using private repositories: `repo`)
-- **Username**: Add your github user name
-Press save
+### Set Up
+Open the Issue Integration (`Apps` -> `Issue Integration`) and click on `Settings`.
+The Settings window opens.
+Then find the package you are working on. Enter the following information:
+- The name of your github project e.g. `HPI-SWA-Teaching/SqueakIssueIntegration` 
+  (or a direct link: `https://github.com/repo/user`)
+- Your GitHub username. This is necessary to highlight issues assigned to you.
+- An OAuth-Token. To authenticate you at the Issue Management System you need an
+OAuth-Token. You can click the `Create new OAuth-Token` button to directly open
+your webbrowser at GitHub's token creation page. If your repository is public,
+leave everything as it is (`public_repo` scope checked), scroll down and hit 
+the `Generate token` button. If your repository is private, make sure to also
+check the `repo` scope. Copy the generated token and hit the `Save (and quit)`
+button inside the Settings window.
 
-###Create an Issue
-To create an Issue you can right-click on a method in the System-Browser or the
-Debugger and select `create Issue` in the context menu *(note: the option only
-appears in packages with a set up project)*. If you want to assign the issue
-directly to one of your team members you can enter his/her username in the
-Issue Creator. Please note that you need push access to the repository to be
-able to assign someone.
+### Create an Issue
+To create an Issue you can right-click on a method or class in the System Browser or the
+Debugger and select `create Issue` in the context menu *(the option only
+appears in packages with a set up issue management)*. You can give it a 
+title and optional description. If you want to assign the issue
+directly to one of your team members you can enter their username in the
+Issue Creator. Please note that you and the assignee both need push access 
+to the repository for the assignment to work. You also need push access
+to assign labels to the Issue.
 
-###See existing issues in the System-Browser
-All existing issues for a method or class are indicated with a little bug icon
-next to the name (note: If an issue is assigned to you the bug-icon indicates
-this with a little sign). To close and edit them you can access all issues of
-this method or class in it's context-menu.
+### See existing Issues in the System Browser
+All existing Issues for a method or class are indicated with a little 
+exclamation icon next to the name *(if an issue is assigned to you the 
+exclamation  icon indicates this by changing it's color to red)*. 
+To show, edit or close them you can access all Issues of this method 
+or class in it's context-menu.
 
-##Development
-Pull Requests are welcome.
-If you want to run the tests locally you have to create a method
-`GitHubIssueIntegrationTest>>#setLoginKey` like this:
-```smalltalk
-setLoginKey
+### See and edit Issues by repository inside the Issue Browser
+Open the Issue Integration (`Apps` -> `Issue Integration`). Select the
+repository and click through the list of issues. All changes you make to
+issues are directly sent to GitHub and saved.
 
-	^self issueManagement loginKey: 'put your login key here'
-```
-and add your test repository to `GitHubIssueIntegrationTest>>#setUp`.
+
+## Development
+Pull Requests are welcome. Please make sure to run the tests locally before
+pushing to the master branch. To run the tests, make sure your port `8080`
+is not in use. It is used during tests to start a GitHub mock server to be
+independent from your internet connection and GitHub's availability.
