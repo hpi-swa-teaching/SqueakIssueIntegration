@@ -11,7 +11,10 @@ handleEditIssue: aWebRequest
 	(parsedJSON at: 'body') ifNotNil: [
 		issue at: 'body' put: (parsedJSON at: 'body') ].
 	(parsedJSON at: 'assignee') ifNotNil: [
-		(issue at: 'assignee') at: 'login' put: (parsedJSON at: 'assignee') ].
+		| assigneeJson |
+		assigneeJson := JsonObject new.
+		assigneeJson at: 'login' put: (parsedJSON at: 'assignee').
+		issue at: 'assignee' put: assigneeJson].
 	(parsedJSON at: 'labels') ifNotNil: [
 		labelObjects := (parsedJSON at: 'labels') collect: [ :labelName | 
 			self labels detect: [ :labelObject | 
