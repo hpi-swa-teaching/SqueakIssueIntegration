@@ -1,4 +1,4 @@
-initialization
+accessing
 body
 	^ body 
 		ifNil: [ '' ]

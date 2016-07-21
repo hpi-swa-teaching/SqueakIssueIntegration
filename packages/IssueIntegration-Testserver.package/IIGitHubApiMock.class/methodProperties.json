@@ -19,7 +19,7 @@
 		"handleRateLimit:" : "CF 7/5/2016 15:33",
 		"initialize" : "Axl 7/14/2016 21:09",
 		"initializeIssues" : "Axl 7/20/2016 10:57",
-		"initializeLabels" : "HR 7/17/2016 14:37",
+		"initializeLabels" : "HR 7/21/2016 17:25",
 		"initializeWebServer" : "Axl 7/20/2016 09:31",
 		"issueNumber" : "Axl 7/14/2016 21:00",
 		"issueNumber:" : "Axl 7/14/2016 21:00",
@@ -35,9 +35,5 @@
 		"testIssue3" : "Axl 7/14/2016 21:10",
 		"testLabel1" : "FR 7/14/2016 11:48",
 		"testLabel2" : "FR 7/14/2016 11:49",
-		"testLabel3" : "HR 7/17/2016 14:36",
-		"testLabel4" : "HR 7/17/2016 14:36",
-		"testLabel5" : "HR 7/17/2016 14:36",
-		"testLabel6" : "HR 7/17/2016 14:36",
 		"webServer" : "Axl 7/14/2016 21:10",
 		"webServer:" : "CF 6/10/2016 08:13" } }

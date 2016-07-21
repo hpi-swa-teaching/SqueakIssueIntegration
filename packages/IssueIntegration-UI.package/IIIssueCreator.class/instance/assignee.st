@@ -1,4 +1,4 @@
-initialization
+accessing
 assignee
 	^ assignee 
 		ifNil: [ '' ]

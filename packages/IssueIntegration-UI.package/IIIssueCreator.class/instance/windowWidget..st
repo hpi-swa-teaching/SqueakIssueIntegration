@@ -1,3 +1,3 @@
-initialization
+accessing
 windowWidget: aSystemWindow
 	windowWidget := aSystemWindow

@@ -1,4 +1,4 @@
-initialization
+accessing
 title
 	^ title 
 		ifNil: [ '' ]
