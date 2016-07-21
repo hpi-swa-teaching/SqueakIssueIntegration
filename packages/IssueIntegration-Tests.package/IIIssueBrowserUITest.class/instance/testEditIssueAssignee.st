@@ -1,9 +1,9 @@
-as yet unclassified
+running
 testEditIssueAssignee
 	| assigneeInput newAssignee |
 	newAssignee := 'test-user-new'.
 	self repoList changeModelSelection: 1.
-	self issueList changeModelSelection: 3.
+	self issueList changeModelSelection: 1.
 	assigneeInput := self subject findByName: 'issueAssignee'.
 	assigneeInput setText: newAssignee.
 	assigneeInput acceptTextInModel.

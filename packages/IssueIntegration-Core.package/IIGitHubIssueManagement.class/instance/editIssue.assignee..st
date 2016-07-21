@@ -1,9 +1,12 @@
-issue accessing
+issue editing
 editIssue: anIssue assignee: assignee
 	| json response |
 	json := JsonObject new. 
 	json at: 'assignee' put: assignee.
-	response := self httpRequestTo: '/repos/', self projectID , '/issues/', anIssue number withMethod: #PATCH andBody: json asJsonString onError: [ ^ self ].
+	response := self httpRequestTo: '/repos/', self projectID , '/issues/', anIssue number 
+		withMethod: #PATCH 
+		andBody: json asJsonString 
+		onError: [ ^ anIssue ].
 	self checkResponse: response shouldBe: 200.
 	self invalidateCache.
 

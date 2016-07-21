@@ -1,5 +1,6 @@
 accessing
-selectedRepo: aSymbol	
-	selectedRepo := aSymbol.
+selectedRepo: anIssueManagement
+	selectedRepo := anIssueManagement.
 	self changed: #selectedRepo.
-	self changed: #getIssues
+	self changed: #issueList.
+	self changed: #labelList

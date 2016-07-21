@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testSettingsButton
 	| settingsButton |
 	settingsButton := self subject findByName: 'settingsButton'.

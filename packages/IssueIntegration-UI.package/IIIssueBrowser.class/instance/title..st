@@ -1,5 +1,4 @@
-user interface signals
+issue accessing
 title: aText
-	title := aText.
-	selectedIssue := (IIIssueManagement getIssueManagementFor: (self repoPackageDictionary at: self selectedRepo)) editIssue: self selectedIssue title: title.
+	self selectedIssue: (self selectedRepo editIssue: self selectedIssue title: aText).
 	self changed: #title

@@ -1,3 +1,3 @@
 accessing
 selectedRepo	
-	^ selectedRepo
+	^ selectedRepo ifNil: [ IIEmptyIssueManagement new ]

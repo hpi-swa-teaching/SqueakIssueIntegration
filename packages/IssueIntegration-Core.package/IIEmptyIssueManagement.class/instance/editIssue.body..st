@@ -1,2 +1,2 @@
-issue accessing
+issue editing
 editIssue: anIssue body: body

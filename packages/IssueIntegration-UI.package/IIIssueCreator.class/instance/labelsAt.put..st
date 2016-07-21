@@ -1,6 +1,6 @@
 as yet unclassified
 labelsAt: anInteger put: aBoolean
-	self labelsSelected: (labelsSelected
+	self labelsSelected: (self labelsSelected
 		perform: (aBoolean ifTrue: [ #copyWith: ] ifFalse: [ #copyWithout: ])
-		with: (labels at: anInteger ifAbsent: [ ^ self ]))
+		with: (self labels at: anInteger ifAbsent: [ ^ self ]))
 

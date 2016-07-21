@@ -1,5 +1,4 @@
-user interface signals
+issue accessing
 body: aText
-	body := aText.
-	selectedIssue := (IIIssueManagement getIssueManagementFor: (self repoPackageDictionary at: self selectedRepo)) editIssue: self selectedIssue body: body.
+	self selectedIssue: (self selectedRepo editIssue: self selectedIssue body: self body).
 	self changed: #body

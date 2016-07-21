@@ -2,8 +2,8 @@
 	"class" : {
 		"getInstance" : "Axl 7/14/2016 14:04" },
 	"instance" : {
-		"checkResponse:shouldBe:" : "Axl 5/17/2016 12:45",
-		"closeIssue:" : "AB 7/31/2015 17:21",
+		"checkResponse:shouldBe:" : "Axl 7/15/2016 13:17",
+		"closeIssue:" : "Axl 7/15/2016 13:17",
 		"createIssueWithTitle:body:assignee:" : "Axl 7/6/2016 13:28",
 		"createIssueWithTitle:body:assignee:labels:" : "HR 7/12/2016 17:46",
 		"createIssueWithTitle:body:method:class:isMeta:assignee:" : "Axl 7/14/2016 20:23",
@@ -11,7 +11,7 @@
 		"editIssue:assignee:" : "FR 7/3/2016 19:51",
 		"editIssue:body:" : "Axl 7/14/2016 20:23",
 		"editIssue:labels:" : "LG 7/10/2016 16:49",
-		"editIssue:title:" : "FR 7/3/2016 19:31",
+		"editIssue:title:" : "Axl 7/15/2016 13:18",
 		"editIssue:title:body:assignee:state:" : "AB 7/31/2015 17:18",
 		"getAllLabels" : "Axl 7/14/2016 20:23",
 		"getIssueWithNumber:" : "Axl 7/6/2016 13:28",
@@ -19,7 +19,10 @@
 		"getIssuesForClass:" : "Axl 7/14/2016 20:24",
 		"getIssuesForClass:isMeta:" : "Axl 7/14/2016 20:24",
 		"getIssuesForMethod:class:isMeta:" : "Axl 7/14/2016 20:24",
+		"getLabels" : "Axl 7/15/2016 18:36",
 		"getMyIssuesForClass:" : "Axl 7/14/2016 20:24",
 		"getMyIssuesForMethod:class:isMeta:" : "Axl 7/14/2016 20:24",
 		"hasValidRemote" : "Axl 7/14/2016 20:24",
+		"loadIssues" : "Axl 7/15/2016 13:19",
+		"loadLabels" : "Axl 7/15/2016 18:36",
 		"openIssueInWebBrowser:" : "CF 6/24/2016 15:28" } }

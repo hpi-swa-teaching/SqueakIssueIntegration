@@ -1,17 +1,14 @@
 *IssueIntegration-UI-context stack menu
 createIssue
 	| ui body |
-	ui := IIIssueCreator new.
-	body := '```Smalltalk', String crlf.
-	ui
-		methodName: self selectedMessageName;
-		packageName: self selectedClass category; 
-		issueClassName: self selectedClass name;
+	ui := IIIssueCreator 
+		newWithMethodName: self selectedMessageName 
+		packageName: self selectedClass 
+		category issueClassName: self selectedClass name 
 		issueClassIsMeta: self selectedClass isMeta.
-
+	
+	body := '```smalltalk', String crlf.
 	self contextStackList do: [ :text | body := body, text, String crlf ].
 	body := body, '```'.
 
-	ui
-		body: body;
-		openInWindow
+	ui model body: body.

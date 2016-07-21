@@ -1,7 +1,8 @@
 as yet unclassified
 initializeIssues
 	self issues: OrderedCollection new.
-	self issues add: (Json readFrom: (ReadStream on: self testIssue1)).
-	self issues add: (Json readFrom: (ReadStream on: self testIssue2)).
-	self issues add: (Json readFrom: (ReadStream on: self testIssue3))
+	self issues
+		add: (Json readFrom: self testIssue1 readStream);
+		add: (Json readFrom: self testIssue2 readStream);
+		add: (Json readFrom: self testIssue3 readStream)
 	

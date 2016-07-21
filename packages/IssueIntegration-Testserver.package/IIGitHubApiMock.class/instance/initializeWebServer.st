@@ -8,8 +8,8 @@ initializeWebServer
 					ifFalse: [ self handleIssueList: req ]]
 				ifFalse: [ req isPostRequest
 					ifTrue: [ self handleIssueCreation: req ]
-					ifFalse: [ self handleEditIssue: req ]]
-			] methods: #('GET', 'POST','PATCH');
+					ifFalse: [ self handleEditIssue: req ]]]
+			methods: #('GET' 'POST' 'PATCH');
 		addService: '/rate_limit' action: [ :req | self handleRateLimit: req ]; 
 		addService: '/repos/', self class repoSlug, '/labels' action: [ :req | self handleLabelList: req ];
 		errorHandler: [ :error :socket | error pass ]

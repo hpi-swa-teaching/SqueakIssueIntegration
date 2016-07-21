@@ -1,3 +1,3 @@
 user interface signals
 openBrowser
-	self getIssueManagement openIssueInSystemBrowser: self selectedIssue
+	self selectedRepo openIssueInSystemBrowser: self selectedIssue

@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 tearDown
 	super tearDown.
 	self createdMorphs do: [ :each | each delete ]

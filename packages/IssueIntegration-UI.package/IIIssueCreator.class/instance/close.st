@@ -1,3 +1,3 @@
 user interface signals
 close
-	self windowWidget delete
+	self windowWidget closeBoxHit
