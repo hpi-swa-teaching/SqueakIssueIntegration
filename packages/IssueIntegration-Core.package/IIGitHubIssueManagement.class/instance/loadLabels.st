@@ -1,5 +1,5 @@
-issue accessing
-getAllLabels 
+accessing
+loadLabels 
 	| response labels labelsJson |
 	labels := OrderedCollection new.
 	response := self httpRequestTo: '/repos/', self projectID , '/labels' withMethod: #GET onError: [ ^ labels ].

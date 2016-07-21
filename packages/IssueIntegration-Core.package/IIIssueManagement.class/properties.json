@@ -4,14 +4,15 @@
 		 ],
 	"classvars" : [
 		"RepositoryDictionary" ],
-	"commentStamp" : "SK 7/31/2015 21:43:40.692",
+	"commentStamp" : "Axl 7/15/2016 18:34",
 	"instvars" : [
 		"loginKey",
 		"projectID",
 		"username",
 		"cachedIssues",
 		"cacheDatetime",
-		"webClient" ],
+		"webClient",
+		"cachedLabels" ],
 	"name" : "IIIssueManagement",
 	"pools" : [
 		 ],

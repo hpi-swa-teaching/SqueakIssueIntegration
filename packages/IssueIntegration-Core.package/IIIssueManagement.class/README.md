@@ -1,4 +1,4 @@
-An IssueManagement maintains the issues for a certain repository. Every Package gets it's own IssueManagement.
+An IssueManagement maintains the issues for a certain repository.
 
 Instance Variables
 	cacheDatetime:		<DateAndTime>

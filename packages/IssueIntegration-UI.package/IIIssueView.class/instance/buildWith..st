@@ -37,7 +37,7 @@ buildWith: builder
 		getText: #body;
 		setText: #body:;
 		softLineWrap: true;
-		frame: (0.0@0.3 corner: 1@0.9). 
+		frame: (0.0@0.3 corner: 1.0@0.9). 
 	windowSpec children add: issueBodySpec.
 	
 	issueLabelSpec := builder pluggableMultiSelectionListSpec new.

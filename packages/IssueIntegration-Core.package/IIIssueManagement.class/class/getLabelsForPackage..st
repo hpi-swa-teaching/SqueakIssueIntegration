@@ -1,4 +1,3 @@
 as yet unclassified
 getLabelsForPackage: aPackage
-	^ (self getIssueManagementFor: aPackage) getAllLabels
-	
+	^ (self getIssueManagementFor: aPackage) getLabels

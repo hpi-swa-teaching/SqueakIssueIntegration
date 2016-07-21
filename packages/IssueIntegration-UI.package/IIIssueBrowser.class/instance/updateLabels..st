@@ -1,4 +1,4 @@
 user interface signals
-updateLabels: labels
-	((IIIssueManagement getIssueManagementFor: (self repoPackageDictionary at: self selectedRepo)) editIssue: self selectedIssue labels: labels)
+updateLabels: someLabels
+	self selectedRepo editIssue: self selectedIssue labels: someLabels
 		

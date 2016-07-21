@@ -1,7 +1,3 @@
-user interface signals
+issue accessing
 assignee
-	selectedIssue assignee 
-		ifNil: [ ^ assignee
-			ifNil: [ '' ]
-			ifNotNil: [ assignee ]]
-		ifNotNil: [ ^ selectedIssue assignee ]
+	^ self selectedIssue assignee ifNil: [ '' ]

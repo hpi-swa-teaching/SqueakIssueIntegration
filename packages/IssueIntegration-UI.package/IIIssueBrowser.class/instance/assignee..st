@@ -1,5 +1,4 @@
-user interface signals
+issue accessing
 assignee: aText
-	assignee := aText.
-	selectedIssue := (IIIssueManagement getIssueManagementFor: (self repoPackageDictionary at: self selectedRepo)) editIssue: self selectedIssue assignee: assignee.
+	self selectedIssue: (self selectedRepo editIssue: self selectedIssue assignee: self assignee).
 	self changed: #assignee

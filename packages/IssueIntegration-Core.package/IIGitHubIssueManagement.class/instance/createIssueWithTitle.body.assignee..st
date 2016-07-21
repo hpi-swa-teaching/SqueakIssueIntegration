@@ -7,7 +7,10 @@ createIssueWithTitle: title body: body assignee: assignee
 		at: 'title' put: title;
 		at: 'body' put: body.
 	assignee ifNotEmpty: [ json at: 'assignee' put: assignee ].
-	response := self httpRequestTo: '/repos/', self projectID, '/issues' withMethod: #POST andBody: json asJsonString onError: [ ^ IIEmptyIssue new ].
+	response := self httpRequestTo: '/repos/', self projectID, '/issues' 
+		withMethod: #POST 
+		andBody: json asJsonString 
+		onError: [ ^ IIEmptyIssue new ].
 	self checkResponse: response shouldBe: 201.
 	self invalidateCache.
 

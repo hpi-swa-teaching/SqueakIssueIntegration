@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testFixMeButton
 	| fixMeButton |
 	fixMeButton := self subject findByName: 'fixMeButton'.

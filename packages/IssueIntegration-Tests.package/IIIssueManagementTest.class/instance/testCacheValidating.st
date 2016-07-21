@@ -1,5 +1,6 @@
 caching
 testCacheValidating
+	"i broke it. new: refresh cache"
 	self issueManagement cacheIssues: SortedCollection new.
 	self assert: self issueManagement isCacheVaild.
 	

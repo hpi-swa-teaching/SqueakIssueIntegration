@@ -1,7 +1,3 @@
-user interface signals
+issue accessing
 body
-	selectedIssue body 
-		ifNil: [ ^ body
-			ifNil: ['']
-			ifNotNil: [body]]
-		ifNotNil: [ ^ selectedIssue body ]
+	^ self selectedIssue body ifNil: [ '' ]

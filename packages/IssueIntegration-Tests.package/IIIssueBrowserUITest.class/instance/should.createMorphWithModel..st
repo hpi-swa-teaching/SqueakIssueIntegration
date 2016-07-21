@@ -1,4 +1,4 @@
-as yet unclassified
+running
 should: aBlock createMorphWithModel: aClass
 	| morphs |
 	morphs := self subject currentWorld submorphs.

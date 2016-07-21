@@ -1,6 +1,8 @@
 user interface signals
 buildWith: builder
-	| windowSpec repoListSpec issueListSpec issueTitleSpec issueBodySpec issueAssigneeSpec issueLabelSpec fixMeButtonSpec settingsButtonSpec singleIssueViewButtonSpec |
+	| windowSpec repoListSpec issueListSpec 
+	issueTitleSpec issueBodySpec issueAssigneeSpec issueLabelSpec 
+	fixMeButtonSpec settingsButtonSpec singleIssueViewButtonSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -14,7 +16,7 @@ buildWith: builder
 	repoListSpec
 		model: self;
 		name: 'repoList';
-		list: #setUpRepoList;
+		list: #repoList;
 		frame: (0.0@0.0 corner: 0.35@0.2);
 		getSelected: #selectedRepo;
 		setSelected: #selectedRepo:.
@@ -25,10 +27,10 @@ buildWith: builder
 		model: self;
 		name: 'issueList';
 		name: #issueList;
-		list: #getIssues;
+		list: #issueList;
 		menu: #issueListMenu:;
 		getSelected: #selectedIssue;
-		setSelected: #selectedIssue: ;
+		setSelected: #selectedIssue:;
 		frame: (0.0@0.2 corner: 0.35@1.0).
 	windowSpec children add: issueListSpec.
 			
@@ -66,7 +68,7 @@ buildWith: builder
 	issueLabelSpec
 		model: self;
 		name: 'issueLabels';
-		list: #labels;
+		list: #labelList;
 		getSelectionList: #labelsAt:;
 		setSelectionList: #labelsAt:put:;
 		frame: (0.675@0.0 corner: 1.0@0.3).

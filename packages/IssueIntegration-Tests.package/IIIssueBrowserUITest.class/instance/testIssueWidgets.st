@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testIssueWidgets
 	| issueTitle |
 	issueTitle := self subject findByName: 'issueTitle'.

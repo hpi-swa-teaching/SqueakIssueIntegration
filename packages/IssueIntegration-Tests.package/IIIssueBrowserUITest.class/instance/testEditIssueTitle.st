@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testEditIssueTitle
 	| titleInput newTitle |
 	newTitle := 'Test From Test Changed'.

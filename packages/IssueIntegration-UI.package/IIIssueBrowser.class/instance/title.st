@@ -1,7 +1,3 @@
-user interface signals
+issue accessing
 title
-	selectedIssue title 
-		ifNil: [ ^ title
-			ifNil: [ '' ]
-			ifNotNil: [ title ]]
-		ifNotNil: [ ^ selectedIssue title ]
+	^ self selectedIssue title ifNil: [ '' ]
