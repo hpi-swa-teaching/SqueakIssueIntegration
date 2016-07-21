@@ -1,0 +1,14 @@
+{
+	"category" : "IssueIntegration-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"debugger" ],
+	"name" : "IIDebuggerTest",
+	"pools" : [
+		 ],
+	"super" : "IIUITestCase",
+	"type" : "normal" }
