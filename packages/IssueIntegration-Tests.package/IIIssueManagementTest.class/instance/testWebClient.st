@@ -1,7 +1,7 @@
 instance variables
 testWebClient
-	| webClient |
-	webClient := IIMockWebClient new.
-	self issueManagement webClient: webClient.
-	self assert: self issueManagement webClient equals: webClient
+	| apiClient |
+	apiClient := IIGitHubApiMockClient new.
+	self issueManagement apiClient: apiClient.
+	self assert: self issueManagement apiClient equals: apiClient
 	

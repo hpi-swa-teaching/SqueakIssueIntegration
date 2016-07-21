@@ -2,11 +2,14 @@
 	"class" : {
 		"open" : "FR 6/23/2016 15:46" },
 	"instance" : {
+		"apiClient" : "LG 7/21/2016 19:37",
+		"apiClient:" : "LG 7/21/2016 19:37",
 		"buildWith:" : "Axl 7/15/2016 12:48",
-		"checkLoginKey:" : "Axl 7/15/2016 13:09",
+		"checkLoginKey:" : "LG 7/21/2016 19:41",
 		"close" : "Axl 7/15/2016 12:47",
 		"extractProjectIDFrom:" : "Axl 7/6/2016 13:10",
 		"generateToken" : "Axl 7/15/2016 12:02",
+		"initialize" : "LG 7/21/2016 19:37",
 		"loginKey" : "Axl 7/6/2016 12:05",
 		"loginKey:" : "FR 6/18/2016 13:51",
 		"projectID" : "Axl 7/13/2016 10:15",

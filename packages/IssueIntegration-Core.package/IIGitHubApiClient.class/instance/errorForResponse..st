@@ -1,4 +1,4 @@
-error handling
+as yet unclassified
 errorForResponse: aResponse
 	| errorMessage code json |
 	code := aResponse code.

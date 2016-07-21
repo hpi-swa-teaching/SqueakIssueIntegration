@@ -9,11 +9,11 @@ editIssue: anIssue title: title body: body assignee: assignee state: state
 		at: 'body' put: body;
 		at: 'assignee' put: assignee;
 		at: 'state' put: state.
-	response := self httpRequestTo: '/repos/', self projectID , '/issues/', anIssue number 
+	response := self apiClient apiRequestTo: '/repos/', self projectID , '/issues/', anIssue number 
 		withMethod: #PATCH 
 		andBody: json asJsonString 
+		andExpectedCode: 200
 		onError: [ ^ IIEmptyIssue new ].
-	self checkResponse: response shouldBe: 200.
 	self invalidateCache.
 	
 	json := Json readFrom: response content readStream.

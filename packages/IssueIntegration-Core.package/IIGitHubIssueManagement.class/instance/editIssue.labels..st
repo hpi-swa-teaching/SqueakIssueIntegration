@@ -3,11 +3,11 @@ editIssue: anIssue labels: labels
 	| json response |
 	json := JsonObject new. 
 	json at: 'labels' put: labels.
-	response := self httpRequestTo: '/repos/', self projectID , '/issues/', anIssue number 
+	response := self apiClient apiRequestTo: '/repos/', self projectID , '/issues/', anIssue number 
 		withMethod: #PATCH 
 		andBody: json asJsonString 
+		andExpectedCode: 200
 		onError: [ ^ anIssue ].
-	self checkResponse: response shouldBe: 200.
 	self invalidateCache.
 	
 	json := Json readFrom: response content readStream.

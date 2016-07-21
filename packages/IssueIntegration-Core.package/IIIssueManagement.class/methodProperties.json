@@ -22,7 +22,6 @@
 		"cachedIssues:" : "Axl 7/14/2016 20:11",
 		"cachedLabels" : "Axl 7/15/2016 18:43",
 		"cachedLabels:" : "Axl 7/15/2016 18:44",
-		"checkResponse:shouldBe:" : "Axl 7/14/2016 20:11",
 		"closeIssue:" : "Axl 7/15/2016 13:20",
 		"createIssueWithTitle:body:assignee:labels:" : "Axl 7/14/2016 20:11",
 		"createIssueWithTitle:body:assignee:labels:method:class:isMeta:" : "Axl 7/21/2016 15:55",
@@ -41,8 +40,6 @@
 		"getMyIssuesForClass:" : "Axl 7/14/2016 20:08",
 		"getMyIssuesForMethod:class:isMeta:" : "Axl 7/14/2016 20:08",
 		"hasValidRemote" : "Axl 7/14/2016 20:08",
-		"initialize" : "Axl 7/14/2016 20:08",
-		"initializeWebClient" : "Axl 7/14/2016 20:08",
 		"invalidateCache" : "Axl 7/21/2016 14:28",
 		"isCacheValid" : "Axl 7/21/2016 14:28",
 		"loadIssues" : "Axl 7/14/2016 20:07",
@@ -56,6 +53,4 @@
 		"refreshCache" : "Axl 7/21/2016 14:08",
 		"updateCacheDatetime" : "Axl 7/21/2016 14:19",
 		"username" : "Axl 7/14/2016 20:07",
-		"username:" : "Axl 7/14/2016 20:07",
-		"webClient" : "Axl 7/14/2016 20:07",
-		"webClient:" : "Axl 7/14/2016 20:07" } }
+		"username:" : "Axl 7/14/2016 20:07" } }

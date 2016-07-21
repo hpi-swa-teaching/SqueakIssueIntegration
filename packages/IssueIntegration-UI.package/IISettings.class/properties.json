@@ -10,7 +10,8 @@
 		"projectID",
 		"username",
 		"loginKey",
-		"windowWidget" ],
+		"windowWidget",
+		"apiClient" ],
 	"name" : "IISettings",
 	"pools" : [
 		 ],

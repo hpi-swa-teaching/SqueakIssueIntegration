@@ -1,0 +1,15 @@
+{
+	"category" : "IssueIntegration-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"webClient",
+		"oAuthToken" ],
+	"name" : "IIGitHubApiClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

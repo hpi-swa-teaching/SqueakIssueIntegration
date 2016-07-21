@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"newWith:" : "LG 7/21/2016 18:45" },
+	"instance" : {
+		"apiRequestTo:withMethod:andBody:andExpectedCode:onError:" : "LG 7/21/2016 19:45",
+		"apiRequestTo:withMethod:andExpectedCode:onError:" : "LG 7/21/2016 19:18",
+		"checkResponse:shouldBe:" : "LG 7/21/2016 18:55",
+		"errorForResponse:" : "LG 7/21/2016 18:54",
+		"generateUrlFromPath:" : "LG 7/21/2016 19:45",
+		"initialize" : "LG 7/21/2016 19:33",
+		"oAuthToken" : "LG 7/21/2016 18:43",
+		"oAuthToken:" : "LG 7/21/2016 18:43",
+		"webClient" : "LG 7/21/2016 18:40",
+		"webClient:" : "LG 7/21/2016 18:40" } }

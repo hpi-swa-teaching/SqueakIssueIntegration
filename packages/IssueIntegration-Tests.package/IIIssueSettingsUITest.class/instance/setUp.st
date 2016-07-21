@@ -1,3 +1,6 @@
 initialize-release
 setUp
-	self wantsToTest: IISettings open
+	super setUp.
+	self createMockIssueManagement.
+	self wantsToTest: IISettings open.
+	self packageList: (self subject findByName: 'packageList')

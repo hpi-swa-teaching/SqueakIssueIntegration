@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "MZ 7/31/2015 18:51",
 	"instvars" : [
-		 ],
+		"apiClient" ],
 	"name" : "IIGitHubIssueManagement",
 	"pools" : [
 		 ],

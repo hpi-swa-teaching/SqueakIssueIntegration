@@ -11,7 +11,6 @@
 		"username",
 		"cachedIssues",
 		"cacheDatetime",
-		"webClient",
 		"cachedLabels" ],
 	"name" : "IIIssueManagement",
 	"pools" : [
