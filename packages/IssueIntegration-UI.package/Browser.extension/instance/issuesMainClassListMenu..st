@@ -14,7 +14,7 @@ issuesMainClassListMenu: aMenu
 					issueEditMenu := MenuMorph new.
 					issueEditMenu add: ('close ') target: self selector: #closeIssue: argument: issue.
 					argumentList := Array with: issue with: self selectedSystemCategory.
-					issueEditMenu add: ('edit ') target: self selector: #openInIssueBrowserWithIssue:andPackage: argumentList: argumentList.
+					issueEditMenu add: ('show ') target: self selector: #openInIssueBrowserWithIssue:andPackage: argumentList: argumentList.
 					issueMenu add: issue title subMenu: issueEditMenu ].
 		openIssuesList ifNotEmpty: [ aMenu add: 'active Issues' subMenu: issueMenu ].
 	
