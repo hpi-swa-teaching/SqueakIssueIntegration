@@ -10,7 +10,6 @@
 		"editIssue:labels:" : "LG 7/10/2016 16:49",
 		"editIssue:title:" : "Axl 7/15/2016 13:18",
 		"editIssue:title:body:assignee:state:" : "AB 7/31/2015 17:18",
-		"getAllLabels" : "Axl 7/14/2016 20:23",
 		"getIssueWithNumber:" : "Axl 7/6/2016 13:28",
 		"getIssues" : "Axl 7/14/2016 20:23",
 		"getIssuesForClass:" : "Axl 7/14/2016 20:24",
@@ -21,5 +20,5 @@
 		"getMyIssuesForMethod:class:isMeta:" : "Axl 7/14/2016 20:24",
 		"hasValidRemote" : "Axl 7/14/2016 20:24",
 		"loadIssues" : "Axl 7/15/2016 13:19",
-		"loadLabels" : "Axl 7/15/2016 18:36",
+		"loadLabels" : "HR 7/21/2016 15:42",
 		"openIssueInWebBrowser:" : "CF 6/24/2016 15:28" } }

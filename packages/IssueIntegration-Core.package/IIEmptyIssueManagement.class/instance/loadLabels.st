@@ -1,3 +1,3 @@
-issue editing
+accessing
 loadLabels
-	^ SortedCollection new
+	^ OrderedCollection new
