@@ -6,4 +6,4 @@ iconForClass: aClassNameSymbol
 		on: Error
 		do: [ :error | 
 			Transcript showln: error.
-			^ self originalIconForClass: aClassNameSymbol]
+			^ self originalIconForClass: aClassNameSymbol ]

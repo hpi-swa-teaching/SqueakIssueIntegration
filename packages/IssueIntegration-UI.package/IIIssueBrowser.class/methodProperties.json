@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"initialize" : "FR 6/25/2016 13:56",
+		"initialize" : "Axl 7/15/2016 12:24",
 		"open" : "LG 6/24/2016 21:42",
 		"openWithIssue:andPackage:" : "HR 7/17/2016 17:08" },
 	"instance" : {
@@ -20,9 +20,9 @@
 		"openSettings" : "CF 6/30/2016 08:14",
 		"repoList" : "Axl 7/15/2016 19:20",
 		"selectedIssue" : "Axl 7/6/2016 13:04",
-		"selectedIssue:" : "HR 7/17/2016 17:08",
-		"selectedRepo" : "LG 6/24/2016 21:38",
-		"selectedRepo:" : "HR 7/17/2016 17:08",
-		"title" : "Axl 7/6/2016 13:06",
-		"title:" : "Axl 7/6/2016 12:06",
-		"updateLabels:" : "HR 7/13/2016 19:30" } }
+		"selectedIssue:" : "Axl 7/20/2016 10:06",
+		"selectedRepo" : "Axl 7/15/2016 18:08",
+		"selectedRepo:" : "Axl 7/15/2016 19:19",
+		"title" : "Axl 7/20/2016 09:55",
+		"title:" : "Axl 7/20/2016 11:12",
+		"updateLabels:" : "Axl 7/15/2016 19:14" } }

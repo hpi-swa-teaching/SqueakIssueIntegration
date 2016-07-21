@@ -8,7 +8,6 @@ createIssueWithTitle: title body: body assignee: assignee labels: labels
 		at: 'body' put: body.
 	assignee ifNotEmpty: [ json at: 'assignee' put: assignee ].
 	labels ifNotEmpty: [ json at: 'labels' put: labels ].
-	Transcript show: 'json asJsonString '.
 	response := self httpRequestTo: '/repos/', self projectID, '/issues' 
 		withMethod: #POST 
 		andBody: json asJsonString 

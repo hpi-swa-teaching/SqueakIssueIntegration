@@ -4,8 +4,7 @@
 	"instance" : {
 		"checkResponse:shouldBe:" : "Axl 7/15/2016 13:17",
 		"closeIssue:" : "Axl 7/15/2016 13:17",
-		"createIssueWithTitle:body:assignee:labels:" : "HR 7/12/2016 17:46",
-		"createIssueWithTitle:body:method:class:isMeta:assignee:labels:" : "Axl 7/14/2016 20:23",
+		"createIssueWithTitle:body:assignee:labels:" : "Axl 7/21/2016 14:55",
 		"editIssue:assignee:" : "FR 7/3/2016 19:51",
 		"editIssue:body:" : "Axl 7/14/2016 20:23",
 		"editIssue:labels:" : "LG 7/10/2016 16:49",
