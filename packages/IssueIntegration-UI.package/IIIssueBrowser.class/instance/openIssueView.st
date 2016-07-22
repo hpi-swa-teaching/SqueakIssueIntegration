@@ -2,8 +2,8 @@ user interface signals
 openIssueView
 	| issueView settingsButton fixMeButton issueViewButton |
 	issueView := self window veryDeepCopy.
-	(issueView submorphNamed: 'repoList') hideFull.
-	(issueView submorphNamed: 'issueList') hideFull.
+	(issueView submorphNamed: 'repoList') hide.
+	(issueView submorphNamed: 'issueList') hide.
 	(issueView submorphNamed: 'issueTitle') layoutFrame leftFraction: 0.0.
 	(issueView submorphNamed: 'issueAssignee') layoutFrame leftFraction: 0.0.
 	(issueView submorphNamed: 'issueBody') layoutFrame leftFraction: 0.0.
