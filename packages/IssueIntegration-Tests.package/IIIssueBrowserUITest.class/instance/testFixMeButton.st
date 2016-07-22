@@ -2,7 +2,7 @@ running
 testFixMeButton
 	| fixMeButton |
 	fixMeButton := self subject findByName: 'fixMeButton'.
-	self should: [ fixMeButton click ] raise: Error.
+	self assert: false equals: fixMeButton enabled.
 	self repoList changeModelSelection: 1.
 	self issueList changeModelSelection: 1.
 	self should: [ fixMeButton click ] raise: Error.

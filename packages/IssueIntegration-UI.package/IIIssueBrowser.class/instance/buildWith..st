@@ -89,6 +89,7 @@ buildWith: builder
 		name: 'fixMeButton';
 		label: 'Fix me';
 		action: #openBrowser;
+		enabled: #issueSelected;
 		frame: (0.5@0.9 corner: 0.65@1.0).
 	windowSpec children add: fixMeButtonSpec.
 		
@@ -98,6 +99,7 @@ buildWith: builder
 		name: 'singleIssueViewButton';
 		label: 'Open';
 		action: #openIssueView;
+		enabled: #issueSelected;
 		frame: (0.85@0.9 corner: 1.0@1.0).
 	windowSpec children add: singleIssueViewButtonSpec.
 	
