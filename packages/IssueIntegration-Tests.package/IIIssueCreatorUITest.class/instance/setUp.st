@@ -1,3 +1,4 @@
 initialize-release
 setUp
-	self wantsToTest: IIIssueCreator new
+	super setUp.
+	self wantsToTest: (IIIssueCreator newWithMethodName: '' packageName: nil issueClassName: '' issueClassIsMeta: false).
