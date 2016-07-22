@@ -8,5 +8,5 @@ testUsernameError
 	usernameInput := self subject findByName: 'usernameInput'.
 	saveButton := self subject findByName: 'saveButton'.
 	usernameInput changeText: ''.
-	projectIdInput acceptTextInModel.
+	usernameInput acceptTextInModel.
 	self should: [saveButton click] raise: Error description: 'Please insert your username'
