@@ -1,6 +1,6 @@
 running
 testRepoList
-	self assert: ((self repoList getList collect: [ :repo | repo asString ]) includes: IIGitHubApiMock repoSlug).
+	self assert: ((self repoList getList collect: [ :repo | repo asString ]) includes: IIGitHubApiMockServer repoSlug).
 	self assert: 0 equals: self repoList getCurrentSelectionIndex. 
 	self assert: self issueList getList isEmpty.
 	self repoList changeModelSelection: 1.

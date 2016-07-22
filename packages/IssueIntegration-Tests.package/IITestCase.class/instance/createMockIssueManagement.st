@@ -1,10 +1,9 @@
 initialize-release
 createMockIssueManagement
-"Todo: statt MochWeClient MockApiClient"
 	| issueManagement apiClient |
-	issueManagement := IIGitHubIssueManagement createWithProjectID: IIGitHubApiMock 
+	issueManagement := IIGitHubIssueManagement createWithProjectID: IIGitHubApiMockServer 
 		repoSlug loginKey: 'i-am-not-a-key' 
-		username: IIGitHubApiMock repoOwner.
+		username: IIGitHubApiMockServer repoOwner.
 	apiClient := IIGitHubApiMockClient new.
 	apiClient oAuthToken: 'i-am-not-a-key'.
 	issueManagement apiClient: apiClient.

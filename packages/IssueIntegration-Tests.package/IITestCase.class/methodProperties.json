@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createMockIssueManagement" : "LG 7/22/2016 10:21",
+		"createMockIssueManagement" : "CF 7/22/2016 15:43",
 		"gitHubApiMock" : "CF 7/5/2016 23:49",
 		"gitHubApiMock:" : "CF 7/5/2016 23:49",
 		"oldRepositoryDictionary" : "Axl 7/14/2016 20:39",
 		"oldRepositoryDictionary:" : "Axl 7/14/2016 20:39",
-		"setUp" : "Axl 7/14/2016 20:39",
-		"tearDown" : "Axl 7/6/2016 12:47" } }
+		"setUp" : "CF 7/22/2016 15:44",
+		"tearDown" : "CF 7/22/2016 15:44" } }

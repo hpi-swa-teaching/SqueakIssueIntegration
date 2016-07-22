@@ -10,7 +10,7 @@
 		"issues",
 		"issueNumber",
 		"labels" ],
-	"name" : "IIGitHubApiMock",
+	"name" : "IIGitHubApiMockServer",
 	"pools" : [
 		 ],
 	"super" : "Object",

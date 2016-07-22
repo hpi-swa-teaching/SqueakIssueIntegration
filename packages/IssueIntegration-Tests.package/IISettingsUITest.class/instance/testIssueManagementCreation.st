@@ -12,10 +12,10 @@ testIssueManagementCreation
 	saveButton := self subject findByName: 'saveButton'.
 	saveAndQuitButton := self subject findByName: 'saveAndQuitButton'.
 	projectIdInput 
-		changeText: IIGitHubApiMock repoSlug;
+		changeText: IIGitHubApiMockServer repoSlug;
 		acceptTextInModel.
 	usernameInput 
-		changeText: IIGitHubApiMock repoOwner;
+		changeText: IIGitHubApiMockServer repoOwner;
 		acceptTextInModel.
 	loginKeyInput 
 		changeText: 'i-am-not-a-key';

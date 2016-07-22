@@ -1,6 +1,6 @@
 as yet unclassified
 testUrlGeneration
 	| path url |
-	path := 'repos/', IIGitHubApiMock repoSlug.
+	path := '/repos/', IIGitHubApiMockServer repoSlug.
 	url := self apiClient generateUrlFromPath: path.
-	self assert: 'https://api.github.com/', path equals: url
+	self assert: 'https://api.github.com', path equals: url

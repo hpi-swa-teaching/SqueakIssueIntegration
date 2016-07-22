@@ -6,7 +6,7 @@
 		"apiRequestTo:withMethod:andExpectedCode:onError:" : "LG 7/21/2016 19:18",
 		"checkResponse:shouldBe:" : "LG 7/21/2016 18:55",
 		"errorForResponse:" : "CF 7/22/2016 08:18",
-		"generateUrlFromPath:" : "LG 7/21/2016 19:45",
+		"generateUrlFromPath:" : "CF 7/22/2016 15:48",
 		"initialize" : "LG 7/21/2016 19:33",
 		"oAuthToken" : "LG 7/21/2016 18:43",
 		"oAuthToken:" : "LG 7/21/2016 18:43",

@@ -1,3 +1,3 @@
 as yet unclassified
 generateUrlFromPath: aPath
-	^ 'http://localhost:' , IIGitHubApiMock portNumber, aPath
+	^ 'http://localhost:' , IIGitHubApiMockServer portNumber, aPath
