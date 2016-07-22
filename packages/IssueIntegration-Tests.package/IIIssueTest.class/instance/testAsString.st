@@ -8,4 +8,4 @@ testAsString
 		title: title;
 		number: number.
 		
-	self assert: issue asString equals: '#' , number , ' ' , title
+	self assert: '#', number, ' ', title equals: issue asString

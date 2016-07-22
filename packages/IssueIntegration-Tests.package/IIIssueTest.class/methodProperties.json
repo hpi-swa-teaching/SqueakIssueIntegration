@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAsString" : "Axl 7/6/2016 12:45",
+		"testAsString" : "FR 7/22/2016 14:59",
 		"testAssignee" : "Axl 7/14/2016 20:36",
 		"testBody" : "Axl 7/14/2016 20:36",
 		"testIssueComparison" : "Axl 7/14/2016 20:36",
 		"testLabels" : "Axl 7/14/2016 20:39",
+		"testLabelsAsString" : "FR 7/22/2016 14:57",
 		"testNumber" : "Axl 7/14/2016 20:39",
 		"testTitle" : "Axl 7/14/2016 20:39" } }
