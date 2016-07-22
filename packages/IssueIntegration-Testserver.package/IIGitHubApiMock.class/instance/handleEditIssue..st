@@ -1,6 +1,8 @@
 as yet unclassified
 handleEditIssue: aWebRequest
 	| number issue parsedJSON labelObjects |
+	(self checkOAuthToken: aWebRequest)
+		ifFalse: [ ^ self notAValidOAuthToken: aWebRequest ].
 	number := (aWebRequest url copyAfterLast: $/) asInteger.
 	issue := self issues detect: [ :each | (each at: 'number') = number ].
 	parsedJSON := Json readFrom: aWebRequest content readStream.

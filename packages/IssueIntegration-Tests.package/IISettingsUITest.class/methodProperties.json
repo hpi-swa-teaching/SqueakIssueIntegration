@@ -4,11 +4,12 @@
 	"instance" : {
 		"packageList" : "FR 7/3/2016 21:25",
 		"packageList:" : "FR 7/3/2016 21:25",
-		"setUp" : "FR 7/3/2016 21:29",
+		"setUp" : "LG 7/22/2016 10:13",
+		"testCheckLoginKey" : "LG 7/22/2016 09:31",
 		"testInputValidation" : "FR 7/3/2016 21:23",
 		"testIssueManagementCreation" : "FR 7/21/2016 18:08",
 		"testIssueManagementDeletion" : "Axl 7/6/2016 13:02",
 		"testPackageList" : "FR 7/4/2016 13:49",
 		"testPackageSelection" : "CF 7/5/2016 21:51",
 		"testSmoke" : "Axl 7/6/2016 13:02",
-		"testUsernameError" : "FR 7/21/2016 17:18" } }
+		"testUsernameError" : "LG 7/22/2016 10:24" } }

@@ -1,6 +1,8 @@
 as yet unclassified
 handleIssueCreation: aWebRequest
 	| newIssue content |
+	(self checkOAuthToken: aWebRequest)
+		ifFalse: [ ^ self notAValidOAuthToken: aWebRequest ].
 	content := Json readFrom: (ReadStream on: aWebRequest content).
 	newIssue := self createIssueJsonWithTitle: (content at: 'title') 
 		body: (content at: 'body') 
