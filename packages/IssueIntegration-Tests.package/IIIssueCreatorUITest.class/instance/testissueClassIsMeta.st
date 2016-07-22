@@ -1,5 +1,5 @@
 initialize-release
-testissueClassIsMeta
+testIssueClassIsMeta
 	| issueClassIsMeta |
 	issueClassIsMeta := true.
 	self subject model issueClassIsMeta: issueClassIsMeta.

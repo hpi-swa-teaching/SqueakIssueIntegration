@@ -2,17 +2,19 @@
 	"class" : {
 		 },
 	"instance" : {
+		"packageName" : "FR 7/22/2016 13:56",
 		"setUp" : "HR 7/22/2016 10:20",
 		"testEditAssingee" : "HR 7/22/2016 10:08",
 		"testEditBody" : "HR 7/22/2016 10:09",
 		"testEditTitle" : "HR 7/22/2016 10:00",
 		"testGetLabelsOfRepo" : "HR 7/22/2016 13:38",
+		"testIssueClassIsMeta" : "FR 7/22/2016 13:48",
+		"testIssueClassName" : "FR 7/22/2016 13:58",
 		"testLabelsAt" : "HR 7/22/2016 13:54",
 		"testLabelsAtPut" : "HR 7/22/2016 13:54",
 		"testLabelsSelected" : "HR 7/22/2016 13:54",
 		"testMethodName" : "FR 7/22/2016 13:38",
+		"testPackageName" : "FR 7/22/2016 13:56",
 		"testSmoke" : "HR 7/22/2016 10:26",
 		"testSubmitButton" : "HR 7/22/2016 09:48",
-		"testWindowWidget" : "FR 7/22/2016 13:20",
-		"testissueClassIsMeta" : "FR 7/22/2016 13:41",
-		"testissueClassName" : "FR 7/22/2016 13:42" } }
+		"testWindowWidget" : "FR 7/22/2016 13:57" } }
