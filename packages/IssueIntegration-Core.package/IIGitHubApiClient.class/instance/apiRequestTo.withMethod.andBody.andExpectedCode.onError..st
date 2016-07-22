@@ -7,7 +7,7 @@ apiRequestTo: aPath withMethod: aMethod andBody: aBody andExpectedCode: aCode on
 	url := self generateUrlFromPath: aPath.
 	decorateRequest := [ :request | request
 		headerAt: 'Accept' put: 'application/vnd.github.v3+json';
-		headerAt: 'Authorization' put: 'token ' , self loginKey ].
+		headerAt: 'Authorization' put: 'token ' , self oAuthToken ].
 	
 	methodDictionary := Dictionary 
 		with: #GET -> [ self webClient httpGet: url do: decorateRequest ]
@@ -16,4 +16,5 @@ apiRequestTo: aPath withMethod: aMethod andBody: aBody andExpectedCode: aCode on
 		
 	requestBlock := methodDictionary at: aMethod.
 	response := requestBlock on: Error do: [ :error | Transcript showln: error. ^ aBlock value ].
-	[self checkResponse: response shouldBe: aCode ] on: Error do: [ :error | Transcript showln: error. ^ aBlock value ]
+	[self checkResponse: response shouldBe: aCode ] on: Error do: [ :error | Transcript showln: error. ^ aBlock value ].
+	^ response
