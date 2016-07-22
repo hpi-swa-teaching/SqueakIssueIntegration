@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"initialize" : "Axl 7/15/2016 12:24",
-		"open" : "LG 6/24/2016 21:42",
+		"open" : "CF 7/22/2016 16:40",
 		"openWithIssue:andPackage:" : "HR 7/21/2016 17:48" },
 	"instance" : {
 		"assignee" : "Axl 7/15/2016 18:02",
@@ -16,7 +16,7 @@
 		"labelsAt:" : "Axl 7/15/2016 19:23",
 		"labelsAt:put:" : "Axl 7/15/2016 19:23",
 		"openBrowser" : "Axl 7/15/2016 17:56",
-		"openIssueView" : "Axl 7/15/2016 19:20",
+		"openIssueView" : "CF 7/22/2016 17:04",
 		"openSettings" : "CF 6/30/2016 08:14",
 		"repoList" : "Axl 7/21/2016 16:27",
 		"selectedIssue" : "Axl 7/6/2016 13:04",
@@ -25,4 +25,6 @@
 		"selectedRepo:" : "Axl 7/15/2016 19:19",
 		"title" : "Axl 7/20/2016 09:55",
 		"title:" : "Axl 7/20/2016 11:12",
-		"updateLabels:" : "Axl 7/15/2016 19:14" } }
+		"updateLabels:" : "Axl 7/15/2016 19:14",
+		"window" : "CF 7/22/2016 16:40",
+		"window:" : "CF 7/22/2016 16:40" } }

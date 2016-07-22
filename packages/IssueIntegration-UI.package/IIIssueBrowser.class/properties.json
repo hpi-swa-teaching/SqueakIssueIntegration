@@ -7,7 +7,8 @@
 	"commentStamp" : "LG 6/24/2016 22:06",
 	"instvars" : [
 		"selectedIssue",
-		"selectedRepo" ],
+		"selectedRepo",
+		"window" ],
 	"name" : "IIIssueBrowser",
 	"pools" : [
 		 ],

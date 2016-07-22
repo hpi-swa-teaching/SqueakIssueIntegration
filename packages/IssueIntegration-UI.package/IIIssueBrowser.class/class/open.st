@@ -1,3 +1,7 @@
 opening
 open
-	^ ToolBuilder default open: self new
+	| window model |
+	model := self new.
+	window := ToolBuilder default open: model.
+	model window: window.
+	^ window
