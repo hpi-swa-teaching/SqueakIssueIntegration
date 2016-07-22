@@ -3,7 +3,8 @@ testIssueManagementCreation
 	| projectIdInput usernameInput loginKeyInput packageIndex saveButton |
 	packageIndex := self packageList getList 
 		indexOf: (self packageList getList 
-			detect: [ :package | package = 'IssueIntegration-Tests' ]).
+			detect: [ :package | package = 'IssueIntegration-Core' ]).
+	self assert: ((IIIssueManagement getIssueManagementFor: (self packageList getListItem: packageIndex)) isKindOf: IIEmptyIssueManagement).
 	self packageList changeModelSelection: packageIndex .
 	projectIdInput := self subject findByName: 'projectIdInput'.
 	usernameInput := self subject findByName: 'usernameInput'.
@@ -15,10 +16,10 @@ testIssueManagementCreation
 	usernameInput 
 		changeText: IIGitHubApiMock repoOwner;
 		acceptTextInModel.
-	"loginKeyInput 
+	loginKeyInput 
 		changeText: 'i-am-not-a-key';
 		acceptTextInModel.
 	saveButton click.
-	self assert: (IIIssueManagement getIssueManagementFor: (self packageList getListItem: packageIndex)) notEmpty.
+	self assert: ((IIIssueManagement getIssueManagementFor: (self packageList getListItem: packageIndex)) isKindOf: IIGitHubIssueManagement).
 	self packageList changeModelSelection: 1.
-	self packageList changeModelSelection: packageIndex"
+	self packageList changeModelSelection: packageIndex

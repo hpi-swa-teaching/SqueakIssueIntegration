@@ -12,4 +12,5 @@ testIssueManagementDeletion
 	saveButton click.
 	self assert: projectIdInput text equals: ''.
 	self packageList changeModelSelection: 1.
-	self packageList changeModelSelection: packageIndex
+	self packageList changeModelSelection: packageIndex.
+	self assert: ((IIIssueManagement getIssueManagementFor: (self packageList getListItem: packageIndex)) isKindOf: IIEmptyIssueManagement).
