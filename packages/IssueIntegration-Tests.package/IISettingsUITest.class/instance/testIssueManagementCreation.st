@@ -1,6 +1,6 @@
 as yet unclassified
 testIssueManagementCreation
-	| projectIdInput usernameInput loginKeyInput packageIndex saveButton |
+	| projectIdInput usernameInput loginKeyInput packageIndex saveButton saveAndQuitButton |
 	packageIndex := self packageList getList 
 		indexOf: (self packageList getList 
 			detect: [ :package | package = 'IssueIntegration-Core' ]).
@@ -10,6 +10,7 @@ testIssueManagementCreation
 	usernameInput := self subject findByName: 'usernameInput'.
 	loginKeyInput := self subject findByName: 'loginKeyInput'.
 	saveButton := self subject findByName: 'saveButton'.
+	saveAndQuitButton := self subject findByName: 'saveAndQuitButton'.
 	projectIdInput 
 		changeText: IIGitHubApiMock repoSlug;
 		acceptTextInModel.
@@ -22,4 +23,6 @@ testIssueManagementCreation
 	saveButton click.
 	self assert: ((IIIssueManagement getIssueManagementFor: (self packageList getListItem: packageIndex)) isKindOf: IIGitHubIssueManagement).
 	self packageList changeModelSelection: 1.
-	self packageList changeModelSelection: packageIndex
+	self packageList changeModelSelection: packageIndex.
+	saveAndQuitButton click.
+	self assert: subject owner isNil
