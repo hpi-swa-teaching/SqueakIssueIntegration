@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"oAuthToken" : "CF 7/22/2016 17:42",
 		"portNumber" : "CF 6/20/2016 22:15",
 		"repoName" : "CF 6/10/2016 08:15",
 		"repoOwner" : "CF 6/10/2016 08:15",
@@ -7,7 +8,7 @@
 		"start" : "CF 7/22/2016 15:43",
 		"stop" : "CF 7/22/2016 15:43" },
 	"instance" : {
-		"checkOAuthToken:" : "LG 7/22/2016 10:32",
+		"checkOAuthToken:" : "CF 7/22/2016 17:44",
 		"createIssueJsonWithTitle:body:andAssignee:" : "FR 6/26/2016 10:45",
 		"decorateResponseBlock" : "Axl 7/14/2016 21:07",
 		"handleCloseIssue:" : "LG 7/22/2016 09:50",

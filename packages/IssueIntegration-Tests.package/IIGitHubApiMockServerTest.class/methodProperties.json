@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"apiServer" : "CF 7/22/2016 17:39",
+		"apiServer:" : "CF 7/22/2016 17:39",
+		"requestForMethod:andPath:requestBlock:" : "CF 7/22/2016 19:16",
+		"setUp" : "CF 7/22/2016 17:40",
+		"testCheckOAuthToken" : "CF 7/22/2016 17:48",
+		"testDecorateResponse" : "CF 7/22/2016 17:55",
+		"testHandleCloseIssue" : "CF 7/22/2016 19:16",
+		"testHandleEditIssue" : "CF 7/22/2016 19:19",
+		"testHandleIssueCreation" : "CF 7/22/2016 18:47",
+		"testHandleIssueDisplay" : "CF 7/22/2016 18:49",
+		"testHandleIssueList" : "CF 7/22/2016 18:49",
+		"testHandleLabelList" : "CF 7/22/2016 18:53",
+		"testHandleRateLimit" : "CF 7/22/2016 18:53",
+		"testIfOAuthTokenIsChecked" : "CF 7/22/2016 18:14",
+		"testNotAValidOAuthToken" : "CF 7/22/2016 18:17" } }

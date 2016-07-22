@@ -5,4 +5,4 @@ testPackageSelection
 			detect: [ :package | package = 'IssueIntegration-Tests'])).
 	self assert: (self subject findByName: 'projectIdInput') text equals: IIGitHubApiMockServer repoSlug.
 	self assert: (self subject findByName: 'usernameInput') text equals: IIGitHubApiMockServer repoOwner.
-	self assert: (self subject findByName: 'loginKeyInput') text equals: 'i-am-not-a-key'
+	self assert: (self subject findByName: 'loginKeyInput') text equals: IIGitHubApiMockServer oAuthToken

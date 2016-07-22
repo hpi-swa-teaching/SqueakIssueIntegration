@@ -18,7 +18,7 @@ testIssueManagementCreation
 		changeText: IIGitHubApiMockServer repoOwner;
 		acceptTextInModel.
 	loginKeyInput 
-		changeText: 'i-am-not-a-key';
+		changeText: IIGitHubApiMockServer oAuthToken;
 		acceptTextInModel.
 	saveButton click.
 	self assert: ((IIIssueManagement getIssueManagementFor: (self packageList getListItem: packageIndex)) isKindOf: IIGitHubIssueManagement).

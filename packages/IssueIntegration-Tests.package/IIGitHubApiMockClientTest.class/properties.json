@@ -1,0 +1,14 @@
+{
+	"category" : "IssueIntegration-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"apiClient" ],
+	"name" : "IIGitHubApiMockClientTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
