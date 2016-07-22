@@ -10,5 +10,5 @@
 	"name" : "IIDebuggerTest",
 	"pools" : [
 		 ],
-	"super" : "IIUITestCase",
+	"super" : "IITestCase",
 	"type" : "normal" }
