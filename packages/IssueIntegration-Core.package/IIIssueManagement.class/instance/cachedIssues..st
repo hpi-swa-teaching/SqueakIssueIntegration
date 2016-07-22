@@ -1,3 +1,3 @@
-accessing
+private
 cachedIssues: anIssueSet
 	cachedIssues := anIssueSet

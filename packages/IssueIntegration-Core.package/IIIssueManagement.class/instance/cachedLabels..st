@@ -1,3 +1,3 @@
-accessing
+private
 cachedLabels: anOrderedCollection
 	cachedLabels := anOrderedCollection
