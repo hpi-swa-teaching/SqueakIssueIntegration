@@ -7,5 +7,7 @@
 		"testEditBody" : "HR 7/22/2016 10:09",
 		"testEditTitle" : "HR 7/22/2016 10:00",
 		"testGetLabelsOfRepo" : "HR 7/22/2016 10:28",
+		"testLabelsAt" : "HR 7/22/2016 13:25",
+		"testLabelsAtPut" : "HR 7/22/2016 13:26",
 		"testSmoke" : "HR 7/22/2016 10:26",
 		"testSubmitButton" : "HR 7/22/2016 09:48" } }
