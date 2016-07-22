@@ -10,5 +10,5 @@
 	"name" : "IIIssueCreatorUITest",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "IIUITestCase",
 	"type" : "normal" }

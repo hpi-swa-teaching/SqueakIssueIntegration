@@ -1,4 +1,5 @@
 initialize-release
 setUp
 	super setUp.
-	self wantsToTest: (IIIssueCreator newWithMethodName: '' packageName: nil issueClassName: '' issueClassIsMeta: false).
+	self createMockIssueManagement.
+	self wantsToTest: (IIIssueCreator newWithMethodName: '' packageName: 'IssueIntegration-Tests' issueClassName: '' issueClassIsMeta: false)
