@@ -9,5 +9,9 @@
 		"testGetLabelsOfRepo" : "HR 7/22/2016 10:28",
 		"testLabelsAt" : "HR 7/22/2016 13:25",
 		"testLabelsAtPut" : "HR 7/22/2016 13:26",
+		"testMethodName" : "FR 7/22/2016 13:38",
 		"testSmoke" : "HR 7/22/2016 10:26",
-		"testSubmitButton" : "HR 7/22/2016 09:48" } }
+		"testSubmitButton" : "HR 7/22/2016 09:48",
+		"testWindowWidget" : "FR 7/22/2016 13:20",
+		"testissueClassIsMeta" : "FR 7/22/2016 13:41",
+		"testissueClassName" : "FR 7/22/2016 13:42" } }
