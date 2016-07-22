@@ -1,1 +1,0 @@
-An IIMockWebClient is drop-in replacement for the WebClient to be used in tests. It re-routes any traffic going to api.github.com to localhost, where a mock api server is expected to be running. For a possible implementation, take a look at IIGitHubApiMock.

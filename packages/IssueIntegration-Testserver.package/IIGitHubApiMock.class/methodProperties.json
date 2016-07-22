@@ -9,7 +9,6 @@
 	"instance" : {
 		"checkOAuthToken:" : "LG 7/22/2016 10:32",
 		"createIssueJsonWithTitle:body:andAssignee:" : "FR 6/26/2016 10:45",
-		"createIssueJsonWithTitle:body:assignee:andLabels:" : "HR 7/14/2016 16:57",
 		"decorateResponseBlock" : "Axl 7/14/2016 21:07",
 		"handleCloseIssue:" : "LG 7/22/2016 09:50",
 		"handleEditIssue:" : "LG 7/22/2016 09:50",
