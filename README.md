@@ -12,6 +12,7 @@ GitHub Issues support title, body, assignee, labels. Closed Issues
 are ignored by the system.
 
 - Create Issues for methods and classes
+- Create Issues right from the Debugger
 - View all Issues by repository
 - Indication of Issues related to a certain class or method directly inside the 
   system browser by exclamation icons (the icon is red for issues assigned to 
