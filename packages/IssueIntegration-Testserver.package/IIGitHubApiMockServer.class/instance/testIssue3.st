@@ -9,7 +9,7 @@ testIssue3
     "html_url": "https://github.com/test-user/test-repo/issues/3",
     "id": 159578312,
     "number": 3,
-    "title": "Test From Test",
+    "title": "Test From Test [Collection]",
     "user": {
       "login": "test-user",
       "id": 1111222,

@@ -1,6 +1,6 @@
 running
 testIssueForMethod
-	"Do not test for issue title to be 'MethodIssue [class/method]' because this (how the method ist stored) is an implementation sepectific detail (same for body)"
+	"Do not test for issue title to be 'MethodIssue [class/method]' because this (how the method ist stored) is an implementation specific detail (same for body)"
 	| createdIssue issues |
 	createdIssue := self issueManagement createIssueWithTitle: 'New Method Issue' body: 'test body method' assignee: '' labels: OrderedCollection new method: 'method' class: 'class' isMeta: false.
 	Transcript show: createdIssue.
