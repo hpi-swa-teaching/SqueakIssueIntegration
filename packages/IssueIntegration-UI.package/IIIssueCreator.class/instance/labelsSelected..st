@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 labelsSelected: anOrderedCollection
 	labelsSelected := anOrderedCollection.
 	self changed: #labelsSelected 

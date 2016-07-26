@@ -11,10 +11,10 @@ openIssueView
 	fixMeButton := (issueView submorphNamed: 'fixMeButton') layoutFrame.
 	issueViewButton := (issueView submorphNamed: 'singleIssueViewButton') layoutFrame.
 	settingsButton leftFraction: 0.0.
-	settingsButton rightFraction: 0.2.
-	fixMeButton leftFraction: 0.2.
-	fixMeButton rightFraction: 0.8.
-	issueViewButton leftFraction: 0.8.
+	settingsButton rightFraction: 0.3.
+	fixMeButton leftFraction: 0.3.
+	fixMeButton rightFraction: 0.7.
+	issueViewButton leftFraction: 0.7.
 	issueViewButton rightFraction: 1.0.
 	issueView extent: 400 @ 250.
 	issueView openInHand

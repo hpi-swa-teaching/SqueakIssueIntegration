@@ -1,3 +1,3 @@
-as yet unclassified
+initialize-release
 issueList
 	^ self selectedRepo getIssues

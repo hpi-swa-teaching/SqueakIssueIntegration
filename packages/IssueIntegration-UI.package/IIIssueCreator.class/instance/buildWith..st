@@ -1,4 +1,4 @@
-initialization
+initialize-release
 buildWith: builder
 	| windowSpec titleInputSpec assigneeInputSpec bodyInputSpec submitButton window labelSpec|
 	windowSpec := builder pluggableWindowSpec new

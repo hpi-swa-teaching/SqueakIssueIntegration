@@ -1,4 +1,4 @@
-user interface signals
+initialize-release
 buildWith: builder
 	| windowSpec repoListSpec issueListSpec 
 	issueTitleSpec issueBodySpec issueAssigneeSpec issueLabelSpec 

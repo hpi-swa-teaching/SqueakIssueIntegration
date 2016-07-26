@@ -1,3 +1,3 @@
-user interface signals
+initialize-release
 labelList
 	 ^ self selectedRepo getLabels

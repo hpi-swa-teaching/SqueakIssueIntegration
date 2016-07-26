@@ -1,4 +1,4 @@
-as yet unclassified
+user interface signals
 labelsAt: anIndex
 	^ self labelsSelected includes: (self labels at: anIndex ifAbsent: [^ false])
 	

@@ -1,3 +1,3 @@
-as yet unclassified
+initialize-release
 issueListMenu: aMenuMorph
 	^ aMenuMorph add: 'close' target: self action: #closeIssue

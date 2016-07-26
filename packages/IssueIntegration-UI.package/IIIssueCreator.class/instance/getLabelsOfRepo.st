@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 getLabelsOfRepo
 	self labels ifNil: [ self packageName 
 		ifNil: [ self labels: OrderedCollection new ]

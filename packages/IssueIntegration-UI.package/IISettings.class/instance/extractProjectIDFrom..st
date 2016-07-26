@@ -1,4 +1,4 @@
-as yet unclassified
+user interface signals
 extractProjectIDFrom: aProjectURL
 	"TODO: kontrollieren, dass auch wirklich auf ein GitHub Repo verwiesen wird"
 	| projectID |

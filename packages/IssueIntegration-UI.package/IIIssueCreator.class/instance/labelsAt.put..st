@@ -1,4 +1,4 @@
-as yet unclassified
+user interface signals
 labelsAt: anInteger put: aBoolean
 	self labelsSelected: (self labelsSelected
 		perform: (aBoolean ifTrue: [ #copyWith: ] ifFalse: [ #copyWithout: ])
