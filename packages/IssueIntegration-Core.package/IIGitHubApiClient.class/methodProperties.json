@@ -5,7 +5,7 @@
 		"apiRequestTo:withMethod:andBody:andExpectedCode:onError:" : "CF 7/22/2016 08:10",
 		"apiRequestTo:withMethod:andExpectedCode:onError:" : "LG 7/21/2016 19:18",
 		"checkResponse:shouldBe:" : "LG 7/21/2016 18:55",
-		"errorForResponse:" : "CF 7/22/2016 08:18",
+		"errorForResponse:" : "FR 7/26/2016 10:56",
 		"generateUrlFromPath:" : "CF 7/22/2016 15:48",
 		"initialize" : "LG 7/21/2016 19:33",
 		"oAuthToken" : "LG 7/21/2016 18:43",

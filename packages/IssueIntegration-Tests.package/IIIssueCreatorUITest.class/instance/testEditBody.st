@@ -1,4 +1,4 @@
-initialize-release
+running
 testEditBody
 	| newBody bodyInput |
 	newBody := 'Test'.

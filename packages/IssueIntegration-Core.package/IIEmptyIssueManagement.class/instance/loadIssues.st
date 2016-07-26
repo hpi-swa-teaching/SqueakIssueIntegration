@@ -1,3 +1,3 @@
-issue editing
+issue accessing
 loadIssues
 	^ SortedCollection new

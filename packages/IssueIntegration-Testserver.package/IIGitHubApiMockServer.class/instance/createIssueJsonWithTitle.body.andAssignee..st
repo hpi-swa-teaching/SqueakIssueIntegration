@@ -1,4 +1,4 @@
-as yet unclassified
+functionalities
 createIssueJsonWithTitle: title body: body andAssignee: assignee
 	| newIssue |
 	self issueNumber: self issueNumber + 1.

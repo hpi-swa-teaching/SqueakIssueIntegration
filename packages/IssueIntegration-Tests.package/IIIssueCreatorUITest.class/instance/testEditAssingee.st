@@ -1,4 +1,4 @@
-initialize-release
+running
 testEditAssingee
 	| newAssingee assingeeInput |
 	newAssingee := 'Test'.

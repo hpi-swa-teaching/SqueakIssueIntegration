@@ -1,4 +1,4 @@
-as yet unclassified
+functionalities
 handleCloseIssue: aWebRequest
 	| number issue |
 	(self checkOAuthToken: aWebRequest)

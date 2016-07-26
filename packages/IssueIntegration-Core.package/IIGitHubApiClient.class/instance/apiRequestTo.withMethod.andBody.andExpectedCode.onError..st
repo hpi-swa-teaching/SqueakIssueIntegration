@@ -1,4 +1,4 @@
-as yet unclassified
+requesting
 apiRequestTo: aPath withMethod: aMethod andBody: aBody andExpectedCode: aCode onError: aBlock
 	| decorateRequest methodDictionary url requestBlock contentType response|
 	[ self webClient close ] on: Error do: [ self webClient destroy ].

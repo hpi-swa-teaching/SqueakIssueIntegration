@@ -1,4 +1,4 @@
-external
+running
 testCloseIssue
 	| issue |
 	issue := IIIssue new. 

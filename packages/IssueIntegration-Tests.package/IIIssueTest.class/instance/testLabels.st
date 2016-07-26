@@ -1,4 +1,4 @@
-instance variables
+running
 testLabels
 	| issue labels |
 	issue := IIIssue new.

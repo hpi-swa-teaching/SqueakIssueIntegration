@@ -1,4 +1,4 @@
-instance variables
+running
 testLoginKey
 	| loginKey |
 	loginKey := 'RANDOM_STRING_gh%§$WQRZ'.

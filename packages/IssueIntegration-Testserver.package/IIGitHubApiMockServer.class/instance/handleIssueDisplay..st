@@ -1,4 +1,4 @@
-as yet unclassified
+functionalities
 handleIssueDisplay: aWebRequest
 	| number |
 	number := (aWebRequest url copyAfterLast: $/) asInteger.

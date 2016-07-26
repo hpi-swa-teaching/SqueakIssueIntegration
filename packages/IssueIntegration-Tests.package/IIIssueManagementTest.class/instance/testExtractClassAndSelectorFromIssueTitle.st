@@ -1,4 +1,4 @@
-external
+running
 testExtractClassAndSelectorFromIssueTitle
 	| title result |
 	title := 'Testissue'.

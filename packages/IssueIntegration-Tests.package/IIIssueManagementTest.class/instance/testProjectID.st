@@ -1,4 +1,4 @@
-instance variables
+running
 testProjectID
 	| projectURL correctSlug |
 	correctSlug := 'frederike-ramin/TestIssues'.

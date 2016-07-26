@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initializeWebServer
 	self webServer 
 		addService: '/repos/' , self class repoSlug, '/issues' 

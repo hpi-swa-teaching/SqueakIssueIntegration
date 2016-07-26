@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testHandleIssueCreation
 	| response issue |
 	response := self requestForMethod: #handleIssueCreation: andPath: '/issues' requestBlock: [ :req | req content: '{"title":"a-title", "body":"a-body","assignee":"an-assignee"}'].

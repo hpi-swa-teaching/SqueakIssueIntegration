@@ -1,4 +1,4 @@
-initialize-release
+running
 testIssueClassName
 	| issueClassName |
 	issueClassName := 'aClass'.

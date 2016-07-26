@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testIssueManagementCreation
 	| projectIdInput usernameInput loginKeyInput packageIndex saveButton saveAndQuitButton |
 	packageIndex := self packageList getList 

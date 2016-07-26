@@ -1,4 +1,4 @@
-as yet unclassified
+functionalities
 handleEditIssue: aWebRequest
 	| number issue parsedJSON labelObjects |
 	(self checkOAuthToken: aWebRequest)

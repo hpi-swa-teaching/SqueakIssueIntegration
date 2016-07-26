@@ -1,4 +1,4 @@
-instance variables
+running
 testCachedIssues
 	| issues |
 	issues := SortedCollection new.

@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testHandleCloseIssue
 	| response |
 	self assert: 3 equals: self apiServer issues size.

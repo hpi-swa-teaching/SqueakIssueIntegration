@@ -1,3 +1,3 @@
-as yet unclassified
+initialize-release
 stop
 	self webServer ifNotNil: [ self webServer destroy ]

@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testDecorateResponse
 	| response |
 	response := WebResponse protocol: '' code: ''.

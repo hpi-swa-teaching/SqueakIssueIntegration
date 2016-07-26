@@ -1,4 +1,4 @@
-as yet unclassified
+functionalities
 notAValidOAuthToken: aWebRequest
 	^ aWebRequest sendResponseCode: 403 content: '{
   "message": "Bad credentials",

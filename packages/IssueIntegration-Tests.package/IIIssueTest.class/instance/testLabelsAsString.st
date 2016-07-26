@@ -1,4 +1,4 @@
-instance variables
+running
 testLabelsAsString
 	| issue labels number |
 	labels := OrderedCollection with: 'Label1' with: 'Label2'.

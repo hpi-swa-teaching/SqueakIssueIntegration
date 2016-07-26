@@ -1,4 +1,4 @@
-initialize-release
+running
 testLabelsAtPut
 	| labelList |
 	labelList := self subject findByName: 'labels'.

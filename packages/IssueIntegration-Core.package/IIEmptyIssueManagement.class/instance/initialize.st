@@ -1,6 +1,6 @@
-TODO
+initialize-release
 initialize
 	self
-		projectID: '';
 		loginKey: '';
+		projectID: '';
 		username: ''

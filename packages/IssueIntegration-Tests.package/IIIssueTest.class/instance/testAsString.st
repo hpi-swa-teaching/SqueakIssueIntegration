@@ -1,4 +1,4 @@
-instance variables
+running
 testAsString
 	| issue title number |
 	title := 'This is a title'.

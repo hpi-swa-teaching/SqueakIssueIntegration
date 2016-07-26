@@ -1,3 +1,3 @@
-accessing
+characteristics
 hasValidRemote
 	^ true

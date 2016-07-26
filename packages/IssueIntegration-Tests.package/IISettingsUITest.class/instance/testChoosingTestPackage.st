@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testChoosingTestPackage
 	self packageList changeModelSelection: (self packageList getList indexOf: 'IssueIntegration-Tests').
 	self assert: 'test-user/test-repo' equals: (self subject findByName: 'projectIdInput') text string.

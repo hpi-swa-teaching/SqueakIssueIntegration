@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testUsernameError
 	| projectIdInput usernameInput saveButton |
 	self packageList changeModelSelection: (self packageList getList 

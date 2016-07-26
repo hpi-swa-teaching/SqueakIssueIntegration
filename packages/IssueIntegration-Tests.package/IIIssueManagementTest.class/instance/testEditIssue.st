@@ -1,4 +1,4 @@
-external
+running
 testEditIssue
 	| issue |
 	issue := IIIssue new.

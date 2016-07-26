@@ -1,4 +1,4 @@
-instance variables
+running
 testAssignee
 	| issue |
 	issue := IIIssue new.

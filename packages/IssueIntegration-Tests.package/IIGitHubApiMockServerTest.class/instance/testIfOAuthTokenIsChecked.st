@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testIfOAuthTokenIsChecked
 	| request response methodsToCheck |
 	methodsToCheck := { #handleCloseIssue: . #handleEditIssue: . #handleIssueCreation: }.

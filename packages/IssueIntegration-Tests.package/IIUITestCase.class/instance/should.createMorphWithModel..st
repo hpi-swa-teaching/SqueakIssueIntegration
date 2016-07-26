@@ -1,4 +1,4 @@
-as yet unclassified
+asserting
 should: aBlock createMorphWithModel: aClass
 	| morphs newMorph |
 	morphs := self subject currentWorld submorphs.

@@ -1,4 +1,4 @@
-as yet unclassified
+requesting
 requestForMethod: aSymbol andPath: aPath requestBlock: aBlock
 	| response request contentBegin |
 	response := (ReadWriteStream on: '').

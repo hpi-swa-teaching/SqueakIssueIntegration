@@ -1,4 +1,4 @@
-initialize-release
+running
 testWindowWidget
 	| windowWidget |
 	windowWidget := SystemWindow new.

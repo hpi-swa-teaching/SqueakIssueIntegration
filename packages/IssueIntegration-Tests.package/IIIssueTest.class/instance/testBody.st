@@ -1,4 +1,4 @@
-instance variables
+running
 testBody
 	| issue |
 	issue := IIIssue new.

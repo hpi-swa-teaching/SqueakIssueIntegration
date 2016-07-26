@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testCheckOAuthToken
 	| request |
 	request := WebRequest new headerAt: 'Authorization' put: 'token ', IIGitHubApiMockServer oAuthToken.

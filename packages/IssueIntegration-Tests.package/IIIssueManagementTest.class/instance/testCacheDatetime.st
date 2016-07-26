@@ -1,4 +1,4 @@
-instance variables
+running
 testCacheDatetime
 	| dateTime |
 	dateTime := DateAndTime totalSeconds.

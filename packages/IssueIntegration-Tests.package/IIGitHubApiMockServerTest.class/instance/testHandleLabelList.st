@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testHandleLabelList
 	| response |
 	response := self requestForMethod: #handleLabelList: andPath: '/labels' requestBlock: [ :req | ].

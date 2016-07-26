@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initializeIssues
 	self issues: OrderedCollection new.
 	self issues

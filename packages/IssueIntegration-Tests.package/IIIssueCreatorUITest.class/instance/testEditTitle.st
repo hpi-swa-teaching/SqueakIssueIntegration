@@ -1,4 +1,4 @@
-initialize-release
+running
 testEditTitle
 	| newTitle titleInput |
 	newTitle := 'Test'.

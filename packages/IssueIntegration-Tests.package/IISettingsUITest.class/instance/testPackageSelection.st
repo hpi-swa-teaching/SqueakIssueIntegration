@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testPackageSelection
 	self packageList changeModelSelection: (self packageList getList 
 		indexOf: (self packageList getList 

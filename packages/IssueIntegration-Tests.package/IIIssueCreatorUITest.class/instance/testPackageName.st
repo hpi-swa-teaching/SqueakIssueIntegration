@@ -1,4 +1,4 @@
-initialize-release
+running
 testPackageName
 	| packageName |
 	packageName := 'aPackage'.

@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testHandleIssueList
 	| response |
 	response := self requestForMethod: #handleIssueList: andPath: '/issues' requestBlock: [ :req | ].

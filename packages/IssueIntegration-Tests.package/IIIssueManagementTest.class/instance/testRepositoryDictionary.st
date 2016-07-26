@@ -1,4 +1,4 @@
-issue management
+running
 testRepositoryDictionary
 	| oldIssueManagement issueManagement |
 	"We do not know if there is an old key, so make a backup and then delete it if it exists"

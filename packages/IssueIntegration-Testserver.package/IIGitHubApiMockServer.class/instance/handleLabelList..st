@@ -1,4 +1,4 @@
-as yet unclassified
+functionalities
 handleLabelList: aWebRequest
 	^ aWebRequest 
 		send200Response: (Json render: self labels) 

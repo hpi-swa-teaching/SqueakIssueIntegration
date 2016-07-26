@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testHandleRateLimit
 	| response |
 	response := self requestForMethod: #handleRateLimit: andPath: '/rate_limit' requestBlock: [ :req | ].

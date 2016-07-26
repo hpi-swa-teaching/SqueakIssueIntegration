@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testHandleIssueDisplay
 	| response |
 	response := self requestForMethod: #handleIssueDisplay: andPath: '/issues/1' requestBlock: [ :req | ].

@@ -1,4 +1,4 @@
-as yet unclassified
+functionalities
 handleIssueCreation: aWebRequest
 	| newIssue content |
 	(self checkOAuthToken: aWebRequest)

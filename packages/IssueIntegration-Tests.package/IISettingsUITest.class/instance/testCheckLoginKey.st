@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testCheckLoginKey
 	self 
 		should: [ self subject model checkLoginKey: 'invalid-key' ] 

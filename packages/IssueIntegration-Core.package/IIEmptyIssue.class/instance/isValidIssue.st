@@ -1,3 +1,3 @@
-as yet unclassified
+characteristics
 isValidIssue
 	^ false

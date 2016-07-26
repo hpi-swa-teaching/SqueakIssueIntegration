@@ -1,4 +1,4 @@
-initialize-release
+running
 setUp
 	super setUp.
 	self oldRepositoryDictionary: IIIssueManagement repositoryDictionary copy.

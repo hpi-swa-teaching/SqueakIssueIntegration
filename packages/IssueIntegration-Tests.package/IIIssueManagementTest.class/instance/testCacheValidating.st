@@ -1,4 +1,4 @@
-caching
+running
 testCacheValidating
 	self issueManagement updateCacheDatetime.
 	self assert: self issueManagement isCacheValid.

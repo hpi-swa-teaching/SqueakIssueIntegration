@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testHandleEditIssue
 	| response issue json |
 	response := self requestForMethod: #handleEditIssue: andPath: '/issues/1' requestBlock: [ :req | req content: '{"title":"new-title", "body":"new-body","assignee":"new-assignee"}' ].

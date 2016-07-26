@@ -1,4 +1,4 @@
-as yet unclassified
+functionalities
 handleRateLimit: aWebRequest
 	^ aWebRequest 
 		send200Response: self rateLimitContent 

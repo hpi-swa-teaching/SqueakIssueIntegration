@@ -1,4 +1,4 @@
-initialize-release
+running
 testSubmitButton
 	| issueManagement issueTitle selectedIssues titleInput |
 	self assert: (self subject findByName: 'IssueCreator') notNil.

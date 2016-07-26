@@ -1,4 +1,4 @@
-instance variables
+running
 testIssueComparison
 	| issue1 issue2 |
 	issue1 := IIGitHubIssue new.

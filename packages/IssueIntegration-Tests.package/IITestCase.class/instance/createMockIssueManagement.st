@@ -1,4 +1,4 @@
-initialize-release
+running
 createMockIssueManagement
 	| issueManagement apiClient |
 	issueManagement := IIGitHubIssueManagement createWithProjectID: IIGitHubApiMockServer 

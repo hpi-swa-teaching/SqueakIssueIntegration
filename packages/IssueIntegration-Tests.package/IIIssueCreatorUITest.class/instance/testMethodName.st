@@ -1,4 +1,4 @@
-initialize-release
+running
 testMethodName
 	| methodName |
 	methodName := 'aMethod'.

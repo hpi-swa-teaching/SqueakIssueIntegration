@@ -1,4 +1,4 @@
-initialize-release
+running
 testIssueClassIsMeta
 	| issueClassIsMeta |
 	issueClassIsMeta := true.

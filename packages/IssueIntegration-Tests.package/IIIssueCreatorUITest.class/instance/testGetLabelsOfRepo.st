@@ -1,4 +1,4 @@
-initialize-release
+running
 testGetLabelsOfRepo
 	| labels |
 	labels := OrderedCollection new.

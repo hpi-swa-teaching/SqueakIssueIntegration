@@ -1,3 +1,3 @@
-as yet unclassified
+requesting
 generateUrlFromPath: aPath
 	^ 'https://api.github.com' , aPath.

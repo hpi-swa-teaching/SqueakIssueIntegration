@@ -1,3 +1,3 @@
-issue editing
+issue accessing
 getLabels
 	^ SortedCollection new

@@ -1,4 +1,4 @@
-external
+running
 testOpenInWebBrowser
 	| issue |
 	issue := IIIssue new.
