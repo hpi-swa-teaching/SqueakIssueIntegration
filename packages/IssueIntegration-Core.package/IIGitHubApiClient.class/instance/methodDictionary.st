@@ -1,6 +1,6 @@
 requesting
 methodDictionary
-	^ Dictionary
+	^ IdentityDictionary
 		with: #GET -> [ :url | self webClient 
 			httpGet: url do: self decorateRequest ]
 		with: #POST -> [ :url :body | self webClient 

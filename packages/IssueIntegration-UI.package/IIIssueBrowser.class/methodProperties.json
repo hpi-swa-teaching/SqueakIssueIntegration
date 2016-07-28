@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"initialize" : "Axl 7/15/2016 12:24",
+		"initialize" : "FR 7/28/2016 15:33",
 		"open" : "CF 7/22/2016 16:40",
 		"openWithIssue:andPackage:" : "FR 7/28/2016 14:23" },
 	"instance" : {
@@ -17,7 +17,7 @@
 		"issueSelected" : "CF 7/22/2016 17:15",
 		"labelList" : "Axl 7/15/2016 19:22",
 		"labelsAt:" : "Axl 7/15/2016 19:23",
-		"labelsAt:put:" : "Axl 7/15/2016 19:23",
+		"labelsAt:put:" : "FR 7/28/2016 15:30",
 		"openBrowser" : "Axl 7/15/2016 17:56",
 		"openIssueView" : "FR 7/28/2016 14:33",
 		"openSettings" : "CF 6/30/2016 08:14",

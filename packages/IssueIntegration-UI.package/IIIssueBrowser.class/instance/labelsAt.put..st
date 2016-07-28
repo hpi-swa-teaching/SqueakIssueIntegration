@@ -1,6 +1,8 @@
 user interface signals
 labelsAt: anInteger put: aBoolean
-	self selectedIssue labels: (self selectedIssue labels
-		perform: (aBoolean ifTrue: [ #copyWith: ] ifFalse: [ #copyWithout: ])
-		with: (self labelList at: anInteger ifAbsent: [ ^ self ])).
+	| label |
+	label := self labelList at: anInteger ifAbsent: [ ^ self ].
+	self selectedIssue labels: (aBoolean 
+		ifTrue: [ self selectedIssue labels copyWith: label ] 
+		ifFalse: [ self selectedIssue labels copyWithout: label ]).
 	self updateLabels: self selectedIssue labels
