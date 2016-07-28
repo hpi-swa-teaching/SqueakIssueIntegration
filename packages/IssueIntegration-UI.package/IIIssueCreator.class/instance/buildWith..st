@@ -1,6 +1,6 @@
 initialize-release
 buildWith: builder
-	| windowSpec titleInputSpec assigneeInputSpec bodyInputSpec submitButton window labelSpec|
+	| windowSpec titleInputSpec assigneeInputSpec bodyInputSpec submitButtonSpec window labelSpec |
 	windowSpec := builder pluggableWindowSpec new
 		model: self;
 		name: 'IssueCreator';
@@ -45,13 +45,13 @@ buildWith: builder
 		frame: (0.6@0 corner: 1@0.9).
 	windowSpec children add: labelSpec.
 	
-	submitButton := builder pluggableActionButtonSpec new
+	submitButtonSpec := builder pluggableActionButtonSpec new
 		model: self;
 		name: 'submitButton';
 		label: 'Submit Issue';
 		action: #createIssue;
 		frame: (0.65@0.9 corner: 1@1).
-	windowSpec children add: submitButton.		
+	windowSpec children add: submitButtonSpec.		
 	
 	window := builder build: windowSpec.
 	self windowWidget: window.

@@ -4,5 +4,5 @@ openWithIssue: anIssue andPackage: aPackage
 	issueBrowser := self new.
 	issueBrowser selectedRepo: (IIIssueManagement repositoryDictionary at: aPackage).
 	issueBrowser selectedIssue: anIssue.
-	 ^ ToolBuilder default open: issueBrowser.
+	 ^ ToolBuilder default open: issueBrowser
 	

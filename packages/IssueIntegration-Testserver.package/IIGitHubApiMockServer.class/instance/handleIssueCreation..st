@@ -1,14 +1,11 @@
 functionalities
 handleIssueCreation: aWebRequest
-	| newIssue content |
+	| issue content |
 	(self checkOAuthToken: aWebRequest)
 		ifFalse: [ ^ self notAValidOAuthToken: aWebRequest ].
 	content := Json readFrom: (ReadStream on: aWebRequest content).
-	newIssue := self createIssueJsonWithTitle: (content at: 'title') 
-		body: (content at: 'body') 
-		andAssignee: (content at: 'assignee').
-	self issues add: newIssue.
+	issue := self addIssueFrom: content.
  	^ aWebRequest sendResponseCode: 201
-		content: (Json render: newIssue) 
-		type: 'application/json'
+		content: (Json render: issue) 
+		type: self contentType
 		do: self decorateResponseBlock

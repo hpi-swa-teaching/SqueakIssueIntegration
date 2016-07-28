@@ -1,0 +1,3 @@
+contants
+contentType
+	^ 'application/json'

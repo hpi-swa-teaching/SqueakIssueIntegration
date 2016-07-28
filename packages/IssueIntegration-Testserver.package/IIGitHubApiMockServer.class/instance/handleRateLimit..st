@@ -1,8 +1,6 @@
 functionalities
 handleRateLimit: aWebRequest
 	^ aWebRequest 
-		send200Response: self rateLimitContent 
-		contentType: 'application/json' 
-		do: ((self checkOAuthToken: aWebRequest)
-			ifTrue: [self decorateResponseBlock]
-			ifFalse: [ [ :response | ] ])
+		send200Response: self rateLimitJson
+		contentType: self contentType 
+		do: (self decoratorFor: aWebRequest)

@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 start
 	IIGitHubApiMockServer stop.
 	^ IIGitHubApiMockServer new start

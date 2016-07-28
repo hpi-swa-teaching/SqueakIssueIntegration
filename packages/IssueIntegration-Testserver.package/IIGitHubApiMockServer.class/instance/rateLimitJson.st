@@ -1,5 +1,5 @@
-fixtures
-rateLimitContent
+contants
+rateLimitJson
 	^ '{
   "resources": {
     "core": {

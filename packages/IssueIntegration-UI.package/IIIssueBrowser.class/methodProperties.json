@@ -2,8 +2,10 @@
 	"class" : {
 		"initialize" : "Axl 7/15/2016 12:24",
 		"open" : "CF 7/22/2016 16:40",
-		"openWithIssue:andPackage:" : "HR 7/21/2016 17:48" },
+		"openWithIssue:andPackage:" : "FR 7/28/2016 14:23" },
 	"instance" : {
+		"adjustButtonsOfIssueView:" : "FR 7/28/2016 14:33",
+		"adjustSubMorphsOfIssueView:" : "FR 7/28/2016 14:31",
 		"assignee" : "Axl 7/15/2016 18:02",
 		"assignee:" : "FR 7/21/2016 14:51",
 		"body" : "Axl 7/15/2016 18:03",
@@ -17,7 +19,7 @@
 		"labelsAt:" : "Axl 7/15/2016 19:23",
 		"labelsAt:put:" : "Axl 7/15/2016 19:23",
 		"openBrowser" : "Axl 7/15/2016 17:56",
-		"openIssueView" : "FR 7/26/2016 11:29",
+		"openIssueView" : "FR 7/28/2016 14:33",
 		"openSettings" : "CF 6/30/2016 08:14",
 		"repoList" : "Axl 7/21/2016 16:27",
 		"selectedIssue" : "Axl 7/6/2016 13:04",

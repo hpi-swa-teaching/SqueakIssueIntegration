@@ -1,3 +1,3 @@
-as yet unclassified
+constants
 repoOwner
 	^ 'test-user'

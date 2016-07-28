@@ -1,3 +1,3 @@
-as yet unclassified
+constants
 repoSlug
 	^ self repoOwner, '/', self repoName

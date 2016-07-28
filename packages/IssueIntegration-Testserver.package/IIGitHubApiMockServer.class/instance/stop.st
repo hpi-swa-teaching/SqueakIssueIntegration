@@ -1,3 +1,3 @@
 initialize-release
 stop
-	self webServer ifNotNil: [ self webServer destroy ]
+	self webServer destroy

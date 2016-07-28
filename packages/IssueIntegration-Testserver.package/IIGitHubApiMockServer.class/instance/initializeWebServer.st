@@ -2,14 +2,8 @@ initialize-release
 initializeWebServer
 	self webServer 
 		addService: '/repos/' , self class repoSlug, '/issues' 
-			action: [ :req | req isGetRequest 
-				ifTrue: [ req url endsWithDigit 
-					ifTrue: [ self handleIssueDisplay: req ] 
-					ifFalse: [ self handleIssueList: req ]]
-				ifFalse: [ req isPostRequest
-					ifTrue: [ self handleIssueCreation: req ]
-					ifFalse: [ self handleEditIssue: req ]]]
+			action: self determineIssuesHandler
 			methods: #('GET' 'POST' 'PATCH');
-		addService: '/rate_limit' action: [ :req | self handleRateLimit: req ]; 
 		addService: '/repos/', self class repoSlug, '/labels' action: [ :req | self handleLabelList: req ];
+		addService: '/rate_limit' action: [ :req | self handleRateLimit: req ];
 		errorHandler: [ :error :socket | error pass ]

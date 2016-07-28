@@ -1,0 +1,6 @@
+contants
+badCredentialsJson
+	^ '{
+	  "message": "Bad credentials",
+	  "documentation_url": "https://developer.github.com/v3"
+	}'
