@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newWith: anOAuthToken
 	| apiClient |
 	apiClient := self new.

@@ -5,4 +5,4 @@ sendEditIssue: anIssue requestWith: aJson onError: aBlock
 		withMethod: #PATCH 
 		andBody: aJson asJsonString 
 		andExpectedCode: 200
-		onError: aBlock.
+		onError: aBlock

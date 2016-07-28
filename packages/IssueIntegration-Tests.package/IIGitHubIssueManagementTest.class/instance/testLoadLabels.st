@@ -5,5 +5,4 @@ testLoadLabels
 	createdLabels add: 'Label1'.
 	createdLabels add: 'Label2'.
 	serverLabels := self issueManagement loadLabels.
-	self assert: serverLabels equals: createdLabels.
-	
+	self assert: createdLabels equals: serverLabels

@@ -1,9 +1,3 @@
 converting
 labelsAsString
-	| string |
-	string := ''.
-	self labels ifNotEmpty: [ self labels do: [ :element | 
-		(element = self labels last)
-			ifTrue: [ string := string, element]
-			ifFalse: [ string := string, element, ', ' ]]].
-	^ string
+	^ self labels reduce: [ :string :label | string, ', ', label ]

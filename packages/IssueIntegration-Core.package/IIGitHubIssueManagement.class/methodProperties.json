@@ -12,7 +12,8 @@
 		"editIssue:title:" : "FR 7/28/2016 11:06",
 		"editIssue:withProperty:andValue:" : "FR 7/28/2016 11:05",
 		"loadIssues" : "FR 7/28/2016 11:22",
-		"loadLabels" : "LG 7/21/2016 19:19",
+		"loadLabels" : "FR 7/28/2016 12:01",
 		"sendCreateIssueRequestWith:onError:" : "FR 7/28/2016 10:51",
-		"sendEditIssue:requestWith:onError:" : "FR 7/28/2016 11:00",
-		"sendLoadIssuesRequestOnError:" : "FR 7/28/2016 11:14" } }
+		"sendEditIssue:requestWith:onError:" : "FR 7/28/2016 11:45",
+		"sendLoadIssuesRequestOnError:" : "FR 7/28/2016 11:14",
+		"sendLoadLabelsRequestOnError:" : "FR 7/28/2016 11:53" } }
