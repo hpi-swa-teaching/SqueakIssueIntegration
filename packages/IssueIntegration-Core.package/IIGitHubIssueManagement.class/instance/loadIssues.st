@@ -1,12 +1,7 @@
 issue accessing
 loadIssues
-	| issueSortedCollection response issuesJson |
-	issueSortedCollection := SortedCollection new.
-	response := self apiClient apiRequestTo: '/repos/', self projectID , '/issues' 
-		withMethod: #GET
-		andExpectedCode: 200
-		onError: [ ^ issueSortedCollection ].
-
+	| issues response issuesJson |
+	response := self sendLoadIssuesRequestOnError: [ ^ SortedCollection new ].
 	issuesJson := Json readFrom: response content readStream. 
-	issuesJson do: [ :issueJson | issueSortedCollection add: (IIGitHubIssue createIssueFromJSON: issueJson) ].
-	^ issueSortedCollection
+	issues := issuesJson collect: [ :issueJson | IIGitHubIssue createIssueFromJSON: issueJson ].
+	^ issues asSortedCollection
