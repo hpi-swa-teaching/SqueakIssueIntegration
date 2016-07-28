@@ -1,2 +1,0 @@
-issue accessing
-openIssueInWebBrowser: anIssue

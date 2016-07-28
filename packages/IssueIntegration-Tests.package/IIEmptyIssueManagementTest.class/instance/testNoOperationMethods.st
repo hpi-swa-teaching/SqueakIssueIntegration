@@ -8,7 +8,4 @@ testNoOperationMethods
 		editIssue: issue assignee: '';
 		editIssue: issue body: '';
 		editIssue: issue labels: {};
-		editIssue: issue title: '';
-		editIssue: issue title: '' body: '' assignee: '' state: '';
-		openIssueInWebBrowser: issue.
-	"If we reach here, all methods are implemented."
+		editIssue: issue title: ''

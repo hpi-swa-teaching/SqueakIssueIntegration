@@ -2,12 +2,16 @@
 	"class" : {
 		"newWith:" : "LG 7/21/2016 18:45" },
 	"instance" : {
-		"apiRequestTo:withMethod:andBody:andExpectedCode:onError:" : "CF 7/22/2016 08:10",
+		"apiRequestTo:withMethod:andBody:andExpectedCode:onError:" : "FR 7/28/2016 10:10",
 		"apiRequestTo:withMethod:andExpectedCode:onError:" : "LG 7/21/2016 19:18",
 		"checkResponse:shouldBe:" : "LG 7/21/2016 18:55",
-		"errorForResponse:" : "FR 7/26/2016 10:56",
+		"cleanUpWebClient" : "FR 7/28/2016 10:06",
+		"contentType" : "FR 7/28/2016 10:05",
+		"decorateRequest" : "FR 7/28/2016 10:01",
+		"errorForResponse:" : "FR 7/28/2016 10:22",
 		"generateUrlFromPath:" : "CF 7/22/2016 15:48",
 		"initialize" : "LG 7/21/2016 19:33",
+		"methodDictionary" : "FR 7/28/2016 10:04",
 		"oAuthToken" : "LG 7/21/2016 18:43",
 		"oAuthToken:" : "LG 7/21/2016 18:43",
 		"webClient" : "LG 7/21/2016 18:40",

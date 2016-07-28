@@ -5,11 +5,8 @@ createIssueFromJSON: aJSON
 	issue
 		number: (aJSON at: 'number');
 		title: (aJSON at: 'title');
-		body: (aJSON at: 'body');
-		labels: OrderedCollection new.
+		body: (aJSON at: 'body').
 	(aJSON at: 'assignee') ifNotNil: [ :assigneeJson |
 		issue assignee: (assigneeJson at: 'login') ].
-	(aJSON at: 'labels') ifNotNil: [ :labelsJsonCollection |
-		labelsJsonCollection do: [ :labelsJson |
-			issue labels add: (labelsJson at: 'name') ]].
+	issue labels: ((aJSON at: 'labels') collect: [ :each | each at: 'name' ]).
 	^ issue

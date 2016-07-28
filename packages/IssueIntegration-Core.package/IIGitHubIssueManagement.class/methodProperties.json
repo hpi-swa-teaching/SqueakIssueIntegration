@@ -4,13 +4,14 @@
 	"instance" : {
 		"apiClient" : "LG 7/21/2016 18:46",
 		"apiClient:" : "LG 7/21/2016 18:46",
-		"closeIssue:" : "LG 7/21/2016 19:21",
-		"createIssueWithTitle:body:assignee:labels:" : "LG 7/21/2016 19:21",
-		"editIssue:assignee:" : "LG 7/21/2016 19:22",
-		"editIssue:body:" : "LG 7/21/2016 19:22",
-		"editIssue:labels:" : "LG 7/21/2016 19:23",
-		"editIssue:title:" : "LG 7/21/2016 19:23",
-		"editIssue:title:body:assignee:state:" : "LG 7/21/2016 19:24",
+		"closeIssue:" : "FR 7/28/2016 11:09",
+		"createIssueWithTitle:body:assignee:labels:" : "FR 7/28/2016 10:50",
+		"editIssue:assignee:" : "FR 7/28/2016 11:06",
+		"editIssue:body:" : "FR 7/28/2016 11:06",
+		"editIssue:labels:" : "FR 7/28/2016 11:06",
+		"editIssue:title:" : "FR 7/28/2016 11:06",
+		"editIssue:withProperty:andValue:" : "FR 7/28/2016 11:05",
 		"loadIssues" : "LG 7/21/2016 19:18",
 		"loadLabels" : "LG 7/21/2016 19:19",
-		"openIssueInWebBrowser:" : "Axl 7/15/2016 12:01" } }
+		"sendCreateIssueRequestWith:onError:" : "FR 7/28/2016 10:51",
+		"sendEditIssue:requestWith:onError:" : "FR 7/28/2016 11:00" } }

@@ -1,19 +1,11 @@
 issue creation
 createIssueWithTitle: title body: body assignee: assignee labels: labels
-	"create a json, fill it with information given in the arguments and post it on GitHub"
 	| json response |
-	json := JsonObject new.
-	json
-		at: 'title' put: title;
-		at: 'body' put: body.
+	json := JsonObject 
+		with: 'title' -> title
+		with: 'body' -> body
+		with: 'labels' -> labels.
 	assignee ifNotEmpty: [ json at: 'assignee' put: assignee ].
-	labels ifNotEmpty: [ json at: 'labels' put: labels ].
-	response := self apiClient apiRequestTo: '/repos/', self projectID, '/issues' 
-		withMethod: #POST 
-		andBody: json asJsonString 
-		andExpectedCode: 201
-		onError: [ ^ IIEmptyIssue new ].
+	response := self sendCreateIssueRequestWith: json onError: [ ^ IIEmptyIssue new ]. 
 	self invalidateCache.
-
-	json := Json readFrom: response content readStream.
-	^ IIGitHubIssue createIssueFromJSON: json
+	^ IIGitHubIssue createIssueFromResponse: response
