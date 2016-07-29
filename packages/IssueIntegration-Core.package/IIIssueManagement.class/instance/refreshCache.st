@@ -1,5 +1,6 @@
 caching
 refreshCache
-	self cachedIssues: self loadIssues.
-	self cachedLabels: self loadLabels.
-	self updateCacheDatetime.
+	self 
+		cachedIssues: self loadIssues;
+		cachedLabels: self loadLabels;
+		updateCacheDatetime.

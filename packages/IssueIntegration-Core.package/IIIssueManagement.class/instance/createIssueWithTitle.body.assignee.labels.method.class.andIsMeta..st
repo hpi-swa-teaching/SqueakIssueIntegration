@@ -1,11 +1,6 @@
 issue creation
-createIssueWithTitle: title body: body assignee: anAssignee labels: labels method: method class: aClass andIsMeta: aBoolean
-	| separator indicator |
-	separator := ''.	
-	aBoolean ifTrue: [ separator := self class metaClassIndicator ].
-	separator := separator, self class classAndMethodSeparator.
-	
-	method 
-		ifEmpty: [ indicator := '[', aClass, ']' ]
-		ifNotEmpty: [ indicator := '[', aClass, separator, method, ']' ].
-	^ self createIssueWithTitle: title, ' ', indicator body: body assignee: anAssignee andLabels: labels
+createIssueWithTitle: aTitle body: aBody assignee: anAssignee labels: someLabels method: aMethod class: aClass andIsMeta: aBoolean
+	| indicator |
+	indicator := self createIndicatorFor: aClass method: aMethod andIsMeta: aBoolean.
+	^ self createIssueWithTitle: aTitle, ' ', indicator body: aBody 
+		assignee: anAssignee andLabels: someLabels

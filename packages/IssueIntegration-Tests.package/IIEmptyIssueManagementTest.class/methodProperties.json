@@ -7,5 +7,5 @@
 		"setUp" : "Axl 7/13/2016 10:05",
 		"testHasValidRemote" : "Axl 7/13/2016 10:05",
 		"testIsSingleton" : "FR 7/6/2016 21:42",
-		"testMethodsWhoReturnEmptyCollections" : "FR 7/29/2016 10:17",
-		"testNoOperationMethods" : "FR 7/29/2016 10:13" } }
+		"testMethodsThatReturnEmptyCollections" : "FR 7/29/2016 11:05",
+		"testNoOperationMethods" : "FR 7/29/2016 11:06" } }

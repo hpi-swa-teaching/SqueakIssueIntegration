@@ -9,7 +9,7 @@
 		"testCheckOAuthToken" : "CF 7/22/2016 17:48",
 		"testDecorateResponse" : "CF 7/22/2016 17:55",
 		"testHandleCloseIssue" : "FR 7/29/2016 10:51",
-		"testHandleEditIssue" : "FR 7/29/2016 10:50",
+		"testHandleEditIssue" : "FR 7/29/2016 11:10",
 		"testHandleIssueCreation" : "FR 7/29/2016 10:49",
 		"testHandleIssueDisplay" : "FR 7/29/2016 10:50",
 		"testHandleIssueList" : "CF 7/22/2016 18:49",

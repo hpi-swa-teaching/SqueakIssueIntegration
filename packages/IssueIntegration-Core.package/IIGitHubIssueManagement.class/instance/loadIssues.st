@@ -1,7 +1,6 @@
 issue accessing
 loadIssues
-	| issues response issuesJson |
+	| issues response |
 	response := self sendLoadIssuesRequestOnError: [ ^ SortedCollection new ].
-	issuesJson := Json readFrom: response content readStream. 
-	issues := issuesJson collect: [ :issueJson | IIGitHubIssue createIssueFromJSON: issueJson ].
-	^ issues asSortedCollection
+	issues := (Json readFrom: response content readStream).
+	^ (issues collect: [ :issueJson | IIGitHubIssue fromJSON: issueJson ]) asSortedCollection

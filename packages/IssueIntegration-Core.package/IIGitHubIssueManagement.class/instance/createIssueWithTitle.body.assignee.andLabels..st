@@ -8,4 +8,4 @@ createIssueWithTitle: title body: body assignee: assignee andLabels: labels
 	assignee ifNotEmpty: [ json at: 'assignee' put: assignee ].
 	response := self sendCreateIssueRequestWith: json onError: [ ^ IIEmptyIssue new ]. 
 	self invalidateCache.
-	^ IIGitHubIssue createIssueFromResponse: response
+	^ IIGitHubIssue fromResponse: response

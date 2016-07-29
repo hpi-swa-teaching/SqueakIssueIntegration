@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"createIssueFromJSON:" : "LG 7/29/2016 10:53",
-		"createIssueFromResponse:" : "FR 7/28/2016 11:22" },
+		"fromJSON:" : "FR 7/29/2016 12:15",
+		"fromResponse:" : "FR 7/29/2016 12:15" },
 	"instance" : {
 		"isValidIssue" : "CF 7/22/2016 17:15" } }

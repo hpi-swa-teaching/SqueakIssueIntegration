@@ -1,3 +1,5 @@
 issue management
 deleteIssueManagementFor: aPackageString
-	^ self repositoryDictionary removeKey: aPackageString ifAbsent: [ ^ IIEmptyIssueManagement getInstance ]
+	^ self repositoryDictionary 
+		removeKey: aPackageString 
+		ifAbsent: [ ^ IIEmptyIssueManagement getInstance ]

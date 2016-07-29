@@ -9,3 +9,4 @@ testNoOperationMethods
 		editIssue: issue body: '';
 		editIssue: issue labels: {};
 		editIssue: issue title: ''
+	"If we reach here, everything is implemented"

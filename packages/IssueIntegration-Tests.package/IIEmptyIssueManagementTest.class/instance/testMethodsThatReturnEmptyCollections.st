@@ -1,5 +1,5 @@
 running
-testMethodsWhoReturnEmptyCollections
+testMethodsThatReturnEmptyCollections
 	| methods arguments |
 	methods := { #getIssues . #getIssuesForClass: . #getIssuesForMethod:class:andIsMeta: . #getMyIssuesForClass: . #getMyIssuesForMethod:class:andIsMeta: . #getLabels . #loadIssues . #loadLabels }.
 	arguments := { 'arg1' . 'arg2' . 'arg3' }.

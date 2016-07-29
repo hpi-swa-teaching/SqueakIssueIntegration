@@ -2,12 +2,12 @@
 	"class" : {
 		"getInstance" : "Axl 7/14/2016 14:04" },
 	"instance" : {
-		"closeIssue:" : "Axl 7/15/2016 13:17",
+		"closeIssue:" : "FR 7/29/2016 12:11",
 		"createIssueWithTitle:body:assignee:andLabels:" : "FR 7/29/2016 10:14",
-		"editIssue:assignee:" : "FR 7/3/2016 19:51",
-		"editIssue:body:" : "Axl 7/14/2016 20:23",
-		"editIssue:labels:" : "LG 7/10/2016 16:49",
-		"editIssue:title:" : "Axl 7/15/2016 13:18",
+		"editIssue:assignee:" : "FR 7/29/2016 12:10",
+		"editIssue:body:" : "FR 7/29/2016 12:10",
+		"editIssue:labels:" : "FR 7/29/2016 12:10",
+		"editIssue:title:" : "FR 7/29/2016 12:10",
 		"getIssues" : "Axl 7/14/2016 20:23",
 		"getIssuesForClass:" : "Axl 7/14/2016 20:24",
 		"getIssuesForMethod:class:andIsMeta:" : "FR 7/29/2016 10:25",

@@ -1,5 +1,5 @@
 instance creation
-createIssueFromJSON: aJSON
+fromJSON: aJSON
 	| issue |
 	issue := self new.
 	issue

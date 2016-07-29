@@ -1,7 +1,9 @@
 running
 testHandleEditIssue
 	| response issue json |
-	response := self requestForMethod: #handleEditIssue: andPath: '/issues/1' requestBlock: [ :req | req content: '{"title":"new-title", "body":"new-body","assignee":"new-assignee"}' ].
+	response := self requestForMethod: #handleEditIssue: 
+		andPath: '/issues/1' 
+		requestBlock: [ :req | req content: '{"title":"new-title", "body":"new-body", "assignee":"new-assignee"}' ].
 
 	json := Json readFrom: (ReadStream on: response).
 	self assert: 'new-title' equals: json title.

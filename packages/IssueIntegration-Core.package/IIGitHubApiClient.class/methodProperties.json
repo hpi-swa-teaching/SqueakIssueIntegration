@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"newWith:" : "LG 7/21/2016 18:45" },
+		"newWith:" : "FR 7/29/2016 11:31" },
 	"instance" : {
 		"apiRequestTo:withMethod:andExpectedCode:onError:" : "FR 7/29/2016 10:06",
 		"apiRequestTo:withMethod:body:andExpectedCode:onError:" : "FR 7/29/2016 10:06",
-		"checkResponse:shouldBe:" : "LG 7/21/2016 18:55",
+		"checkResponse:shouldBe:" : "FR 7/29/2016 11:27",
 		"cleanUpWebClient" : "FR 7/28/2016 10:06",
 		"contentType" : "FR 7/28/2016 10:05",
 		"decorateRequest" : "FR 7/28/2016 10:01",
-		"errorForResponse:" : "FR 7/28/2016 10:22",
+		"errorForResponse:" : "FR 7/29/2016 11:30",
 		"generateUrlFromPath:" : "FR 7/28/2016 11:45",
 		"initialize" : "LG 7/21/2016 19:33",
 		"methodDictionary" : "FR 7/28/2016 15:45",

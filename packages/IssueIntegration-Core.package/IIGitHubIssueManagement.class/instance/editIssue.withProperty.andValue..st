@@ -4,4 +4,4 @@ editIssue: anIssue withProperty: aProperty andValue: aValue
 	json := JsonObject with: aProperty -> aValue.
 	response := self sendEditIssue: anIssue requestWith: json 	onError: [ ^ anIssue ].
 	self invalidateCache.
-	^ IIGitHubIssue createIssueFromResponse: response
+	^ IIGitHubIssue fromResponse: response
