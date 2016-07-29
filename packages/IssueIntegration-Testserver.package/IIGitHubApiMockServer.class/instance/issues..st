@@ -1,3 +1,3 @@
 accessing
-issues: anObject
-	issues := anObject
+issues: aCollection
+	issues := aCollection

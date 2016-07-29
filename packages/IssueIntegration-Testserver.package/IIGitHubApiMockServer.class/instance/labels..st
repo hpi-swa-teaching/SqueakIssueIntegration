@@ -1,3 +1,3 @@
 accessing
-labels: anObject
-	labels := anObject
+labels: aCollection
+	labels := aCollection

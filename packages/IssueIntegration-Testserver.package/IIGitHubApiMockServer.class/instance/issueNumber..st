@@ -1,3 +1,3 @@
 accessing
-issueNumber: anObject
-	issueNumber := anObject
+issueNumber: anInteger
+	issueNumber := anInteger

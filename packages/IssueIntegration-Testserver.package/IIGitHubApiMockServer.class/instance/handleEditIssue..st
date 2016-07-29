@@ -1,8 +1,7 @@
 functionalities
 handleEditIssue: aWebRequest
 	| number issue parsedJson |
-	(self checkOAuthToken: aWebRequest)
-		ifFalse: [ ^ self notAValidOAuthToken: aWebRequest ].
+	(self checkOAuthToken: aWebRequest) ifFalse: [ ^ self notAValidOAuthToken: aWebRequest ].
 	number := (aWebRequest url copyAfterLast: $/) asInteger.
 	issue := self issues detect: [ :each | (each number) = number ].
 	parsedJson := Json readFrom: aWebRequest content readStream.
