@@ -39,7 +39,7 @@ Metacello new
     baseline: 'IssueIntegration';
     githubUser: 'HPI-SWA-Teaching'
     project: 'SWT16-Project-05'
-    commitish: 'v0.1'
+    commitish: 'v1.0'
     path: 'packages'
 }
 do: [ :baseline | baseline get ];
