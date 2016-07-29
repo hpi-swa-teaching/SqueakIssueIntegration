@@ -9,7 +9,6 @@
 		"title",
 		"assignee",
 		"body",
-		"labels",
 		"labelsSelected",
 		"packageName",
 		"issueClassName",

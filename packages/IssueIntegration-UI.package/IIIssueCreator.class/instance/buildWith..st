@@ -43,7 +43,7 @@ buildWith: builder
 	labelListSpec := builder pluggableMultiSelectionListSpec new
 		model: self;
 		name: 'labelList';
-		list: #getLabelsOfRepo;
+		list: #labelList;
 		getSelectionList: #labelsAt:;
 		setSelectionList: #labelsAt:put:;
 		frame: (0.6@0 corner: 1@0.9);

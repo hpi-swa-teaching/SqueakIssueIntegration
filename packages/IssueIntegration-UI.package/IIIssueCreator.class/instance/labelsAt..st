@@ -1,4 +1,3 @@
 user interface signals
 labelsAt: anIndex
-	^ self labelsSelected includes: (self labels at: anIndex ifAbsent: [^ false])
-	
+	^ self labelsSelected includes: (self labelList at: anIndex ifAbsent: [^ false])

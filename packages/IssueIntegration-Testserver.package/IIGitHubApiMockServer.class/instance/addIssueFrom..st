@@ -1,6 +1,9 @@
 functionalities
 addIssueFrom: aJson
+	| issue |
 	self issueNumber: self issueNumber + 1.
-	^ self issues add: (self createIssueJsonWithTitle: aJson title 
+	issue := self createIssueJsonWithTitle: aJson title 
 		body: aJson body
-		andAssignee: aJson assignee)
+		andAssignee: aJson assignee.
+	self issues add: issue.
+	^ issue
