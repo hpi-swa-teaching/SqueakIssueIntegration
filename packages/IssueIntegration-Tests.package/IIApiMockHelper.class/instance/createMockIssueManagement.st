@@ -1,4 +1,4 @@
-running
+as yet unclassified
 createMockIssueManagement
 	| issueManagement apiClient |
 	issueManagement := IIGitHubIssueManagement createWithProjectID: IIGitHubApiMockServer 

@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"oldRepositoryDictionary",
-		"gitHubApiMock" ],
-	"name" : "IITestCase",
+		"gitHubApiMock",
+		"oldRepositoryDictionary" ],
+	"name" : "IIApiMockHelper",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "Object",
 	"type" : "normal" }

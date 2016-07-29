@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createMockIssueManagement" : "CF 7/29/2016 14:54",
+		"gitHubApiMock" : "CF 7/29/2016 14:55",
+		"gitHubApiMock:" : "CF 7/29/2016 14:55",
+		"oldRepositoryDictionary" : "CF 7/29/2016 14:55",
+		"oldRepositoryDictionary:" : "CF 7/29/2016 14:55",
+		"setUp" : "CF 7/29/2016 14:56",
+		"tearDown" : "CF 7/29/2016 14:56" } }

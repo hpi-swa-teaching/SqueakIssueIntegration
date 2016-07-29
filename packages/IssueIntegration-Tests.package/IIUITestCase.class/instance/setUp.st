@@ -1,4 +1,10 @@
 running
 setUp
+	| mockHelper |
 	super setUp.
-	self createdMorphs: OrderedCollection new
+	mockHelper := IIApiMockHelper new 
+		setUp;
+		yourself.
+	self
+		createdMorphs: OrderedCollection new;
+		mockHelper: mockHelper.
