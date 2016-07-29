@@ -1,6 +1,7 @@
 running
 testTitle
 	| issue |
-	issue := IIIssue new.
-	issue title: 'Title'.
-	self assert: issue title equals: 'Title'
+	issue := IIIssue new
+		title: 'Title';
+		yourself.
+	self assert: 'Title' equals: issue title

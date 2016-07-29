@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testIssueFromJSONwithAssignee" : "FR 7/29/2016 12:15",
-		"testIssueFromJSONwithoutAssignee" : "FR 7/29/2016 12:15" } }
+		"issueWithAssignee" : "CF 7/29/2016 14:13",
+		"issueWithoutAssignee" : "CF 7/29/2016 14:14",
+		"testIssueFromJSONwithAssignee" : "CF 7/29/2016 14:14",
+		"testIssueFromJSONwithoutAssignee" : "CF 7/29/2016 14:15" } }

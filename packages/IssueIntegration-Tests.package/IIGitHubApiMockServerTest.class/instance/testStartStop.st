@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testStartStop
 	self assert: false equals: self apiServer webServer isRunning.
 	self apiServer start.

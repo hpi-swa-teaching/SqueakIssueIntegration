@@ -2,11 +2,14 @@ running
 testExtractClassAndSelectorFromIssueTitle
 	| title result |
 	title := 'Testissue'.
-	self should: [ self issueManagement extractClassAndSelectorFromIssueTitle: title ] raise: Error.
+	self should: [ self issueManagement extractClassAndSelectorFromIssueTitle: title ] 
+		raise: Error.
 	title := 'Testissue []'.
-	self should: [ self issueManagement extractClassAndSelectorFromIssueTitle: title ] raise: Error.
+	self should: [ self issueManagement extractClassAndSelectorFromIssueTitle: title ] 
+		raise: Error.
 	title := ''.
-	self should: [ self issueManagement extractClassAndSelectorFromIssueTitle: title ] raise: Error.
+	self should: [ self issueManagement extractClassAndSelectorFromIssueTitle: title ] 
+		raise: Error.
 
 	title := 'Collection Test [Collection]'.
 	result := self issueManagement extractClassAndSelectorFromIssueTitle: title.

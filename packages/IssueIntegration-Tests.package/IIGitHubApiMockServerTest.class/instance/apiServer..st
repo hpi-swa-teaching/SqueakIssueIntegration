@@ -1,3 +1,3 @@
 accessing
-apiServer: anObject
-	apiServer := anObject
+apiServer: aGitHubApiMockServer
+	apiServer := aGitHubApiMockServer

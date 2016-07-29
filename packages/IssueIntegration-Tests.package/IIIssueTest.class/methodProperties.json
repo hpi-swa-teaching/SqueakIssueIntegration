@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAsString" : "FR 7/22/2016 14:59",
-		"testAssignee" : "Axl 7/14/2016 20:36",
-		"testBody" : "Axl 7/14/2016 20:36",
+		"testAsString" : "CF 7/29/2016 14:25",
+		"testAssignee" : "CF 7/29/2016 14:25",
+		"testBody" : "CF 7/29/2016 14:26",
 		"testIsValidIssue" : "Axl 7/29/2016 14:20",
 		"testIssueComparison" : "Axl 7/14/2016 20:36",
-		"testLabels" : "Axl 7/14/2016 20:39",
-		"testLabelsAsString" : "FR 7/22/2016 14:57",
-		"testNumber" : "Axl 7/14/2016 20:39",
-		"testTitle" : "Axl 7/14/2016 20:39" } }
+		"testLabels" : "CF 7/29/2016 14:27",
+		"testLabelsAsString" : "CF 7/29/2016 14:28",
+		"testNumber" : "CF 7/29/2016 14:28",
+		"testTitle" : "CF 7/29/2016 14:28" } }

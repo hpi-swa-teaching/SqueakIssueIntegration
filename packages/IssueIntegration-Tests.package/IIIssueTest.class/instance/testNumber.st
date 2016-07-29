@@ -1,6 +1,7 @@
 running
 testNumber
 	| issue |
-	issue := IIIssue new.
-	issue number: 42.
-	self assert: issue number equals: 42
+	issue := IIIssue new
+		number: 42;
+		yourself.
+	self assert: 42 equals: issue number

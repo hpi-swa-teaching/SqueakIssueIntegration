@@ -1,7 +1,6 @@
 running
 testRepositoryDictionary
 	| oldIssueManagement issueManagement |
-	"We do not know if there is an old key, so make a backup and then delete it if it exists"
 	oldIssueManagement := IIIssueManagement getIssueManagementFor: 'IssueIntegration-Core'.
 	IIIssueManagement deleteIssueManagementFor: 'IssueIntegration-Core'. 
 
@@ -13,5 +12,4 @@ testRepositoryDictionary
 	IIIssueManagement deleteIssueManagementFor: 'IssueIntegration-Core'.
 	self assert: (IIIssueManagement getIssueManagementFor: 'IssueIntegration-Core') equals: IIEmptyIssueManagement getInstance.
 
-	"At the end add the backed-up issue management"
 	IIIssueManagement addIssueManagement: oldIssueManagement to: 'IssueIntegration-Core'

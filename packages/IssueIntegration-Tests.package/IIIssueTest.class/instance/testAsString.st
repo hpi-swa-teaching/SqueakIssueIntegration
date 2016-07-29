@@ -3,9 +3,9 @@ testAsString
 	| issue title number |
 	title := 'This is a title'.
 	number := 5.
-	issue := IIIssue new.
-	issue 
+	issue := IIIssue new
 		title: title;
-		number: number.
+		number: number;
+		yourself.
 		
 	self assert: '#', number, ' ', title equals: issue asString

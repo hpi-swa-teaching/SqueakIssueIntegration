@@ -1,6 +1,7 @@
 running
 testBody
 	| issue |
-	issue := IIIssue new.
-	issue body: 'Test Body'.
-	self assert: issue body equals: 'Test Body'
+	issue := IIIssue new
+		body: 'Test Body';
+		yourself.
+	self assert: 'Test Body' equals: issue body

@@ -1,6 +1,7 @@
 running
 testAssignee
 	| issue |
-	issue := IIIssue new.
-	issue assignee: 'testuser'.
-	self assert: issue assignee equals: 'testuser'
+	issue := IIIssue new
+		assignee: 'testuser';
+		yourself.
+	self assert: 'testuser' equals: issue assignee

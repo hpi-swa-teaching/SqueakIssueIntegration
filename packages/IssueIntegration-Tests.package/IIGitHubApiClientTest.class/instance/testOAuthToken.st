@@ -3,4 +3,4 @@ testOAuthToken
 	| oAuthToken |
 	oAuthToken := IIGitHubApiMockServer oAuthToken.
 	self apiClient oAuthToken: oAuthToken.
-	self assert: self apiClient oAuthToken equals: oAuthToken
+	self assert: oAuthToken equals: self apiClient oAuthToken

@@ -12,7 +12,7 @@ testIssueManagementDeletion
 	projectIdInput acceptTextInModel.
 	saveButton click.
 	self assert: '' equals: projectIdInput text asString.
-	self packageList changeModelSelection: 2.
+	self packageList changeModelSelection: 1.
 	self packageList changeModelSelection: packageIndex.
 	self assert: ((IIIssueManagement getIssueManagementFor: (self packageList getListItem: packageIndex)) isKindOf: IIEmptyIssueManagement).
 	saveAndQuitButton click.
