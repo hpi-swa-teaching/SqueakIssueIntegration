@@ -1,3 +1,3 @@
 private
-cacheDatetime: aTime
-	cacheDatetime := aTime
+cacheDatetime: anInteger
+	cacheDatetime := anInteger

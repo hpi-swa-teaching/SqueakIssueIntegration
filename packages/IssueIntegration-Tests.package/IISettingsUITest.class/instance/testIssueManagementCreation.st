@@ -1,28 +1,29 @@
 running
 testIssueManagementCreation
-	| projectIdInput usernameInput loginKeyInput packageIndex saveButton saveAndQuitButton |
+	| packageIndex |
 	packageIndex := self packageList getList 
 		indexOf: (self packageList getList 
 			detect: [ :package | package = 'IssueIntegration-Core' ]).
-	self assert: ((IIIssueManagement getIssueManagementFor: (self packageList getListItem: packageIndex)) isKindOf: IIEmptyIssueManagement).
-	self packageList changeModelSelection: packageIndex .
-	projectIdInput := self subject findByName: 'projectIdInput'.
-	usernameInput := self subject findByName: 'usernameInput'.
-	loginKeyInput := self subject findByName: 'loginKeyInput'.
-	saveButton := self subject findByName: 'saveButton'.
-	saveAndQuitButton := self subject findByName: 'saveAndQuitButton'.
-	projectIdInput 
+	self assert: ((IIIssueManagement getIssueManagementFor: 
+		(self packageList getListItem: packageIndex)) isKindOf: IIEmptyIssueManagement).
+	self packageList changeModelSelection: packageIndex.
+	
+	(self subject findByName: 'projectIdInput') 
 		changeText: IIGitHubApiMockServer repoSlug;
 		acceptTextInModel.
-	usernameInput 
+	(self subject findByName: 'usernameInput')
 		changeText: IIGitHubApiMockServer repoOwner;
 		acceptTextInModel.
-	loginKeyInput 
+	(self subject findByName: 'loginKeyInput')
 		changeText: IIGitHubApiMockServer oAuthToken;
 		acceptTextInModel.
-	saveButton click.
-	self assert: ((IIIssueManagement getIssueManagementFor: (self packageList getListItem: packageIndex)) isKindOf: IIGitHubIssueManagement).
-	self packageList changeModelSelection: 1.
-	self packageList changeModelSelection: packageIndex.
-	saveAndQuitButton click.
-	self assert: subject owner isNil
+	(self subject findByName: 'saveButton') click.
+	
+	self assert: ((IIIssueManagement getIssueManagementFor: 
+		(self packageList getListItem: packageIndex)) isKindOf: IIGitHubIssueManagement).
+	self packageList 
+		changeModelSelection: 1;
+		changeModelSelection: packageIndex.
+	
+	(self subject findByName: 'saveAndQuitButton') click.
+	self assert: self subject owner isNil

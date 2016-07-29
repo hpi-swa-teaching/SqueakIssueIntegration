@@ -1,3 +1,3 @@
 issue creation
-createIssueWithTitle: title body: body assignee: assignee andLabels: labels
+createIssueWithTitle: aTitle body: aBody assignee: anAssignee andLabels: someLabels
 	^ self subclassResponsibility

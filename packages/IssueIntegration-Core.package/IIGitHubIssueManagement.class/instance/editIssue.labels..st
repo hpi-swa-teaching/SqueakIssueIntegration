@@ -1,3 +1,3 @@
 issue editing
-editIssue: anIssue labels: labels
-	^ self editIssue: anIssue withProperty: 'labels' andValue: labels
+editIssue: anIssue labels: someLabels
+	^ self editIssue: anIssue withProperty: 'labels' andValue: someLabels

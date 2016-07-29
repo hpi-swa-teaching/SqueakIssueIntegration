@@ -1,8 +1,10 @@
 running
 testIfOAuthTokenIsChecked
-	| request response methodsToCheck |
+	| methodsToCheck |
 	methodsToCheck := { #handleCloseIssue: . #handleEditIssue: . #handleIssueCreation: }.
-	methodsToCheck do: [ :method | response := (WriteStream on: '').
-		request := WebRequest new stream: response.
-		self apiServer perform: method with: request.
-		self assert: (response contents includesSubString: 'Bad credentials') ]
+	methodsToCheck do: [ :method | | response request |
+		response := '' writeStream.
+		request := WebRequest new stream: response; yourself.
+		self 
+			apiServer perform: method with: request;
+			assert: (response contents includesSubString: 'Bad credentials') ]

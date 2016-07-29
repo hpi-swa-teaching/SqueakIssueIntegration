@@ -7,4 +7,5 @@ testInstanceCreation
 		assert: emptyIssue title isEmpty;
 		assert: emptyIssue body isEmpty;
 		assert: emptyIssue assignee isEmpty;
-		assert: emptyIssue labels isEmpty
+		assert: emptyIssue labels isEmpty;
+		assert: false equals: emptyIssue isValidIssue

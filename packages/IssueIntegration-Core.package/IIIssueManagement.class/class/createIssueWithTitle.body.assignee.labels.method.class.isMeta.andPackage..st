@@ -1,10 +1,9 @@
 issue creation
-createIssueWithTitle: title body: body assignee: anAssignee labels: labels method: method class: aClass isMeta: aBoolean andPackage: package
-	^ (self getIssueManagementFor: package)
-		createIssueWithTitle: title 
-		body: body 
+createIssueWithTitle: aTitle body: aBody assignee: anAssignee labels: someLabels method: aMethod class: aClass isMeta: aBoolean andPackage: aPackage
+	^ (self getIssueManagementFor: aPackage) createIssueWithTitle: aTitle 
+		body: aBody 
 		assignee: anAssignee 
-		labels: labels 
-		method: method 
+		labels: someLabels 
+		method: aMethod 
 		class: aClass 
 		andIsMeta: aBoolean

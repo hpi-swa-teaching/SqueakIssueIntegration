@@ -1,11 +1,10 @@
 issue creation
-createIssueWithTitle: title body: body assignee: assignee andLabels: labels
+createIssueWithTitle: aTitle body: aBody assignee: anAssignee andLabels: someLabels
 	| json response |
-	json := JsonObject 
-		with: 'title' -> title
-		with: 'body' -> body
-		with: 'labels' -> labels.
-	assignee ifNotEmpty: [ json at: 'assignee' put: assignee ].
+	json := JsonObject with: 'title' -> aTitle
+		with: 'body' -> aBody
+		with: 'labels' -> someLabels.
+	anAssignee ifNotEmpty: [ json at: 'assignee' put: anAssignee ].
 	response := self sendCreateIssueRequestWith: json onError: [ ^ IIEmptyIssue new ]. 
 	self invalidateCache.
 	^ IIGitHubIssue fromResponse: response

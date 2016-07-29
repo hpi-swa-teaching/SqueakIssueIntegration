@@ -1,1 +1,2 @@
-An Issue is a representation for a task, enhancement or bug in squeak.
+An Issue is a representation of a task, enhancement or bug, which comes from an external issue provider. 
+This is an abstract parent class for all kinds of issues of different providers. Concrete issues are connected to an external service and are therefore implemented in subclasses. They should overwrite the >>fromJson class method.

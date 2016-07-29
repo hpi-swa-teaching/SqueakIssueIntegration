@@ -1,3 +1,3 @@
 issue accessing
-getMyIssuesForClass: className
+getMyIssuesForClass: aClass
 	^ SortedCollection new

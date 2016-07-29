@@ -6,6 +6,6 @@
 		"issueManagement:" : "CF 6/26/2016 11:20",
 		"setUp" : "Axl 7/13/2016 10:05",
 		"testHasValidRemote" : "Axl 7/13/2016 10:05",
-		"testIsSingleton" : "FR 7/6/2016 21:42",
+		"testIsSingleton" : "LG 7/29/2016 18:00",
 		"testMethodsThatReturnEmptyCollections" : "FR 7/29/2016 11:05",
 		"testNoOperationMethods" : "CF 7/29/2016 13:45" } }

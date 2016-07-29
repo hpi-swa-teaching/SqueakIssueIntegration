@@ -1,6 +1,6 @@
 running
 testProjectID
-	| projectURL |	
-	projectURL := 'http://www.RANDOM_STRING_GFSDGgfsdgFS3trw.com/'.
-	self issueManagement projectID: projectURL.
-	self assert: self issueManagement projectID equals: projectURL.
+	| projectID |	
+	projectID := 'HPI-SWA-Teaching/IssueIntegration'.
+	self issueManagement projectID: projectID.
+	self assert: projectID equals: self issueManagement projectID

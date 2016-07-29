@@ -1,3 +1,3 @@
 issue accessing
-getIssuesForClass: aClass andPackage: package
-	^ (self getIssueManagementFor: package) getIssuesForClass: aClass
+getIssuesForClass: aClass andPackage: aPackage
+	^ (self getIssueManagementFor: aPackage) getIssuesForClass: aClass

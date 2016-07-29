@@ -1,6 +1,5 @@
 issue accessing
-getMyIssuesForMethod: method class: aClass isMeta: aBoolean andPackage: package
-	^ (self getIssueManagementFor: package) 
-		getMyIssuesForMethod: method 
+getMyIssuesForMethod: aMethod class: aClass isMeta: aBoolean andPackage: aPackage
+	^ (self getIssueManagementFor: aPackage) getMyIssuesForMethod: aMethod 
 		class: aClass 
 		andIsMeta: aBoolean

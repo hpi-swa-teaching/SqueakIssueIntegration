@@ -5,12 +5,14 @@ testHandleEditIssue
 		withPath: '/issues/1' 
 		andContent: '{"title":"new-title", "body":"new-body", "assignee":"new-assignee"}'.
 
-	json := Json readFrom: (ReadStream on: response).
-	self assert: 'new-title' equals: json title.
-	self assert: 'new-body' equals: json body.
-	self assert: 'new-assignee' equals: json assignee login. 
+	json := Json readFrom: response readStream.
+	self 
+		assert: 'new-title' equals: json title;
+		assert: 'new-body' equals: json body;
+		assert: 'new-assignee' equals: json assignee login. 
 	
 	issue := self apiServer issues detect: [ :each | each number = 1 ].
-	self assert: 'new-title' equals: issue title.
-	self assert: 'new-body' equals: issue body.
-	self assert: 'new-assignee' equals: issue assignee login.
+	self 
+		assert: 'new-title' equals: issue title;
+		assert: 'new-body' equals: issue body;
+		assert: 'new-assignee' equals: issue assignee login

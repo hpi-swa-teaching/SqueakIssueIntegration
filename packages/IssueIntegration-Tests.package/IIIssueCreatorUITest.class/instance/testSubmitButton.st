@@ -1,6 +1,6 @@
 running
 testSubmitButton
-	| issueManagement issueTitle selectedIssues titleInput |
+	| issueManagement issueTitle titleInput |
 	issueTitle := 'SubmitButtonTest'.
 	titleInput := self subject findByName: 'titleInput'.
 	titleInput
@@ -9,7 +9,5 @@ testSubmitButton
 	(self subject findByName: 'submitButton') click.
 	self assert: (self subject findByName: 'IssueCreator') owner isNil.
 	issueManagement := IIIssueManagement repositoryDictionary at: 'IssueIntegration-Tests'.
-	selectedIssues := issueManagement getIssues 
-		detect: [ :issue | issue title includesSubString: issueTitle ]
-		ifNone: [ nil ].
-	self assert: selectedIssues notNil 
+	self assert: (issueManagement getIssues 
+		anySatisfy: [ :issue | issue title includesSubString: issueTitle ]) 

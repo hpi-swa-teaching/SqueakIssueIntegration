@@ -1,3 +1,3 @@
 issue accessing
-getMyIssuesForMethod: methodName class: aClass andIsMeta: aBoolean
+getMyIssuesForMethod: aMethod class: aClass andIsMeta: aBoolean
 	^ SortedCollection new

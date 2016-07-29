@@ -10,5 +10,6 @@ testGetIssuesChaching
 	
 	issueIDs := (self issueManagement getIssues collect: [ :issue | issue number ]) sorted.
 	serverIssueIDs := self mockHelper gitHubApiMock issues collect: [ :json | json number ].
-	self assert: serverIssueIDs equals: issueIDs.
-	self assert: (issueIDs contains: [ :id | id = newIssue number ])
+	self 
+		assert: serverIssueIDs equals: issueIDs;
+		assert: (issueIDs contains: [ :id | id = newIssue number ])

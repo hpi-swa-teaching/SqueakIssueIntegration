@@ -1,5 +1,3 @@
 issue management
-deleteIssueManagementFor: aPackageString
-	self repositoryDictionary 
-		removeKey: aPackageString 
-		ifAbsent: [ ]
+deleteIssueManagementFor: aPackage
+	self repositoryDictionary removeKey: aPackage ifAbsent: [ ]

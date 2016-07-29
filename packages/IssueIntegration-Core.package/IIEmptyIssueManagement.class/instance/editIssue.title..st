@@ -1,3 +1,3 @@
 issue editing
-editIssue: anIssue title: title
+editIssue: anIssue title: aTitle
 	^ anIssue

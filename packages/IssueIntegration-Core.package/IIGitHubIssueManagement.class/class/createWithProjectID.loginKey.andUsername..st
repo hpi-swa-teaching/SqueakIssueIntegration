@@ -1,6 +1,6 @@
-issue creation
+creation
 createWithProjectID: aProjectID loginKey: aLoginKey andUsername: aUsername
-	^ IIGitHubIssueManagement new
+	^ self new
 		projectID: aProjectID;
 		loginKey: aLoginKey;
 		username: aUsername;

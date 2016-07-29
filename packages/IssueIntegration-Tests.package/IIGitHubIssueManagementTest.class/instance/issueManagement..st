@@ -1,3 +1,3 @@
 accessing
-issueManagement: anObject
-	issueManagement := anObject
+issueManagement: aGitHubIssueManagement
+	issueManagement := aGitHubIssueManagement

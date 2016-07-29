@@ -1,7 +1,7 @@
 running
 testNotAValidOAuthToken
 	| response request |
-	response := (WriteStream on: '').
-	request := WebRequest new stream: response.
+	response := '' writeStream.
+	request := WebRequest new stream: response; yourself.
 	self apiServer notAValidOAuthToken: request.
 	self assert: (response contents includesSubString: 'Bad credentials')

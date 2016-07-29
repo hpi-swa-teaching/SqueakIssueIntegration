@@ -1,3 +1,3 @@
 accessing
-issueList: anMTFMorphWrapper
-	issueList := anMTFMorphWrapper
+issueList: aMTFMorphWrapper
+	issueList := aMTFMorphWrapper

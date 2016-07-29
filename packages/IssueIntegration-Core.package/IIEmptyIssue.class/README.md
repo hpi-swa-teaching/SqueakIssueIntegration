@@ -1,3 +1,1 @@
-An EmptyIssue is a version the Nil-Object of Issue.
-
-Instance Variables
+An EmptyIssue is used as a Nil-Object where no real issue is present.

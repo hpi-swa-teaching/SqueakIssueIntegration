@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MZ 7/31/2015 18:51",
+	"commentStamp" : "LG 7/29/2016 17:15",
 	"instvars" : [
 		"apiClient" ],
 	"name" : "IIGitHubIssueManagement",

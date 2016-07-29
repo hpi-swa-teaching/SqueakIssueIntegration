@@ -1,5 +1,3 @@
 running
 testCloseIssue
-	| issue |
-	issue := IIIssue new. 
-	self should: [ self issueManagement closeIssue: issue ] raise: SubclassResponsibility
+	self should: [ self issueManagement closeIssue: IIIssue new ] raise: SubclassResponsibility

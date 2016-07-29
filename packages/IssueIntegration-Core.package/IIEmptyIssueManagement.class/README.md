@@ -1,1 +1,1 @@
-An EmptyIssueManagement is the Nil-Object of IssueManagement.
+An EmptyIssueManagement is used as a Nil-Object when no real IssueManagement is present.

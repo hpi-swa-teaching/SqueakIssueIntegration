@@ -4,4 +4,5 @@ setUp
 	self mockHelper createMockIssueManagement.
 	self wantsToTest: (IIIssueCreator newWithMethodName: '' 
 		packageName: 'IssueIntegration-Tests' 
-		issueClassName: '' issueClassIsMeta: false)
+		issueClassName: '' 
+		issueClassIsMeta: false)

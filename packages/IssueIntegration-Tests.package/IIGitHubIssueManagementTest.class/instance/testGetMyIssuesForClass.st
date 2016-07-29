@@ -5,6 +5,6 @@ testGetMyIssuesForClass
 	
 	issues := self issueManagement getIssuesForClass: 'Collection'.
 	self assert: 1 equals: issues size.
-	self issueManagement editIssue: issues first assignee: 'test-user'.
+	self issueManagement editIssue: issues first assignee: IIGitHubApiMockServer repoOwner.
 	
-	self assert: 1 equals: (self issueManagement getMyIssuesForClass: 'Collection') size.
+	self assert: 1 equals: (self issueManagement getMyIssuesForClass: 'Collection') size

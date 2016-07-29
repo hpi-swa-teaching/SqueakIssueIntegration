@@ -1,8 +1,9 @@
 running
 testRepositoryDictionary
 	| issueManagement |
-	issueManagement := IIIssueManagement new.
-	issueManagement projectID: 'HPI-SWA-Teaching/SWT15-Project-03'.
+	issueManagement := IIIssueManagement new
+		projectID: 'HPI-SWA-Teaching/SWT15-Project-03';
+		yourself.
 	
 	IIIssueManagement addIssueManagement: issueManagement to: 'IssueIntegration-Core'.
 	self assert: 'HPI-SWA-Teaching/SWT15-Project-03' 

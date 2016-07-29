@@ -1,3 +1,3 @@
 running
 testLoadLabels
-	self should: [ self issueManagement loadLabels] raise: SubclassResponsibility
+	self should: [ self issueManagement loadLabels ] raise: SubclassResponsibility

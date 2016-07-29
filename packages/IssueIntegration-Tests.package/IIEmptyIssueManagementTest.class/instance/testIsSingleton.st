@@ -1,3 +1,3 @@
 running
 testIsSingleton
-	self assert: self issueManagement identical: IIEmptyIssueManagement getInstance
+	self assert: IIEmptyIssueManagement getInstance identical: self issueManagement

@@ -1,8 +1,2 @@
-An IssueManagement maintains the issues for a certain repository.
-
-Instance Variables
-	cacheDatetime:		<DateAndTime>
-	cachedIssues:		<Set of Issues>
-	loginKey:		<String>
-	projectURL:		<String>
-	username:		<String>
+An IssueManagement maintains the issues for a certain package. As this is an abstract class, to use it, you need to connect the specialized IssueManagement to a repository of your  prefered external service, although only GitHub is supported yet.
+Once you have connected the IssueManagement to a package, the IssueManagement is able to create, edit and close issues and load all issues of the connected package into the image. It also allows you to attach issues directly to methods and classes.

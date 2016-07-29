@@ -1,4 +1,4 @@
 running
 setUp
 	super setUp.
-	self apiServer: IIGitHubApiMockServer new.
+	self apiServer: IIGitHubApiMockServer new

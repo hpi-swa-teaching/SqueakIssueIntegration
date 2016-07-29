@@ -1,3 +1,3 @@
 issue editing
-editIssue: anIssue body: body 
+editIssue: anIssue body: aBody 
 	^ self subclassResponsibility

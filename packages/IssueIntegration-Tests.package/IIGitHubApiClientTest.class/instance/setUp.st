@@ -1,3 +1,3 @@
 running
 setUp
-	self apiClient: IIGitHubApiClient new.
+	self apiClient: IIGitHubApiClient new

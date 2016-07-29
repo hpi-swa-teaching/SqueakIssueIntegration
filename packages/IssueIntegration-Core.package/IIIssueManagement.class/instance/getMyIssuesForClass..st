@@ -1,3 +1,3 @@
 issue accessing
-getMyIssuesForClass: className
-	^ (self getIssuesForClass: className) select: [ :issue | self username = issue assignee ]
+getMyIssuesForClass: aClass
+	^ (self getIssuesForClass: aClass) select: [ :issue | self username = issue assignee ]

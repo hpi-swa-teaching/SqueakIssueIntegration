@@ -9,4 +9,4 @@ should: aBlock createMorphWithModel: aClass
 	newMorph := morphs first.
 	self assert: (newMorph model isKindOf: aClass).
 	self createdMorphs add: newMorph.
-	^ newMorph.
+	^ newMorph

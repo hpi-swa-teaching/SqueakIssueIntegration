@@ -1,3 +1,3 @@
 private
-cachedIssues: anIssueSet
-	cachedIssues := anIssueSet
+cachedIssues: aSortedCollection
+	cachedIssues := aSortedCollection

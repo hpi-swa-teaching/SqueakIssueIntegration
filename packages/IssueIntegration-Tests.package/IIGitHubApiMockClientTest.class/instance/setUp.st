@@ -1,3 +1,3 @@
 running
 setUp
-	self apiClient: IIGitHubApiMockClient new.
+	self apiClient: IIGitHubApiMockClient new

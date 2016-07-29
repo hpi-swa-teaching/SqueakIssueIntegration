@@ -1,3 +1,3 @@
 running
 testLoadIssues
-	self should: [ self issueManagement loadIssues] raise: SubclassResponsibility
+	self should: [ self issueManagement loadIssues ] raise: SubclassResponsibility

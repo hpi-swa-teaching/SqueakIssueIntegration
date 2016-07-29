@@ -1,4 +1,3 @@
 requesting
 checkResponse: aResponse shouldBe: aNumber
-	aResponse code == aNumber 
-		ifFalse: [ self errorForResponse: aResponse ]
+	aResponse code == aNumber ifFalse: [ self errorForResponse: aResponse ]

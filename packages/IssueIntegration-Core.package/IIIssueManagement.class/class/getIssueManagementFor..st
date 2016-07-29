@@ -1,5 +1,3 @@
 issue management
-getIssueManagementFor: aPackageString
-	^ self repositoryDictionary 
-		at: aPackageString 
-		ifAbsent: [ IIEmptyIssueManagement getInstance ]
+getIssueManagementFor: aPackage
+	^ self repositoryDictionary at: aPackage ifAbsent: [ IIEmptyIssueManagement getInstance ]

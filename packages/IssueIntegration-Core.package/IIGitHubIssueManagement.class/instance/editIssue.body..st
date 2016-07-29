@@ -1,3 +1,3 @@
 issue editing
-editIssue: anIssue body: body 
-	^ self editIssue: anIssue withProperty: 'body' andValue: body
+editIssue: anIssue body: aBody 
+	^ self editIssue: anIssue withProperty: 'body' andValue: aBody

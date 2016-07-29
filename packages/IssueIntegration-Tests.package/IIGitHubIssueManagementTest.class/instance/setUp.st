@@ -4,4 +4,4 @@ setUp
 	self mockHelper: IIApiMockHelper new
 		setUp;
 		yourself.
-	self issueManagement: self mockHelper createMockIssueManagement.
+	self issueManagement: self mockHelper createMockIssueManagement

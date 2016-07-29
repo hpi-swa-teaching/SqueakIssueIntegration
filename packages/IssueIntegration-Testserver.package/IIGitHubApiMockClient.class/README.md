@@ -1,0 +1,1 @@
+The GitHubApiMockClient extends the GitHubApiClient and overwrites the >>generateUrlFromPath: method to redirect all requests to localhost instead of GitHub.com. Use this in your tests if you want a GitHubIssueManagement to communicate with you GitHubApiTestServer instead of the real GitHub API.

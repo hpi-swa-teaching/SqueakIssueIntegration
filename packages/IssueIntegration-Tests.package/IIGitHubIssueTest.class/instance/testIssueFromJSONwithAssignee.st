@@ -4,7 +4,8 @@ testIssueFromJsonWithAssignee
 	issueJson := Json readFrom: self issueWithAssignee readStream.
 	issue := IIGitHubIssue fromJson: issueJson.
 	
-	self assert: issue number equals: 1347.
-	self assert: issue title equals: 'Found a bug'.
-	self assert: issue body equals: 'Im having a problem with this.'.
-	self assert: issue assignee equals: 'octocat'
+	self 
+		assert: 1347 equals: issue number;
+		assert: 'Found a bug' equals: issue title;
+		assert: 'Im having a problem with this.' equals: issue body;
+		assert: 'octocat' equals: issue assignee

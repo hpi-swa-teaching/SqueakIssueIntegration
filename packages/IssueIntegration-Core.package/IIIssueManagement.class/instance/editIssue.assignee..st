@@ -1,3 +1,3 @@
 issue editing
-editIssue: anIssue assignee: assignee
+editIssue: anIssue assignee: anAssignee
 	^ self subclassResponsibility

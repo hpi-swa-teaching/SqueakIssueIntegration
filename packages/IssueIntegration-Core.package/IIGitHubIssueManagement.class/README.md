@@ -1,1 +1,1 @@
-A GitHubIssueIntegration is the IssueManagement for GitHub issues.
+A GitHubIssueManagement is the IssueManagement for GitHub issues. It uses a GitHubApiClient to connect to the GitHub API.
