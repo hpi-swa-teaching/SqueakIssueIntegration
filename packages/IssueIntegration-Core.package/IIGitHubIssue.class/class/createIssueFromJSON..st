@@ -3,10 +3,10 @@ createIssueFromJSON: aJSON
 	| issue |
 	issue := self new.
 	issue
-		number: (aJSON at: 'number');
-		title: (aJSON at: 'title');
-		body: (aJSON at: 'body');
-		labels: ((aJSON at: 'labels') collect: [ :each | each at: 'name' ]).
-	(aJSON at: 'assignee') ifNotNil: [ :assigneeJson |
-		issue assignee: (assigneeJson at: 'login') ].
+		number: (aJSON number);
+		title: (aJSON title);
+		body: (aJSON body);
+		labels: ((aJSON labels) collect: [ :each | each at: 'name' ]).
+	(aJSON assignee) ifNotNil: [ :assigneeJson |
+		issue assignee: (assigneeJson login) ].
 	^ issue
