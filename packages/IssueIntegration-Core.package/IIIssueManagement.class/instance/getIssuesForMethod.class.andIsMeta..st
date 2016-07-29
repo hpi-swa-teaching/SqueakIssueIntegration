@@ -1,5 +1,5 @@
 issue accessing
-getIssuesForMethod: methodName class: aClass isMeta: aBoolean
+getIssuesForMethod: methodName class: aClass andIsMeta: aBoolean
 	| separator |
 	aBoolean 
 		ifTrue: [ separator := self class metaClassAndMethodSeparator ]

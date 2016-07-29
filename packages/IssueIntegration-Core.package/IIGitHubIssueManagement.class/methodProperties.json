@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"createWithProjectID:loginKey:username:" : "LG 7/21/2016 18:48" },
+		"createWithProjectID:loginKey:andUsername:" : "FR 7/29/2016 10:24" },
 	"instance" : {
 		"apiClient" : "LG 7/21/2016 18:46",
 		"apiClient:" : "LG 7/21/2016 18:46",
 		"closeIssue:" : "FR 7/28/2016 11:09",
-		"createIssueWithTitle:body:assignee:labels:" : "FR 7/28/2016 10:50",
+		"createIssueWithTitle:body:assignee:andLabels:" : "FR 7/29/2016 10:26",
 		"editIssue:assignee:" : "FR 7/28/2016 11:06",
 		"editIssue:body:" : "FR 7/28/2016 11:06",
 		"editIssue:labels:" : "FR 7/28/2016 11:06",
@@ -13,7 +13,7 @@
 		"editIssue:withProperty:andValue:" : "FR 7/28/2016 11:05",
 		"loadIssues" : "FR 7/28/2016 11:22",
 		"loadLabels" : "FR 7/28/2016 12:01",
-		"sendCreateIssueRequestWith:onError:" : "FR 7/28/2016 10:51",
-		"sendEditIssue:requestWith:onError:" : "FR 7/28/2016 11:45",
+		"sendCreateIssueRequestWith:onError:" : "FR 7/29/2016 10:06",
+		"sendEditIssue:requestWith:onError:" : "FR 7/29/2016 10:12",
 		"sendLoadIssuesRequestOnError:" : "FR 7/28/2016 11:14",
 		"sendLoadLabelsRequestOnError:" : "FR 7/28/2016 11:53" } }

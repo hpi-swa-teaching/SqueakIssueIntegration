@@ -1,5 +1,5 @@
 issue creation
-createWithProjectID: aProjectID loginKey: aLoginKey username: aUsername
+createWithProjectID: aProjectID loginKey: aLoginKey andUsername: aUsername
 	| issueManagement |
 	issueManagement := IIGitHubIssueManagement new.
 	issueManagement projectID: aProjectID;

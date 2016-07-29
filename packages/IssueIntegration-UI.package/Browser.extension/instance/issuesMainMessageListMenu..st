@@ -9,7 +9,7 @@ issuesMainMessageListMenu: aMenu
 					).
 	
 		issueMenu := MenuMorph new.
-		openIssuesList := IIIssueManagement getIssuesForMethod: self selectedMessageName class: self selectedClassName isMeta: self metaClassIndicated package: self selectedSystemCategory.
+		openIssuesList := IIIssueManagement getIssuesForMethod: self selectedMessageName class: self selectedClassName isMeta: self metaClassIndicated andPackage: self selectedSystemCategory.
 		openIssuesList do: [ :issue |
 					issueEditMenu := MenuMorph new.
 					issueEditMenu add: ('close ') target: self selector: #closeIssue: argument: issue.

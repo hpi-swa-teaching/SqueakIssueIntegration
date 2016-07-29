@@ -8,5 +8,5 @@ save
 				addIssueManagement: (IIGitHubIssueManagement 
 					createWithProjectID: self projectID 
 					loginKey: self loginKey 
-					username: self username) 
+					andUsername: self username) 
 				to: self selectedPackage ]

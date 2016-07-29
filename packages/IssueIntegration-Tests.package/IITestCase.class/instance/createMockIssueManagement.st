@@ -3,7 +3,7 @@ createMockIssueManagement
 	| issueManagement apiClient |
 	issueManagement := IIGitHubIssueManagement createWithProjectID: IIGitHubApiMockServer 
 		repoSlug loginKey: IIGitHubApiMockServer oAuthToken 
-		username: IIGitHubApiMockServer repoOwner.
+		andUsername: IIGitHubApiMockServer repoOwner.
 	apiClient := IIGitHubApiMockClient new.
 	apiClient oAuthToken: IIGitHubApiMockServer oAuthToken.
 	issueManagement apiClient: apiClient.

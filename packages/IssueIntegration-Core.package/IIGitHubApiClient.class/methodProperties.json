@@ -2,8 +2,8 @@
 	"class" : {
 		"newWith:" : "LG 7/21/2016 18:45" },
 	"instance" : {
-		"apiRequestTo:withMethod:andBody:andExpectedCode:onError:" : "FR 7/28/2016 10:10",
-		"apiRequestTo:withMethod:andExpectedCode:onError:" : "LG 7/21/2016 19:18",
+		"apiRequestTo:withMethod:andExpectedCode:onError:" : "FR 7/29/2016 10:06",
+		"apiRequestTo:withMethod:body:andExpectedCode:onError:" : "FR 7/29/2016 10:06",
 		"checkResponse:shouldBe:" : "LG 7/21/2016 18:55",
 		"cleanUpWebClient" : "FR 7/28/2016 10:06",
 		"contentType" : "FR 7/28/2016 10:05",

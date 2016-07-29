@@ -6,5 +6,5 @@ createIssue
 		method: self methodName 
 		class: self issueClassName 
 		isMeta: self issueClassIsMeta 
-		package: self packageName.
+		andPackage: self packageName.
 	self close
