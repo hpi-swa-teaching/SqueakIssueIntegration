@@ -8,7 +8,7 @@
 		"mockHelper:" : "CF 7/29/2016 15:05",
 		"setUp" : "CF 7/29/2016 15:05",
 		"tearDown" : "CF 7/29/2016 15:09",
-		"testCloseIssue" : "FR 7/29/2016 10:13",
+		"testCloseIssue" : "CF 7/29/2016 17:05",
 		"testEditIssueTitle" : "FR 7/29/2016 16:12",
 		"testGetIssues" : "CF 7/29/2016 15:08",
 		"testGetIssuesChaching" : "CF 7/29/2016 15:06",
