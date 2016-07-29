@@ -17,4 +17,3 @@ testIssueManagementDeletion
 	self assert: ((IIIssueManagement getIssueManagementFor: (self packageList getListItem: packageIndex)) isKindOf: IIEmptyIssueManagement).
 	saveAndQuitButton click.
 	self assert: subject owner isNil
-	

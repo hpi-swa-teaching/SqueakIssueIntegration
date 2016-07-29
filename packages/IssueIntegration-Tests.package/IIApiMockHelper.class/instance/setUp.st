@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 setUp
 	self oldRepositoryDictionary: IIIssueManagement repositoryDictionary copy.
 	IIIssueManagement repositoryDictionary removeAll.

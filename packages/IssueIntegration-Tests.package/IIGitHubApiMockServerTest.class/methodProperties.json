@@ -10,7 +10,7 @@
 		"setUp" : "CF 7/22/2016 17:40",
 		"testCheckOAuthToken" : "CF 7/22/2016 17:48",
 		"testDecorateResponse" : "CF 7/22/2016 17:55",
-		"testHandleCloseIssue" : "CF 7/29/2016 14:03",
+		"testHandleCloseIssue" : "FR 7/29/2016 16:00",
 		"testHandleEditIssue" : "CF 7/29/2016 14:04",
 		"testHandleIssueCreation" : "CF 7/29/2016 14:04",
 		"testHandleIssueDisplay" : "CF 7/29/2016 14:07",
