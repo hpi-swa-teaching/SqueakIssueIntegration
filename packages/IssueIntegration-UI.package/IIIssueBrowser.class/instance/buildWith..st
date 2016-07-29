@@ -1,8 +1,8 @@
 initialize-release
 buildWith: builder
 	| windowSpec repoListSpec issueListSpec 
-	issueTitleSpec issueBodySpec issueAssigneeSpec issueLabelSpec 
-	fixMeButtonSpec settingsButtonSpec singleIssueViewButtonSpec |
+	titleInputSpec assigneeInputSpec bodyInputSpec labelListSpec 
+	settingsButtonSpec fixMeButtonSpec  singleIssueViewButtonSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -34,45 +34,45 @@ buildWith: builder
 		frame: (0.0@0.2 corner: 0.35@1.0).
 	windowSpec children add: issueListSpec.
 			
-	issueTitleSpec := builder pluggableInputFieldSpec new.
-	issueTitleSpec
+	titleInputSpec := builder pluggableInputFieldSpec new.
+	titleInputSpec
 		model: self;
-		name: 'issueTitle';
+		name: 'titleInput';
 		getText: #title;
 		setText: #title:;
 		softLineWrap: true;
 		frame: (0.35@0.0 corner: 0.675@0.2).
-	windowSpec children add: issueTitleSpec.
-
-	issueAssigneeSpec := builder pluggableInputFieldSpec new.
-	issueAssigneeSpec
+	windowSpec children add: titleInputSpec.
+	
+	assigneeInputSpec := builder pluggableInputFieldSpec new.
+	assigneeInputSpec
 		model: self;
-		name: 'issueAssignee';
+		name: 'assigneeInput';
 		getText: #assignee;
 		setText: #assignee:;
 		softLineWrap: true;
 		frame: (0.35@0.2 corner: 0.675@0.3).
-	windowSpec children add: issueAssigneeSpec.
+	windowSpec children add: assigneeInputSpec.
 	
-	issueBodySpec := builder pluggableInputFieldSpec new.
-	issueBodySpec 
+	bodyInputSpec := builder pluggableInputFieldSpec new.
+	bodyInputSpec 
 		model: self;
-		name: 'issueBody';
+		name: 'bodyInput';
 		getText: #body;
 		setText: #body:;
 		softLineWrap: true;
 		frame: (0.35@0.3 corner: 1@0.9). 
-	windowSpec children add: issueBodySpec.
+	windowSpec children add: bodyInputSpec.
 	
-	issueLabelSpec := builder pluggableMultiSelectionListSpec new.
-	issueLabelSpec
+	labelListSpec := builder pluggableMultiSelectionListSpec new.
+	labelListSpec
 		model: self;
-		name: 'issueLabels';
+		name: 'labelList';
 		list: #labelList;
 		getSelectionList: #labelsAt:;
 		setSelectionList: #labelsAt:put:;
 		frame: (0.675@0.0 corner: 1.0@0.3).
-	windowSpec children add: issueLabelSpec.
+	windowSpec children add: labelListSpec.
 		
 	settingsButtonSpec := builder pluggableButtonSpec new.
 	settingsButtonSpec

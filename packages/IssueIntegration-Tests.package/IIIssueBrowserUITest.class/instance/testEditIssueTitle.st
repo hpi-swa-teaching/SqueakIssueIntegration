@@ -4,7 +4,7 @@ testEditIssueTitle
 	newTitle := 'Test From Test Changed'.
 	self repoList changeModelSelection: 1.
 	self issueList changeModelSelection: 1.
-	titleInput := self subject findByName: 'issueTitle'.
+	titleInput := self subject findByName: 'titleInput'.
 	titleInput setText: newTitle.
 	titleInput acceptTextInModel.
 	self assert: newTitle equals: titleInput text string.

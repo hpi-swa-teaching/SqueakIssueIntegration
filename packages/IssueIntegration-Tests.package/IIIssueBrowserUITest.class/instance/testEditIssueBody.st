@@ -4,7 +4,7 @@ testEditIssueBody
 	newBody := 'Test Body Changed'.
 	self repoList changeModelSelection: 1.
 	self issueList changeModelSelection: 1.
-	bodyInput := self subject findByName: 'issueBody'.
+	bodyInput := self subject findByName: 'bodyInput'.
 	bodyInput setText: newBody.
 	bodyInput acceptTextInModel.
 	self assert: newBody equals: bodyInput text string.

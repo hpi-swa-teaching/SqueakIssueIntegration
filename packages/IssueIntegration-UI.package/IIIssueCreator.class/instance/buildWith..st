@@ -1,6 +1,6 @@
 initialize-release
 buildWith: builder
-	| windowSpec titleInputSpec assigneeInputSpec bodyInputSpec submitButtonSpec window labelSpec |
+	| windowSpec titleInputSpec assigneeInputSpec bodyInputSpec labelListSpec submitButtonSpec window |
 	windowSpec := builder pluggableWindowSpec new
 		model: self;
 		name: 'IssueCreator';
@@ -36,14 +36,14 @@ buildWith: builder
 		frame: (0@0.2 corner: 0.6@0.9). 
 	windowSpec children add: bodyInputSpec.
 	
-	labelSpec := builder pluggableMultiSelectionListSpec new
+	labelListSpec := builder pluggableMultiSelectionListSpec new
 		model: self;
-		name: 'labels';
+		name: 'labelList';
 		list: #getLabelsOfRepo;
 		getSelectionList: #labelsAt:;
 		setSelectionList: #labelsAt:put:;
 		frame: (0.6@0 corner: 1@0.9).
-	windowSpec children add: labelSpec.
+	windowSpec children add: labelListSpec.
 	
 	submitButtonSpec := builder pluggableActionButtonSpec new
 		model: self;

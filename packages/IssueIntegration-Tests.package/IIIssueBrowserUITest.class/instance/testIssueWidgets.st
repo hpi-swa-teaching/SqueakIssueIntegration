@@ -1,7 +1,7 @@
 running
 testIssueWidgets
 	| issueTitle |
-	issueTitle := self subject findByName: 'issueTitle'.
+	issueTitle := self subject findByName: 'titleInput'.
 	self assert: issueTitle text isEmpty.
 	self repoList changeModelSelection: 1.
 	self assert: 3 equals: self issueList getList size.

@@ -1,7 +1,7 @@
 running
 testLabelsSelected
 	| labelList selectedLabels |
-	labelList := self subject findByName: 'labels'.
+	labelList := self subject findByName: 'labelList'.
 	selectedLabels := OrderedCollection new.
 	selectedLabels 
 		add: 'Label1';

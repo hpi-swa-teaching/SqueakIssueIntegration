@@ -1,8 +1,8 @@
 initialize-release
 buildWith: builder
-	| windowSpec listSpec projectIdInputSpec 
-	loginKeyInputSpec usernameInputSpec 
-	applyButtonSpec applyAndQuitButtonSpec createTokenButtonSpec window |
+	| windowSpec packageListSpec projectIdInputSpec 
+	loginKeyInputSpec usernameInputSpec createTokenButtonSpec 
+	saveButtonSpec saveAndQuitButtonSpec window |
 	windowSpec := builder pluggableWindowSpec new
 		model: self;
 		name: 'Settings';
@@ -11,14 +11,14 @@ buildWith: builder
 		extent: 500@300;
 		minimumExtent: 450@300.
 	
-	listSpec := builder pluggableListSpec new
+	packageListSpec := builder pluggableListSpec new
 		model: self;
 		name: 'packageList';
 		list: #setUpPackages;
 		setSelected: #selectedPackage:;
 		getSelected: #selectedPackage;
 		frame: (0.0@0.0 corner: 0.4@1.0).
-	windowSpec children add: listSpec.
+	windowSpec children add: packageListSpec.
 	
 	projectIdInputSpec := builder pluggableInputFieldSpec new
 		model: self;
@@ -55,21 +55,21 @@ buildWith: builder
 		frame: (0.4@0.3 corner: 1.0@0.45).
 	windowSpec children add: createTokenButtonSpec.
 	
-	applyButtonSpec := builder pluggableActionButtonSpec new
+	saveButtonSpec := builder pluggableActionButtonSpec new
 		model: self;
 		name: 'saveButton';
 		label: 'Save';
 		action: #save;
 		frame: (0.6@0.9 corner: 0.8@1.0).
-	windowSpec children add: applyButtonSpec.
+	windowSpec children add: saveButtonSpec.
 	
-	applyAndQuitButtonSpec := builder pluggableActionButtonSpec new
+	saveAndQuitButtonSpec := builder pluggableActionButtonSpec new
 		model: self;
 		name: 'saveAndQuitButton';
 		label: 'Save and Quit';
 		action: #saveAndQuit;
 		frame: (0.8@0.9 corner: 1.0@1.0).
-	windowSpec children add: applyAndQuitButtonSpec.
+	windowSpec children add: saveAndQuitButtonSpec.
 	
 	window := builder build: windowSpec.
 	self windowWidget: window.

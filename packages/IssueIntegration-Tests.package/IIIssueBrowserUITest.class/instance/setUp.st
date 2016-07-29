@@ -5,4 +5,4 @@ setUp
 	self wantsToTest: IIIssueBrowser open.
 	self repoList: (self subject findByName: 'repoList').
 	self issueList: (self subject findByName: 'issueList').
-	self labelList: (self subject  findByName: 'issueLabels')
+	self labelList: (self subject  findByName: 'labelList')

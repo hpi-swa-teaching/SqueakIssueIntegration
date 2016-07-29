@@ -1,9 +1,9 @@
 running
 testIssueList
 	| issueTitle issueAssignee issueBody |
-	issueTitle := self subject findByName: 'issueTitle'.
-	issueAssignee := self subject findByName: 'issueAssignee'.
-	issueBody := self subject findByName: 'issueBody'.
+	issueTitle := self subject findByName: 'titleInput'.
+	issueAssignee := self subject findByName: 'assigneeInput'.
+	issueBody := self subject findByName: 'bodyInput'.
 	self repoList changeModelSelection: 1.
 	self issueList changeModelSelection: 3.
 	self assert: 'New Method Issue' equals: issueTitle text string.
