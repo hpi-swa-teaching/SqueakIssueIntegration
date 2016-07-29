@@ -2,14 +2,15 @@
 	"class" : {
 		"newWithMethodName:packageName:issueClassName:issueClassIsMeta:" : "HR 7/12/2016 14:04" },
 	"instance" : {
-		"assignee" : "Axl 7/6/2016 13:07",
+		"assignee" : "LG 7/29/2016 12:41",
 		"assignee:" : "FR 6/18/2016 14:17",
-		"body" : "Axl 7/6/2016 13:07",
+		"body" : "LG 7/29/2016 12:40",
 		"body:" : "FR 6/18/2016 14:17",
 		"buildWith:" : "LG 7/29/2016 11:43",
 		"close" : "Axl 7/15/2016 12:48",
-		"createIssue" : "FR 7/29/2016 10:20",
+		"createIssue" : "LG 7/29/2016 12:31",
 		"getLabelsOfRepo" : "HR 7/22/2016 09:36",
+		"initialize" : "LG 7/29/2016 12:38",
 		"issueClassIsMeta" : "Axl 7/6/2016 13:07",
 		"issueClassIsMeta:" : "Axl 7/6/2016 13:07",
 		"issueClassName" : "Axl 7/6/2016 13:07",
@@ -24,7 +25,7 @@
 		"methodName:" : "Axl 7/6/2016 13:07",
 		"packageName" : "Axl 7/6/2016 13:07",
 		"packageName:" : "Axl 7/6/2016 13:08",
-		"title" : "Axl 7/6/2016 13:08",
+		"title" : "LG 7/29/2016 12:40",
 		"title:" : "FR 6/18/2016 14:17",
 		"windowWidget" : "FR 6/25/2016 15:11",
 		"windowWidget:" : "FR 6/25/2016 15:12" } }

@@ -1,7 +1,11 @@
 accessing
 selectedPackage: aPackageString
+	| issueManagement |
 	selectedPackage := aPackageString.
 	self changed: #selectedPackage.
-	self changed: #projectID.
-	self changed: #loginKey.
-	self changed: #username
+	
+.	issueManagement := IIIssueManagement getIssueManagementFor: self selectedPackage.
+	self
+		projectID: issueManagement projectID;
+		loginKey: issueManagement loginKey;
+		username: issueManagement username

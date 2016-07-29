@@ -1,3 +1,4 @@
 issue accessing
 assignee
-	^ self selectedIssue assignee ifNil: [ '' ]
+	^ self selectedIssue assignee 
+	

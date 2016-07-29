@@ -1,3 +1,5 @@
 initialize-release
 initialize
-	self apiClient: IIGitHubApiClient new
+	self
+		apiClient: IIGitHubApiClient new;
+		projectID: ''

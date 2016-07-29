@@ -1,3 +1,3 @@
 issue accessing
 title
-	^ self selectedIssue title ifNil: [ '' ]
+	^ self selectedIssue title

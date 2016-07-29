@@ -1,3 +1,3 @@
 issue accessing
 body
-	^ self selectedIssue body ifNil: [ '' ]
+	^ self selectedIssue body

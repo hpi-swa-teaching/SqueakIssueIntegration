@@ -1,3 +1,3 @@
 accessing
-projectID: aString
-	projectID := aString
+projectID: aProjectID
+	projectID := aProjectID
