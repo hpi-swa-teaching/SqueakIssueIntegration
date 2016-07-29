@@ -1,12 +1,12 @@
 instance creation
-fromJSON: aJSON
+fromJson: aJson
 	| issue |
-	issue := self new.
-	issue
-		number: aJSON number;
-		title: aJSON title;
-		body: aJSON body;
-		labels: (aJSON labels collect: [ :each | each at: 'name' ]).
-	(aJSON assignee) ifNotNil: [ :assigneeJson |
+	issue := self new
+		number: aJson number;
+		title: aJson title;
+		body: aJson body;
+		labels: (aJson labels collect: [ :each | each name ]);
+		yourself.
+	(aJson assignee) ifNotNil: [ :assigneeJson |
 		issue assignee: assigneeJson login ].
 	^ issue

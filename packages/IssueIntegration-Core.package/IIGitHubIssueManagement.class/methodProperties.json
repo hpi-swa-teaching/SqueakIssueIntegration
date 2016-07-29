@@ -11,10 +11,8 @@
 		"editIssue:labels:" : "FR 7/28/2016 11:06",
 		"editIssue:title:" : "FR 7/28/2016 11:06",
 		"editIssue:withProperty:andValue:" : "FR 7/29/2016 12:14",
-		"loadIssues" : "Axl 7/29/2016 13:48",
+		"loadIssues" : "FR 7/29/2016 15:02",
 		"loadLabels" : "Axl 7/29/2016 13:32",
 		"sendCreateIssueRequestWith:onError:" : "FR 7/29/2016 10:06",
 		"sendEditIssue:requestWith:onError:" : "FR 7/29/2016 10:12",
-		"sendLoadIssuesRequestOnError:" : "FR 7/28/2016 11:14",
-		"sendLoadLabelsRequestOnError:" : "FR 7/28/2016 11:53",
 		"sendLoadRequestFor:onError:" : "Axl 7/29/2016 13:48" } }

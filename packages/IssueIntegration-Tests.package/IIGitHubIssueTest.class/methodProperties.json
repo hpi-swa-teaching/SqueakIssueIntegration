@@ -4,5 +4,5 @@
 	"instance" : {
 		"issueWithAssignee" : "CF 7/29/2016 14:13",
 		"issueWithoutAssignee" : "CF 7/29/2016 14:14",
-		"testIssueFromJSONwithAssignee" : "CF 7/29/2016 14:14",
-		"testIssueFromJSONwithoutAssignee" : "CF 7/29/2016 14:15" } }
+		"testIssueFromJsonWithAssignee" : "FR 7/29/2016 15:13",
+		"testIssueFromJsonWithoutAssignee" : "FR 7/29/2016 15:13" } }

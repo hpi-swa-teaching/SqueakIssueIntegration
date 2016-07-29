@@ -1,3 +1,3 @@
 instance creation
 fromResponse: aWebResponse
-	^ self fromJSON: (Json readFrom: aWebResponse content readStream)
+	^ self fromJson: (Json readFrom: aWebResponse content readStream)

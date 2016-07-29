@@ -1,3 +1,3 @@
 instance creation
 fromJson: aJson
-	self subclassResponsibility
+	^ self new

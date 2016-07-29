@@ -1,8 +1,8 @@
 running
-testIssueFromJSONwithAssignee
+testIssueFromJsonWithAssignee
 	| issue issueJson |
 	issueJson := Json readFrom: self issueWithAssignee readStream.
-	issue := IIGitHubIssue fromJSON: issueJson.
+	issue := IIGitHubIssue fromJson: issueJson.
 	
 	self assert: issue number equals: 1347.
 	self assert: issue title equals: 'Found a bug'.
