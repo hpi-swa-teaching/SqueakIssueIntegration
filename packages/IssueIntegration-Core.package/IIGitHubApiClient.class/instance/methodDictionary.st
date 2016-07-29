@@ -1,4 +1,4 @@
-requesting
+constants
 methodDictionary
 	^ IdentityDictionary
 		with: #GET -> [ :url | self webClient 

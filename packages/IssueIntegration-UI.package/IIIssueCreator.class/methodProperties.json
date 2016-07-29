@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newWithMethodName:packageName:issueClassName:issueClassIsMeta:" : "HR 7/12/2016 14:04" },
+		"newWithMethodName:packageName:issueClassName:issueClassIsMeta:" : "Axl 7/29/2016 15:41" },
 	"instance" : {
 		"assignee" : "LG 7/29/2016 12:41",
 		"assignee:" : "FR 6/18/2016 14:17",
@@ -10,7 +10,7 @@
 		"close" : "Axl 7/15/2016 12:48",
 		"createIssue" : "LG 7/29/2016 12:31",
 		"getLabelsOfRepo" : "HR 7/22/2016 09:36",
-		"initialize" : "LG 7/29/2016 12:38",
+		"initialize" : "Axl 7/29/2016 15:55",
 		"issueClassIsMeta" : "Axl 7/6/2016 13:07",
 		"issueClassIsMeta:" : "Axl 7/6/2016 13:07",
 		"issueClassName" : "Axl 7/6/2016 13:07",

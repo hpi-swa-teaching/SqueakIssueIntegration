@@ -1,8 +1,8 @@
 {
 	"class" : {
 		"initialize" : "FR 7/28/2016 15:33",
-		"open" : "CF 7/22/2016 16:40",
-		"openWithIssue:andPackage:" : "FR 7/28/2016 14:23" },
+		"open" : "Axl 7/29/2016 15:47",
+		"openWithIssue:andPackage:" : "Axl 7/29/2016 15:43" },
 	"instance" : {
 		"adjustButtonsOfIssueView:" : "Axl 7/29/2016 14:02",
 		"adjustSubMorphsOfIssueView:" : "LG 7/29/2016 11:26",

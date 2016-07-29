@@ -9,5 +9,5 @@ updateIssue: anIssue withJson: aJson
 		at: 'labels' ifPresent: [ :labelNames | | labelObjects |
 			labelObjects := labelNames collect: [ :labelName | 
 				self labels detect: [ :labelObject | 
-					(labelObject at: 'name') = labelName ]].
+					labelObject name = labelName ]].
 			anIssue at: 'labels' put: labelObjects ]

@@ -1,10 +1,7 @@
 class initialization
 newWithMethodName: aMethodName packageName: aPackageName issueClassName: aClassName  issueClassIsMeta: aBoolean
-	| instance |
-	
-	instance := self new
+	^ ToolBuilder open: (self new
 		methodName: aMethodName;
 		packageName: aPackageName;
 		issueClassName: aClassName;
-		issueClassIsMeta: aBoolean.
-	^ ToolBuilder open: instance
+		issueClassIsMeta: aBoolean)

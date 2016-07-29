@@ -1,6 +1,6 @@
 requesting
 apiRequestTo: aPath withMethod: aMethod body: aBody andExpectedCode: aCode onError: aBlock
-	| url requestBlock response|
+	| url requestBlock response |
 	self cleanUpWebClient.
 	url := self generateUrlFromPath: aPath.
 	requestBlock := self methodDictionary at: aMethod.
