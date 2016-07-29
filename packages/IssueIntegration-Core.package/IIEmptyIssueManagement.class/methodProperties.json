@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"getInstance" : "Axl 7/14/2016 14:04" },
+		"getInstance" : "CF 7/29/2016 13:33" },
 	"instance" : {
 		"closeIssue:" : "FR 7/29/2016 12:11",
 		"createIssueWithTitle:body:assignee:andLabels:" : "FR 7/29/2016 10:14",
@@ -17,4 +17,4 @@
 		"hasValidRemote" : "Axl 7/14/2016 20:24",
 		"initialize" : "FR 7/26/2016 11:11",
 		"loadIssues" : "Axl 7/15/2016 13:19",
-		"loadLabels" : "HR 7/21/2016 15:42" } }
+		"loadLabels" : "CF 7/29/2016 13:35" } }

@@ -1,3 +1,3 @@
 issue accessing
 loadLabels
-	^ OrderedCollection new
+	^ SortedCollection new

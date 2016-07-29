@@ -1,3 +1,3 @@
 constants
 metaClassAndMethodSeparator
-	^ self metaClassIndicator , self classAndMethodSeparator
+	^ self metaClassIndicator, self classAndMethodSeparator

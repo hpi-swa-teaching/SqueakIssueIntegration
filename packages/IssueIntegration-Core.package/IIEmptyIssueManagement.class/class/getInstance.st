@@ -1,3 +1,3 @@
 accessing
 getInstance
-	^ Instance ifNil: [ Instance := IIEmptyIssueManagement new ]
+	^ Instance ifNil: [ Instance := self new ]

@@ -1,18 +1,20 @@
 {
 	"class" : {
-		"newWith:" : "FR 7/29/2016 11:31" },
+		"newWith:" : "CF 7/29/2016 13:14" },
 	"instance" : {
+		"acceptHeader" : "CF 7/29/2016 12:59",
 		"apiRequestTo:withMethod:andExpectedCode:onError:" : "FR 7/29/2016 10:06",
 		"apiRequestTo:withMethod:body:andExpectedCode:onError:" : "FR 7/29/2016 10:06",
 		"checkResponse:shouldBe:" : "FR 7/29/2016 11:27",
 		"cleanUpWebClient" : "FR 7/28/2016 10:06",
 		"contentType" : "FR 7/28/2016 10:05",
-		"decorateRequest" : "FR 7/28/2016 10:01",
-		"errorForResponse:" : "FR 7/29/2016 11:30",
-		"generateUrlFromPath:" : "FR 7/28/2016 11:45",
-		"initialize" : "LG 7/21/2016 19:33",
+		"decorateRequest" : "CF 7/29/2016 12:59",
+		"errorForResponse:" : "CF 7/29/2016 13:10",
+		"extractErrorMessageFromJson:" : "CF 7/29/2016 13:16",
+		"generateUrlFromPath:" : "CF 7/29/2016 13:11",
+		"initialize" : "CF 7/29/2016 12:56",
 		"methodDictionary" : "FR 7/28/2016 15:45",
 		"oAuthToken" : "LG 7/21/2016 18:43",
-		"oAuthToken:" : "LG 7/21/2016 18:43",
+		"oAuthToken:" : "CF 7/29/2016 12:55",
 		"webClient" : "LG 7/21/2016 18:40",
-		"webClient:" : "LG 7/21/2016 18:40" } }
+		"webClient:" : "CF 7/29/2016 12:55" } }

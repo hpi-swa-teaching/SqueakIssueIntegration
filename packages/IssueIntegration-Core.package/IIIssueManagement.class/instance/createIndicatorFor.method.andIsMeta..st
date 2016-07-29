@@ -1,8 +1,7 @@
-issue creation
+private
 createIndicatorFor: aClass method: aMethod andIsMeta: aBoolean
-	| separator indicator |
+	| separator |
 	separator := self getSeperatorForIsMeta: aBoolean.
 	aMethod 
-		ifEmpty: [ indicator := '[', aClass, ']' ]
-		ifNotEmpty: [ indicator := '[', aClass, separator, aMethod, ']' ].
-	^ indicator
+		ifEmpty: [ ^ self createIndicatorFor: aClass ]
+		ifNotEmpty: [ ^ '[', aClass, separator, aMethod, ']' ]

@@ -1,3 +1,3 @@
 accessing
-number: aNumber
-	number := aNumber
+number: anInteger
+	number := anInteger

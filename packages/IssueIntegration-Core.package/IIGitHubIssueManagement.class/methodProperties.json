@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"createWithProjectID:loginKey:andUsername:" : "FR 7/29/2016 12:17" },
+		"createWithProjectID:loginKey:andUsername:" : "CF 7/29/2016 13:35" },
 	"instance" : {
 		"apiClient" : "LG 7/21/2016 18:46",
-		"apiClient:" : "LG 7/21/2016 18:46",
+		"apiClient:" : "CF 7/29/2016 13:36",
 		"closeIssue:" : "FR 7/28/2016 11:09",
 		"createIssueWithTitle:body:assignee:andLabels:" : "FR 7/29/2016 12:14",
 		"editIssue:assignee:" : "FR 7/28/2016 11:06",

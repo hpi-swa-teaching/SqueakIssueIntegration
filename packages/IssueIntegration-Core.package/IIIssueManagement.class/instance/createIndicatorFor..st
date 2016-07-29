@@ -1,0 +1,3 @@
+private
+createIndicatorFor: aClass
+	^ '[', aClass, ']'

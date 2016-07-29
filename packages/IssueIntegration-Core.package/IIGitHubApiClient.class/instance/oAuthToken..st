@@ -1,3 +1,3 @@
 accessing
-oAuthToken: anObject
-	oAuthToken := anObject
+oAuthToken: aString
+	oAuthToken := aString
