@@ -2,7 +2,7 @@
 	"class" : {
 		"initialize" : "FR 7/28/2016 15:33",
 		"open" : "Axl 7/29/2016 15:47",
-		"openWithIssue:andPackage:" : "Axl 7/29/2016 15:43" },
+		"openWithIssue:andPackage:" : "LG 7/29/2016 21:00" },
 	"instance" : {
 		"adjustButtonsOfIssueView:" : "LG 7/29/2016 20:16",
 		"adjustSubMorphsOfIssueView:" : "LG 7/29/2016 11:26",
