@@ -1,6 +1,5 @@
 issue accessing
 loadLabels 
-	| response labels |
-	response := self sendLoadLabelsRequestOnError: [ ^ OrderedCollection new ].
-	labels := Json readFrom: response content readStream. 
+	| labels |
+	labels := self sendLoadRequestFor: 'labels' onError: [ ^ OrderedCollection new ].
 	^ (labels collect: [ :label | label name ]) asOrderedCollection

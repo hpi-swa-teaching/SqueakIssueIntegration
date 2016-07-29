@@ -1,3 +1,3 @@
 characteristics
 isValidIssue
-	self subclassResponsibility
+	^ true
