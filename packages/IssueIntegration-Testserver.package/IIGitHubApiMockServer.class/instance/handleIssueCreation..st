@@ -1,7 +1,8 @@
 functionalities
 handleIssueCreation: aWebRequest
 	| issue content |
-	(self checkOAuthToken: aWebRequest) ifFalse: [ ^ self notAValidOAuthToken: aWebRequest ].
+	(self checkOAuthToken: aWebRequest) 
+		ifFalse: [ ^ self notAValidOAuthToken: aWebRequest ].
 	content := Json readFrom: aWebRequest content readStream.
 	issue := self addIssueFrom: content.
  	^ aWebRequest sendResponseCode: 201

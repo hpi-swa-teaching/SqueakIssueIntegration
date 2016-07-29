@@ -7,7 +7,6 @@ updateIssue: anIssue withJson: aJson
 		at: 'assignee' ifPresent: [ :assignee | 
 			anIssue at: 'assignee' put: (JsonObject with: 'login' -> assignee) ];
 		at: 'labels' ifPresent: [ :labelNames | | labelObjects |
-			labelObjects := labelNames collect: [ :labelName | 
-				self labels detect: [ :labelObject | 
-					labelObject name = labelName ]].
+			labelObjects := labelNames collect: [ :labelName | self labels 
+				detect: [ :labelObject | labelObject name = labelName ]].
 			anIssue at: 'labels' put: labelObjects ]

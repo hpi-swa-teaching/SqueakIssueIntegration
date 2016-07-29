@@ -5,4 +5,4 @@ initialize
 		initializeWebServer;
 		initializeIssues;
 		initializeLabels;
-		issueNumber: self issues size.
+		issueNumber: self issues size

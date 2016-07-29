@@ -1,6 +1,7 @@
 initialize-release
 buildWith: builder
-	| windowSpec titleInputSpec assigneeInputSpec bodyInputSpec labelListSpec submitButtonSpec window |
+	| windowSpec titleInputSpec assigneeInputSpec bodyInputSpec labelListSpec
+	submitButtonSpec window |
 	windowSpec := builder pluggableWindowSpec new
 		model: self;
 		name: 'IssueCreator';
@@ -16,7 +17,7 @@ buildWith: builder
 		getText: #title;
 		setText: #title:;
 		help: 'Title';
-		frame: (0@0 corner: 0.6@0.1);
+		frame: (0.0@0.0 corner: 0.6@0.1);
 		yourself. 
 	windowSpec children add: titleInputSpec.
 	
@@ -26,7 +27,7 @@ buildWith: builder
 		getText: #assignee;
 		setText: #assignee:;
 		help: 'Assignee';
-		frame: (0@0.1 corner: 0.6@0.2);
+		frame: (0.0@0.1 corner: 0.6@0.2);
 		yourself. 
 	windowSpec children add: assigneeInputSpec.
 	
@@ -36,7 +37,7 @@ buildWith: builder
 		getText: #body;
 		setText: #body:;
 		help: 'Description';
-		frame: (0@0.2 corner: 0.6@0.9);
+		frame: (0.0@0.2 corner: 0.6@0.9);
 		yourself. 
 	windowSpec children add: bodyInputSpec.
 	
@@ -46,7 +47,7 @@ buildWith: builder
 		list: #labelList;
 		getSelectionList: #labelsAt:;
 		setSelectionList: #labelsAt:put:;
-		frame: (0.6@0 corner: 1@0.9);
+		frame: (0.6@0.0 corner: 1.0@0.9);
 		yourself.
 	windowSpec children add: labelListSpec.
 	
@@ -55,7 +56,7 @@ buildWith: builder
 		name: 'submitButton';
 		label: 'Submit Issue';
 		action: #createIssue;
-		frame: (0.65@0.9 corner: 1@1);
+		frame: (0.65@0.9 corner: 1.0@1.0);
 		yourself.
 	windowSpec children add: submitButtonSpec.		
 	

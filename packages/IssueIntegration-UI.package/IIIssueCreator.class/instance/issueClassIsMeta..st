@@ -1,3 +1,3 @@
 accessing
-issueClassIsMeta: aBool
-	issueClassIsMeta := aBool
+issueClassIsMeta: aBoolean
+	issueClassIsMeta := aBoolean

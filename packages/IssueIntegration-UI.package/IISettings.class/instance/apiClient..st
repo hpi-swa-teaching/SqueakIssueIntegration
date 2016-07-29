@@ -1,3 +1,3 @@
 accessing
-apiClient: anObject
-	apiClient := anObject
+apiClient: aGitHubApiClient
+	apiClient := aGitHubApiClient

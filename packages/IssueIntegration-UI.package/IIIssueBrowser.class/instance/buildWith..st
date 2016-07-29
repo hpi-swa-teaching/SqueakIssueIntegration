@@ -2,7 +2,7 @@ initialize-release
 buildWith: builder
 	| windowSpec repoListSpec issueListSpec 
 	titleInputSpec assigneeInputSpec bodyInputSpec labelListSpec 
-	settingsButtonSpec fixMeButtonSpec  singleIssueViewButtonSpec |
+	settingsButtonSpec fixMeButtonSpec singleIssueViewButtonSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
