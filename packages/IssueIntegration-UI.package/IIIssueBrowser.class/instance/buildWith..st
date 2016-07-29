@@ -10,7 +10,8 @@ buildWith: builder
 		label: 'Issue Browser';
 		extent: 700@300;
 		minimumExtent: 400@250;
-		children: OrderedCollection new.
+		children: OrderedCollection new;
+		yourself.
 	
 	repoListSpec := builder pluggableListSpec new.
 	repoListSpec
@@ -19,7 +20,8 @@ buildWith: builder
 		list: #repoList;
 		frame: (0.0@0.0 corner: 0.35@0.2);
 		getSelected: #selectedRepo;
-		setSelected: #selectedRepo:.
+		setSelected: #selectedRepo:;
+		yourself.
 	windowSpec children add: repoListSpec.	
 		
 	issueListSpec := builder pluggableListSpec new.
@@ -31,7 +33,8 @@ buildWith: builder
 		menu: #issueListMenu:;
 		getSelected: #selectedIssue;
 		setSelected: #selectedIssue:;
-		frame: (0.0@0.2 corner: 0.35@1.0).
+		frame: (0.0@0.2 corner: 0.35@1.0);
+		yourself.
 	windowSpec children add: issueListSpec.
 			
 	titleInputSpec := builder pluggableInputFieldSpec new.
@@ -41,7 +44,8 @@ buildWith: builder
 		getText: #title;
 		setText: #title:;
 		softLineWrap: true;
-		frame: (0.35@0.0 corner: 0.675@0.2).
+		frame: (0.35@0.0 corner: 0.675@0.2);
+		yourself.
 	windowSpec children add: titleInputSpec.
 	
 	assigneeInputSpec := builder pluggableInputFieldSpec new.
@@ -51,7 +55,8 @@ buildWith: builder
 		getText: #assignee;
 		setText: #assignee:;
 		softLineWrap: true;
-		frame: (0.35@0.2 corner: 0.675@0.3).
+		frame: (0.35@0.2 corner: 0.675@0.3);
+		yourself.
 	windowSpec children add: assigneeInputSpec.
 	
 	bodyInputSpec := builder pluggableInputFieldSpec new.
@@ -61,7 +66,8 @@ buildWith: builder
 		getText: #body;
 		setText: #body:;
 		softLineWrap: true;
-		frame: (0.35@0.3 corner: 1@0.9). 
+		frame: (0.35@0.3 corner: 1@0.9);
+		yourself. 
 	windowSpec children add: bodyInputSpec.
 	
 	labelListSpec := builder pluggableMultiSelectionListSpec new.
@@ -71,7 +77,8 @@ buildWith: builder
 		list: #labelList;
 		getSelectionList: #labelsAt:;
 		setSelectionList: #labelsAt:put:;
-		frame: (0.675@0.0 corner: 1.0@0.3).
+		frame: (0.675@0.0 corner: 1.0@0.3);
+		yourself.
 	windowSpec children add: labelListSpec.
 		
 	settingsButtonSpec := builder pluggableButtonSpec new.
@@ -80,7 +87,8 @@ buildWith: builder
 		name: 'settingsButton';
 		label: 'Settings';
 		action: #openSettings;
-		frame: (0.35@0.9 corner: 0.5@1.0).
+		frame: (0.35@0.9 corner: 0.5@1.0)
+		yourself.
 	windowSpec children add: settingsButtonSpec.	
 		
 	fixMeButtonSpec := builder pluggableButtonSpec new.
@@ -90,7 +98,8 @@ buildWith: builder
 		label: 'Fix me';
 		action: #openBrowser;
 		enabled: #issueSelected;
-		frame: (0.5@0.9 corner: 0.65@1.0).
+		frame: (0.5@0.9 corner: 0.65@1.0);
+		yourself.
 	windowSpec children add: fixMeButtonSpec.
 		
 	singleIssueViewButtonSpec := builder pluggableButtonSpec new.
@@ -100,7 +109,8 @@ buildWith: builder
 		label: 'Open';
 		action: #openIssueView;
 		enabled: #issueSelected;
-		frame: (0.85@0.9 corner: 1.0@1.0).
+		frame: (0.85@0.9 corner: 1.0@1.0);
+		yourself.
 	windowSpec children add: singleIssueViewButtonSpec.
 	
 	^ builder build: windowSpec

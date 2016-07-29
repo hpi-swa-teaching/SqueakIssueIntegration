@@ -9,7 +9,8 @@ buildWith: builder
 		children: OrderedCollection new;
 		label: 'Settings';
 		extent: 500@300;
-		minimumExtent: 450@300.
+		minimumExtent: 450@300;
+		yourself.
 	
 	packageListSpec := builder pluggableListSpec new
 		model: self;
@@ -17,7 +18,8 @@ buildWith: builder
 		list: #setUpPackages;
 		setSelected: #selectedPackage:;
 		getSelected: #selectedPackage;
-		frame: (0.0@0.0 corner: 0.4@1.0).
+		frame: (0.0@0.0 corner: 0.4@1.0);
+		yourself.
 	windowSpec children add: packageListSpec.
 	
 	projectIdInputSpec := builder pluggableInputFieldSpec new
@@ -26,7 +28,8 @@ buildWith: builder
 		getText: #projectID;
 		setText: #projectID:;
 		help: 'Your repo: user-name/repo-name';
-		frame: (0.4@0.0 corner: 1.0@0.1).
+		frame: (0.4@0.0 corner: 1.0@0.1);
+		yourself.
 	windowSpec children add: projectIdInputSpec.
 	
 	usernameInputSpec := builder pluggableInputFieldSpec new
@@ -35,7 +38,8 @@ buildWith: builder
 		getText: #username;
 		setText: #username:;
 		help: 'Your username';
-		frame: (0.4@0.1 corner: 1.0@0.2).
+		frame: (0.4@0.1 corner: 1.0@0.2);
+		yourself.
 	windowSpec children add: usernameInputSpec.
 	
 	loginKeyInputSpec := builder pluggableInputFieldSpec new
@@ -44,7 +48,8 @@ buildWith: builder
 		getText: #loginKey;
 		setText: #loginKey:;
 		help: 'Your OAuth-Token';
-		frame: (0.4@0.2 corner: 1.0@0.3).
+		frame: (0.4@0.2 corner: 1.0@0.3);
+		yourself.
 	windowSpec children add: loginKeyInputSpec.
 	
 	createTokenButtonSpec := builder pluggableActionButtonSpec new
@@ -52,7 +57,8 @@ buildWith: builder
 		name: 'createTokenButton';
 		label: 'Create new OAuth-Token';
 		action: #generateToken;
-		frame: (0.4@0.3 corner: 1.0@0.45).
+		frame: (0.4@0.3 corner: 1.0@0.45);
+		yourself.
 	windowSpec children add: createTokenButtonSpec.
 	
 	saveButtonSpec := builder pluggableActionButtonSpec new
@@ -60,7 +66,8 @@ buildWith: builder
 		name: 'saveButton';
 		label: 'Save';
 		action: #save;
-		frame: (0.6@0.9 corner: 0.8@1.0).
+		frame: (0.6@0.9 corner: 0.8@1.0);
+		yourself.
 	windowSpec children add: saveButtonSpec.
 	
 	saveAndQuitButtonSpec := builder pluggableActionButtonSpec new
@@ -68,7 +75,8 @@ buildWith: builder
 		name: 'saveAndQuitButton';
 		label: 'Save and Quit';
 		action: #saveAndQuit;
-		frame: (0.8@0.9 corner: 1.0@1.0).
+		frame: (0.8@0.9 corner: 1.0@1.0);
+		yourself.
 	windowSpec children add: saveAndQuitButtonSpec.
 	
 	window := builder build: windowSpec.
