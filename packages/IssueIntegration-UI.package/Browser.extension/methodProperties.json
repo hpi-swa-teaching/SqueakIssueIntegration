@@ -3,8 +3,10 @@
 		 },
 	"instance" : {
 		"closeIssue:" : "Axl 7/6/2016 14:55",
-		"issuesMainClassListMenu:" : "FR 7/29/2016 10:20",
-		"issuesMainMessageListMenu:" : "FR 7/29/2016 10:23",
-		"openClassIssueCreator" : "Axl 7/6/2016 14:56",
+		"createMenusForIssues:" : "FR 7/29/2016 13:47",
+		"editMenu:withIssues:andSelector:" : "FR 7/29/2016 14:07",
+		"issuesMainClassListMenu:" : "FR 7/29/2016 14:05",
+		"issuesMainMessageListMenu:" : "FR 7/29/2016 14:06",
+		"openClassIssueCreator" : "FR 7/29/2016 13:57",
 		"openInIssueBrowserWithIssue:andPackage:" : "HR 7/17/2016 16:08",
 		"openMessageIssueCreator" : "Axl 7/6/2016 14:56" } }

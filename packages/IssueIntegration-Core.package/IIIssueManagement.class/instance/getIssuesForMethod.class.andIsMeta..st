@@ -1,6 +1,6 @@
 issue accessing
-getIssuesForMethod: methodName class: aClass andIsMeta: aBoolean
-	| separator |
-	separator := self getSeperatorForIsMeta: aBoolean.
+getIssuesForMethod: aMethod class: aClass andIsMeta: aBoolean
 	^ self getIssues select: [ :issue | 
-		issue title includesSubString: '[', aClass, separator, methodName, ']' ]
+		issue title includesSubString: (self createIndicatorFor: aClass 
+			method: aMethod 
+			andIsMeta: aBoolean) ]
