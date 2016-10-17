@@ -1,4 +1,4 @@
-# Squeak Issue Integration [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-05.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-05) [![Coverage Status](https://coveralls.io/repos/github/HPI-SWA-Teaching/SWT16-Project-05/badge.svg?branch=master)](https://coveralls.io/github/HPI-SWA-Teaching/SWT16-Project-05?branch=master)
+# Squeak Issue Integration [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SqueakIssueIntegration.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SqueakIssueIntegration) [![Coverage Status](https://coveralls.io/repos/github/HPI-SWA-Teaching/SqueakIssueIntegration/badge.svg?branch=master)](https://coveralls.io/github/HPI-SWA-Teaching/SqueakIssueIntegration?branch=master)
 
 This is an Issue Integration for the programming environment
 [Squeak](http://squeak.org/). It allows groups of developers to create, manage
@@ -38,7 +38,7 @@ Run the following code in a Workspace:
 Metacello new
     baseline: 'IssueIntegration';
     githubUser: 'HPI-SWA-Teaching'
-    project: 'SWT16-Project-05'
+    project: 'SqueakIssueIntegration'
     commitish: 'v1.0'
     path: 'packages'
 }
