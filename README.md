@@ -1,4 +1,4 @@
-# Squeak Issue Integration [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SqueakIssueIntegration.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SqueakIssueIntegration) [![Coverage Status](https://coveralls.io/repos/github/HPI-SWA-Teaching/SqueakIssueIntegration/badge.svg?branch=master)](https://coveralls.io/github/HPI-SWA-Teaching/SqueakIssueIntegration?branch=master)
+# Squeak Issue Integration [![Build Status](https://travis-ci.org/hpi-swa-teaching/SqueakIssueIntegration.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/SqueakIssueIntegration) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SqueakIssueIntegration/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/SqueakIssueIntegration?branch=master)
 
 This is an Issue Integration for the programming environment
 [Squeak](http://squeak.org/). It allows groups of developers to create, manage
@@ -37,7 +37,7 @@ Run the following code in a Workspace:
 {
 Metacello new
     baseline: 'IssueIntegration';
-    githubUser: 'HPI-SWA-Teaching'
+    githubUser: 'hpi-swa-teaching'
     project: 'SqueakIssueIntegration'
     commitish: 'v1.0'
     path: 'packages'
@@ -51,7 +51,7 @@ do: [ :baseline | baseline
 Open the Issue Integration (`Apps` -> `Issue Integration`) and click on `Settings`.
 The Settings window opens.
 Then find the package you are working on. Enter the following information:
-- The name of your github project e.g. `HPI-SWA-Teaching/SqueakIssueIntegration` 
+- The name of your github project e.g. `hpi-swa-teaching/SqueakIssueIntegration` 
   (or a direct link: `https://github.com/user/repo`)
 - Your GitHub username. This is necessary to highlight issues assigned to you.
 - An OAuth-Token. To authenticate you at the Issue Management System you need an
